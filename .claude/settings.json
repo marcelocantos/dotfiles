@@ -1,0 +1,217 @@
+{
+  "cleanupPeriodDays": 99999,
+  "env": {
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
+  },
+  "permissions": {
+    "allow": [
+      "Bash(git *)",
+      "Bash(timeout:*)",
+      "Bash(./yourworld)",
+      "Bash(echo:*)",
+      "Bash(pkill:*)",
+      "Bash(xcrun:*)",
+      "Bash(date:*)",
+      "Bash(cat:*)",
+      "Bash(ls:*)",
+      "Bash(mkdir:*)",
+      "Bash(wc:*)",
+      "Bash(head:*)",
+      "Bash(tail:*)",
+      "Bash(sort:*)",
+      "Bash(grep:*)",
+      "Bash(tr:*)",
+      "Bash(make:*)",
+      "Bash(python3:*)",
+      "Bash(find:*)",
+      "Bash(diff:*)",
+      "Bash(which:*)",
+      "Bash(touch:*)",
+      "Bash(cp:*)",
+      "Bash(mv:*)",
+      "Bash(kill:*)",
+      "Bash(killall:*)",
+      "Bash(c++:*)",
+      "Bash(clang++:*)",
+      "Bash(chmod:*)",
+      "Bash(tar:*)",
+      "Bash(unzip:*)",
+      "Bash(gh:*)",
+      "Bash(go:*)",
+      "Bash(ytt:*)",
+      "Bash(docker:*)",
+      "Bash(.*/csp_tests:*)",
+      "Bash(.*/yourworld:*)",
+      "Bash(~/.claude/skills/**/*)",
+      "Bash(/Users/marcelo/.claude/skills/**/*)",
+      "WebSearch",
+      "Read(~/work/**)",
+      "Read(/Users/marcelo/work/**)",
+      "Read(/tmp/*)",
+      "Read(/tmp/**)",
+      "Edit(*)",
+      "Write(*)"
+    ],
+    "deny": [
+      "Bash(git push *--force*)",
+      "Bash(git push *-f *)",
+      "Bash(git reset --hard*)",
+      "Bash(git clean -f*)",
+      "Bash(git clean -d*)",
+      "Bash(git checkout -- .*)",
+      "Bash(git restore .*)",
+      "Read(.env)",
+      "Read(.env.*)",
+      "Read(*.key)",
+      "Read(*.pem)",
+      "Read(/etc/*)",
+      "Bash(sudo:*)"
+    ],
+    "ask": [
+      "Bash(rm:*)"
+    ]
+  },
+  "hooks": {
+    "Notification": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ~/.claude/hooks/claude-island-state.py"
+          }
+        ]
+      }
+    ],
+    "PermissionRequest": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ~/.claude/hooks/claude-island-state.py",
+            "timeout": 86400
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ~/.claude/hooks/claude-island-state.py"
+          }
+        ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"/Users/marcelo/.claude/hooks/gsd-context-monitor.js\""
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "matcher": "auto",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ~/.claude/hooks/claude-island-state.py"
+          }
+        ]
+      },
+      {
+        "matcher": "manual",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ~/.claude/hooks/claude-island-state.py"
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ~/.claude/hooks/claude-island-state.py"
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ~/.claude/hooks/claude-island-state.py"
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ~/.claude/hooks/claude-island-state.py"
+          }
+        ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"/Users/marcelo/.claude/hooks/gsd-check-update.js\""
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ~/.claude/hooks/claude-island-state.py"
+          }
+        ]
+      }
+    ],
+    "SubagentStop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ~/.claude/hooks/claude-island-state.py"
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ~/.claude/hooks/claude-island-state.py"
+          }
+        ]
+      }
+    ]
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "node \"/Users/marcelo/.claude/hooks/gsd-statusline.js\""
+  },
+  "enabledPlugins": {
+    "clangd-lsp@claude-plugins-official": true,
+    "gopls-lsp@claude-plugins-official": true,
+    "rust-analyzer-lsp@claude-plugins-official": true
+  },
+  "skipDangerousModePermissionPrompt": true
+}

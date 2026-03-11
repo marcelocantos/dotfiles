@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(go version:*)",
+      "Bash(go env:*)",
+      "WebSearch",
+      "Bash(go build:*)",
+      "Bash(brew info:*)",
+      "Bash(grep:*)",
+      "Bash(go clean:*)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:dev.golang.org)",
+      "Bash(brew install:*)",
+      "Bash(brew unlink:*)",
+      "Bash(brew link:*)",
+      "Bash(go vet:*)",
+      "Bash(mk:*)",
+      "Bash(zsh:*)",
+      "Bash(head:*)",
+      "WebFetch(domain:docs.wisprflow.ai)",
+      "WebFetch(domain:roadmap.wisprflow.ai)",
+      "Bash(bash:*)",
+      "Bash(bin/vendep:*)",
+      "Bash(cd:*)"
+    ]
+  }
+}

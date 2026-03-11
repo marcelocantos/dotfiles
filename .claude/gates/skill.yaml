@@ -1,0 +1,14 @@
+# Skill gate profile — overrides base.
+# Skills are prose, not code. No CI, no tests.
+extends: base
+
+override:
+  - ci-green: skip
+  - tests-exist: skip
+  - pr-workflow: skip
+
+pre-publish:
+  - republish-clean:
+      type: routed
+      skill: republish-skills
+      check: "/republish-skills syncs without errors."

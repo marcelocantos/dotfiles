@@ -1,0 +1,8 @@
+# Library gate profile — extends base.
+# Tests are the verification — no manual pre-merge gate.
+extends: base
+
+pre-release:
+  - api-surface-reviewed:
+      type: manual
+      prompt: "Review public API changes for backwards compatibility."

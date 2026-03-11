@@ -1,0 +1,25 @@
+# Base gates — apply to all projects unless overridden.
+# Projects declare their profile in CLAUDE.md:
+#   ## Gates
+#   profile: <name>
+# The agent reads base.yaml + <name>.yaml and merges them.
+
+pre-merge:
+  - tests-exist:
+      type: automated
+      check: "Changed code has corresponding tests."
+  - ci-green:
+      type: automated
+      check: "CI passes on the PR branch."
+  - pr-workflow:
+      type: routed
+      skill: push
+      check: "Changes go through a PR — never push directly to master."
+
+pre-release:
+  - changelog-reviewed:
+      type: manual
+      prompt: "Review the changelog/release notes for this release."
+  - version-confirmed:
+      type: manual
+      prompt: "Confirm the version number is correct."

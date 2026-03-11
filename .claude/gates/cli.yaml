@@ -1,0 +1,10 @@
+# CLI tool gate profile — extends base.
+extends: base
+
+pre-release:
+  - release-binary-verified:
+      type: automated
+      check: "Release binaries build on all target platforms."
+  - cli-flags-work:
+      type: automated
+      check: "--help and --version produce correct output."

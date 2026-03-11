@@ -1,0 +1,13 @@
+# Game gate profile — extends base.
+# For interactive projects where green tests don't guarantee it works.
+extends: base
+
+pre-merge:
+  - user-smoke-test:
+      type: manual
+      prompt: "Play the game and confirm it works as expected."
+
+pre-release:
+  - device-test:
+      type: manual
+      prompt: "Test the release build on a target device."
