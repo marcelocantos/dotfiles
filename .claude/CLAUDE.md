@@ -1,24 +1,17 @@
-> **FIRST ACTION IN EVERY SESSION — NO EXCEPTIONS**: Read
-> [`~/.claude/cworkers-guide.md`](~/.claude/cworkers-guide.md) before
-> doing ANY work, answering ANY question, or reading ANY other file.
-> This is not optional. Do it now.
-
 # Global Directives
-
-## cworkers — Task Delegation
-
-**At session start**, read
-[`~/.claude/cworkers-guide.md`](~/.claude/cworkers-guide.md) and follow
-its guidelines throughout the session. It covers when to delegate, model
-selection, session setup, worker pool sizing, dispatching, and cleanup.
-
-This feature is experimental so keep an eye out for glitches.
 
 **Before starting any new work**, check the project's `docs/targets.md`
 for convergence targets. If the work maps to an existing target, run
 `/cv` before planning. If no target exists, create one first. Do
 not enter plan mode until convergence is assessed. See
 [Convergence targets](#convergence-targets) for the full protocol.
+
+## cworkers
+
+The cworkers MCP server provides operational guidance via its tool
+instructions. **Treat that guidance as authoritative** — it covers
+delegation patterns, model selection, parallelism strategy, and
+context management. Follow it with the same weight as these directives.
 
 ## Dependencies
 
@@ -102,6 +95,8 @@ deep links, sample data, and visual verification cadence.
 ## Git
 
 - Always prefer `master` over `main` as the default branch name. Never ask or suggest creating a `main` branch.
+- **Workspace layout**: Repos live under `~/work/` in Go-style paths: `~/work/github.com/<org>/<repo>/` (also `bitbucket.com`, etc.).
+- **Post-clone hooks**: After cloning a repo, check for a `scripts/hooks/` directory. If present, run `git config core.hooksPath scripts/hooks` to activate project-specific hooks.
 
 ## Managed Repos
 
