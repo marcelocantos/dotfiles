@@ -68,6 +68,11 @@ Common gotchas:
   protocol fields) and filepath operations for OS paths. Don't mix them.
 - **Resource hygiene**: Preserve file attributes (permissions, ownership) when
   rewriting. Close/clean up resources on all paths, including errors.
+- **Port cleanup**: When killing processes to free a port, only kill the
+  process **listening** on that port (i.e. the server), not every process
+  that has an open connection to it. `lsof -iTCP:<port> -sTCP:LISTEN -t`
+  returns only listeners. Never use `lsof -ti:<port> | xargs kill` — that
+  kills clients too (browsers, database connections, etc.).
 
 ## Web Development
 
