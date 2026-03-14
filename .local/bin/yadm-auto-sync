@@ -1,0 +1,16 @@
+#!/bin/bash
+# Auto-commit and push yadm-tracked dotfiles if there are changes.
+# Intended to run via launchd every 30 minutes.
+
+set -euo pipefail
+
+export PATH="/opt/homebrew/bin:$PATH"
+
+# Only proceed if there are staged or modified tracked files
+if yadm diff --quiet && yadm diff --cached --quiet; then
+  exit 0
+fi
+
+yadm add -u
+yadm commit -m "auto-sync dotfiles ($(date '+%Y-%m-%d %H:%M'))"
+yadm push

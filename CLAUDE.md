@@ -87,7 +87,11 @@ Fall back to `pandoc input.md -o output.pdf` only if `mpe2pdf` is unavailable.
 
 ## Home Directory Backup
 
-**chezmoi** manages dotfiles and home directory assets in a git-backed repo. Use it to track, version, and sync config files (`~/.claude/`, `~/.zsh/`, `~/.zshrc`, etc.) across machines.
+**yadm** manages dotfiles via a bare git repo over `$HOME`. Files are tracked in-place — edit live, then `yadm add`, `yadm commit`, `yadm push`. No source/target split. Remote: `marcelocantos/dotfiles`.
+
+- A launchd job (`com.marcelocantos.yadm-auto-sync`) auto-commits and pushes modified tracked files every 30 minutes. Script: `~/.local/bin/yadm-auto-sync`. Log: `~/.local/var/log/yadm-auto-sync.log`.
+- New files still require a manual `yadm add` — auto-sync only covers already-tracked files.
+- When editing dotfiles in a session, `yadm add` new files immediately. Modified tracked files will sync automatically.
 
 ## Editing Guidelines
 
