@@ -192,6 +192,10 @@ Determine the next version number. **Do not ask for confirmation** — just use 
 
    **STABILITY.md catalogue**: If `STABILITY.md` lists version macro values in its interaction surface catalogue, update those to match the new version too. Also update the "Snapshot as of" line to reference the new version.
 
+   **Go module version constants**: If the project has Go wrapper modules with
+   version constants (e.g., `Version = "x.y.z"` with `VersionMajor`,
+   `VersionMinor`, `VersionPatch`), update them to match the new version.
+
    **No version macros found**: If a C/C++ library has no version macros at all, note this as a gap. For pre-1.0 projects, record it in `STABILITY.md` under gaps/prerequisites. Don't block the release — version macros are a 1.0 prerequisite, not a pre-1.0 gate.
 
 ### Phase 3: Release notes
@@ -308,19 +312,30 @@ Create the GitHub release and let CI handle the rest.
    ```
    This triggers the `release.yml` workflow, which builds binaries, uploads them, and (if configured) runs homebrew-releaser to update the tap formula automatically.
 
-5. **Monitor CI**: Wait for the release workflow to complete:
+5. **Go module tags**: If the project contains Go modules in subdirectories
+   (e.g., `go/sqlpipe/go.mod`), create subdirectory-prefixed tags for each
+   Go module so that `go get` can resolve them. For a module at path
+   `go/sqlpipe` and release version `v0.11.0`, create and push:
+   ```bash
+   git tag go/sqlpipe/<version> <version>
+   git push origin go/sqlpipe/<version>
+   ```
+   Also update the Go module's version constants (if any) to match the
+   release version during the Phase 2 version bump.
+
+6. **Monitor CI**: Wait for the release workflow to complete:
    ```bash
    gh run list --workflow=release.yml --limit=1
    gh run watch <run-id>
    ```
    If it fails, help diagnose — do not delete the release or tag without asking.
 
-6. **Verify**: Confirm:
+7. **Verify**: Confirm:
    - The release appears on GitHub with correct notes and artifacts
    - Binary tarballs are attached for each platform
    - The Homebrew formula was updated in `marcelocantos/homebrew-tap` (check the tap repo's recent commits)
 
-7. **Report**: Print:
+8. **Report**: Print:
    - Release URL
    - Homebrew install command (if tap was set up): `brew install marcelocantos/tap/<project>`
 

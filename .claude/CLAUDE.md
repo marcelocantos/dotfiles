@@ -118,6 +118,11 @@ deep links, sample data, and visual verification cadence.
 
 - Use semantic versioning (vMAJOR.MINOR.PATCH). First release: v0.1.0.
 - Default to minor releases (bump MINOR, reset PATCH). Patch releases are reserved for hotfixes to a specific minor release — never use them for regular forward progress. Only use major/patch when explicitly requested.
+- **Go modules in subdirectories**: Go requires path-prefixed tags for
+  modules that don't live at the repo root. A module at `go/sqlpipe/go.mod`
+  needs a tag like `go/sqlpipe/v0.11.0` (in addition to the root `v0.11.0`
+  tag) for `go get` to resolve it. Always create both tags on release.
+  Also keep Go-side version constants in sync with the release version.
 
 ## CLI Binaries
 
