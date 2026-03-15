@@ -125,16 +125,20 @@ For pre-1.0 projects, create or update a `STABILITY.md` file in the repo root. T
 **1.0 readiness check**: After updating `STABILITY.md`, assess whether the project is ready to release 1.0. Two conditions must **both** be met:
 
 1. **Checklist clear**: No remaining gaps, no "Fluid" items in the surface catalogue, documentation complete.
-2. **Settling threshold met**: Count every public function, type, enum, constant, wire format, and config field in the surface catalogue to determine N:
+2. **Settling threshold met**: The settling threshold is purely time-based —
+   new releases don't accelerate it, because new code is inherently
+   destabilising. Count every public function, type, enum, constant, wire
+   format, and config field in the surface catalogue, then look up the
+   minimum settling period:
 
-   | Surface items | N |
+   | Surface items | Minimum settling period |
    |---|---|
-   | < 20 | 2 |
-   | 20–50 | 3 |
-   | 50–100 | 4 |
-   | > 100 | 5 |
+   | < 20 | 1 month |
+   | 20–50 | 2 months |
+   | 50–100 | 3 months |
+   | > 100 | 4 months |
 
-   Then **either**: N consecutive minor releases with zero breaking changes to the surface, **or** N months since the last breaking change.
+   The clock starts from the last breaking change to the interaction surface.
 
 If both conditions are met, flag it to the user: "the checklist is clear and the settling threshold is met — the project is eligible for 1.0." The user decides — this is never automatic. If only the checklist is clear but the settling threshold is not, report which condition is unmet and how far away it is.
 
