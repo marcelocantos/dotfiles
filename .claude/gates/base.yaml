@@ -20,6 +20,3 @@ pre-release:
   - changelog-reviewed:
       type: manual
       prompt: "Review the changelog/release notes for this release."
-  - version-confirmed:
-      type: manual
-      prompt: "Confirm the version number is correct."
