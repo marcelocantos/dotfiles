@@ -367,6 +367,11 @@ Fall back to `pandoc input.md -o output.pdf` only if `mpe2pdf` is unavailable.
 
 - When stuck on a non-obvious bug, write a structured problem description before reaching for heavier tools. Enumerate the actors/components, their interaction sequence as numbered steps, and state an explicit hypothesis. The act of explaining often reveals the bug — the document is a thinking tool, not just an artifact. For project-specific conventions on where to put these (e.g., `docs/papers/`), check the project's CLAUDE.md.
 
+## Context window
+
+- Never suggest starting a fresh session, running `/clear`, or continuing in a new conversation. The context window is 1M tokens — the user will decide when to start over.
+- Only mention context if the system itself triggers compression.
+
 ## Continuous improvement
 
 - At the end of a coding session (or when a natural stopping point is reached), reflect on whether the session surfaced insights that would benefit future sessions across any project — recurring patterns, conventions, workflow preferences, or corrections to existing directives. If so, propose specific amendments to the relevant `CLAUDE.md` file (global `~/.claude/CLAUDE.md` or project-level). Only apply changes with user consent.
