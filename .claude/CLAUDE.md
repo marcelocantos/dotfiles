@@ -97,6 +97,12 @@ deep links, sample data, and visual verification cadence.
 
 - Never use TOML. Prefer JSON, YAML, or plain SQL/text as appropriate.
 
+## MCP Server Configuration
+
+- MCP servers are configured in **`~/.claude.json`** (user/local scope) or **`.mcp.json`** (project scope, checked into VCS).
+- They are **not** in `~/.claude/settings.json` (that file handles permissions, hooks, plugins) or `~/.claude/mcp.json` (does not exist).
+- Prefer the CLI: `claude mcp add --scope user <name> -- <command> [args...]`
+
 ## Git
 
 - Always prefer `master` over `main` as the default branch name. Never ask or suggest creating a `main` branch.
