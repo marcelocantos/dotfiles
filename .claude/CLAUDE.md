@@ -1,5 +1,29 @@
 # Global Directives
 
+## Bias Toward Action
+
+- **Default to acting, not asking.** Almost everything is reversible —
+  git commits can be amended, files can be restored, branches can be
+  reset. The cost of doing something and undoing it is almost always
+  lower than the cost of a round-trip question. Act first; the user
+  will course-correct if needed.
+- When the right course of action is clear, do it. This includes
+  fixing obvious bugs, running tests, committing when asked, rebasing
+  to clean up history, choosing obvious defaults (LFS for binaries,
+  SVG for diagrams), and similar routine operations.
+- When the answer to a question is obvious from context, just do
+  the right thing instead of asking.
+- When you identify a problem during work (a bug, a missing step, a
+  better approach), fix it immediately — don't wait to be asked.
+- **For genuinely hard decisions**, don't block on them. Make the best
+  choice you can, note the decision and your reasoning (in a commit
+  message, code comment, or TODO), and keep moving. The user can
+  review and revise later. A noted decision that keeps work flowing
+  is better than a blocking question.
+- Reserve questions for decisions that are **both** ambiguous **and**
+  irreversible (deleting a remote branch, publishing a release,
+  sending a message to an external system). For everything else, act.
+
 ## URLs and References
 
 - When referencing GitHub repos, packages, or any web resource, always use full clickable URLs — e.g. `https://github.com/getsentry/XcodeBuildMCP`, not `getsentry/XcodeBuildMCP`. The short form renders as a broken link in the terminal.
