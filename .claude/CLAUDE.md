@@ -367,6 +367,10 @@ mpe2pdf input.md -o output.pdf
 
 Fall back to `pandoc input.md -o output.pdf` only if `mpe2pdf` is unavailable.
 
+## PlantUML
+
+- Always use SVG output (`-tsvg`), never PNG. Large PNG images consume excessive context when read back and can break sessions.
+
 ## Debugging
 
 - When stuck on a non-obvious bug, write a structured problem description before reaching for heavier tools. Enumerate the actors/components, their interaction sequence as numbered steps, and state an explicit hypothesis. The act of explaining often reveals the bug — the document is a thinking tool, not just an artifact. For project-specific conventions on where to put these (e.g., `docs/papers/`), check the project's CLAUDE.md.
