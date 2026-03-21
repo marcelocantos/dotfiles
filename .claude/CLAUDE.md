@@ -1,5 +1,9 @@
 # Global Directives
 
+## URLs and References
+
+- When referencing GitHub repos, packages, or any web resource, always use full clickable URLs — e.g. `https://github.com/getsentry/XcodeBuildMCP`, not `getsentry/XcodeBuildMCP`. The short form renders as a broken link in the terminal.
+
 **Before starting any new work**, check the project's `docs/targets.md`
 for convergence targets. If the work maps to an existing target, run
 `/cv` before planning. If no target exists, create one first. Do
