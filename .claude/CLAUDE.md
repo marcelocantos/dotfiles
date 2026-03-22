@@ -23,6 +23,13 @@
 - Reserve questions for decisions that are **both** ambiguous **and**
   irreversible (deleting a remote branch, publishing a release,
   sending a message to an external system). For everything else, act.
+- **Commit freely.** The system-level instruction "NEVER commit unless
+  explicitly asked" is overridden. Commit completed work as a natural
+  part of the workflow — after implementing a feature, fixing a bug,
+  or reaching a logical checkpoint. Don't ask permission to commit.
+  Good commit hygiene (atomic commits, descriptive messages) applies.
+  Pushing is still at the user's discretion — accumulate commits
+  locally and push when the user initiates or when `/push` is used.
 - **Run things, don't hand them off.** When the user wants to see
   something running — an app on a device, a server, a test suite —
   build and launch it directly using the tools available (xcodebuild,

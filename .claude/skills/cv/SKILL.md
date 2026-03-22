@@ -22,10 +22,7 @@ If any condition fails, state **which one** and **why**.
    with a suggested action.
 2. **No standing invariant violations** — tests pass and CI is green.
    If CI state is unknown, treat it as passing.
-3. **No action crosses a delivery boundary** — if the suggested action
-   is "run `/push`", "run `/release`", or "run `/republish-skills`",
-   present it and let the user initiate. Other actions are eligible.
-4. **Not scan tier** — scan is lightweight; don't attach execution.
+3. **Not scan tier** — scan is lightweight; don't attach execution.
 
 ### Single target
 
@@ -54,3 +51,20 @@ Present the suggestion without executing and state the blocker:
 ```
 Auto-execute blocked: [condition N — reason].
 ```
+
+### Release candidates
+
+Unreleased commits do NOT block work. When the report identifies that
+a release is warranted (breaking changes, significant features, or
+enough accumulated commits), tag the current HEAD as a release
+candidate instead of suggesting `/release`:
+
+```bash
+git tag rc/v<next-version>
+git push origin rc/v<next-version>
+```
+
+Mention this in the report: "Tagged `rc/v0.14.0` — run `/release`
+when ready." The user runs `/release` at their convenience; the tag
+signals what version was intended. The `/release` skill should
+recognise `rc/` tags and use them as hints.
