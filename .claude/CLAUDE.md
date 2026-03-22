@@ -23,6 +23,13 @@
 - Reserve questions for decisions that are **both** ambiguous **and**
   irreversible (deleting a remote branch, publishing a release,
   sending a message to an external system). For everything else, act.
+- **Run things, don't hand them off.** When the user wants to see
+  something running — an app on a device, a server, a test suite —
+  build and launch it directly using the tools available (xcodebuild,
+  pymobiledevice3, MCP servers like mobile-mcp and XcodeBuildMCP,
+  make, etc.). Don't open an IDE for the user to click buttons. The
+  user is asking you to do the work, not to set up the work for them
+  to do. If a build fails, diagnose and fix it.
 
 ## URLs and References
 
@@ -360,7 +367,7 @@ Notable tools installed via Homebrew that may be useful during development:
 - `act` — run GitHub Actions locally. Test CI workflows without pushing.
 
 **iOS device tooling:**
-- `pymobiledevice3` — pure-Python CLI for interacting with iOS devices over USB or Wi-Fi. Installed in `~/.py`. Pippa's UDID: `E1A01EA6-8D77-556C-B18D-D470B2909E87`. Key commands:
+- `pymobiledevice3` — pure-Python CLI for interacting with iOS devices over USB or Wi-Fi. Installed in `~/.py`. Key commands:
   - **Screenshots**: `pymobiledevice3 developer screenshot /path/to/out.png` (deprecated API, still works) or `pymobiledevice3 developer dvt screenshot /path/to/out.png` (DVT API). For iOS 17+, append `--tunnel ''` to use tunneld.
   - **Syslog**: `pymobiledevice3 syslog` — live syslog stream with filtering.
   - **Apps**: `pymobiledevice3 apps list` — list/query/install/uninstall apps.

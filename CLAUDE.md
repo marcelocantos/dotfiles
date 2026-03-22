@@ -1,6 +1,10 @@
 # iOS Testing
 
-**Pippa** (iPad Air 5th gen, `E1A01EA6-8D77-556C-B18D-D470B2909E87`) is the preferred real device for testing iOS builds.
+**Pippa** (iPad Air 5th gen) is the preferred real device for testing iOS builds.
+- **Hardware UDID** (for xcodebuild/devicectl): `00008103-000D39301A6A201E`
+- **CoreDevice UUID** (for pymobiledevice3): `E1A01EA6-8D77-556C-B18D-D470B2909E87`
+
+Use `xcrun xctrace list devices` to discover the hardware UDID; use `pymobiledevice3 usbmux list` for the CoreDevice UUID. These are different identifier systems for the same physical device.
 
 # Shell Startup Scripts
 
