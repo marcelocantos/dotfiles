@@ -367,6 +367,18 @@ Notable tools installed via Homebrew that may be useful during development:
 - `act` — run GitHub Actions locally. Test CI workflows without pushing.
 
 **iOS device tooling:**
+
+iOS devices have **two different identifiers** — don't confuse them:
+- **Hardware UDID** (e.g. `00008103-...`): used by `xcodebuild`,
+  `xcrun devicectl`, and `xcrun xctrace list devices`. This is what
+  you pass to `-destination "id=..."`.
+- **CoreDevice UUID** (e.g. `E1A01EA6-...`): used by
+  `pymobiledevice3` and Apple's CoreDevice framework. Looks like a
+  standard UUID. Discover with `pymobiledevice3 usbmux list`.
+
+Device identifiers are documented per-device in the project's
+`CLAUDE.md` (under iOS Testing) with both IDs labelled.
+
 - `pymobiledevice3` — pure-Python CLI for interacting with iOS devices over USB or Wi-Fi. Installed in `~/.py`. Key commands:
   - **Screenshots**: `pymobiledevice3 developer screenshot /path/to/out.png` (deprecated API, still works) or `pymobiledevice3 developer dvt screenshot /path/to/out.png` (DVT API). For iOS 17+, append `--tunnel ''` to use tunneld.
   - **Syslog**: `pymobiledevice3 syslog` — live syslog stream with filtering.
