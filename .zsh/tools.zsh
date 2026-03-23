@@ -90,6 +90,9 @@ export PATH="$FLYCTL_INSTALL/bin:$PATH"
 export FZF_DEFAULT_OPTS='--color=light'
 export LS_COLORS='no=38;2;60;60;60:fi=38;2;60;60;60:di=1;38;2;0;50;200:ln=38;2;160;0;160:so=38;2;0;140;0:pi=38;2;160;120;0:ex=1;38;2;200;0;0:bd=38;2;0;50;200:cd=38;2;0;50;200:su=38;2;255;255;255;48;2;200;0;0:sg=38;2;0;0;0;48;2;200;200;0:tw=38;2;0;0;0;48;2;0;180;0:ow=1;38;2;0;50;200'
 
+# den — universal development environment manager
+eval "$("$HOME/.local/bin/den" init)"
+
 # gg
 eval "$("$HOME/.cargo/bin/gg" -i zsh)"
 eval "$("$HOME/.cargo/bin/gg" -i zsh ghg github.com)"
