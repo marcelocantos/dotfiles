@@ -194,5 +194,6 @@
     "rust-analyzer-lsp@claude-plugins-official": true
   },
   "voiceEnabled": true,
+  "autoDreamEnabled": true,
   "skipDangerousModePermissionPrompt": true
 }
