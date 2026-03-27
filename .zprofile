@@ -22,10 +22,6 @@ export NVM_DIR="$HOME/.nvm"
 export PYENV_ROOT="$HOME/.pyenv"
 export GGHTTP=1
 
-# macOS SDK
-export SDKROOT=$(/bin/ls -d /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX*.*.sdk | /usr/bin/tail -1)
-export MACOSX_DEPLOYMENT_TARGET=$(/bin/echo $SDKROOT | /usr/bin/sed -E 's/^.*[^[:digit:]]([[:digit:]]+\.[[:digit:]]+)\.sdk$/\1/')
-
 # Added by OrbStack: command-line tools and integration
 # This won't be added again if you remove it.
 source ~/.orbstack/shell/init.zsh 2>/dev/null || :
