@@ -160,7 +160,7 @@ deep links, sample data, and visual verification cadence.
 
 - Ensure .gitignore covers: build artifacts, IDE files (.vscode/, .idea/), OS files (.DS_Store), dependency directories (node_modules/, __pycache__/), and generated files.
 - Never commit secrets, .env files, credential files, or private keys. If generated as part of setup, add them to .gitignore immediately. Exception: test fixtures with fake/dummy credentials are fine.
-- GitHub repo settings for owned repos: squash-only merges (`allow_merge_commit: false`, `allow_rebase_merge: false`), squash commit title from PR title, delete-branch-on-merge enabled.
+- **Squash-only merges (HARD RULE)**: All owned repos are configured for squash-only merges (`allow_merge_commit: false`, `allow_rebase_merge: false`), squash commit title from PR title, delete-branch-on-merge enabled. **Never use `git merge`** — always squash-merge via PR. When creating new repos, immediately configure these settings via `gh api -X PATCH repos/OWNER/REPO -f allow_merge_commit=false -f allow_rebase_merge=false -f allow_squash_merge=true -f delete_branch_on_merge=true -f squash_merge_commit_title=PR_TITLE`.
 
 ## Versioning
 
