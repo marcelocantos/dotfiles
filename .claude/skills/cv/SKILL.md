@@ -52,19 +52,3 @@ Present the suggestion without executing and state the blocker:
 Auto-execute blocked: [condition N — reason].
 ```
 
-### Release candidates
-
-Unreleased commits do NOT block work. When the report identifies that
-a release is warranted (breaking changes, significant features, or
-enough accumulated commits), tag the current HEAD as a release
-candidate instead of suggesting `/release`:
-
-```bash
-git tag rc/v<next-version>
-git push origin rc/v<next-version>
-```
-
-Mention this in the report: "Tagged `rc/v0.14.0` — run `/release`
-when ready." The user runs `/release` at their convenience; the tag
-signals what version was intended. The `/release` skill should
-recognise `rc/` tags and use them as hints.

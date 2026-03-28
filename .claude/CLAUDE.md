@@ -200,7 +200,7 @@ deep links, sample data, and visual verification cadence.
 - **Worktree isolation**: Prefer `isolation: "worktree"` when spawning team agents that edit files. This prevents concurrent agents from clobbering each other's changes. Solo sequential work can stay on master (the `/push` skill creates feature branches at push time).
 - Model selection:
   - **`opus`** — default for team agents; complex reasoning, architectural decisions, novel problem-solving.
-  - **`sonnet`** — well-scoped coding tasks, bulk repetitive changes across modules, evaluating test/build failures.
+  - **`sonnet`** — well-scoped and straightforward coding tasks that don't involve complex reasoning. Also good for bulk repetitive changes across modules and evaluating test/build failures.
   - **`haiku`** — monotonous tasks: file searches, mechanical find-and-replace, running builds/tests, and triaging failures (categorise, group, summarise). Hand off to `sonnet` for diagnosis and fix decisions.
 
 ## Audit log
