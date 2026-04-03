@@ -4,10 +4,11 @@ description: End-to-end documentation sherpa — audit, plan, and write all proj
 user-invocable: true
 ---
 
-**DELEGATE VIA CWORK.** Send `cwork` with task `"Read and execute
+**DELEGATE VIA AGENT.** Spawn an Agent (subagent_type: general-purpose,
+model: opus) with the prompt `"Read and execute
 ~/.claude/skills/docs/worker.md. Return the full documentation audit
-and prioritised recommendations."` and `model: opus`. Relay the
-worker's result to the user.
+and prioritised recommendations."`. Relay the agent's result to the
+user.
 
 The worker handles Phases 1-3 (Discovery, Audit, Recommendations).
 After presenting the recommendations, the root session handles

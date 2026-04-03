@@ -45,6 +45,7 @@ incorporate."
 
 ## All mode
 
-**DELEGATE VIA CWORK.** Send `cwork` with task `"Read and execute
-~/.claude/skills/waw/worker.md. Return the full briefing."` and
-`model: opus`. Relay the worker's result to the user.
+**DELEGATE VIA AGENT.** Spawn an Agent (subagent_type: general-purpose,
+model: opus) with the prompt `"Read and execute
+~/.claude/skills/waw/worker.md. Return the full briefing."`.
+Relay the agent's result to the user.

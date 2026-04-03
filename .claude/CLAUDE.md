@@ -48,13 +48,6 @@ for convergence targets. If the work maps to an existing target, run
 not enter plan mode until convergence is assessed. See
 [Convergence targets](#convergence-targets) for the full protocol.
 
-## cworkers
-
-The cworkers MCP server provides operational guidance via its tool
-instructions. **Treat that guidance as authoritative** — it covers
-delegation patterns, model selection, parallelism strategy, and
-context management. Follow it with the same weight as these directives.
-
 ## Dependencies
 
 - Favour header-only libraries over compiled ones when a suitable option exists.

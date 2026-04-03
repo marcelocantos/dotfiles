@@ -4,9 +4,10 @@ description: Generate and publish a weekly progress report from git activity acr
 user-invocable: true
 ---
 
-**DELEGATE VIA CWORK.** Send `cwork` with task `"Read and execute
+**DELEGATE VIA AGENT.** Spawn an Agent (subagent_type: general-purpose,
+model: opus) with the prompt `"Read and execute
 ~/.claude/skills/progress-report/worker.md. Return the draft report
-text."` and `model: opus`. Relay the worker's result to the user.
+text."`. Relay the agent's result to the user.
 
 The worker handles period determination, data gathering, and report
 drafting. After the user approves the draft, the root session handles

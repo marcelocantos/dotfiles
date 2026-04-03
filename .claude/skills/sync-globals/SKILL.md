@@ -4,9 +4,10 @@ description: sync-globals
 user-invocable: true
 ---
 
-**DELEGATE VIA CWORK.** Send `cwork` with task `"Read and execute
+**DELEGATE VIA AGENT.** Spawn an Agent (subagent_type: general-purpose,
+model: opus) with the prompt `"Read and execute
 ~/.claude/skills/sync-globals/worker.md. Return the compliance
-report."` and `model: opus`. Relay the worker's result to the user.
+report."`. Relay the agent's result to the user.
 
 The worker handles Steps 1-5 (discover repos, read directives, check
 compliance, update manifest, generate report). After presenting the

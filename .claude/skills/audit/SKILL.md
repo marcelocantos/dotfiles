@@ -4,9 +4,10 @@ description: Comprehensive codebase audit — code quality, security, testing, p
 user-invocable: true
 ---
 
-**DELEGATE VIA CWORK.** Send `cwork` with task `"Read and execute
-~/.claude/skills/audit/worker.md. Return the full audit report."` and
-`model: opus`. Relay the worker's result to the user.
+**DELEGATE VIA AGENT.** Spawn an Agent (subagent_type: general-purpose,
+model: opus) with the prompt `"Read and execute
+~/.claude/skills/audit/worker.md. Return the full audit report."`.
+Relay the agent's result to the user.
 
 After presenting the report, offer to address findings by priority.
 The worker handles all audit phases including team spawning, review
