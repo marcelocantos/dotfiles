@@ -43,8 +43,8 @@
     "color-when-multi-clauding": 772,
     "desktop-shortcut": 768
   },
-  "promptQueueUseCount": 2843,
-  "btwUseCount": 3,
+  "promptQueueUseCount": 2851,
+  "btwUseCount": 4,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
   },
@@ -3099,7 +3099,8 @@
         "pre_tool_hook_duration_ms_p50": 44.5,
         "pre_tool_hook_duration_ms_p95": 52,
         "pre_tool_hook_duration_ms_p99": 52
-      }
+      },
+      "hasCompletedProjectOnboarding": true
     },
     "/Users/marcelo/work/github.com/marcelocantos/jevon": {
       "allowedTools": [],
@@ -4729,7 +4730,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/den"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.92",
+  "lastReleaseNotesSeen": "2.1.90",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
