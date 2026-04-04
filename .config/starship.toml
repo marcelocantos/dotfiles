@@ -1,0 +1,22 @@
+add_newline = false
+
+[gcloud]
+format = '[$symbol(@$domain)(\($region\))]($style) '
+
+[git_branch]
+format = '[$symbol$branch(:$remote_branch)]($style) '
+
+[git_metrics]
+#disabled = false
+
+[git_status]
+disabled = true
+
+[nodejs]
+format = '[$symbol($version)]($style) '
+disabled = true
+
+[python]
+format = '[${symbol}${pyenv_prefix}(${version} )(\($virtualenv\) )]($style)'
+pyenv_version_name = true
+disabled = true

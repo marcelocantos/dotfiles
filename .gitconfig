@@ -1,0 +1,55 @@
+[user]
+	name = Marcelo Cantos
+	email = marcelo.cantos@gmail.com
+[alias]
+	ci = commit
+	co = checkout
+	r = restore
+	rup = remote update -p
+	cp = cherry-pick
+	s = status
+	sw = switch
+[init]
+	defaultBranch = master
+[core]
+	excludesfile = /Users/marcelo/.gitexcludes
+[pull]
+	rebase = true
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+
+[core]
+    pager = delta
+
+[interactive]
+    diffFilter = delta --color-only
+
+[delta]
+    navigate = true    # use n and N to move between diff sections
+    light = false      # set to true if you're in a terminal w/ a light background color (e.g. the default macOS terminal)
+	line-numbers = true
+	# side-by-side = true
+	hyperlinks = true
+
+[merge]
+    conflictstyle = diff3
+
+[diff]
+    colorMoved = default
+[commit]
+	gpgSign = false
+[gui]
+	pruneduringfetch = true
+[smartgit "submodule"]
+	fetchalways = false
+	update = true
+	initializenew = true
+[push]
+	recurseSubmodules = check
+[branch]
+	autoSetupMerge = always
+[gc]
+	autoDetach = false
