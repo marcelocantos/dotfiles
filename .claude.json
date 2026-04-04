@@ -33,7 +33,7 @@
     "rename-conversation": 758,
     "custom-commands": 758,
     "agent-flag": 759,
-    "guest-passes": 763,
+    "guest-passes": 768,
     "shift-enter-setup": 95,
     "default-permission-mode-config": 761,
     "overage-promo": 130,
@@ -4559,7 +4559,7 @@
       "enabledMcpjsonServers": [],
       "disabledMcpjsonServers": [],
       "hasTrustDialogAccepted": false,
-      "projectOnboardingSeenCount": 8,
+      "projectOnboardingSeenCount": 11,
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": []
@@ -4712,7 +4712,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/den"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.90",
+  "lastReleaseNotesSeen": "2.1.92",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
