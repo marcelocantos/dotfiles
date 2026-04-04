@@ -43,7 +43,7 @@
     "color-when-multi-clauding": 772,
     "desktop-shortcut": 768
   },
-  "promptQueueUseCount": 2867,
+  "promptQueueUseCount": 2871,
   "btwUseCount": 5,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -4737,7 +4737,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/den"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.90",
+  "lastReleaseNotesSeen": "2.1.87",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
