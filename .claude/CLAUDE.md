@@ -416,6 +416,9 @@ Device identifiers are documented per-device in the project's
   unbounded growth: any variable that accumulates values across steps
   (append-only logs, growing sets, message channels) is a candidate
   for bounding.
+- For a broader survey of verification tools beyond TLA+ (property-based
+  testing, sanitizers, fuzzing, Jepsen, etc.) with a decision tree, see
+  [`~/.claude/verification-tools.md`](~/.claude/verification-tools.md).
 
 ## PDF Conversion
 

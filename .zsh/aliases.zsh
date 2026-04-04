@@ -29,5 +29,7 @@ alias grup='git remote update -p'
 
 alias h='http --check-status --follow'
 
+alias clc='claude --continue'
+
 unalias g la lsa 2>/dev/null
 unalias gg 2>/dev/null
