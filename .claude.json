@@ -43,7 +43,7 @@
     "color-when-multi-clauding": 772,
     "desktop-shortcut": 768
   },
-  "promptQueueUseCount": 2877,
+  "promptQueueUseCount": 2878,
   "btwUseCount": 5,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -4576,7 +4576,7 @@
       "enabledMcpjsonServers": [],
       "disabledMcpjsonServers": [],
       "hasTrustDialogAccepted": false,
-      "projectOnboardingSeenCount": 24,
+      "projectOnboardingSeenCount": 28,
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": []
@@ -5119,7 +5119,7 @@
         "amount_minor_units": 31000,
         "currency": "AUD"
       },
-      "timestamp": 1775339146354
+      "timestamp": 1775343584707
     }
   },
   "migrationVersion": 11
