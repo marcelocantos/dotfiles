@@ -1,3 +1,4 @@
+# Shell startup docs: ~/CLAUDE.md § "Shell Startup Scripts"
 # iterm2
 [[ -f ~/.local/sbin/iterm2_shell_integration.zsh ]] && source ~/.local/sbin/iterm2_shell_integration.zsh
 
@@ -52,6 +53,9 @@ function _iterm2_badge_pwd() {
   # Trim leading / if result starts with // (edge case)
   result="${result#/}"
 
+  local branch
+  branch="$(git rev-parse --abbrev-ref HEAD 2>/dev/null)"
+  [[ -n "$branch" && "$branch" != "master" ]] && result+="\n${branch}"
   printf "\e]1337;SetBadgeFormat=%s\a" "$(echo -n "$result" | base64)"
 }
 autoload -U add-zsh-hook

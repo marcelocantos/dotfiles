@@ -1,3 +1,4 @@
+# Shell startup docs: ~/CLAUDE.md § "Shell Startup Scripts"
 alias eal='vi ~/.zsh/aliases.zsh'
 
 alias p=ipython3

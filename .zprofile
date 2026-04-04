@@ -1,3 +1,4 @@
+# Shell startup docs: ~/CLAUDE.md § "Shell Startup Scripts"
 # Homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
 FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH

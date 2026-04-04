@@ -1,3 +1,4 @@
+# Shell startup docs: ~/CLAUDE.md § "Shell Startup Scripts"
 pycat() {
   python3 -c "import pickle, sys, pprint; pprint.pprint(pickle.load(open('$1', 'rb')))"
 }

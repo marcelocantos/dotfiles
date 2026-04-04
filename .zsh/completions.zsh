@@ -1,3 +1,4 @@
+# Shell startup docs: ~/CLAUDE.md § "Shell Startup Scripts"
 # fzf
 if [[ ! "$PATH" == */opt/homebrew/opt/fzf/bin* ]]; then
   PATH="${PATH:+${PATH}:}/opt/homebrew/opt/fzf/bin"
