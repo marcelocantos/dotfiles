@@ -21,9 +21,9 @@ if yadm add -u && yadm commit -m "auto-sync dotfiles ($(date '+%Y-%m-%d %H:%M'))
     echo "[$(ts)] ok: committed and pushed" >> "$LOG"
   else
     echo "[$(ts)] ERROR: commit succeeded but push failed" >> "$LOG"
-    osascript -e 'display notification "Push failed — check ~/.local/var/log/yadm-auto-sync.log" with title "yadm-auto-sync"'
+    alerter --title "yadm-auto-sync" --message "Push failed — check ~/.local/var/log/yadm-auto-sync.log" --sound default
   fi
 else
   echo "[$(ts)] ERROR: commit failed" >> "$LOG"
-  osascript -e 'display notification "Commit failed — check ~/.local/var/log/yadm-auto-sync.log" with title "yadm-auto-sync"'
+  alerter -title "yadm-auto-sync" -message "Commit failed — check ~/.local/var/log/yadm-auto-sync.log" -sound default
 fi
