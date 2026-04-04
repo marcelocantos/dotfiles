@@ -2,15 +2,28 @@
 # Auto-commit and push yadm-tracked dotfiles if there are changes.
 # Intended to run via launchd every 30 minutes.
 
-set -euo pipefail
+set -uo pipefail
 
+LOG="$HOME/.local/var/log/yadm-auto-sync.log"
 export PATH="/opt/homebrew/bin:$PATH"
 
-# Only proceed if there are staged or modified tracked files
+ts() { date '+%Y-%m-%d %H:%M:%S'; }
+
+# Heartbeat — always logged, proves the job ran.
 if yadm diff --quiet && yadm diff --cached --quiet; then
+  echo "[$(ts)] heartbeat: no changes" >> "$LOG"
   exit 0
 fi
 
-yadm add -u
-yadm commit -m "auto-sync dotfiles ($(date '+%Y-%m-%d %H:%M'))"
-yadm push
+# Commit and push, capturing errors.
+if yadm add -u && yadm commit -m "auto-sync dotfiles ($(date '+%Y-%m-%d %H:%M'))" >> "$LOG" 2>&1; then
+  if yadm push >> "$LOG" 2>&1; then
+    echo "[$(ts)] ok: committed and pushed" >> "$LOG"
+  else
+    echo "[$(ts)] ERROR: commit succeeded but push failed" >> "$LOG"
+    osascript -e 'display notification "yadm push failed — check ~/.local/var/log/yadm-auto-sync.log" with title "yadm-auto-sync"'
+  fi
+else
+  echo "[$(ts)] ERROR: commit failed" >> "$LOG"
+  osascript -e 'display notification "yadm commit failed — check ~/.local/var/log/yadm-auto-sync.log" with title "yadm-auto-sync"'
+fi
