@@ -1,5 +1,5 @@
 {
-  "numStartups": 774,
+  "numStartups": 775,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -33,7 +33,7 @@
     "rename-conversation": 773,
     "custom-commands": 773,
     "agent-flag": 774,
-    "guest-passes": 772,
+    "guest-passes": 775,
     "shift-enter-setup": 95,
     "default-permission-mode-config": 772,
     "overage-promo": 130,
@@ -4576,7 +4576,7 @@
       "enabledMcpjsonServers": [],
       "disabledMcpjsonServers": [],
       "hasTrustDialogAccepted": false,
-      "projectOnboardingSeenCount": 16,
+      "projectOnboardingSeenCount": 19,
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": []
@@ -4729,7 +4729,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/den"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.88",
+  "lastReleaseNotesSeen": "2.1.92",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -4832,8 +4832,8 @@
       "lastUsedAt": 1772167215856
     },
     "push": {
-      "usageCount": 111,
-      "lastUsedAt": 1775123044617
+      "usageCount": 112,
+      "lastUsedAt": 1775292156275
     },
     "stash": {
       "usageCount": 67,
@@ -5119,7 +5119,7 @@
         "amount_minor_units": 31000,
         "currency": "AUD"
       },
-      "timestamp": 1775288697902
+      "timestamp": 1775293261906
     }
   },
   "migrationVersion": 11
