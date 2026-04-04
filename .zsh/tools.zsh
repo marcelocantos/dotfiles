@@ -55,7 +55,7 @@ function _iterm2_badge_pwd() {
 
   local branch
   branch="$(git rev-parse --abbrev-ref HEAD 2>/dev/null)"
-  [[ -n "$branch" && "$branch" != "master" ]] && result+="\n${branch}"
+  [[ -n "$branch" && "$branch" != "master" ]] && result+="\n\ue0a0${branch}"
   printf "\e]1337;SetBadgeFormat=%s\a" "$(echo -n "$result" | base64)"
 }
 autoload -U add-zsh-hook
