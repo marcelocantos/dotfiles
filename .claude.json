@@ -5,6 +5,7 @@
   "theme": "light",
   "hasSeenTasksHint": true,
   "hasUsedStash": true,
+  "hasUsedBackgroundTask": true,
   "tipsHistory": {
     "new-user-warmup": 5,
     "plan-mode-for-complex-tasks": 774,
@@ -37,12 +38,12 @@
     "default-permission-mode-config": 772,
     "overage-promo": 130,
     "git-worktrees": 772,
-    "frontend-design-plugin": 774,
+    "frontend-design-plugin": 777,
     "feedback-command": 774,
     "color-when-multi-clauding": 772,
     "desktop-shortcut": 768
   },
-  "promptQueueUseCount": 2876,
+  "promptQueueUseCount": 2877,
   "btwUseCount": 5,
   "showExpandedTodos": true,
   "cachedStatsigGates": {
@@ -446,7 +447,6 @@
     "tengu_slate_nexus": true,
     "tengu_collage_kaleidoscope": true
   },
-  "hasUsedBackgroundTask": true,
   "userID": "9fecdd347f614ef7988d22bc6783427080c2c115da32d7c0ad890aad9d007729",
   "statsigModel": {
     "bedrock": "us.anthropic.claude-3-7-sonnet-20250219-v1:0",
