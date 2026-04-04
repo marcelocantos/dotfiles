@@ -4558,7 +4558,7 @@
       "enabledMcpjsonServers": [],
       "disabledMcpjsonServers": [],
       "hasTrustDialogAccepted": false,
-      "projectOnboardingSeenCount": 5,
+      "projectOnboardingSeenCount": 8,
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": []
@@ -4778,8 +4778,8 @@
       "lastUsedAt": 1771914747958
     },
     "waw": {
-      "usageCount": 89,
-      "lastUsedAt": 1774860965438
+      "usageCount": 90,
+      "lastUsedAt": 1775270181131
     },
     "audit": {
       "usageCount": 25,
@@ -5101,7 +5101,7 @@
         "amount_minor_units": 31000,
         "currency": "AUD"
       },
-      "timestamp": 1775266100557
+      "timestamp": 1775269765261
     }
   },
   "migrationVersion": 11
