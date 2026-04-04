@@ -1,5 +1,5 @@
 {
-  "numStartups": 761,
+  "numStartups": 763,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -24,16 +24,16 @@
     "double-esc-code-restore": 754,
     "continue": 754,
     "shift-tab": 754,
-    "image-paste": 742,
+    "image-paste": 763,
     "desktop-app": 759,
     "web-app": 759,
     "mobile-app": 759,
     "custom-agents": 758,
-    "permissions": 751,
+    "permissions": 761,
     "rename-conversation": 758,
     "custom-commands": 758,
     "agent-flag": 759,
-    "guest-passes": 760,
+    "guest-passes": 763,
     "shift-enter-setup": 95,
     "default-permission-mode-config": 761,
     "overage-promo": 130,
@@ -43,7 +43,7 @@
     "color-when-multi-clauding": 761,
     "desktop-shortcut": 749
   },
-  "promptQueueUseCount": 2838,
+  "promptQueueUseCount": 2839,
   "btwUseCount": 3,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -2754,69 +2754,37 @@
         "main.go"
       ],
       "exampleFilesGeneratedAt": 1774866432216,
-      "lastCost": 3.164339800000002,
-      "lastAPIDuration": 658604,
-      "lastAPIDurationWithoutRetries": 658343,
-      "lastToolDuration": 479245,
-      "lastDuration": 938136,
-      "lastLinesAdded": 181,
+      "lastCost": 0,
+      "lastAPIDuration": 0,
+      "lastAPIDurationWithoutRetries": 0,
+      "lastToolDuration": 0,
+      "lastDuration": 6651,
+      "lastLinesAdded": 0,
       "lastLinesRemoved": 0,
-      "lastTotalInputTokens": 425,
-      "lastTotalOutputTokens": 24663,
-      "lastTotalCacheCreationInputTokens": 303344,
-      "lastTotalCacheReadInputTokens": 2652800,
+      "lastTotalInputTokens": 0,
+      "lastTotalOutputTokens": 0,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
       "lastTotalWebSearchRequests": 0,
-      "lastFpsAverage": 8.02,
-      "lastFpsLow1Pct": 434.82,
-      "lastModelUsage": {
-        "claude-opus-4-6[1m]": {
-          "inputTokens": 33,
-          "outputTokens": 15770,
-          "cacheReadInputTokens": 1729744,
-          "cacheCreationInputTokens": 142726,
-          "webSearchRequests": 0,
-          "costUSD": 2.1513245
-        },
-        "claude-sonnet-4-6": {
-          "inputTokens": 52,
-          "outputTokens": 8882,
-          "cacheReadInputTokens": 923056,
-          "cacheCreationInputTokens": 160618,
-          "webSearchRequests": 0,
-          "costUSD": 1.0126202999999998
-        },
-        "claude-haiku-4-5-20251001": {
-          "inputTokens": 340,
-          "outputTokens": 11,
-          "cacheReadInputTokens": 0,
-          "cacheCreationInputTokens": 0,
-          "webSearchRequests": 0,
-          "costUSD": 0.000395
-        }
-      },
-      "lastSessionId": "d4aa9c9d-b893-4245-ab3d-28f0b7c8448b",
+      "lastFpsAverage": 4.91,
+      "lastFpsLow1Pct": 65.03,
+      "lastModelUsage": {},
+      "lastSessionId": "9605c118-c53d-41ca-83c3-bcf4dd7210d0",
       "lastSessionMetrics": {
-        "frame_duration_ms_count": 7521,
-        "frame_duration_ms_min": 0.021709000000555534,
-        "frame_duration_ms_max": 11.083958000002895,
-        "frame_duration_ms_avg": 0.7281950953332396,
-        "frame_duration_ms_p50": 0.5637084999980289,
-        "frame_duration_ms_p95": 1.662123200004862,
-        "frame_duration_ms_p99": 2.5689942499966083,
-        "hook_duration_ms_count": 213,
-        "hook_duration_ms_min": 29,
-        "hook_duration_ms_max": 74,
-        "hook_duration_ms_avg": 41.45070422535211,
-        "hook_duration_ms_p50": 37,
-        "hook_duration_ms_p95": 58.39999999999998,
-        "hook_duration_ms_p99": 69.63999999999999,
-        "pre_tool_hook_duration_ms_count": 103,
-        "pre_tool_hook_duration_ms_min": 32,
-        "pre_tool_hook_duration_ms_max": 72,
-        "pre_tool_hook_duration_ms_avg": 50.09708737864078,
-        "pre_tool_hook_duration_ms_p50": 50,
-        "pre_tool_hook_duration_ms_p95": 64,
-        "pre_tool_hook_duration_ms_p99": 70.96000000000001
+        "frame_duration_ms_count": 28,
+        "frame_duration_ms_min": 0.05183300000044255,
+        "frame_duration_ms_max": 15.376500000000078,
+        "frame_duration_ms_avg": 0.8092634642857216,
+        "frame_duration_ms_p50": 0.07587499999988268,
+        "frame_duration_ms_p95": 3.1061620499999774,
+        "frame_duration_ms_p99": 12.457754910000059,
+        "hook_duration_ms_count": 1,
+        "hook_duration_ms_min": 109,
+        "hook_duration_ms_max": 109,
+        "hook_duration_ms_avg": 109,
+        "hook_duration_ms_p50": 109,
+        "hook_duration_ms_p95": 109,
+        "hook_duration_ms_p99": 109
       },
       "hasCompletedProjectOnboarding": true
     },
@@ -4743,7 +4711,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/den"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.87",
+  "lastReleaseNotesSeen": "2.1.91",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -5133,7 +5101,7 @@
         "amount_minor_units": 31000,
         "currency": "AUD"
       },
-      "timestamp": 1775261819750
+      "timestamp": 1775266100557
     }
   },
   "migrationVersion": 11
