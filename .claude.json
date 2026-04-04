@@ -43,7 +43,7 @@
     "color-when-multi-clauding": 772,
     "desktop-shortcut": 768
   },
-  "promptQueueUseCount": 2842,
+  "promptQueueUseCount": 2843,
   "btwUseCount": 3,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -4729,7 +4729,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/den"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.87",
+  "lastReleaseNotesSeen": "2.1.88",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -4796,8 +4796,8 @@
       "lastUsedAt": 1771914747958
     },
     "waw": {
-      "usageCount": 93,
-      "lastUsedAt": 1775270944517
+      "usageCount": 95,
+      "lastUsedAt": 1775292060718
     },
     "audit": {
       "usageCount": 25,
