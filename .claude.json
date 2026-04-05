@@ -1,5 +1,5 @@
 {
-  "numStartups": 786,
+  "numStartups": 787,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -43,9 +43,8 @@
     "color-when-multi-clauding": 786,
     "desktop-shortcut": 786
   },
-  "promptQueueUseCount": 2882,
+  "promptQueueUseCount": 2883,
   "btwUseCount": 6,
-  "showExpandedTodos": true,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
   },
@@ -4495,10 +4494,21 @@
       "enabledMcpjsonServers": [],
       "disabledMcpjsonServers": [],
       "hasTrustDialogAccepted": false,
-      "projectOnboardingSeenCount": 43,
+      "projectOnboardingSeenCount": 44,
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": []
+    },
+    "/private/tmp/polyrefactor-sandbox": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": true,
+      "projectOnboardingSeenCount": 1,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false
     }
   },
   "sonnet45MigrationComplete": true,
@@ -4648,7 +4658,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/den"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.88",
+  "lastReleaseNotesSeen": "2.1.92",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -4691,8 +4701,8 @@
       "lastUsedAt": 1773171863251
     },
     "release": {
-      "usageCount": 114,
-      "lastUsedAt": 1775368477511
+      "usageCount": 115,
+      "lastUsedAt": 1775377268642
     },
     "gsd:help": {
       "usageCount": 1,
@@ -4779,8 +4789,8 @@
       "lastUsedAt": 1772625771549
     },
     "cv": {
-      "usageCount": 243,
-      "lastUsedAt": 1775373646348
+      "usageCount": 244,
+      "lastUsedAt": 1775378524040
     },
     "target": {
       "usageCount": 36,
@@ -5038,7 +5048,7 @@
         "amount_minor_units": 31000,
         "currency": "AUD"
       },
-      "timestamp": 1775373589142
+      "timestamp": 1775377983991
     }
   },
   "migrationVersion": 11
