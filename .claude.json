@@ -8,7 +8,7 @@
   "hasUsedBackgroundTask": true,
   "tipsHistory": {
     "new-user-warmup": 5,
-    "plan-mode-for-complex-tasks": 779,
+    "plan-mode-for-complex-tasks": 786,
     "terminal-setup": 786,
     "memory-command": 786,
     "theme-command": 776,
@@ -33,7 +33,7 @@
     "rename-conversation": 773,
     "custom-commands": 773,
     "agent-flag": 774,
-    "guest-passes": 781,
+    "guest-passes": 786,
     "shift-enter-setup": 95,
     "default-permission-mode-config": 786,
     "overage-promo": 130,
@@ -4494,7 +4494,7 @@
       "enabledMcpjsonServers": [],
       "disabledMcpjsonServers": [],
       "hasTrustDialogAccepted": false,
-      "projectOnboardingSeenCount": 36,
+      "projectOnboardingSeenCount": 37,
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": []
@@ -4647,7 +4647,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/den"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.92",
+  "lastReleaseNotesSeen": "2.1.91",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -4690,8 +4690,8 @@
       "lastUsedAt": 1773171863251
     },
     "release": {
-      "usageCount": 112,
-      "lastUsedAt": 1775363925790
+      "usageCount": 114,
+      "lastUsedAt": 1775368477511
     },
     "gsd:help": {
       "usageCount": 1,
