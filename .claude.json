@@ -5,6 +5,7 @@
   "theme": "light",
   "hasSeenTasksHint": true,
   "hasUsedStash": true,
+  "hasUsedBackgroundTask": true,
   "tipsHistory": {
     "new-user-warmup": 5,
     "plan-mode-for-complex-tasks": 791,
@@ -42,7 +43,7 @@
     "color-when-multi-clauding": 786,
     "desktop-shortcut": 786
   },
-  "promptQueueUseCount": 2903,
+  "promptQueueUseCount": 2904,
   "btwUseCount": 6,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -445,7 +446,6 @@
     },
     "tengu_permission_explainer": true
   },
-  "hasUsedBackgroundTask": true,
   "userID": "9fecdd347f614ef7988d22bc6783427080c2c115da32d7c0ad890aad9d007729",
   "statsigModel": {
     "bedrock": "us.anthropic.claude-3-7-sonnet-20250219-v1:0",
@@ -4589,7 +4589,7 @@
       "enabledMcpjsonServers": [],
       "disabledMcpjsonServers": [],
       "hasTrustDialogAccepted": false,
-      "projectOnboardingSeenCount": 9,
+      "projectOnboardingSeenCount": 11,
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": [
