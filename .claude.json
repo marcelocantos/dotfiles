@@ -44,7 +44,7 @@
     "desktop-shortcut": 768
   },
   "promptQueueUseCount": 2878,
-  "btwUseCount": 5,
+  "btwUseCount": 6,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
   },
@@ -4576,7 +4576,7 @@
       "enabledMcpjsonServers": [],
       "disabledMcpjsonServers": [],
       "hasTrustDialogAccepted": false,
-      "projectOnboardingSeenCount": 28,
+      "projectOnboardingSeenCount": 29,
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": []
@@ -4729,7 +4729,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/den"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.87",
+  "lastReleaseNotesSeen": "2.1.91",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
