@@ -1,5 +1,5 @@
 {
-  "numStartups": 847,
+  "numStartups": 848,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -17,23 +17,23 @@
     "enter-to-steer-in-relatime": 837,
     "todo-list": 837,
     "ide-upsell-external-terminal": 845,
-    "install-github-app": 838,
-    "install-slack-app": 838,
-    "drag-and-drop-images": 838,
+    "install-github-app": 848,
+    "install-slack-app": 848,
+    "drag-and-drop-images": 848,
     "paste-images-mac": 839,
     "double-esc-code-restore": 839,
     "continue": 839,
     "shift-tab": 839,
     "image-paste": 837,
-    "desktop-app": 833,
-    "web-app": 833,
-    "mobile-app": 833,
+    "desktop-app": 848,
+    "web-app": 848,
+    "mobile-app": 848,
     "custom-agents": 847,
-    "permissions": 838,
+    "permissions": 848,
     "rename-conversation": 847,
     "custom-commands": 847,
-    "agent-flag": 833,
-    "guest-passes": 845,
+    "agent-flag": 848,
+    "guest-passes": 848,
     "shift-enter-setup": 95,
     "default-permission-mode-config": 847,
     "overage-promo": 130,
@@ -43,7 +43,7 @@
     "color-when-multi-clauding": 847,
     "desktop-shortcut": 847
   },
-  "promptQueueUseCount": 2976,
+  "promptQueueUseCount": 2979,
   "btwUseCount": 6,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -3075,61 +3075,37 @@
       "projectOnboardingSeenCount": 10,
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
-      "lastCost": 1.9459885,
-      "lastAPIDuration": 313036,
-      "lastAPIDurationWithoutRetries": 312724,
-      "lastToolDuration": 1192919,
-      "lastDuration": 6569151,
-      "lastLinesAdded": 62,
-      "lastLinesRemoved": 127,
-      "lastTotalInputTokens": 818,
-      "lastTotalOutputTokens": 11446,
-      "lastTotalCacheCreationInputTokens": 151140,
-      "lastTotalCacheReadInputTokens": 1426151,
+      "lastCost": 0,
+      "lastAPIDuration": 0,
+      "lastAPIDurationWithoutRetries": 0,
+      "lastToolDuration": 0,
+      "lastDuration": 1478730,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 0,
+      "lastTotalOutputTokens": 0,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
       "lastTotalWebSearchRequests": 0,
-      "lastFpsAverage": 6.66,
-      "lastFpsLow1Pct": 670.37,
-      "lastModelUsage": {
-        "claude-haiku-4-5-20251001": {
-          "inputTokens": 388,
-          "outputTokens": 20,
-          "cacheReadInputTokens": 0,
-          "cacheCreationInputTokens": 0,
-          "webSearchRequests": 0,
-          "costUSD": 0.000488
-        },
-        "claude-opus-4-6[1m]": {
-          "inputTokens": 430,
-          "outputTokens": 11426,
-          "cacheReadInputTokens": 1426151,
-          "cacheCreationInputTokens": 151140,
-          "webSearchRequests": 0,
-          "costUSD": 1.9455004999999996
-        }
-      },
-      "lastSessionId": "77196d5a-de7f-4020-924b-ede3a17ed893",
+      "lastFpsAverage": 0.03,
+      "lastFpsLow1Pct": 74.41,
+      "lastModelUsage": {},
+      "lastSessionId": "d46b0506-c672-45e9-9e59-4eb8163eb9c7",
       "lastSessionMetrics": {
-        "frame_duration_ms_count": 8775,
-        "frame_duration_ms_min": 0.06774999999834108,
-        "frame_duration_ms_max": 10.114084000000048,
-        "frame_duration_ms_avg": 0.4603601499710828,
-        "frame_duration_ms_p50": 0.31885399999737274,
-        "frame_duration_ms_p95": 1.0235910999967004,
-        "frame_duration_ms_p99": 1.3889390699967041,
-        "hook_duration_ms_count": 63,
-        "hook_duration_ms_min": 26,
-        "hook_duration_ms_max": 52,
-        "hook_duration_ms_avg": 37.523809523809526,
-        "hook_duration_ms_p50": 36,
-        "hook_duration_ms_p95": 49.9,
-        "hook_duration_ms_p99": 50.760000000000005,
-        "pre_tool_hook_duration_ms_count": 33,
-        "pre_tool_hook_duration_ms_min": 30,
-        "pre_tool_hook_duration_ms_max": 52,
-        "pre_tool_hook_duration_ms_avg": 41.75757575757576,
-        "pre_tool_hook_duration_ms_p50": 43,
-        "pre_tool_hook_duration_ms_p95": 50.4,
-        "pre_tool_hook_duration_ms_p99": 51.68
+        "frame_duration_ms_count": 49,
+        "frame_duration_ms_min": 0.04712500000005093,
+        "frame_duration_ms_max": 13.438290999999936,
+        "frame_duration_ms_avg": 0.6548783265320818,
+        "frame_duration_ms_p50": 0.17154100000334438,
+        "frame_duration_ms_p95": 1.8260999999991288,
+        "frame_duration_ms_p99": 8.320211320000029,
+        "hook_duration_ms_count": 1,
+        "hook_duration_ms_min": 147,
+        "hook_duration_ms_max": 147,
+        "hook_duration_ms_avg": 147,
+        "hook_duration_ms_p50": 147,
+        "hook_duration_ms_p95": 147,
+        "hook_duration_ms_p99": 147
       },
       "hasCompletedProjectOnboarding": true
     },
@@ -5356,8 +5332,8 @@
       "lastUsedAt": 1775471013729
     },
     "release": {
-      "usageCount": 138,
-      "lastUsedAt": 1775486569949
+      "usageCount": 140,
+      "lastUsedAt": 1775492221809
     },
     "gsd:help": {
       "usageCount": 1,
@@ -5380,8 +5356,8 @@
       "lastUsedAt": 1771914747958
     },
     "waw": {
-      "usageCount": 99,
-      "lastUsedAt": 1775469147418
+      "usageCount": 100,
+      "lastUsedAt": 1775492030628
     },
     "audit": {
       "usageCount": 26,
@@ -5715,7 +5691,7 @@
         "amount_minor_units": 31000,
         "currency": "AUD"
       },
-      "timestamp": 1775484249527
+      "timestamp": 1775490802373
     }
   },
   "migrationVersion": 11
