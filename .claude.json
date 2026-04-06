@@ -1,5 +1,5 @@
 {
-  "numStartups": 826,
+  "numStartups": 829,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -8,42 +8,42 @@
   "hasUsedBackgroundTask": true,
   "tipsHistory": {
     "new-user-warmup": 5,
-    "plan-mode-for-complex-tasks": 823,
-    "terminal-setup": 817,
+    "plan-mode-for-complex-tasks": 829,
+    "terminal-setup": 827,
     "memory-command": 817,
-    "theme-command": 807,
+    "theme-command": 827,
     "status-line": 810,
     "prompt-queue": 17,
     "enter-to-steer-in-relatime": 817,
     "todo-list": 817,
     "ide-upsell-external-terminal": 600,
-    "install-github-app": 817,
-    "install-slack-app": 817,
-    "drag-and-drop-images": 817,
-    "paste-images-mac": 817,
-    "double-esc-code-restore": 817,
-    "continue": 818,
-    "shift-tab": 818,
+    "install-github-app": 827,
+    "install-slack-app": 827,
+    "drag-and-drop-images": 827,
+    "paste-images-mac": 827,
+    "double-esc-code-restore": 827,
+    "continue": 829,
+    "shift-tab": 829,
     "image-paste": 817,
     "desktop-app": 818,
     "web-app": 818,
     "mobile-app": 818,
     "custom-agents": 817,
-    "permissions": 817,
+    "permissions": 827,
     "rename-conversation": 817,
     "custom-commands": 817,
     "agent-flag": 818,
-    "guest-passes": 824,
+    "guest-passes": 827,
     "shift-enter-setup": 95,
-    "default-permission-mode-config": 817,
+    "default-permission-mode-config": 827,
     "overage-promo": 130,
-    "git-worktrees": 817,
+    "git-worktrees": 827,
     "frontend-design-plugin": 826,
     "feedback-command": 818,
-    "color-when-multi-clauding": 817,
+    "color-when-multi-clauding": 827,
     "desktop-shortcut": 817
   },
-  "promptQueueUseCount": 2958,
+  "promptQueueUseCount": 2959,
   "btwUseCount": 6,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -3050,61 +3050,37 @@
       "projectOnboardingSeenCount": 10,
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
-      "lastCost": 1.9613953500000003,
-      "lastAPIDuration": 452226,
-      "lastAPIDurationWithoutRetries": 451842,
-      "lastToolDuration": 132260,
-      "lastDuration": 2998172,
-      "lastLinesAdded": 165,
-      "lastLinesRemoved": 137,
-      "lastTotalInputTokens": 2120,
-      "lastTotalOutputTokens": 20656,
-      "lastTotalCacheCreationInputTokens": 129985,
-      "lastTotalCacheReadInputTokens": 2392155,
+      "lastCost": 0,
+      "lastAPIDuration": 0,
+      "lastAPIDurationWithoutRetries": 0,
+      "lastToolDuration": 0,
+      "lastDuration": 9534,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 0,
+      "lastTotalOutputTokens": 0,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
       "lastTotalWebSearchRequests": 0,
-      "lastFpsAverage": 3.39,
-      "lastFpsLow1Pct": 327.43,
-      "lastModelUsage": {
-        "claude-haiku-4-5-20251001": {
-          "inputTokens": 471,
-          "outputTokens": 4722,
-          "cacheReadInputTokens": 426661,
-          "cacheCreationInputTokens": 61420,
-          "webSearchRequests": 0,
-          "costUSD": 0.14352209999999999
-        },
-        "claude-opus-4-6[1m]": {
-          "inputTokens": 1649,
-          "outputTokens": 15934,
-          "cacheReadInputTokens": 1965494,
-          "cacheCreationInputTokens": 68565,
-          "webSearchRequests": 0,
-          "costUSD": 1.81787325
-        }
-      },
-      "lastSessionId": "c507971f-bedd-48d2-b83e-42e556950d77",
+      "lastFpsAverage": 6.17,
+      "lastFpsLow1Pct": 412.8,
+      "lastModelUsage": {},
+      "lastSessionId": "bc724c83-d700-491c-8a93-f395564f28f5",
       "lastSessionMetrics": {
-        "frame_duration_ms_count": 10149,
-        "frame_duration_ms_min": 0.04316599999992832,
-        "frame_duration_ms_max": 116.45320799993351,
-        "frame_duration_ms_avg": 0.5549058235275169,
-        "frame_duration_ms_p50": 0.38712449988815933,
-        "frame_duration_ms_p95": 0.6827295000664887,
-        "frame_duration_ms_p99": 3.0173872501240107,
-        "hook_duration_ms_count": 173,
-        "hook_duration_ms_min": 29,
-        "hook_duration_ms_max": 433,
-        "hook_duration_ms_avg": 44.03468208092485,
-        "hook_duration_ms_p50": 38,
-        "hook_duration_ms_p95": 76.60000000000002,
-        "hook_duration_ms_p99": 170.52000000000004,
-        "pre_tool_hook_duration_ms_count": 80,
-        "pre_tool_hook_duration_ms_min": 32,
-        "pre_tool_hook_duration_ms_max": 101,
-        "pre_tool_hook_duration_ms_avg": 40.775,
-        "pre_tool_hook_duration_ms_p50": 39,
-        "pre_tool_hook_duration_ms_p95": 58.449999999999974,
-        "pre_tool_hook_duration_ms_p99": 89.1499999999999
+        "frame_duration_ms_count": 53,
+        "frame_duration_ms_min": 0.0498330000000351,
+        "frame_duration_ms_max": 2.422458000000006,
+        "frame_duration_ms_avg": 0.1938710566037722,
+        "frame_duration_ms_p50": 0.07387500000004366,
+        "frame_duration_ms_p95": 0.45425799999989064,
+        "frame_duration_ms_p99": 1.4298429999999585,
+        "hook_duration_ms_count": 1,
+        "hook_duration_ms_min": 153,
+        "hook_duration_ms_max": 153,
+        "hook_duration_ms_avg": 153,
+        "hook_duration_ms_p50": 153,
+        "hook_duration_ms_p95": 153,
+        "hook_duration_ms_p99": 153
       },
       "hasCompletedProjectOnboarding": true
     },
@@ -5050,6 +5026,12 @@
     ],
     "marcelocantos/sawmill": [
       "/Users/marcelo/work/github.com/marcelocantos/sawmill"
+    ],
+    "marcelocantos/threedee": [
+      "/Users/marcelo/work/github.com/marcelocantos/threedee"
+    ],
+    "marcelocantos/solarmon": [
+      "/Users/marcelo/work/github.com/marcelocantos/solarmon"
     ]
   },
   "lastReleaseNotesSeen": "2.1.92",
@@ -5091,8 +5073,8 @@
       "lastUsedAt": 1774168380431
     },
     "republish-skills": {
-      "usageCount": 68,
-      "lastUsedAt": 1775465609278
+      "usageCount": 69,
+      "lastUsedAt": 1775471013729
     },
     "release": {
       "usageCount": 130,
@@ -5207,8 +5189,8 @@
       "lastUsedAt": 1772940174060
     },
     "commit": {
-      "usageCount": 42,
-      "lastUsedAt": 1775469382601
+      "usageCount": 43,
+      "lastUsedAt": 1775471198958
     },
     "keybindings-help": {
       "usageCount": 2,
@@ -5446,7 +5428,7 @@
         "amount_minor_units": 31000,
         "currency": "AUD"
       },
-      "timestamp": 1775466861212
+      "timestamp": 1775471183682
     }
   },
   "migrationVersion": 11
