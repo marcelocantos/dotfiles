@@ -38,12 +38,12 @@
     "default-permission-mode-config": 817,
     "overage-promo": 130,
     "git-worktrees": 817,
-    "frontend-design-plugin": 823,
+    "frontend-design-plugin": 826,
     "feedback-command": 818,
     "color-when-multi-clauding": 817,
     "desktop-shortcut": 817
   },
-  "promptQueueUseCount": 2955,
+  "promptQueueUseCount": 2958,
   "btwUseCount": 6,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -5095,8 +5095,8 @@
       "lastUsedAt": 1775465609278
     },
     "release": {
-      "usageCount": 129,
-      "lastUsedAt": 1775456099682
+      "usageCount": 130,
+      "lastUsedAt": 1775470656355
     },
     "gsd:help": {
       "usageCount": 1,
@@ -5119,8 +5119,8 @@
       "lastUsedAt": 1771914747958
     },
     "waw": {
-      "usageCount": 98,
-      "lastUsedAt": 1775452096586
+      "usageCount": 99,
+      "lastUsedAt": 1775469147418
     },
     "audit": {
       "usageCount": 26,
@@ -5207,8 +5207,8 @@
       "lastUsedAt": 1772940174060
     },
     "commit": {
-      "usageCount": 41,
-      "lastUsedAt": 1775455819996
+      "usageCount": 42,
+      "lastUsedAt": 1775469382601
     },
     "keybindings-help": {
       "usageCount": 2,
