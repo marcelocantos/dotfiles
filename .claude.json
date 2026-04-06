@@ -38,12 +38,12 @@
     "default-permission-mode-config": 847,
     "overage-promo": 130,
     "git-worktrees": 847,
-    "frontend-design-plugin": 840,
+    "frontend-design-plugin": 850,
     "feedback-command": 849,
     "color-when-multi-clauding": 847,
     "desktop-shortcut": 847
   },
-  "promptQueueUseCount": 2980,
+  "promptQueueUseCount": 2982,
   "btwUseCount": 6,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
