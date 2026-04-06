@@ -37,12 +37,9 @@ Then proceed with the suggested action.
 ### Parallel execution
 
 When there are **2+ unblocked targets** at the top of the ranking
-that don't depend on each other:
-
-1. **Check context budget** — if compression has occurred or the
-   conversation is long, pick the top one and execute solo.
-2. **Fan out** via multiple Agent calls — one per target, using
-   the model guidance from the Teams directive in CLAUDE.md.
+that don't depend on each other, **fan out** via multiple Agent calls
+— one per target, using the model guidance from the Teams directive
+in CLAUDE.md.
 
 ### When blocked
 
