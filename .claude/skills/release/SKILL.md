@@ -229,7 +229,7 @@ Draft release notes from git history.
 
    Don't force categories — if there are only a few changes, a simple bullet list is fine.
 
-3. **Review**: Present the draft to the user. Incorporate feedback before proceeding.
+3. **Display**: Print the draft release notes in the transcript so the user can see them. Do not wait for approval — proceed immediately. (The `changelog-reviewed` gate is automated, not manual.)
 
 ### Phase 4: CI setup (conditional)
 

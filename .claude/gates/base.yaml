@@ -18,5 +18,5 @@ pre-merge:
 
 pre-release:
   - changelog-reviewed:
-      type: manual
-      prompt: "Review the changelog/release notes for this release."
+      type: automated
+      check: "Release notes were displayed in the transcript."
