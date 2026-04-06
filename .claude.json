@@ -1,5 +1,5 @@
 {
-  "numStartups": 824,
+  "numStartups": 825,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -43,7 +43,7 @@
     "color-when-multi-clauding": 817,
     "desktop-shortcut": 817
   },
-  "promptQueueUseCount": 2937,
+  "promptQueueUseCount": 2940,
   "btwUseCount": 6,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -5067,8 +5067,8 @@
       "lastUsedAt": 1774168380431
     },
     "republish-skills": {
-      "usageCount": 66,
-      "lastUsedAt": 1775436017970
+      "usageCount": 67,
+      "lastUsedAt": 1775459630645
     },
     "release": {
       "usageCount": 129,

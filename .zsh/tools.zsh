@@ -68,13 +68,7 @@ add-zsh-hook precmd _iterm2_badge_pwd
 # jenv
 eval "$(jenv init -)"
 
-# pyenv (lazy-loaded)
-function pyenv() {
-  unset -f pyenv
-  eval "$(command pyenv init -)"
-  eval "$(command pyenv virtualenv-init -)"
-  pyenv "$@"
-}
+# pyenv removed — using uv for Python version management
 
 # nvm (lazy-loaded)
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
