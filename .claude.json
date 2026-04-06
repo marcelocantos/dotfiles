@@ -8,7 +8,7 @@
   "hasUsedBackgroundTask": true,
   "tipsHistory": {
     "new-user-warmup": 5,
-    "plan-mode-for-complex-tasks": 845,
+    "plan-mode-for-complex-tasks": 850,
     "terminal-setup": 847,
     "memory-command": 847,
     "theme-command": 847,
@@ -16,14 +16,14 @@
     "prompt-queue": 17,
     "enter-to-steer-in-relatime": 837,
     "todo-list": 837,
-    "ide-upsell-external-terminal": 845,
+    "ide-upsell-external-terminal": 850,
     "install-github-app": 848,
     "install-slack-app": 848,
     "drag-and-drop-images": 848,
     "paste-images-mac": 850,
     "double-esc-code-restore": 850,
-    "continue": 839,
-    "shift-tab": 839,
+    "continue": 850,
+    "shift-tab": 850,
     "image-paste": 837,
     "desktop-app": 848,
     "web-app": 848,
@@ -43,7 +43,7 @@
     "color-when-multi-clauding": 847,
     "desktop-shortcut": 847
   },
-  "promptQueueUseCount": 2979,
+  "promptQueueUseCount": 2980,
   "btwUseCount": 6,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -5428,8 +5428,8 @@
       "lastUsedAt": 1772625771549
     },
     "cv": {
-      "usageCount": 256,
-      "lastUsedAt": 1775493465920
+      "usageCount": 257,
+      "lastUsedAt": 1775495518114
     },
     "target": {
       "usageCount": 36,
