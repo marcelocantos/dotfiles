@@ -1,5 +1,5 @@
 {
-  "numStartups": 831,
+  "numStartups": 833,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -10,13 +10,13 @@
     "new-user-warmup": 5,
     "plan-mode-for-complex-tasks": 829,
     "terminal-setup": 827,
-    "memory-command": 817,
+    "memory-command": 832,
     "theme-command": 827,
     "status-line": 810,
     "prompt-queue": 17,
     "enter-to-steer-in-relatime": 817,
     "todo-list": 817,
-    "ide-upsell-external-terminal": 600,
+    "ide-upsell-external-terminal": 832,
     "install-github-app": 827,
     "install-slack-app": 827,
     "drag-and-drop-images": 827,
@@ -25,14 +25,14 @@
     "continue": 829,
     "shift-tab": 829,
     "image-paste": 817,
-    "desktop-app": 818,
-    "web-app": 818,
+    "desktop-app": 833,
+    "web-app": 833,
     "mobile-app": 818,
-    "custom-agents": 817,
+    "custom-agents": 832,
     "permissions": 827,
-    "rename-conversation": 817,
-    "custom-commands": 817,
-    "agent-flag": 818,
+    "rename-conversation": 832,
+    "custom-commands": 832,
+    "agent-flag": 833,
     "guest-passes": 830,
     "shift-enter-setup": 95,
     "default-permission-mode-config": 827,
@@ -41,9 +41,9 @@
     "frontend-design-plugin": 826,
     "feedback-command": 818,
     "color-when-multi-clauding": 827,
-    "desktop-shortcut": 817
+    "desktop-shortcut": 832
   },
-  "promptQueueUseCount": 2961,
+  "promptQueueUseCount": 2965,
   "btwUseCount": 6,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -3079,7 +3079,7 @@
       "lastAPIDuration": 0,
       "lastAPIDurationWithoutRetries": 0,
       "lastToolDuration": 0,
-      "lastDuration": 9534,
+      "lastDuration": 2928,
       "lastLinesAdded": 0,
       "lastLinesRemoved": 0,
       "lastTotalInputTokens": 0,
@@ -3087,25 +3087,25 @@
       "lastTotalCacheCreationInputTokens": 0,
       "lastTotalCacheReadInputTokens": 0,
       "lastTotalWebSearchRequests": 0,
-      "lastFpsAverage": 6.17,
-      "lastFpsLow1Pct": 412.8,
+      "lastFpsAverage": 7.56,
+      "lastFpsLow1Pct": 416.97,
       "lastModelUsage": {},
-      "lastSessionId": "bc724c83-d700-491c-8a93-f395564f28f5",
+      "lastSessionId": "a6111b61-6b8a-4e2b-80f1-519c3e620787",
       "lastSessionMetrics": {
-        "frame_duration_ms_count": 53,
-        "frame_duration_ms_min": 0.0498330000000351,
-        "frame_duration_ms_max": 2.422458000000006,
-        "frame_duration_ms_avg": 0.1938710566037722,
-        "frame_duration_ms_p50": 0.07387500000004366,
-        "frame_duration_ms_p95": 0.45425799999989064,
-        "frame_duration_ms_p99": 1.4298429999999585,
+        "frame_duration_ms_count": 16,
+        "frame_duration_ms_min": 0.05512500000008913,
+        "frame_duration_ms_max": 2.398249999999962,
+        "frame_duration_ms_avg": 0.3018934374999631,
+        "frame_duration_ms_p50": 0.07143799999994371,
+        "frame_duration_ms_p95": 1.026375499999972,
+        "frame_duration_ms_p99": 2.123875099999963,
         "hook_duration_ms_count": 1,
-        "hook_duration_ms_min": 153,
-        "hook_duration_ms_max": 153,
-        "hook_duration_ms_avg": 153,
-        "hook_duration_ms_p50": 153,
-        "hook_duration_ms_p95": 153,
-        "hook_duration_ms_p99": 153
+        "hook_duration_ms_min": 360,
+        "hook_duration_ms_max": 360,
+        "hook_duration_ms_avg": 360,
+        "hook_duration_ms_p50": 360,
+        "hook_duration_ms_p95": 360,
+        "hook_duration_ms_p99": 360
       },
       "hasCompletedProjectOnboarding": true
     },
@@ -5264,8 +5264,8 @@
       "lastUsedAt": 1775471013729
     },
     "release": {
-      "usageCount": 131,
-      "lastUsedAt": 1775473403828
+      "usageCount": 133,
+      "lastUsedAt": 1775476133271
     },
     "gsd:help": {
       "usageCount": 1,
@@ -5402,7 +5402,7 @@
   "groveConfigCache": {
     "2909ba71-e527-4e91-9b22-2591e548b2d0": {
       "grove_enabled": true,
-      "timestamp": 1775388124273
+      "timestamp": 1775474772848
     }
   },
   "passesEligibilityCache": {
@@ -5418,7 +5418,7 @@
         "currency": "AUD"
       },
       "remaining_passes": 3,
-      "timestamp": 1775388124986
+      "timestamp": 1775474773983
     }
   },
   "passesUpsellSeenCount": 4,
@@ -5615,7 +5615,7 @@
         "amount_minor_units": 31000,
         "currency": "AUD"
       },
-      "timestamp": 1775471183682
+      "timestamp": 1775476195946
     }
   },
   "migrationVersion": 11
