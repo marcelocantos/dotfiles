@@ -1,5 +1,5 @@
 {
-  "numStartups": 859,
+  "numStartups": 860,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -8,11 +8,11 @@
   "hasUsedBackgroundTask": true,
   "tipsHistory": {
     "new-user-warmup": 5,
-    "plan-mode-for-complex-tasks": 855,
+    "plan-mode-for-complex-tasks": 860,
     "terminal-setup": 857,
     "memory-command": 847,
     "theme-command": 847,
-    "status-line": 835,
+    "status-line": 860,
     "prompt-queue": 17,
     "enter-to-steer-in-relatime": 857,
     "todo-list": 857,
@@ -20,10 +20,10 @@
     "install-github-app": 859,
     "install-slack-app": 859,
     "drag-and-drop-images": 859,
-    "paste-images-mac": 850,
-    "double-esc-code-restore": 850,
-    "continue": 850,
-    "shift-tab": 850,
+    "paste-images-mac": 860,
+    "double-esc-code-restore": 860,
+    "continue": 860,
+    "shift-tab": 860,
     "image-paste": 857,
     "desktop-app": 848,
     "web-app": 848,
@@ -43,7 +43,7 @@
     "color-when-multi-clauding": 857,
     "desktop-shortcut": 847
   },
-  "promptQueueUseCount": 2988,
+  "promptQueueUseCount": 2989,
   "btwUseCount": 6,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -5420,16 +5420,16 @@
       "lastUsedAt": 1775513290484
     },
     "docs": {
-      "usageCount": 10,
-      "lastUsedAt": 1774168380431
+      "usageCount": 11,
+      "lastUsedAt": 1775518057687
     },
     "republish-skills": {
       "usageCount": 69,
       "lastUsedAt": 1775471013729
     },
     "release": {
-      "usageCount": 140,
-      "lastUsedAt": 1775492221809
+      "usageCount": 141,
+      "lastUsedAt": 1775517267443
     },
     "gsd:help": {
       "usageCount": 1,
@@ -5488,8 +5488,8 @@
       "lastUsedAt": 1772167215856
     },
     "push": {
-      "usageCount": 123,
-      "lastUsedAt": 1775479801099
+      "usageCount": 124,
+      "lastUsedAt": 1775517389379
     },
     "stash": {
       "usageCount": 67,
@@ -5787,7 +5787,7 @@
         "amount_minor_units": 31000,
         "currency": "AUD"
       },
-      "timestamp": 1775511338764
+      "timestamp": 1775517570568
     }
   },
   "migrationVersion": 11
