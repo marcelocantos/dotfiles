@@ -53,3 +53,5 @@
 	autoSetupMerge = always
 [gc]
 	autoDetach = false
+[url "git@github.com:"]
+	insteadOf = https://github.com/
