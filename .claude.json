@@ -1,5 +1,5 @@
 {
-  "numStartups": 821,
+  "numStartups": 822,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -43,8 +43,9 @@
     "color-when-multi-clauding": 817,
     "desktop-shortcut": 817
   },
-  "promptQueueUseCount": 2928,
+  "promptQueueUseCount": 2930,
   "btwUseCount": 6,
+  "showExpandedTodos": true,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
   },
@@ -3050,61 +3051,37 @@
       "projectOnboardingSeenCount": 10,
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
-      "lastCost": 0.24979275,
-      "lastAPIDuration": 47999,
-      "lastAPIDurationWithoutRetries": 47955,
-      "lastToolDuration": 8864,
-      "lastDuration": 189000,
+      "lastCost": 0,
+      "lastAPIDuration": 0,
+      "lastAPIDurationWithoutRetries": 0,
+      "lastToolDuration": 0,
+      "lastDuration": 120804,
       "lastLinesAdded": 0,
       "lastLinesRemoved": 0,
-      "lastTotalInputTokens": 376,
-      "lastTotalOutputTokens": 1634,
-      "lastTotalCacheCreationInputTokens": 22291,
-      "lastTotalCacheReadInputTokens": 138920,
+      "lastTotalInputTokens": 0,
+      "lastTotalOutputTokens": 0,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
       "lastTotalWebSearchRequests": 0,
-      "lastFpsAverage": 6.6,
-      "lastFpsLow1Pct": 562.67,
-      "lastModelUsage": {
-        "claude-haiku-4-5-20251001": {
-          "inputTokens": 369,
-          "outputTokens": 12,
-          "cacheReadInputTokens": 0,
-          "cacheCreationInputTokens": 0,
-          "webSearchRequests": 0,
-          "costUSD": 0.000429
-        },
-        "claude-opus-4-6[1m]": {
-          "inputTokens": 7,
-          "outputTokens": 1622,
-          "cacheReadInputTokens": 138920,
-          "cacheCreationInputTokens": 22291,
-          "webSearchRequests": 0,
-          "costUSD": 0.24936375000000002
-        }
-      },
-      "lastSessionId": "a7a4e375-2f67-426b-a25f-88cbdecf67ed",
+      "lastFpsAverage": 0.61,
+      "lastFpsLow1Pct": 350.32,
+      "lastModelUsage": {},
+      "lastSessionId": "8c43bc9e-cbf4-4335-b9c8-f5f16f342b8a",
       "lastSessionMetrics": {
-        "frame_duration_ms_count": 1242,
-        "frame_duration_ms_min": 0.019292000004497822,
-        "frame_duration_ms_max": 7.118249999999989,
-        "frame_duration_ms_avg": 0.33141979307564823,
-        "frame_duration_ms_p50": 0.2546460000012303,
-        "frame_duration_ms_p95": 0.8516356500018446,
-        "frame_duration_ms_p99": 1.6256690899970991,
-        "hook_duration_ms_count": 15,
-        "hook_duration_ms_min": 33,
-        "hook_duration_ms_max": 88,
-        "hook_duration_ms_avg": 40.13333333333333,
-        "hook_duration_ms_p50": 36,
-        "hook_duration_ms_p95": 56.49999999999995,
-        "hook_duration_ms_p99": 81.69999999999997,
-        "pre_tool_hook_duration_ms_count": 6,
-        "pre_tool_hook_duration_ms_min": 34,
-        "pre_tool_hook_duration_ms_max": 43,
-        "pre_tool_hook_duration_ms_avg": 38.166666666666664,
-        "pre_tool_hook_duration_ms_p50": 38.5,
-        "pre_tool_hook_duration_ms_p95": 42,
-        "pre_tool_hook_duration_ms_p99": 42.8
+        "frame_duration_ms_count": 73,
+        "frame_duration_ms_min": 0.05287500000008549,
+        "frame_duration_ms_max": 2.85450000000003,
+        "frame_duration_ms_avg": 0.2513173698631368,
+        "frame_duration_ms_p50": 0.19308399999863468,
+        "frame_duration_ms_p95": 0.5635000000037279,
+        "frame_duration_ms_p99": 1.2994799999964903,
+        "hook_duration_ms_count": 1,
+        "hook_duration_ms_min": 128,
+        "hook_duration_ms_max": 128,
+        "hook_duration_ms_avg": 128,
+        "hook_duration_ms_p50": 128,
+        "hook_duration_ms_p95": 128,
+        "hook_duration_ms_p99": 128
       },
       "hasCompletedProjectOnboarding": true
     },
@@ -5095,8 +5072,8 @@
       "lastUsedAt": 1775436017970
     },
     "release": {
-      "usageCount": 125,
-      "lastUsedAt": 1775451907681
+      "usageCount": 126,
+      "lastUsedAt": 1775454265091
     },
     "gsd:help": {
       "usageCount": 1,
