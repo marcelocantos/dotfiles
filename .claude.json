@@ -43,7 +43,7 @@
     "color-when-multi-clauding": 837,
     "desktop-shortcut": 832
   },
-  "promptQueueUseCount": 2969,
+  "promptQueueUseCount": 2970,
   "btwUseCount": 6,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -5318,8 +5318,8 @@
       "lastUsedAt": 1775471013729
     },
     "release": {
-      "usageCount": 135,
-      "lastUsedAt": 1775478173368
+      "usageCount": 136,
+      "lastUsedAt": 1775483295841
     },
     "gsd:help": {
       "usageCount": 1,
