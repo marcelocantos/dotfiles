@@ -1,5 +1,5 @@
 {
-  "numStartups": 825,
+  "numStartups": 826,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -43,9 +43,8 @@
     "color-when-multi-clauding": 817,
     "desktop-shortcut": 817
   },
-  "promptQueueUseCount": 2949,
+  "promptQueueUseCount": 2950,
   "btwUseCount": 6,
-  "showExpandedTodos": true,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
   },
@@ -5092,8 +5091,8 @@
       "lastUsedAt": 1774168380431
     },
     "republish-skills": {
-      "usageCount": 67,
-      "lastUsedAt": 1775459630645
+      "usageCount": 68,
+      "lastUsedAt": 1775465609278
     },
     "release": {
       "usageCount": 129,
@@ -5184,8 +5183,8 @@
       "lastUsedAt": 1772625771549
     },
     "cv": {
-      "usageCount": 252,
-      "lastUsedAt": 1775464529072
+      "usageCount": 253,
+      "lastUsedAt": 1775466085753
     },
     "target": {
       "usageCount": 36,
@@ -5424,6 +5423,10 @@
         "@mobilenext/mobile-mcp@latest"
       ],
       "env": {}
+    },
+    "mnemo": {
+      "type": "http",
+      "url": "http://localhost:19419/mcp"
     }
   },
   "opus1mMergeNoticeSeenCount": 6,
@@ -5443,7 +5446,7 @@
         "amount_minor_units": 31000,
         "currency": "AUD"
       },
-      "timestamp": 1775456098434
+      "timestamp": 1775466861212
     }
   },
   "migrationVersion": 11
