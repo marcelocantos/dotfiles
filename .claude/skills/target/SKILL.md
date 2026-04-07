@@ -27,6 +27,26 @@ dual-write is best-effort, not a hard requirement.
 The `cwd` parameter for all bullseye calls should be the project's
 working directory (derive from the targets file path).
 
+### Bootstrap (first run in a repo)
+
+After gathering, if bullseye is available and `docs/targets.md` exists
+but `bullseye_list(cwd)` returns an error (no targets.yaml), bulk-import
+all existing markdown targets into bullseye:
+
+1. Parse every target from `## Active` and `## Achieved` in the
+   markdown file.
+2. For each target, call `bullseye_add` with all available fields
+   (name, value, cost, acceptance, context, parent, kind, tags).
+3. For achieved targets, immediately call `bullseye_retire` with the
+   target ID and actual_cost (if recorded).
+4. For targets with status `converging`, call `bullseye_update` to set
+   the status.
+5. Report: "Bootstrapped N targets into bullseye from targets.md."
+
+This is a one-time operation — subsequent runs will find targets.yaml
+and skip this step. The bootstrap preserves all target data including
+IDs, so the two systems stay in sync from the start.
+
 ## Step 1 — Gather
 
 Execute `~/.claude/skills/target/gather.sh` directly (it is already

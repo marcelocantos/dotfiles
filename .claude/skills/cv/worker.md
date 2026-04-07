@@ -429,6 +429,23 @@ action crosses a delivery boundary:
 **Skip this step** if the bullseye MCP server is not available (no
 `bullseye_rank` in the tool list).
 
+### Bootstrap (first run in a repo)
+
+Before evaluating, check if bullseye has data for this repo: call
+`bullseye_list(cwd)`. If it errors (no targets.yaml), bulk-import
+from the markdown targets parsed in Step 2:
+
+1. For each active target, call `bullseye_add` with all fields (name,
+   value, cost, acceptance, context, parent, kind, verifies, tags).
+2. For achieved targets, call `bullseye_add` then `bullseye_retire`.
+3. For converging targets, call `bullseye_update(cwd, id, status: "converging")`.
+4. Report: "Bootstrapped N targets into bullseye from targets.md."
+
+This is a one-time operation — skip on subsequent runs when
+targets.yaml already exists.
+
+### Evaluate
+
 When bullseye is available:
 
 1. Call `bullseye_rank(cwd)` to get bullseye's WSJF ranking.
