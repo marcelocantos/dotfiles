@@ -395,7 +395,7 @@ The entry should include the version released, platforms, and any issues noted. 
 - If the working tree is dirty, ask the user to commit or stash before proceeding.
 - If CI workflow fails after tagging, help diagnose — do not delete the tag without asking.
 - Never force-push or rewrite history.
-- Never proceed past a phase without user confirmation.
+- Never proceed past a phase without user confirmation, except where a gate is automated (e.g., release notes display).
 
 ## Skill improvement
 

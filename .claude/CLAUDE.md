@@ -203,6 +203,20 @@ deep links, sample data, and visual verification cadence.
 
 - Projects track TODOs in `docs/TODO.md` (all-caps `TODO`). When you discover a new TODO item during work (a bug to fix later, a feature idea, a cleanup opportunity), check the repo-local `CLAUDE.md` for the TODO file location and append the item there. If the repo has no TODO file or `CLAUDE.md` doesn't mention one, create `docs/TODO.md`.
 
+## Session context via mnemo
+
+The `mnemo` MCP server indexes all Claude Code session transcripts.
+When you need context about recent work — what repos have been
+active, what was discussed, what decisions were made — use
+`mnemo_status` or `mnemo_search` rather than guessing or asking the
+user. Good moments to reach for mnemo:
+- The user references prior work ("that thing we discussed", "the
+  approach from last session", "continue where I left off")
+- You need to understand the broader context of a project before
+  making architectural decisions
+- `/waw` or `/cv` needs recent activity data
+- The user asks what's been happening across repos
+
 ## Convergence targets
 
 - Targets are numbered 🎯T1, 🎯T2, … (sub-targets: 🎯T1.1, 🎯T1.2, …).
