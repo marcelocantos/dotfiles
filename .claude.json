@@ -1,5 +1,5 @@
 {
-  "numStartups": 880,
+  "numStartups": 882,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -16,7 +16,7 @@
     "prompt-queue": 17,
     "enter-to-steer-in-relatime": 877,
     "todo-list": 877,
-    "ide-upsell-external-terminal": 875,
+    "ide-upsell-external-terminal": 880,
     "install-github-app": 879,
     "install-slack-app": 880,
     "drag-and-drop-images": 880,
@@ -33,7 +33,7 @@
     "rename-conversation": 877,
     "custom-commands": 877,
     "agent-flag": 878,
-    "guest-passes": 877,
+    "guest-passes": 880,
     "shift-enter-setup": 95,
     "default-permission-mode-config": 877,
     "overage-promo": 130,
@@ -43,7 +43,7 @@
     "color-when-multi-clauding": 877,
     "desktop-shortcut": 878
   },
-  "promptQueueUseCount": 3036,
+  "promptQueueUseCount": 3038,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -3082,7 +3082,7 @@
       "lastAPIDuration": 0,
       "lastAPIDurationWithoutRetries": 0,
       "lastToolDuration": 0,
-      "lastDuration": 2926,
+      "lastDuration": 3429,
       "lastLinesAdded": 0,
       "lastLinesRemoved": 0,
       "lastTotalInputTokens": 0,
@@ -3090,25 +3090,25 @@
       "lastTotalCacheCreationInputTokens": 0,
       "lastTotalCacheReadInputTokens": 0,
       "lastTotalWebSearchRequests": 0,
-      "lastFpsAverage": 10.08,
-      "lastFpsLow1Pct": 379.54,
+      "lastFpsAverage": 10.05,
+      "lastFpsLow1Pct": 392.69,
       "lastModelUsage": {},
-      "lastSessionId": "fd0f42ef-5ce7-4e2d-bcbe-04880143dd09",
+      "lastSessionId": "dd11286a-778d-44d2-9739-dd9ee8bd3d3d",
       "lastSessionMetrics": {
-        "frame_duration_ms_count": 21,
-        "frame_duration_ms_min": 0.04812499999979991,
-        "frame_duration_ms_max": 2.63474999999994,
-        "frame_duration_ms_avg": 0.2741052380952413,
-        "frame_duration_ms_p50": 0.08404200000006767,
-        "frame_duration_ms_p95": 0.5569170000001122,
-        "frame_duration_ms_p99": 2.219183399999976,
+        "frame_duration_ms_count": 26,
+        "frame_duration_ms_min": 0.051541000000042914,
+        "frame_duration_ms_max": 2.5465410000000475,
+        "frame_duration_ms_avg": 0.25378515384617867,
+        "frame_duration_ms_p50": 0.08754150000004302,
+        "frame_duration_ms_p95": 0.4895829999999819,
+        "frame_duration_ms_p99": 2.0323015000000453,
         "hook_duration_ms_count": 1,
-        "hook_duration_ms_min": 76,
-        "hook_duration_ms_max": 76,
-        "hook_duration_ms_avg": 76,
-        "hook_duration_ms_p50": 76,
-        "hook_duration_ms_p95": 76,
-        "hook_duration_ms_p99": 76
+        "hook_duration_ms_min": 174,
+        "hook_duration_ms_max": 174,
+        "hook_duration_ms_avg": 174,
+        "hook_duration_ms_p50": 174,
+        "hook_duration_ms_p95": 174,
+        "hook_duration_ms_p99": 174
       },
       "hasCompletedProjectOnboarding": true
     },
@@ -5456,7 +5456,7 @@
   "opus45MigrationComplete": true,
   "opusProMigrationComplete": true,
   "thinkingMigrationComplete": true,
-  "changelogLastFetched": 1775263835269,
+  "changelogLastFetched": 1775598339518,
   "cachedChromeExtensionInstalled": true,
   "hasCompletedOnboarding": true,
   "lastOnboardingVersion": "2.1.14",
@@ -5632,7 +5632,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/pairdroid"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.92",
+  "lastReleaseNotesSeen": "2.1.94",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -6021,9 +6021,14 @@
       "command": "bullseye",
       "args": [],
       "env": {}
+    },
+    "sysinfo": {
+      "type": "stdio",
+      "command": "/Users/marcelo/work/github.com/marcelocantos/sysinfo-mcp/sysinfo-mcp",
+      "args": [],
+      "env": {}
     }
   },
-  "opus1mMergeNoticeSeenCount": 6,
   "claudeAiMcpEverConnected": [
     "claude.ai Gmail",
     "claude.ai Slack"
