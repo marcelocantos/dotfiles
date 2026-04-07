@@ -1,5 +1,5 @@
 {
-  "numStartups": 868,
+  "numStartups": 869,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -17,9 +17,9 @@
     "enter-to-steer-in-relatime": 857,
     "todo-list": 857,
     "ide-upsell-external-terminal": 867,
-    "install-github-app": 859,
-    "install-slack-app": 859,
-    "drag-and-drop-images": 859,
+    "install-github-app": 869,
+    "install-slack-app": 869,
+    "drag-and-drop-images": 869,
     "paste-images-mac": 860,
     "double-esc-code-restore": 860,
     "continue": 860,
@@ -29,7 +29,7 @@
     "web-app": 863,
     "mobile-app": 863,
     "custom-agents": 863,
-    "permissions": 859,
+    "permissions": 869,
     "rename-conversation": 862,
     "custom-commands": 862,
     "agent-flag": 863,
@@ -43,7 +43,7 @@
     "color-when-multi-clauding": 867,
     "desktop-shortcut": 863
   },
-  "promptQueueUseCount": 3014,
+  "promptQueueUseCount": 3016,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -5505,8 +5505,8 @@
       "lastUsedAt": 1775471013729
     },
     "release": {
-      "usageCount": 146,
-      "lastUsedAt": 1775527142563
+      "usageCount": 147,
+      "lastUsedAt": 1775538058500
     },
     "gsd:help": {
       "usageCount": 1,
@@ -5529,8 +5529,8 @@
       "lastUsedAt": 1771914747958
     },
     "waw": {
-      "usageCount": 103,
-      "lastUsedAt": 1775512253062
+      "usageCount": 104,
+      "lastUsedAt": 1775538386362
     },
     "audit": {
       "usageCount": 27,
@@ -5565,8 +5565,8 @@
       "lastUsedAt": 1772167215856
     },
     "push": {
-      "usageCount": 125,
-      "lastUsedAt": 1775520902664
+      "usageCount": 127,
+      "lastUsedAt": 1775538744680
     },
     "stash": {
       "usageCount": 67,
@@ -5870,7 +5870,7 @@
         "amount_minor_units": 31000,
         "currency": "AUD"
       },
-      "timestamp": 1775527024304
+      "timestamp": 1775538958902
     }
   },
   "migrationVersion": 11
