@@ -1,5 +1,5 @@
 {
-  "numStartups": 884,
+  "numStartups": 885,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -12,7 +12,7 @@
     "terminal-setup": 877,
     "memory-command": 877,
     "theme-command": 867,
-    "status-line": 860,
+    "status-line": 885,
     "prompt-queue": 17,
     "enter-to-steer-in-relatime": 877,
     "todo-list": 877,
@@ -5483,6 +5483,18 @@
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": [],
       "hasCompletedProjectOnboarding": true
+    },
+    "/Users/marcelo/work/github.com/marcelocantos/real": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 1,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": []
     }
   },
   "sonnet45MigrationComplete": true,
@@ -6084,7 +6096,7 @@
         "amount_minor_units": 31000,
         "currency": "AUD"
       },
-      "timestamp": 1775596971154
+      "timestamp": 1775603322928
     }
   },
   "migrationVersion": 11
