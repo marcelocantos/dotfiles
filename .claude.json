@@ -9,7 +9,7 @@
   "tipsHistory": {
     "new-user-warmup": 5,
     "plan-mode-for-complex-tasks": 875,
-    "terminal-setup": 867,
+    "terminal-setup": 877,
     "memory-command": 877,
     "theme-command": 867,
     "status-line": 860,
@@ -33,17 +33,17 @@
     "rename-conversation": 877,
     "custom-commands": 877,
     "agent-flag": 863,
-    "guest-passes": 873,
+    "guest-passes": 877,
     "shift-enter-setup": 95,
-    "default-permission-mode-config": 867,
+    "default-permission-mode-config": 877,
     "overage-promo": 130,
-    "git-worktrees": 867,
+    "git-worktrees": 877,
     "frontend-design-plugin": 875,
     "feedback-command": 864,
-    "color-when-multi-clauding": 867,
+    "color-when-multi-clauding": 877,
     "desktop-shortcut": 863
   },
-  "promptQueueUseCount": 3030,
+  "promptQueueUseCount": 3032,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
