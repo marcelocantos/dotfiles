@@ -1,5 +1,5 @@
 {
-  "numStartups": 875,
+  "numStartups": 877,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -10,12 +10,12 @@
     "new-user-warmup": 5,
     "plan-mode-for-complex-tasks": 875,
     "terminal-setup": 867,
-    "memory-command": 862,
+    "memory-command": 877,
     "theme-command": 867,
     "status-line": 860,
     "prompt-queue": 17,
-    "enter-to-steer-in-relatime": 857,
-    "todo-list": 857,
+    "enter-to-steer-in-relatime": 877,
+    "todo-list": 877,
     "ide-upsell-external-terminal": 875,
     "install-github-app": 869,
     "install-slack-app": 869,
@@ -24,14 +24,14 @@
     "double-esc-code-restore": 870,
     "continue": 870,
     "shift-tab": 870,
-    "image-paste": 857,
+    "image-paste": 877,
     "desktop-app": 863,
     "web-app": 863,
     "mobile-app": 863,
     "custom-agents": 863,
     "permissions": 869,
-    "rename-conversation": 862,
-    "custom-commands": 862,
+    "rename-conversation": 877,
+    "custom-commands": 877,
     "agent-flag": 863,
     "guest-passes": 873,
     "shift-enter-setup": 95,
@@ -484,26 +484,26 @@
         "version": null,
         "packageManager": null
       },
-      "lastCost": 13.954458499999994,
-      "lastAPIDuration": 1445739,
-      "lastAPIDurationWithoutRetries": 1444930,
-      "lastToolDuration": 16046,
-      "lastDuration": 1760727364,
-      "lastLinesAdded": 636,
-      "lastLinesRemoved": 495,
-      "lastTotalInputTokens": 271,
-      "lastTotalOutputTokens": 55959,
-      "lastTotalCacheCreationInputTokens": 977402,
-      "lastTotalCacheReadInputTokens": 13112936,
+      "lastCost": 64.79532925000001,
+      "lastAPIDuration": 4244000,
+      "lastAPIDurationWithoutRetries": 4241447,
+      "lastToolDuration": 2539917,
+      "lastDuration": 1889344261,
+      "lastLinesAdded": 1249,
+      "lastLinesRemoved": 732,
+      "lastTotalInputTokens": 876,
+      "lastTotalOutputTokens": 145475,
+      "lastTotalCacheCreationInputTokens": 1404581,
+      "lastTotalCacheReadInputTokens": 104973090,
       "lastTotalWebSearchRequests": 0,
       "lastModelUsage": {
         "claude-opus-4-6[1m]": {
-          "inputTokens": 261,
-          "outputTokens": 55439,
-          "cacheReadInputTokens": 13066906,
-          "cacheCreationInputTokens": 960952,
+          "inputTokens": 866,
+          "outputTokens": 144955,
+          "cacheReadInputTokens": 104927060,
+          "cacheCreationInputTokens": 1388131,
           "webSearchRequests": 0,
-          "costUSD": 13.926682999999993
+          "costUSD": 64.76755375000002
         },
         "claude-haiku-4-5-20251001": {
           "inputTokens": 10,
@@ -516,8 +516,8 @@
       },
       "lastSessionId": "b323c2fe-8786-424e-956c-8d0f92f5fd69",
       "hasCompletedProjectOnboarding": true,
-      "lastFpsAverage": 0.01,
-      "lastFpsLow1Pct": 2.61,
+      "lastFpsAverage": 6.12,
+      "lastFpsLow1Pct": 38.79,
       "exampleFiles": [
         "GameManager.cs",
         "MinicadesKit",
@@ -527,27 +527,20 @@
       ],
       "exampleFilesGeneratedAt": 1775435063021,
       "lastSessionMetrics": {
-        "frame_duration_ms_count": 5880,
-        "frame_duration_ms_min": 0.03641700744628906,
-        "frame_duration_ms_max": 3267.1460839957,
-        "frame_duration_ms_avg": 16.45174544123564,
-        "frame_duration_ms_p50": 0.818958505988121,
-        "frame_duration_ms_p95": 36.378595593571504,
-        "frame_duration_ms_p99": 419.2314634338016,
-        "hook_duration_ms_count": 125,
-        "hook_duration_ms_min": 30,
-        "hook_duration_ms_max": 59,
-        "hook_duration_ms_avg": 37.28,
-        "hook_duration_ms_p50": 35,
-        "hook_duration_ms_p95": 48.8,
-        "hook_duration_ms_p99": 55.800000000000026,
-        "pre_tool_hook_duration_ms_count": 57,
-        "pre_tool_hook_duration_ms_min": 33,
-        "pre_tool_hook_duration_ms_max": 59,
-        "pre_tool_hook_duration_ms_avg": 39.07017543859649,
-        "pre_tool_hook_duration_ms_p50": 36,
-        "pre_tool_hook_duration_ms_p95": 51.199999999999996,
-        "pre_tool_hook_duration_ms_p99": 55.639999999999986
+        "frame_duration_ms_count": 28,
+        "frame_duration_ms_min": 0.23195899999998915,
+        "frame_duration_ms_max": 25.7813339999999,
+        "frame_duration_ms_avg": 1.6967976785713828,
+        "frame_duration_ms_p50": 0.49518749999992906,
+        "frame_duration_ms_p95": 4.166906699999981,
+        "frame_duration_ms_p99": 20.021648909999932,
+        "hook_duration_ms_count": 1,
+        "hook_duration_ms_min": 42,
+        "hook_duration_ms_max": 42,
+        "hook_duration_ms_avg": 42,
+        "hook_duration_ms_p50": 42,
+        "hook_duration_ms_p95": 42,
+        "hook_duration_ms_p99": 42
       }
     },
     "/Users/marcelo/work/github.com/squz/yourworld": {
@@ -5657,8 +5650,8 @@
       "lastUsedAt": 1775471013729
     },
     "release": {
-      "usageCount": 152,
-      "lastUsedAt": 1775561233031
+      "usageCount": 153,
+      "lastUsedAt": 1775564977641
     },
     "gsd:help": {
       "usageCount": 1,
@@ -5745,8 +5738,8 @@
       "lastUsedAt": 1772625771549
     },
     "cv": {
-      "usageCount": 264,
-      "lastUsedAt": 1775527025602
+      "usageCount": 267,
+      "lastUsedAt": 1775564665921
     },
     "target": {
       "usageCount": 37,
