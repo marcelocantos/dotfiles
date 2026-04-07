@@ -67,6 +67,11 @@ When working with C++ or adding dependencies, read
 [`~/.claude/cpp.md`](~/.claude/cpp.md) for style conventions,
 vendoring rules, and preferred libraries.
 
+## JSON in C/C++
+
+- **cJSON** for C and simple C++ JSON. Vendor as `vendor/cjson/`.
+- **nlohmann/json** only when C++ ergonomics justify the compile cost.
+
 ## Licensing
 
 - Always use Apache 2.0. Never generate MIT, BSD, or other licences unless explicitly asked.
