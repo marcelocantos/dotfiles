@@ -43,7 +43,7 @@
     "color-when-multi-clauding": 877,
     "desktop-shortcut": 878
   },
-  "promptQueueUseCount": 3040,
+  "promptQueueUseCount": 3044,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -5468,7 +5468,8 @@
         "ProtocolApp.kt",
         "WeekViewModel.kt"
       ],
-      "exampleFilesGeneratedAt": 1775600157481
+      "exampleFilesGeneratedAt": 1775600157481,
+      "hasCompletedProjectOnboarding": true
     },
     "/Users/marcelo/work/github.com/marcelocantos/sysinfo-mcp": {
       "allowedTools": [],
@@ -5709,12 +5710,12 @@
       "lastUsedAt": 1775601360746
     },
     "republish-skills": {
-      "usageCount": 69,
-      "lastUsedAt": 1775471013729
+      "usageCount": 70,
+      "lastUsedAt": 1775602805524
     },
     "release": {
-      "usageCount": 156,
-      "lastUsedAt": 1775600166222
+      "usageCount": 157,
+      "lastUsedAt": 1775601875961
     },
     "gsd:help": {
       "usageCount": 1,
@@ -5825,8 +5826,8 @@
       "lastUsedAt": 1772940174060
     },
     "commit": {
-      "usageCount": 46,
-      "lastUsedAt": 1775526858053
+      "usageCount": 47,
+      "lastUsedAt": 1775602182161
     },
     "keybindings-help": {
       "usageCount": 2,
@@ -6062,7 +6063,7 @@
     },
     "sysinfo": {
       "type": "stdio",
-      "command": "/Users/marcelo/work/github.com/marcelocantos/sysinfo-mcp/sysinfo-mcp",
+      "command": "sysinfo-mcp",
       "args": [],
       "env": {}
     }
