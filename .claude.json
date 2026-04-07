@@ -1,5 +1,5 @@
 {
-  "numStartups": 877,
+  "numStartups": 878,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -25,14 +25,14 @@
     "continue": 870,
     "shift-tab": 870,
     "image-paste": 877,
-    "desktop-app": 863,
-    "web-app": 863,
-    "mobile-app": 863,
-    "custom-agents": 863,
+    "desktop-app": 878,
+    "web-app": 878,
+    "mobile-app": 878,
+    "custom-agents": 878,
     "permissions": 869,
     "rename-conversation": 877,
     "custom-commands": 877,
-    "agent-flag": 863,
+    "agent-flag": 878,
     "guest-passes": 877,
     "shift-enter-setup": 95,
     "default-permission-mode-config": 877,
@@ -41,9 +41,9 @@
     "frontend-design-plugin": 875,
     "feedback-command": 864,
     "color-when-multi-clauding": 877,
-    "desktop-shortcut": 863
+    "desktop-shortcut": 878
   },
-  "promptQueueUseCount": 3032,
+  "promptQueueUseCount": 3035,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -5187,7 +5187,71 @@
         "Session_Transport.tla"
       ],
       "exampleFilesGeneratedAt": 1775484411889,
-      "hasCompletedProjectOnboarding": true
+      "hasCompletedProjectOnboarding": true,
+      "lastCost": 39.78464965000002,
+      "lastAPIDuration": 3838231,
+      "lastAPIDurationWithoutRetries": 3836110,
+      "lastToolDuration": 3895760,
+      "lastDuration": 83424899,
+      "lastLinesAdded": 943,
+      "lastLinesRemoved": 453,
+      "lastTotalInputTokens": 2671,
+      "lastTotalOutputTokens": 185128,
+      "lastTotalCacheCreationInputTokens": 2302115,
+      "lastTotalCacheReadInputTokens": 53921884,
+      "lastTotalWebSearchRequests": 0,
+      "lastFpsAverage": 1.29,
+      "lastFpsLow1Pct": 282.56,
+      "lastModelUsage": {
+        "claude-opus-4-6[1m]": {
+          "inputTokens": 436,
+          "outputTokens": 84602,
+          "cacheReadInputTokens": 40346525,
+          "cacheCreationInputTokens": 1615342,
+          "webSearchRequests": 0,
+          "costUSD": 32.38637999999999
+        },
+        "claude-haiku-4-5-20251001": {
+          "inputTokens": 124,
+          "outputTokens": 10737,
+          "cacheReadInputTokens": 1899344,
+          "cacheCreationInputTokens": 110738,
+          "webSearchRequests": 0,
+          "costUSD": 0.3821659
+        },
+        "claude-sonnet-4-6": {
+          "inputTokens": 2111,
+          "outputTokens": 89789,
+          "cacheReadInputTokens": 11676015,
+          "cacheCreationInputTokens": 576035,
+          "webSearchRequests": 0,
+          "costUSD": 7.0161037500000045
+        }
+      },
+      "lastSessionId": "3b4d9cfb-a68d-4463-8e49-4bca8b3facdf",
+      "lastSessionMetrics": {
+        "frame_duration_ms_count": 95591,
+        "frame_duration_ms_min": 0.024125002324581146,
+        "frame_duration_ms_max": 358.49687499925494,
+        "frame_duration_ms_avg": 0.9571287484411437,
+        "frame_duration_ms_p50": 0.7441249992698431,
+        "frame_duration_ms_p95": 2.2013732476392742,
+        "frame_duration_ms_p99": 3.372296411887215,
+        "hook_duration_ms_count": 1467,
+        "hook_duration_ms_min": 26,
+        "hook_duration_ms_max": 349,
+        "hook_duration_ms_avg": 31.700068166325835,
+        "hook_duration_ms_p50": 30,
+        "hook_duration_ms_p95": 41,
+        "hook_duration_ms_p99": 50.539999999999964,
+        "pre_tool_hook_duration_ms_count": 714,
+        "pre_tool_hook_duration_ms_min": 27,
+        "pre_tool_hook_duration_ms_max": 93,
+        "pre_tool_hook_duration_ms_avg": 32.78991596638655,
+        "pre_tool_hook_duration_ms_p50": 32,
+        "pre_tool_hook_duration_ms_p95": 41.35000000000002,
+        "pre_tool_hook_duration_ms_p99": 47
+      }
     },
     "/Users/marcelo/work/github.com/marcelocantos/targets": {
       "allowedTools": [],
@@ -5650,8 +5714,8 @@
       "lastUsedAt": 1775471013729
     },
     "release": {
-      "usageCount": 153,
-      "lastUsedAt": 1775564977641
+      "usageCount": 154,
+      "lastUsedAt": 1775568615892
     },
     "gsd:help": {
       "usageCount": 1,
@@ -6015,7 +6079,7 @@
         "amount_minor_units": 31000,
         "currency": "AUD"
       },
-      "timestamp": 1775560543836
+      "timestamp": 1775567839533
     }
   },
   "migrationVersion": 11
