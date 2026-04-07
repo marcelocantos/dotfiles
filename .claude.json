@@ -1,5 +1,5 @@
 {
-  "numStartups": 872,
+  "numStartups": 875,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -33,7 +33,7 @@
     "rename-conversation": 862,
     "custom-commands": 862,
     "agent-flag": 863,
-    "guest-passes": 870,
+    "guest-passes": 873,
     "shift-enter-setup": 95,
     "default-permission-mode-config": 867,
     "overage-promo": 130,
@@ -2278,20 +2278,20 @@
         "sqlpipe_wapi.cpp"
       ],
       "hasCompletedProjectOnboarding": true,
-      "lastCost": 279.47854629999995,
-      "lastAPIDuration": 15974933,
-      "lastAPIDurationWithoutRetries": 15965722,
-      "lastToolDuration": 3052292,
-      "lastDuration": 357826448,
-      "lastLinesAdded": 5355,
-      "lastLinesRemoved": 1238,
-      "lastTotalInputTokens": 16712,
-      "lastTotalOutputTokens": 481633,
-      "lastTotalCacheCreationInputTokens": 5524448,
-      "lastTotalCacheReadInputTokens": 481093175,
+      "lastCost": 289.3364525999999,
+      "lastAPIDuration": 17660667,
+      "lastAPIDurationWithoutRetries": 17650462,
+      "lastToolDuration": 4120436,
+      "lastDuration": 439757801,
+      "lastLinesAdded": 6368,
+      "lastLinesRemoved": 1476,
+      "lastTotalInputTokens": 16983,
+      "lastTotalOutputTokens": 550184,
+      "lastTotalCacheCreationInputTokens": 6070080,
+      "lastTotalCacheReadInputTokens": 493765552,
       "lastTotalWebSearchRequests": 0,
-      "lastFpsAverage": 1.42,
-      "lastFpsLow1Pct": 285.91,
+      "lastFpsAverage": 0.32,
+      "lastFpsLow1Pct": 314.09,
       "lastModelUsage": {
         "claude-haiku-4-5-20251001": {
           "inputTokens": 13298,
@@ -2302,45 +2302,45 @@
           "costUSD": 1.85304165
         },
         "claude-opus-4-6[1m]": {
-          "inputTokens": 3404,
-          "outputTokens": 431038,
-          "cacheReadInputTokens": 471128728,
-          "cacheCreationInputTokens": 4928973,
+          "inputTokens": 3550,
+          "outputTokens": 476319,
+          "cacheReadInputTokens": 478833094,
+          "cacheCreationInputTokens": 5323781,
           "webSearchRequests": 0,
-          "costUSD": 277.16341524999996
+          "costUSD": 284.61590324999975
         },
         "claude-sonnet-4-6": {
-          "inputTokens": 10,
-          "outputTokens": 10562,
-          "cacheReadInputTokens": 93473,
-          "cacheCreationInputTokens": 73490,
+          "inputTokens": 135,
+          "outputTokens": 33832,
+          "cacheReadInputTokens": 5061484,
+          "cacheCreationInputTokens": 224314,
           "webSearchRequests": 0,
-          "costUSD": 0.46208940000000004
+          "costUSD": 2.8675076999999978
         }
       },
-      "lastSessionId": "7ffc9687-42a4-42e2-ad96-a76fd57b0d45",
+      "lastSessionId": "f5a25986-9b3a-47d1-bd62-0c01308a0b3c",
       "lastSessionMetrics": {
-        "frame_duration_ms_count": 62414,
-        "frame_duration_ms_min": 0.023749999701976776,
-        "frame_duration_ms_max": 1173.8082500000019,
-        "frame_duration_ms_avg": 0.912356638199469,
-        "frame_duration_ms_p50": 0.5807920005172491,
-        "frame_duration_ms_p95": 1.6371776499552653,
-        "frame_duration_ms_p99": 2.8410519315302323,
-        "hook_duration_ms_count": 538,
-        "hook_duration_ms_min": 28,
-        "hook_duration_ms_max": 1071,
-        "hook_duration_ms_avg": 42.657992565055764,
-        "hook_duration_ms_p50": 36,
-        "hook_duration_ms_p95": 64.59999999999991,
-        "hook_duration_ms_p99": 119.88999999999999,
-        "pre_tool_hook_duration_ms_count": 242,
-        "pre_tool_hook_duration_ms_min": 30,
-        "pre_tool_hook_duration_ms_max": 362,
-        "pre_tool_hook_duration_ms_avg": 45.417355371900825,
-        "pre_tool_hook_duration_ms_p50": 38,
-        "pre_tool_hook_duration_ms_p95": 93,
-        "pre_tool_hook_duration_ms_p99": 188.2600000000004
+        "frame_duration_ms_count": 23126,
+        "frame_duration_ms_min": 0.013500001281499863,
+        "frame_duration_ms_max": 596.1182080022991,
+        "frame_duration_ms_avg": 1.021655195574159,
+        "frame_duration_ms_p50": 0.780312501359731,
+        "frame_duration_ms_p95": 2.122448099963364,
+        "frame_duration_ms_p99": 3.2317330900329386,
+        "hook_duration_ms_count": 507,
+        "hook_duration_ms_min": 26,
+        "hook_duration_ms_max": 186,
+        "hook_duration_ms_avg": 33.9585798816568,
+        "hook_duration_ms_p50": 30,
+        "hook_duration_ms_p95": 48,
+        "hook_duration_ms_p99": 96.69999999999999,
+        "pre_tool_hook_duration_ms_count": 243,
+        "pre_tool_hook_duration_ms_min": 28,
+        "pre_tool_hook_duration_ms_max": 187,
+        "pre_tool_hook_duration_ms_avg": 36.35390946502058,
+        "pre_tool_hook_duration_ms_p50": 32,
+        "pre_tool_hook_duration_ms_p95": 49,
+        "pre_tool_hook_duration_ms_p99": 112.33999999999963
       },
       "exampleFilesGeneratedAt": 1775120693946
     },
@@ -4296,37 +4296,53 @@
         "bundle_data.c"
       ],
       "hasCompletedProjectOnboarding": true,
-      "lastCost": 0,
-      "lastAPIDuration": 0,
-      "lastAPIDurationWithoutRetries": 0,
-      "lastToolDuration": 0,
-      "lastDuration": 4241,
-      "lastLinesAdded": 0,
-      "lastLinesRemoved": 0,
-      "lastTotalInputTokens": 0,
-      "lastTotalOutputTokens": 0,
-      "lastTotalCacheCreationInputTokens": 0,
-      "lastTotalCacheReadInputTokens": 0,
+      "lastCost": 20.812531750000012,
+      "lastAPIDuration": 1659359,
+      "lastAPIDurationWithoutRetries": 1657311,
+      "lastToolDuration": 877836,
+      "lastDuration": 46499229,
+      "lastLinesAdded": 809,
+      "lastLinesRemoved": 174,
+      "lastTotalInputTokens": 496,
+      "lastTotalOutputTokens": 54486,
+      "lastTotalCacheCreationInputTokens": 548583,
+      "lastTotalCacheReadInputTokens": 32038516,
       "lastTotalWebSearchRequests": 0,
-      "lastFpsAverage": 6.69,
-      "lastFpsLow1Pct": 429.58,
-      "lastModelUsage": {},
-      "lastSessionId": "3d4b9d83-6d21-4661-9ef3-6cedce7853e7",
+      "lastFpsAverage": 1.12,
+      "lastFpsLow1Pct": 317.23,
+      "lastModelUsage": {
+        "claude-opus-4-6[1m]": {
+          "inputTokens": 496,
+          "outputTokens": 54486,
+          "cacheReadInputTokens": 32038516,
+          "cacheCreationInputTokens": 548583,
+          "webSearchRequests": 0,
+          "costUSD": 20.812531750000012
+        }
+      },
+      "lastSessionId": "8b9d8945-03a8-4687-bf62-d54755ccbeda",
       "lastSessionMetrics": {
-        "frame_duration_ms_count": 23,
-        "frame_duration_ms_min": 0.04591600000003382,
-        "frame_duration_ms_max": 2.3278750000000628,
-        "frame_duration_ms_avg": 0.19575182608700767,
-        "frame_duration_ms_p50": 0.07145900000000438,
-        "frame_duration_ms_p95": 0.38360030000012535,
-        "frame_duration_ms_p99": 1.903669240000081,
-        "hook_duration_ms_count": 1,
-        "hook_duration_ms_min": 51,
-        "hook_duration_ms_max": 51,
-        "hook_duration_ms_avg": 51,
-        "hook_duration_ms_p50": 51,
-        "hook_duration_ms_p95": 51,
-        "hook_duration_ms_p99": 51
+        "frame_duration_ms_count": 52099,
+        "frame_duration_ms_min": 0.019541999994544312,
+        "frame_duration_ms_max": 442.4579590000212,
+        "frame_duration_ms_avg": 1.0210265305065882,
+        "frame_duration_ms_p50": 0.6373959984630346,
+        "frame_duration_ms_p95": 1.8616186504252241,
+        "frame_duration_ms_p99": 3.0429258399922383,
+        "hook_duration_ms_count": 494,
+        "hook_duration_ms_min": 26,
+        "hook_duration_ms_max": 695,
+        "hook_duration_ms_avg": 42.84817813765182,
+        "hook_duration_ms_p50": 31,
+        "hook_duration_ms_p95": 100.34999999999997,
+        "hook_duration_ms_p99": 228.76999999999992,
+        "pre_tool_hook_duration_ms_count": 222,
+        "pre_tool_hook_duration_ms_min": 28,
+        "pre_tool_hook_duration_ms_max": 326,
+        "pre_tool_hook_duration_ms_avg": 42.148648648648646,
+        "pre_tool_hook_duration_ms_p50": 33,
+        "pre_tool_hook_duration_ms_p95": 83.79999999999995,
+        "pre_tool_hook_duration_ms_p99": 218.75999999999965
       },
       "exampleFilesGeneratedAt": 1775514036330
     },
@@ -5641,8 +5657,8 @@
       "lastUsedAt": 1775471013729
     },
     "release": {
-      "usageCount": 151,
-      "lastUsedAt": 1775556112420
+      "usageCount": 152,
+      "lastUsedAt": 1775561233031
     },
     "gsd:help": {
       "usageCount": 1,
@@ -5779,7 +5795,7 @@
   "groveConfigCache": {
     "2909ba71-e527-4e91-9b22-2591e548b2d0": {
       "grove_enabled": true,
-      "timestamp": 1775474772848
+      "timestamp": 1775561441681
     }
   },
   "passesEligibilityCache": {
@@ -5795,7 +5811,7 @@
         "currency": "AUD"
       },
       "remaining_passes": 3,
-      "timestamp": 1775474773983
+      "timestamp": 1775561442243
     }
   },
   "passesUpsellSeenCount": 4,
@@ -6006,7 +6022,7 @@
         "amount_minor_units": 31000,
         "currency": "AUD"
       },
-      "timestamp": 1775554781891
+      "timestamp": 1775560543836
     }
   },
   "migrationVersion": 11
