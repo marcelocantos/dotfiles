@@ -10,7 +10,7 @@
     "new-user-warmup": 5,
     "plan-mode-for-complex-tasks": 902,
     "terminal-setup": 898,
-    "memory-command": 892,
+    "memory-command": 907,
     "theme-command": 907,
     "status-line": 885,
     "prompt-queue": 17,
@@ -30,8 +30,8 @@
     "mobile-app": 893,
     "custom-agents": 893,
     "permissions": 901,
-    "rename-conversation": 892,
-    "custom-commands": 892,
+    "rename-conversation": 907,
+    "custom-commands": 907,
     "agent-flag": 893,
     "guest-passes": 905,
     "shift-enter-setup": 95,
@@ -5891,7 +5891,7 @@
       "/Users/marcelo/work/github.com/minicadesmobile/kart-stars"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.96",
+  "lastReleaseNotesSeen": "2.1.92",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
