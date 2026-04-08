@@ -1,5 +1,5 @@
 {
-  "numStartups": 893,
+  "numStartups": 895,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -39,7 +39,7 @@
     "overage-promo": 130,
     "git-worktrees": 888,
     "frontend-design-plugin": 875,
-    "feedback-command": 879,
+    "feedback-command": 895,
     "color-when-multi-clauding": 888,
     "desktop-shortcut": 893
   },
@@ -2564,69 +2564,45 @@
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": [
         "help.go",
+        "config.go",
         "Makefile",
         "main.go",
-        "executor.go",
-        "audit_test.go"
+        "executor.go"
       ],
-      "lastCost": 15.365698600000014,
-      "lastAPIDuration": 1692452,
-      "lastAPIDurationWithoutRetries": 1692373,
-      "lastToolDuration": 885852,
-      "lastDuration": 265992901,
-      "lastLinesAdded": 2501,
-      "lastLinesRemoved": 283,
-      "lastTotalInputTokens": 1273,
-      "lastTotalOutputTokens": 88892,
-      "lastTotalCacheCreationInputTokens": 1109408,
-      "lastTotalCacheReadInputTokens": 14772258,
+      "lastCost": 0,
+      "lastAPIDuration": 0,
+      "lastAPIDurationWithoutRetries": 0,
+      "lastToolDuration": 0,
+      "lastDuration": 2741,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 0,
+      "lastTotalOutputTokens": 0,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
       "lastTotalWebSearchRequests": 0,
-      "lastModelUsage": {
-        "claude-opus-4-6": {
-          "inputTokens": 977,
-          "outputTokens": 72662,
-          "cacheReadInputTokens": 13845617,
-          "cacheCreationInputTokens": 1012117,
-          "webSearchRequests": 0,
-          "costUSD": 15.069974750000013
-        },
-        "claude-haiku-4-5-20251001": {
-          "inputTokens": 296,
-          "outputTokens": 16230,
-          "cacheReadInputTokens": 926641,
-          "cacheCreationInputTokens": 97291,
-          "webSearchRequests": 0,
-          "costUSD": 0.29572385
-        }
-      },
-      "lastSessionId": "5710c0a4-a485-4533-9a8e-8544cdb9374a",
+      "lastModelUsage": {},
+      "lastSessionId": "73bcc425-cdc2-4508-80d9-7da5d91ee3f5",
       "lastSessionMetrics": {
-        "frame_duration_ms_count": 21631,
-        "frame_duration_ms_min": 0.020500000566244125,
-        "frame_duration_ms_max": 57.66145800054073,
-        "frame_duration_ms_avg": 0.6776046022207348,
-        "frame_duration_ms_p50": 0.4765625,
-        "frame_duration_ms_p95": 1.4278651001775862,
-        "frame_duration_ms_p99": 2.842506979778405,
-        "hook_duration_ms_count": 476,
-        "hook_duration_ms_min": 32,
-        "hook_duration_ms_max": 392,
-        "hook_duration_ms_avg": 46.476890756302524,
-        "hook_duration_ms_p50": 43.5,
-        "hook_duration_ms_p95": 56.25,
-        "hook_duration_ms_p99": 99.25,
-        "pre_tool_hook_duration_ms_count": 225,
-        "pre_tool_hook_duration_ms_min": 32,
-        "pre_tool_hook_duration_ms_max": 189,
-        "pre_tool_hook_duration_ms_avg": 38.83111111111111,
-        "pre_tool_hook_duration_ms_p50": 36,
-        "pre_tool_hook_duration_ms_p95": 46.599999999999966,
-        "pre_tool_hook_duration_ms_p99": 74.79999999999995
+        "frame_duration_ms_count": 17,
+        "frame_duration_ms_min": 0.05424999999991087,
+        "frame_duration_ms_max": 2.4599580000000287,
+        "frame_duration_ms_avg": 0.2761593529412009,
+        "frame_duration_ms_p50": 0.0728750000000673,
+        "frame_duration_ms_p95": 0.8216243999998583,
+        "frame_duration_ms_p99": 2.1322912799999947,
+        "hook_duration_ms_count": 1,
+        "hook_duration_ms_min": 43,
+        "hook_duration_ms_max": 43,
+        "hook_duration_ms_avg": 43,
+        "hook_duration_ms_p50": 43,
+        "hook_duration_ms_p95": 43,
+        "hook_duration_ms_p99": 43
       },
-      "exampleFilesGeneratedAt": 1772684365922,
+      "exampleFilesGeneratedAt": 1775639120248,
       "hasCompletedProjectOnboarding": true,
-      "lastFpsAverage": 0.89,
-      "lastFpsLow1Pct": 309.19
+      "lastFpsAverage": 10.65,
+      "lastFpsLow1Pct": 406.51
     },
     "/Users/marcelo/work/github.com/marcelocantos/sqlift/.claude/worktrees/unruffled-williams": {
       "allowedTools": [],
@@ -5793,7 +5769,7 @@
       "/Users/marcelo/work/github.com/minicadesmobile/kart-stars"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.92",
+  "lastReleaseNotesSeen": "2.1.96",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -5836,8 +5812,8 @@
       "lastUsedAt": 1775602805524
     },
     "release": {
-      "usageCount": 160,
-      "lastUsedAt": 1775633286916
+      "usageCount": 161,
+      "lastUsedAt": 1775638562736
     },
     "gsd:help": {
       "usageCount": 1,
@@ -5860,8 +5836,8 @@
       "lastUsedAt": 1771914747958
     },
     "waw": {
-      "usageCount": 107,
-      "lastUsedAt": 1775620251127
+      "usageCount": 108,
+      "lastUsedAt": 1775639132603
     },
     "audit": {
       "usageCount": 28,
@@ -5924,8 +5900,8 @@
       "lastUsedAt": 1772625771549
     },
     "cv": {
-      "usageCount": 269,
-      "lastUsedAt": 1775627294106
+      "usageCount": 270,
+      "lastUsedAt": 1775638487795
     },
     "target": {
       "usageCount": 37,
@@ -6206,7 +6182,7 @@
         "amount_minor_units": 31000,
         "currency": "AUD"
       },
-      "timestamp": 1775631879620
+      "timestamp": 1775638195237
     }
   },
   "migrationVersion": 11
