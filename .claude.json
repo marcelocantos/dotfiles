@@ -1,5 +1,5 @@
 {
-  "numStartups": 895,
+  "numStartups": 896,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -8,7 +8,7 @@
   "hasUsedBackgroundTask": true,
   "tipsHistory": {
     "new-user-warmup": 5,
-    "plan-mode-for-complex-tasks": 891,
+    "plan-mode-for-complex-tasks": 896,
     "terminal-setup": 888,
     "memory-command": 892,
     "theme-command": 887,
@@ -33,7 +33,7 @@
     "rename-conversation": 892,
     "custom-commands": 892,
     "agent-flag": 893,
-    "guest-passes": 893,
+    "guest-passes": 896,
     "shift-enter-setup": 95,
     "default-permission-mode-config": 888,
     "overage-promo": 130,
@@ -43,7 +43,7 @@
     "color-when-multi-clauding": 888,
     "desktop-shortcut": 893
   },
-  "promptQueueUseCount": 3059,
+  "promptQueueUseCount": 3065,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -2979,69 +2979,53 @@
         "test_transpile.cpp"
       ],
       "hasCompletedProjectOnboarding": true,
-      "lastCost": 101.05832305000006,
-      "lastAPIDuration": 9165318,
-      "lastAPIDurationWithoutRetries": 9160222,
-      "lastToolDuration": 620643,
-      "lastDuration": 111327375,
-      "lastLinesAdded": 2014,
-      "lastLinesRemoved": 855,
-      "lastTotalInputTokens": 7891,
-      "lastTotalOutputTokens": 324716,
-      "lastTotalCacheCreationInputTokens": 2188595,
-      "lastTotalCacheReadInputTokens": 164598384,
+      "lastCost": 1.4595402499999997,
+      "lastAPIDuration": 233819,
+      "lastAPIDurationWithoutRetries": 233694,
+      "lastToolDuration": 180521,
+      "lastDuration": 311438,
+      "lastLinesAdded": 31,
+      "lastLinesRemoved": 25,
+      "lastTotalInputTokens": 814,
+      "lastTotalOutputTokens": 10147,
+      "lastTotalCacheCreationInputTokens": 89353,
+      "lastTotalCacheReadInputTokens": 1286678,
       "lastTotalWebSearchRequests": 0,
-      "lastFpsAverage": 1.46,
-      "lastFpsLow1Pct": 197.37,
+      "lastFpsAverage": 14.24,
+      "lastFpsLow1Pct": 1018.72,
       "lastModelUsage": {
-        "claude-haiku-4-5-20251001": {
-          "inputTokens": 4793,
-          "outputTokens": 11416,
-          "cacheReadInputTokens": 3891971,
-          "cacheCreationInputTokens": 145052,
-          "webSearchRequests": 0,
-          "costUSD": 0.6323851000000001
-        },
         "claude-opus-4-6[1m]": {
-          "inputTokens": 3060,
-          "outputTokens": 302251,
-          "cacheReadInputTokens": 159779419,
-          "cacheCreationInputTokens": 1942968,
+          "inputTokens": 814,
+          "outputTokens": 10147,
+          "cacheReadInputTokens": 1286678,
+          "cacheCreationInputTokens": 89353,
           "webSearchRequests": 0,
-          "costUSD": 99.60483450000007
-        },
-        "claude-sonnet-4-6": {
-          "inputTokens": 38,
-          "outputTokens": 11049,
-          "cacheReadInputTokens": 926994,
-          "cacheCreationInputTokens": 100575,
-          "webSearchRequests": 0,
-          "costUSD": 0.8211034500000001
+          "costUSD": 1.4595402499999997
         }
       },
-      "lastSessionId": "8b6d9ea7-823a-4e9a-b549-b03dc126fa4c",
+      "lastSessionId": "4984042f-422f-4c16-87c7-dc439ffb6012",
       "lastSessionMetrics": {
-        "frame_duration_ms_count": 85875,
-        "frame_duration_ms_min": 0.028749998658895493,
-        "frame_duration_ms_max": 1502.748750000028,
-        "frame_duration_ms_avg": 0.9607980201172299,
-        "frame_duration_ms_p50": 0.5950419991277158,
-        "frame_duration_ms_p95": 1.9406813000270613,
-        "frame_duration_ms_p99": 4.509552319818176,
-        "hook_duration_ms_count": 889,
+        "frame_duration_ms_count": 4424,
+        "frame_duration_ms_min": 0.026083999999173102,
+        "frame_duration_ms_max": 4.964083999991999,
+        "frame_duration_ms_avg": 0.33936830967451503,
+        "frame_duration_ms_p50": 0.3173124999993888,
+        "frame_duration_ms_p95": 0.5496517999970819,
+        "frame_duration_ms_p99": 0.7570781799935502,
+        "hook_duration_ms_count": 79,
         "hook_duration_ms_min": 28,
-        "hook_duration_ms_max": 333,
-        "hook_duration_ms_avg": 44.039370078740156,
-        "hook_duration_ms_p50": 38,
-        "hook_duration_ms_p95": 78.59999999999991,
-        "hook_duration_ms_p99": 218.48000000000002,
-        "pre_tool_hook_duration_ms_count": 419,
+        "hook_duration_ms_max": 59,
+        "hook_duration_ms_avg": 34.29113924050633,
+        "hook_duration_ms_p50": 33,
+        "hook_duration_ms_p95": 42,
+        "hook_duration_ms_p99": 53.53999999999999,
+        "pre_tool_hook_duration_ms_count": 38,
         "pre_tool_hook_duration_ms_min": 29,
-        "pre_tool_hook_duration_ms_max": 335,
-        "pre_tool_hook_duration_ms_avg": 47.673031026252985,
-        "pre_tool_hook_duration_ms_p50": 39,
-        "pre_tool_hook_duration_ms_p95": 95.39999999999986,
-        "pre_tool_hook_duration_ms_p99": 287.9599999999998
+        "pre_tool_hook_duration_ms_max": 53,
+        "pre_tool_hook_duration_ms_avg": 36.55263157894737,
+        "pre_tool_hook_duration_ms_p50": 37,
+        "pre_tool_hook_duration_ms_p95": 42.449999999999996,
+        "pre_tool_hook_duration_ms_p99": 50.04000000000002
       },
       "exampleFilesGeneratedAt": 1775339145843
     },
@@ -5769,7 +5753,7 @@
       "/Users/marcelo/work/github.com/minicadesmobile/kart-stars"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.96",
+  "lastReleaseNotesSeen": "2.1.92",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -5812,8 +5796,8 @@
       "lastUsedAt": 1775602805524
     },
     "release": {
-      "usageCount": 161,
-      "lastUsedAt": 1775638562736
+      "usageCount": 162,
+      "lastUsedAt": 1775640625163
     },
     "gsd:help": {
       "usageCount": 1,
@@ -5872,8 +5856,8 @@
       "lastUsedAt": 1772167215856
     },
     "push": {
-      "usageCount": 129,
-      "lastUsedAt": 1775562526908
+      "usageCount": 130,
+      "lastUsedAt": 1775640749034
     },
     "stash": {
       "usageCount": 67,
@@ -5900,8 +5884,8 @@
       "lastUsedAt": 1772625771549
     },
     "cv": {
-      "usageCount": 270,
-      "lastUsedAt": 1775638487795
+      "usageCount": 272,
+      "lastUsedAt": 1775640187235
     },
     "target": {
       "usageCount": 37,
