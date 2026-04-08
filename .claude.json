@@ -1,5 +1,5 @@
 {
-  "numStartups": 887,
+  "numStartups": 889,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -9,15 +9,15 @@
   "tipsHistory": {
     "new-user-warmup": 5,
     "plan-mode-for-complex-tasks": 885,
-    "terminal-setup": 877,
+    "terminal-setup": 888,
     "memory-command": 877,
     "theme-command": 887,
     "status-line": 885,
     "prompt-queue": 17,
     "enter-to-steer-in-relatime": 877,
     "todo-list": 877,
-    "ide-upsell-external-terminal": 884,
-    "install-github-app": 879,
+    "ide-upsell-external-terminal": 888,
+    "install-github-app": 889,
     "install-slack-app": 880,
     "drag-and-drop-images": 880,
     "paste-images-mac": 880,
@@ -33,17 +33,17 @@
     "rename-conversation": 877,
     "custom-commands": 877,
     "agent-flag": 878,
-    "guest-passes": 884,
+    "guest-passes": 889,
     "shift-enter-setup": 95,
-    "default-permission-mode-config": 877,
+    "default-permission-mode-config": 888,
     "overage-promo": 130,
-    "git-worktrees": 877,
+    "git-worktrees": 888,
     "frontend-design-plugin": 875,
     "feedback-command": 879,
-    "color-when-multi-clauding": 877,
+    "color-when-multi-clauding": 888,
     "desktop-shortcut": 878
   },
-  "promptQueueUseCount": 3046,
+  "promptQueueUseCount": 3049,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -707,13 +707,13 @@
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": [
-        "VehicleBase.cs",
-        "GameManager.cs",
-        "VehicleRaceLogic.cs",
-        "PlayerInfo.cs",
-        "VehicleNetworkSync.cs"
+        "Stoney.mat",
+        "Obstacle.cs",
+        "VehicleNetworkSync.cs",
+        "VehicleDebug.cs",
+        "Singleton.cs"
       ],
-      "exampleFilesGeneratedAt": 1772528858698,
+      "exampleFilesGeneratedAt": 1775620249895,
       "hasCompletedProjectOnboarding": true,
       "lastCost": 30.576102949999996,
       "lastAPIDuration": 2708768,
@@ -5747,6 +5747,9 @@
     ],
     "marcelocantos/sysinfo-mcp": [
       "/Users/marcelo/work/github.com/marcelocantos/sysinfo-mcp"
+    ],
+    "minicadesmobile/kart-stars": [
+      "/Users/marcelo/work/github.com/minicadesmobile/kart-stars"
     ]
   },
   "lastReleaseNotesSeen": "2.1.92",
@@ -5816,8 +5819,8 @@
       "lastUsedAt": 1771914747958
     },
     "waw": {
-      "usageCount": 106,
-      "lastUsedAt": 1775619333795
+      "usageCount": 107,
+      "lastUsedAt": 1775620251127
     },
     "audit": {
       "usageCount": 28,
