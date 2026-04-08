@@ -43,7 +43,7 @@
     "color-when-multi-clauding": 888,
     "desktop-shortcut": 893
   },
-  "promptQueueUseCount": 3058,
+  "promptQueueUseCount": 3059,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -5793,7 +5793,7 @@
       "/Users/marcelo/work/github.com/minicadesmobile/kart-stars"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.96",
+  "lastReleaseNotesSeen": "2.1.92",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
