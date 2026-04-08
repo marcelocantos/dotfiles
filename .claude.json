@@ -1,5 +1,5 @@
 {
-  "numStartups": 898,
+  "numStartups": 899,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -17,7 +17,7 @@
     "enter-to-steer-in-relatime": 897,
     "todo-list": 897,
     "ide-upsell-external-terminal": 897,
-    "install-github-app": 889,
+    "install-github-app": 899,
     "install-slack-app": 891,
     "drag-and-drop-images": 891,
     "paste-images-mac": 891,
@@ -33,7 +33,7 @@
     "rename-conversation": 892,
     "custom-commands": 892,
     "agent-flag": 893,
-    "guest-passes": 896,
+    "guest-passes": 899,
     "shift-enter-setup": 95,
     "default-permission-mode-config": 898,
     "overage-promo": 130,
@@ -43,7 +43,7 @@
     "color-when-multi-clauding": 898,
     "desktop-shortcut": 893
   },
-  "promptQueueUseCount": 3077,
+  "promptQueueUseCount": 3082,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -2569,40 +2569,64 @@
         "main.go",
         "executor.go"
       ],
-      "lastCost": 0,
-      "lastAPIDuration": 0,
-      "lastAPIDurationWithoutRetries": 0,
-      "lastToolDuration": 0,
-      "lastDuration": 2741,
-      "lastLinesAdded": 0,
-      "lastLinesRemoved": 0,
-      "lastTotalInputTokens": 0,
-      "lastTotalOutputTokens": 0,
-      "lastTotalCacheCreationInputTokens": 0,
-      "lastTotalCacheReadInputTokens": 0,
+      "lastCost": 15.06023079999999,
+      "lastAPIDuration": 2130772,
+      "lastAPIDurationWithoutRetries": 2129842,
+      "lastToolDuration": 1827190,
+      "lastDuration": 15001684,
+      "lastLinesAdded": 2162,
+      "lastLinesRemoved": 525,
+      "lastTotalInputTokens": 318,
+      "lastTotalOutputTokens": 99729,
+      "lastTotalCacheCreationInputTokens": 734980,
+      "lastTotalCacheReadInputTokens": 20974933,
       "lastTotalWebSearchRequests": 0,
-      "lastModelUsage": {},
-      "lastSessionId": "73bcc425-cdc2-4508-80d9-7da5d91ee3f5",
+      "lastModelUsage": {
+        "claude-opus-4-6[1m]": {
+          "inputTokens": 173,
+          "outputTokens": 57633,
+          "cacheReadInputTokens": 13576642,
+          "cacheCreationInputTokens": 489073,
+          "webSearchRequests": 0,
+          "costUSD": 11.286717249999997
+        },
+        "claude-sonnet-4-6": {
+          "inputTokens": 145,
+          "outputTokens": 42096,
+          "cacheReadInputTokens": 7398291,
+          "cacheCreationInputTokens": 245907,
+          "webSearchRequests": 0,
+          "costUSD": 3.773513549999999
+        }
+      },
+      "lastSessionId": "5710c0a4-a485-4533-9a8e-8544cdb9374a",
       "lastSessionMetrics": {
-        "frame_duration_ms_count": 17,
-        "frame_duration_ms_min": 0.05424999999991087,
-        "frame_duration_ms_max": 2.4599580000000287,
-        "frame_duration_ms_avg": 0.2761593529412009,
-        "frame_duration_ms_p50": 0.0728750000000673,
-        "frame_duration_ms_p95": 0.8216243999998583,
-        "frame_duration_ms_p99": 2.1322912799999947,
-        "hook_duration_ms_count": 1,
-        "hook_duration_ms_min": 43,
-        "hook_duration_ms_max": 43,
-        "hook_duration_ms_avg": 43,
-        "hook_duration_ms_p50": 43,
-        "hook_duration_ms_p95": 43,
-        "hook_duration_ms_p99": 43
+        "frame_duration_ms_count": 24895,
+        "frame_duration_ms_min": 0.04779099998995662,
+        "frame_duration_ms_max": 213.04541599936783,
+        "frame_duration_ms_avg": 0.7573808973683183,
+        "frame_duration_ms_p50": 0.5791249999310821,
+        "frame_duration_ms_p95": 1.5826160499942483,
+        "frame_duration_ms_p99": 2.0972555200406346,
+        "hook_duration_ms_count": 733,
+        "hook_duration_ms_min": 27,
+        "hook_duration_ms_max": 83,
+        "hook_duration_ms_avg": 34.67667121418827,
+        "hook_duration_ms_p50": 33,
+        "hook_duration_ms_p95": 45.39999999999998,
+        "hook_duration_ms_p99": 73,
+        "pre_tool_hook_duration_ms_count": 370,
+        "pre_tool_hook_duration_ms_min": 30,
+        "pre_tool_hook_duration_ms_max": 83,
+        "pre_tool_hook_duration_ms_avg": 37.608108108108105,
+        "pre_tool_hook_duration_ms_p50": 35,
+        "pre_tool_hook_duration_ms_p95": 55.55000000000001,
+        "pre_tool_hook_duration_ms_p99": 77.24000000000001
       },
       "exampleFilesGeneratedAt": 1775639120248,
       "hasCompletedProjectOnboarding": true,
-      "lastFpsAverage": 10.65,
-      "lastFpsLow1Pct": 406.51
+      "lastFpsAverage": 1.66,
+      "lastFpsLow1Pct": 459.16
     },
     "/Users/marcelo/work/github.com/marcelocantos/sqlift/.claude/worktrees/unruffled-williams": {
       "allowedTools": [],
@@ -5796,8 +5820,8 @@
       "lastUsedAt": 1775602805524
     },
     "release": {
-      "usageCount": 163,
-      "lastUsedAt": 1775643357009
+      "usageCount": 165,
+      "lastUsedAt": 1775654971996
     },
     "gsd:help": {
       "usageCount": 1,
@@ -5856,8 +5880,8 @@
       "lastUsedAt": 1772167215856
     },
     "push": {
-      "usageCount": 132,
-      "lastUsedAt": 1775642291639
+      "usageCount": 133,
+      "lastUsedAt": 1775654088583
     },
     "stash": {
       "usageCount": 67,
