@@ -1,5 +1,5 @@
 {
-  "numStartups": 897,
+  "numStartups": 898,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -9,7 +9,7 @@
   "tipsHistory": {
     "new-user-warmup": 5,
     "plan-mode-for-complex-tasks": 896,
-    "terminal-setup": 888,
+    "terminal-setup": 898,
     "memory-command": 892,
     "theme-command": 887,
     "status-line": 885,
@@ -35,15 +35,15 @@
     "agent-flag": 893,
     "guest-passes": 896,
     "shift-enter-setup": 95,
-    "default-permission-mode-config": 888,
+    "default-permission-mode-config": 898,
     "overage-promo": 130,
-    "git-worktrees": 888,
+    "git-worktrees": 898,
     "frontend-design-plugin": 875,
     "feedback-command": 895,
-    "color-when-multi-clauding": 888,
+    "color-when-multi-clauding": 898,
     "desktop-shortcut": 893
   },
-  "promptQueueUseCount": 3074,
+  "promptQueueUseCount": 3077,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -715,61 +715,61 @@
       ],
       "exampleFilesGeneratedAt": 1775620249895,
       "hasCompletedProjectOnboarding": true,
-      "lastCost": 30.576102949999996,
-      "lastAPIDuration": 2708768,
-      "lastAPIDurationWithoutRetries": 2708289,
-      "lastToolDuration": 993923,
-      "lastDuration": 767948626,
-      "lastLinesAdded": 893,
-      "lastLinesRemoved": 416,
-      "lastTotalInputTokens": 59004,
-      "lastTotalOutputTokens": 126244,
-      "lastTotalCacheCreationInputTokens": 1500309,
-      "lastTotalCacheReadInputTokens": 38132931,
+      "lastCost": 11.801132250000002,
+      "lastAPIDuration": 1221489,
+      "lastAPIDurationWithoutRetries": 1220545,
+      "lastToolDuration": 1728785,
+      "lastDuration": 28589760,
+      "lastLinesAdded": 554,
+      "lastLinesRemoved": 50,
+      "lastTotalInputTokens": 572,
+      "lastTotalOutputTokens": 39540,
+      "lastTotalCacheCreationInputTokens": 272079,
+      "lastTotalCacheReadInputTokens": 18222061,
       "lastTotalWebSearchRequests": 0,
-      "lastFpsAverage": 0.02,
-      "lastFpsLow1Pct": 31.79,
+      "lastFpsAverage": 1.65,
+      "lastFpsLow1Pct": 349.09,
       "lastModelUsage": {
-        "claude-haiku-4-5-20251001": {
-          "inputTokens": 49360,
-          "outputTokens": 13337,
-          "cacheReadInputTokens": 616072,
-          "cacheCreationInputTokens": 121561,
+        "claude-opus-4-6[1m]": {
+          "inputTokens": 219,
+          "outputTokens": 39523,
+          "cacheReadInputTokens": 18222061,
+          "cacheCreationInputTokens": 272079,
           "webSearchRequests": 0,
-          "costUSD": 0.3296034500000002
+          "costUSD": 11.800694250000001
         },
-        "claude-opus-4-6": {
-          "inputTokens": 9644,
-          "outputTokens": 112907,
-          "cacheReadInputTokens": 37516859,
-          "cacheCreationInputTokens": 1378748,
+        "claude-haiku-4-5-20251001": {
+          "inputTokens": 353,
+          "outputTokens": 17,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
           "webSearchRequests": 0,
-          "costUSD": 30.246499500000006
+          "costUSD": 0.000438
         }
       },
-      "lastSessionId": "53bb12d5-b83c-4b2f-b1a8-2ac3ec1050ab",
+      "lastSessionId": "1ca3a8ef-2c75-454c-af6a-29e2b8d41a53",
       "lastSessionMetrics": {
-        "frame_duration_ms_count": 3343,
-        "frame_duration_ms_min": 0.13179199979640543,
-        "frame_duration_ms_max": 178.71629199385643,
-        "frame_duration_ms_avg": 2.10184797859652,
-        "frame_duration_ms_p50": 0.7847705000312999,
-        "frame_duration_ms_p95": 9.708465099998282,
-        "frame_duration_ms_p99": 31.32474449723958,
-        "hook_duration_ms_count": 59,
-        "hook_duration_ms_min": 35,
-        "hook_duration_ms_max": 880,
-        "hook_duration_ms_avg": 142.38983050847457,
-        "hook_duration_ms_p50": 51,
-        "hook_duration_ms_p95": 480.89999999999804,
-        "hook_duration_ms_p99": 856.22,
-        "pre_tool_hook_duration_ms_count": 21,
-        "pre_tool_hook_duration_ms_min": 36,
-        "pre_tool_hook_duration_ms_max": 840,
-        "pre_tool_hook_duration_ms_avg": 154.23809523809524,
-        "pre_tool_hook_duration_ms_p50": 45,
-        "pre_tool_hook_duration_ms_p95": 447,
-        "pre_tool_hook_duration_ms_p99": 761.4000000000003
+        "frame_duration_ms_count": 47245,
+        "frame_duration_ms_min": 0.051416999999901236,
+        "frame_duration_ms_max": 71011.25862499885,
+        "frame_duration_ms_avg": 2.8393712433900973,
+        "frame_duration_ms_p50": 0.5317085003480315,
+        "frame_duration_ms_p95": 1.2688786494545634,
+        "frame_duration_ms_p99": 2.760633910875765,
+        "hook_duration_ms_count": 411,
+        "hook_duration_ms_min": 27,
+        "hook_duration_ms_max": 425,
+        "hook_duration_ms_avg": 41.05596107055961,
+        "hook_duration_ms_p50": 34,
+        "hook_duration_ms_p95": 77,
+        "hook_duration_ms_p99": 147.4999999999999,
+        "pre_tool_hook_duration_ms_count": 203,
+        "pre_tool_hook_duration_ms_min": 29,
+        "pre_tool_hook_duration_ms_max": 427,
+        "pre_tool_hook_duration_ms_avg": 44.04926108374384,
+        "pre_tool_hook_duration_ms_p50": 38,
+        "pre_tool_hook_duration_ms_p95": 71.89999999999998,
+        "pre_tool_hook_duration_ms_p99": 143.53999999999976
       }
     },
     "/Users/marcelo/work/github.com/squz/yourworld2": {
@@ -5753,7 +5753,7 @@
       "/Users/marcelo/work/github.com/minicadesmobile/kart-stars"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.92",
+  "lastReleaseNotesSeen": "2.1.96",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -5934,7 +5934,7 @@
   "groveConfigCache": {
     "2909ba71-e527-4e91-9b22-2591e548b2d0": {
       "grove_enabled": true,
-      "timestamp": 1775561441681
+      "timestamp": 1775648845035
     }
   },
   "passesEligibilityCache": {
@@ -5950,7 +5950,7 @@
         "currency": "AUD"
       },
       "remaining_passes": 3,
-      "timestamp": 1775561442243
+      "timestamp": 1775648846093
     }
   },
   "passesUpsellSeenCount": 4,
@@ -6166,7 +6166,7 @@
         "amount_minor_units": 31000,
         "currency": "AUD"
       },
-      "timestamp": 1775638195237
+      "timestamp": 1775648845946
     }
   },
   "migrationVersion": 11
