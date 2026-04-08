@@ -1,5 +1,5 @@
 {
-  "numStartups": 891,
+  "numStartups": 892,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -10,7 +10,7 @@
     "new-user-warmup": 5,
     "plan-mode-for-complex-tasks": 891,
     "terminal-setup": 888,
-    "memory-command": 877,
+    "memory-command": 892,
     "theme-command": 887,
     "status-line": 885,
     "prompt-queue": 17,
@@ -30,7 +30,7 @@
     "mobile-app": 878,
     "custom-agents": 878,
     "permissions": 891,
-    "rename-conversation": 877,
+    "rename-conversation": 892,
     "custom-commands": 877,
     "agent-flag": 878,
     "guest-passes": 889,
@@ -5597,7 +5597,7 @@
       "enabledMcpjsonServers": [],
       "disabledMcpjsonServers": [],
       "hasTrustDialogAccepted": false,
-      "projectOnboardingSeenCount": 4,
+      "projectOnboardingSeenCount": 5,
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": [],
@@ -5793,7 +5793,7 @@
       "/Users/marcelo/work/github.com/minicadesmobile/kart-stars"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.92",
+  "lastReleaseNotesSeen": "2.1.96",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -6206,7 +6206,7 @@
         "amount_minor_units": 31000,
         "currency": "AUD"
       },
-      "timestamp": 1775627272059
+      "timestamp": 1775631879620
     }
   },
   "migrationVersion": 11
