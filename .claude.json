@@ -5558,7 +5558,8 @@
       "projectOnboardingSeenCount": 2,
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
-      "exampleFiles": []
+      "exampleFiles": [],
+      "hasCompletedProjectOnboarding": true
     }
   },
   "sonnet45MigrationComplete": true,
@@ -5747,7 +5748,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/sysinfo-mcp"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.94",
+  "lastReleaseNotesSeen": "2.1.92",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
