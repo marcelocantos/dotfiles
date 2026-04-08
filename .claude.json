@@ -1,5 +1,5 @@
 {
-  "numStartups": 886,
+  "numStartups": 887,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -11,7 +11,7 @@
     "plan-mode-for-complex-tasks": 885,
     "terminal-setup": 877,
     "memory-command": 877,
-    "theme-command": 867,
+    "theme-command": 887,
     "status-line": 885,
     "prompt-queue": 17,
     "enter-to-steer-in-relatime": 877,
@@ -3353,7 +3353,7 @@
         "common-lib",
         "vehicleControllerScript.cs"
       ],
-      "exampleFilesGeneratedAt": 1772704625122,
+      "exampleFilesGeneratedAt": 1775619329846,
       "hasCompletedProjectOnboarding": true
     },
     "/Users/marcelo/work/github.com/minicadesmobile/mopar-drag-n-brag": {
@@ -5556,7 +5556,7 @@
       "enabledMcpjsonServers": [],
       "disabledMcpjsonServers": [],
       "hasTrustDialogAccepted": false,
-      "projectOnboardingSeenCount": 2,
+      "projectOnboardingSeenCount": 3,
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": [],
@@ -5816,8 +5816,8 @@
       "lastUsedAt": 1771914747958
     },
     "waw": {
-      "usageCount": 105,
-      "lastUsedAt": 1775562452816
+      "usageCount": 106,
+      "lastUsedAt": 1775619333795
     },
     "audit": {
       "usageCount": 28,
@@ -6162,7 +6162,7 @@
         "amount_minor_units": 31000,
         "currency": "AUD"
       },
-      "timestamp": 1775603322928
+      "timestamp": 1775619329519
     }
   },
   "migrationVersion": 11
