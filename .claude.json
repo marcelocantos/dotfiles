@@ -1,5 +1,5 @@
 {
-  "numStartups": 885,
+  "numStartups": 886,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -8,7 +8,7 @@
   "hasUsedBackgroundTask": true,
   "tipsHistory": {
     "new-user-warmup": 5,
-    "plan-mode-for-complex-tasks": 880,
+    "plan-mode-for-complex-tasks": 885,
     "terminal-setup": 877,
     "memory-command": 877,
     "theme-command": 867,
@@ -43,7 +43,7 @@
     "color-when-multi-clauding": 877,
     "desktop-shortcut": 878
   },
-  "promptQueueUseCount": 3044,
+  "promptQueueUseCount": 3045,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -3082,7 +3082,7 @@
       "lastAPIDuration": 0,
       "lastAPIDurationWithoutRetries": 0,
       "lastToolDuration": 0,
-      "lastDuration": 3429,
+      "lastDuration": 5299,
       "lastLinesAdded": 0,
       "lastLinesRemoved": 0,
       "lastTotalInputTokens": 0,
@@ -3090,25 +3090,25 @@
       "lastTotalCacheCreationInputTokens": 0,
       "lastTotalCacheReadInputTokens": 0,
       "lastTotalWebSearchRequests": 0,
-      "lastFpsAverage": 10.05,
-      "lastFpsLow1Pct": 392.69,
+      "lastFpsAverage": 6.96,
+      "lastFpsLow1Pct": 347.73,
       "lastModelUsage": {},
-      "lastSessionId": "dd11286a-778d-44d2-9739-dd9ee8bd3d3d",
+      "lastSessionId": "53023824-a05e-4911-a6d6-f5174dc4d72e",
       "lastSessionMetrics": {
-        "frame_duration_ms_count": 26,
-        "frame_duration_ms_min": 0.051541000000042914,
-        "frame_duration_ms_max": 2.5465410000000475,
-        "frame_duration_ms_avg": 0.25378515384617867,
-        "frame_duration_ms_p50": 0.08754150000004302,
-        "frame_duration_ms_p95": 0.4895829999999819,
-        "frame_duration_ms_p99": 2.0323015000000453,
+        "frame_duration_ms_count": 29,
+        "frame_duration_ms_min": 0.04841699999997218,
+        "frame_duration_ms_max": 2.875833000000057,
+        "frame_duration_ms_avg": 0.24987203448282785,
+        "frame_duration_ms_p50": 0.07970899999963876,
+        "frame_duration_ms_p95": 0.5984745999998266,
+        "frame_duration_ms_p99": 2.251141239999958,
         "hook_duration_ms_count": 1,
-        "hook_duration_ms_min": 174,
-        "hook_duration_ms_max": 174,
-        "hook_duration_ms_avg": 174,
-        "hook_duration_ms_p50": 174,
-        "hook_duration_ms_p95": 174,
-        "hook_duration_ms_p99": 174
+        "hook_duration_ms_min": 1455,
+        "hook_duration_ms_max": 1455,
+        "hook_duration_ms_avg": 1455,
+        "hook_duration_ms_p50": 1455,
+        "hook_duration_ms_p95": 1455,
+        "hook_duration_ms_p99": 1455
       },
       "hasCompletedProjectOnboarding": true
     },
@@ -5469,7 +5469,71 @@
         "WeekViewModel.kt"
       ],
       "exampleFilesGeneratedAt": 1775600157481,
-      "hasCompletedProjectOnboarding": true
+      "hasCompletedProjectOnboarding": true,
+      "lastCost": 6.339546899999998,
+      "lastAPIDuration": 909941,
+      "lastAPIDurationWithoutRetries": 909395,
+      "lastToolDuration": 343063,
+      "lastDuration": 6032096,
+      "lastLinesAdded": 863,
+      "lastLinesRemoved": 81,
+      "lastTotalInputTokens": 460,
+      "lastTotalOutputTokens": 52005,
+      "lastTotalCacheCreationInputTokens": 317882,
+      "lastTotalCacheReadInputTokens": 6617589,
+      "lastTotalWebSearchRequests": 0,
+      "lastFpsAverage": 2.82,
+      "lastFpsLow1Pct": 326.75,
+      "lastModelUsage": {
+        "claude-opus-4-6[1m]": {
+          "inputTokens": 116,
+          "outputTokens": 43659,
+          "cacheReadInputTokens": 6553561,
+          "cacheCreationInputTokens": 253603,
+          "webSearchRequests": 0,
+          "costUSD": 5.953854249999998
+        },
+        "claude-haiku-4-5-20251001": {
+          "inputTokens": 337,
+          "outputTokens": 11,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.000392
+        },
+        "claude-sonnet-4-6": {
+          "inputTokens": 7,
+          "outputTokens": 8335,
+          "cacheReadInputTokens": 64028,
+          "cacheCreationInputTokens": 64279,
+          "webSearchRequests": 0,
+          "costUSD": 0.38530065
+        }
+      },
+      "lastSessionId": "f1823682-9e9f-42fd-b1d3-6c6f351425de",
+      "lastSessionMetrics": {
+        "frame_duration_ms_count": 17001,
+        "frame_duration_ms_min": 0.04641700000502169,
+        "frame_duration_ms_max": 37.17004100047052,
+        "frame_duration_ms_avg": 0.6950726091406461,
+        "frame_duration_ms_p50": 0.549479000037536,
+        "frame_duration_ms_p95": 1.4243205499835299,
+        "frame_duration_ms_p99": 2.6912209299905214,
+        "hook_duration_ms_count": 561,
+        "hook_duration_ms_min": 28,
+        "hook_duration_ms_max": 90,
+        "hook_duration_ms_avg": 38.294117647058826,
+        "hook_duration_ms_p50": 34,
+        "hook_duration_ms_p95": 65,
+        "hook_duration_ms_p99": 69.39999999999998,
+        "pre_tool_hook_duration_ms_count": 272,
+        "pre_tool_hook_duration_ms_min": 30,
+        "pre_tool_hook_duration_ms_max": 73,
+        "pre_tool_hook_duration_ms_avg": 41.04779411764706,
+        "pre_tool_hook_duration_ms_p50": 38,
+        "pre_tool_hook_duration_ms_p95": 67,
+        "pre_tool_hook_duration_ms_p99": 69.29000000000002
+      }
     },
     "/Users/marcelo/work/github.com/marcelocantos/sysinfo-mcp": {
       "allowedTools": [],
@@ -5478,7 +5542,7 @@
       "enabledMcpjsonServers": [],
       "disabledMcpjsonServers": [],
       "hasTrustDialogAccepted": false,
-      "projectOnboardingSeenCount": 0,
+      "projectOnboardingSeenCount": 1,
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": [],
@@ -5491,7 +5555,7 @@
       "enabledMcpjsonServers": [],
       "disabledMcpjsonServers": [],
       "hasTrustDialogAccepted": false,
-      "projectOnboardingSeenCount": 1,
+      "projectOnboardingSeenCount": 2,
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": []
@@ -5683,7 +5747,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/sysinfo-mcp"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.92",
+  "lastReleaseNotesSeen": "2.1.94",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -5726,8 +5790,8 @@
       "lastUsedAt": 1775602805524
     },
     "release": {
-      "usageCount": 157,
-      "lastUsedAt": 1775601875961
+      "usageCount": 158,
+      "lastUsedAt": 1775606070786
     },
     "gsd:help": {
       "usageCount": 1,
