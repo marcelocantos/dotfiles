@@ -1,5 +1,5 @@
 {
-  "numStartups": 911,
+  "numStartups": 912,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -21,9 +21,9 @@
     "install-slack-app": 911,
     "drag-and-drop-images": 911,
     "paste-images-mac": 911,
-    "double-esc-code-restore": 902,
-    "continue": 902,
-    "shift-tab": 902,
+    "double-esc-code-restore": 912,
+    "continue": 912,
+    "shift-tab": 912,
     "image-paste": 897,
     "desktop-app": 908,
     "web-app": 908,
@@ -5899,7 +5899,7 @@
       "/Users/marcelo/work/github.com/minicadesmobile/kart-stars"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.92",
+  "lastReleaseNotesSeen": "2.1.96",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
