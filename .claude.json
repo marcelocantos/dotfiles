@@ -1,5 +1,5 @@
 {
-  "numStartups": 908,
+  "numStartups": 909,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -17,7 +17,7 @@
     "enter-to-steer-in-relatime": 897,
     "todo-list": 897,
     "ide-upsell-external-terminal": 906,
-    "install-github-app": 899,
+    "install-github-app": 909,
     "install-slack-app": 901,
     "drag-and-drop-images": 901,
     "paste-images-mac": 901,
@@ -5892,7 +5892,7 @@
       "/Users/marcelo/work/github.com/minicadesmobile/kart-stars"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.96",
+  "lastReleaseNotesSeen": "2.1.97",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -6056,7 +6056,7 @@
     }
   },
   "feedbackSurveyState": {
-    "lastShownTime": 1775628347945
+    "lastShownTime": 1775699416649
   },
   "claudeCodeFirstTokenDate": "2026-01-25T12:12:55.002215Z",
   "hasShownOpus45Notice": {
@@ -6310,7 +6310,7 @@
         "amount_minor_units": 31000,
         "currency": "AUD"
       },
-      "timestamp": 1775691920881
+      "timestamp": 1775698600014
     }
   },
   "migrationVersion": 11,
