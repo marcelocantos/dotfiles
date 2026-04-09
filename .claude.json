@@ -14,8 +14,8 @@
     "theme-command": 907,
     "status-line": 910,
     "prompt-queue": 17,
-    "enter-to-steer-in-relatime": 897,
-    "todo-list": 897,
+    "enter-to-steer-in-relatime": 917,
+    "todo-list": 917,
     "ide-upsell-external-terminal": 911,
     "install-github-app": 909,
     "install-slack-app": 911,
@@ -24,7 +24,7 @@
     "double-esc-code-restore": 912,
     "continue": 912,
     "shift-tab": 912,
-    "image-paste": 897,
+    "image-paste": 917,
     "desktop-app": 908,
     "web-app": 908,
     "mobile-app": 908,
@@ -33,7 +33,7 @@
     "rename-conversation": 907,
     "custom-commands": 907,
     "agent-flag": 908,
-    "guest-passes": 914,
+    "guest-passes": 917,
     "shift-enter-setup": 95,
     "default-permission-mode-config": 908,
     "overage-promo": 130,
@@ -45,7 +45,6 @@
   },
   "promptQueueUseCount": 3096,
   "btwUseCount": 7,
-  "showExpandedTodos": true,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
   },
@@ -5902,7 +5901,7 @@
       "/Users/marcelo/work/github.com/minicadesmobile/kart-stars"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.96",
+  "lastReleaseNotesSeen": "2.1.98",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -6033,8 +6032,8 @@
       "lastUsedAt": 1772625771549
     },
     "cv": {
-      "usageCount": 278,
-      "lastUsedAt": 1775771189824
+      "usageCount": 280,
+      "lastUsedAt": 1775773609766
     },
     "target": {
       "usageCount": 37,
@@ -6066,7 +6065,7 @@
     }
   },
   "feedbackSurveyState": {
-    "lastShownTime": 1775700806959
+    "lastShownTime": 1775774070354
   },
   "claudeCodeFirstTokenDate": "2026-01-25T12:12:55.002215Z",
   "hasShownOpus45Notice": {
