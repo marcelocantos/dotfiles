@@ -244,6 +244,7 @@ user. Good moments to reach for mnemo:
   - `bullseye_update(cwd, id, ...)` — change status or fields
   - `bullseye_retire(cwd, id)` — mark achieved
   - `bullseye_validate(cwd)` — check graph integrity
+  - `bullseye_startup_context(cwd)` — session start context
 - Targets are numbered 🎯T1, 🎯T2, … (🎯T1.1, 🎯T1.2, … for related
   targets). Always use the 🎯T*N* prefix when referring to targets —
   in files, reports, and conversation. No space between 🎯 and T.
@@ -285,6 +286,13 @@ user. Good moments to reach for mnemo:
   immediately run `/wrap` to update targets and capture learnings
   before state is lost. After `/wrap` completes, recommend `/clear`
   to start a fresh session.
+- **Session startup**: At the start of every session, if the project
+  has a `docs/targets.yaml`, call `bullseye_startup_context(cwd)` to
+  load project context (frontier targets, recent achievements,
+  warnings). For cross-project context, also call
+  `mnemo_recent_activity()` to see recent session activity. Present
+  a brief summary only if there's something actionable — don't dump
+  raw output.
 - **Workflow**: When starting new work (user request, session start, or
   picking up where you left off), call `bullseye_frontier` or
   `bullseye_list` first. If the work maps to an existing target,
