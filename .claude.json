@@ -1,5 +1,5 @@
 {
-  "numStartups": 914,
+  "numStartups": 915,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -5892,7 +5892,7 @@
       "/Users/marcelo/work/github.com/minicadesmobile/kart-stars"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.96",
+  "lastReleaseNotesSeen": "2.1.97",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -6073,7 +6073,7 @@
   "groveConfigCache": {
     "2909ba71-e527-4e91-9b22-2591e548b2d0": {
       "grove_enabled": true,
-      "timestamp": 1775648845035
+      "timestamp": 1775737929610
     }
   },
   "passesEligibilityCache": {
@@ -6089,7 +6089,7 @@
         "currency": "AUD"
       },
       "remaining_passes": 3,
-      "timestamp": 1775648846093
+      "timestamp": 1775737930792
     }
   },
   "passesUpsellSeenCount": 4,
