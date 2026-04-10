@@ -37,12 +37,14 @@ Behaviour depends on arguments provided after `/target`.
 
 ### `/target` (no arguments) — Summarise
 
-Call `bullseye_list(cwd)` and `bullseye_frontier(cwd)`. Present:
+Call `bullseye_summary(cwd)`. This returns grouped targets with rollup
+counts, frontier, blocked, stale, and WSJF ranking in one call. If
+`bullseye_summary` is not available, fall back to `bullseye_list(cwd)`
+and `bullseye_frontier(cwd)`.
 
-- All active targets sorted by ID
-- For each: name, status, value, cost, one-line gap assessment
-- Frontier targets highlighted as ready for work
-- Count of active targets
+Present the summary output directly — it already includes everything
+the user needs: active targets grouped by parent, frontier highlighted,
+blocked targets with blockers, and WSJF ranking.
 
 ### `/target <text>` — Add a new target
 

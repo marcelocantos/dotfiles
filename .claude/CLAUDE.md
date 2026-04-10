@@ -222,10 +222,34 @@ deep links, sample data, and visual verification cadence.
 ## Session context via mnemo
 
 The `mnemo` MCP server indexes all Claude Code session transcripts.
-When you need context about recent work — what repos have been
-active, what was discussed, what decisions were made — use
-`mnemo_status` or `mnemo_search` rather than guessing or asking the
-user. Good moments to reach for mnemo:
+It is the **primary source for session history** — what was worked on,
+when, what decisions were made, and what was discussed. Skills should
+prefer mnemo over reconstructing narrative from git log or auto-memory.
+
+- **bullseye** owns target state (desired states, gap assessments,
+  convergence). **mnemo** owns session history (what actually happened,
+  decisions, context). They complement each other — don't use one to
+  replace the other.
+- `/waw` uses `mnemo_recent_activity` for its summary narrative and
+  `mnemo_search` for key decisions, falling back to git log only if
+  mnemo is unavailable.
+- `/cv` uses `mnemo_recent_activity` to understand recent movement
+  before evaluating gaps, reducing expensive codebase reads.
+- `/wrap` writes only forward-looking context to MEMORY.md (targets
+  affected, in-flight work, user preferences) — session narrative
+  lives in mnemo, not auto-memory.
+- Auto-memory (`MEMORY.md`, topic files) stores **stable facts** and
+  **context mnemo cannot provide** (user preferences, architectural
+  decisions that shape future work, external constraints). Don't
+  duplicate session logs there.
+
+Key tools:
+- `mnemo_recent_activity(repo=..., days=N)` — recent work on a repo
+- `mnemo_search(query=..., repo=..., limit=N)` — full-text search
+- `mnemo_status` — server health and indexing state
+- `mnemo_sessions`, `mnemo_read_session` — browse specific sessions
+
+Good moments to reach for mnemo:
 - The user references prior work ("that thing we discussed", "the
   approach from last session", "continue where I left off")
 - You need to understand the broader context of a project before

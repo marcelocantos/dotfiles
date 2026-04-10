@@ -165,28 +165,37 @@ exist). This section is automatically loaded into every new
 conversation, so it survives `/clear` without any explicit action.
 
 Replace any existing `## Last session` section — there should only
-ever be one. Keep it concise (aim for under 20 lines) to avoid
-bloating the always-loaded context. Include:
+ever be one. Keep it concise (aim for under 15 lines) to avoid
+bloating the always-loaded context.
 
-- **What happened** — 1-2 sentence summary of the session.
+**Do NOT duplicate session narrative here** — mnemo indexes transcripts
+automatically and `/waw` and `/cv` query it directly. Focus MEMORY.md
+on stable facts and forward-looking context that a fresh session needs
+immediately but mnemo cannot provide.
+
+Include only:
+
+- **Date** — session date.
 - **Targets affected** — which targets changed and how (reference
   the target updates from Step 3).
 - **In-flight work** — anything started but not finished, with
-  enough context to resume.
-- **Key context** — blockers, gotchas, or decisions that the next
-  session needs to know immediately (not buried in a topic file).
+  enough context to resume (uncommitted changes, partially done
+  features).
+- **Key context that mnemo cannot provide** — user preferences
+  expressed verbally, decisions about future direction, external
+  constraints mentioned in conversation but not captured in code or
+  targets.
 
 ```markdown
 ## Last session
 **Date**: YYYY-MM-DD
 
-Summary of what happened.
-
 **Targets**: 🎯T1 achieved, 🎯T3 converging (details).
 
 **In-flight**: Description of unfinished work if any.
 
-**Context**: Key things the next session needs to know.
+**Context**: Things mnemo can't provide — user preferences, future
+direction, external constraints.
 ```
 
 If Step 4 created topic files, reference them here:
