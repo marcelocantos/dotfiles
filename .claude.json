@@ -43,7 +43,7 @@
     "color-when-multi-clauding": 918,
     "desktop-shortcut": 908
   },
-  "promptQueueUseCount": 3108,
+  "promptQueueUseCount": 3109,
   "btwUseCount": 7,
   "showExpandedTodos": true,
   "cachedStatsigGates": {
@@ -5976,7 +5976,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/claudia"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.98",
+  "lastReleaseNotesSeen": "2.1.97",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -6394,7 +6394,7 @@
         "amount_minor_units": 31000,
         "currency": "AUD"
       },
-      "timestamp": 1775821236392
+      "timestamp": 1775861963763
     }
   },
   "migrationVersion": 11,
