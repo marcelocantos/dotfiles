@@ -5975,7 +5975,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/claudia"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.98",
+  "lastReleaseNotesSeen": "2.1.97",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -6393,7 +6393,7 @@
         "amount_minor_units": 31000,
         "currency": "AUD"
       },
-      "timestamp": 1775805227128
+      "timestamp": 1775821236392
     }
   },
   "migrationVersion": 11,
