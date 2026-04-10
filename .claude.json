@@ -19,8 +19,8 @@
     "ide-upsell-external-terminal": 911,
     "install-github-app": 919,
     "install-slack-app": 921,
-    "drag-and-drop-images": 911,
-    "paste-images-mac": 911,
+    "drag-and-drop-images": 921,
+    "paste-images-mac": 921,
     "double-esc-code-restore": 912,
     "continue": 912,
     "shift-tab": 912,
@@ -29,7 +29,7 @@
     "web-app": 908,
     "mobile-app": 908,
     "custom-agents": 908,
-    "permissions": 911,
+    "permissions": 921,
     "rename-conversation": 907,
     "custom-commands": 907,
     "agent-flag": 908,
@@ -43,7 +43,7 @@
     "color-when-multi-clauding": 918,
     "desktop-shortcut": 908
   },
-  "promptQueueUseCount": 3106,
+  "promptQueueUseCount": 3108,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
