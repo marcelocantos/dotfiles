@@ -1,5 +1,5 @@
 {
-  "numStartups": 965,
+  "numStartups": 967,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -8,17 +8,17 @@
   "hasUsedBackgroundTask": true,
   "tipsHistory": {
     "new-user-warmup": 5,
-    "plan-mode-for-complex-tasks": 962,
-    "terminal-setup": 956,
+    "plan-mode-for-complex-tasks": 967,
+    "terminal-setup": 966,
     "memory-command": 956,
-    "theme-command": 947,
+    "theme-command": 967,
     "status-line": 960,
     "prompt-queue": 17,
     "enter-to-steer-in-relatime": 957,
     "todo-list": 957,
     "ide-upsell-external-terminal": 911,
-    "install-github-app": 957,
-    "install-slack-app": 957,
+    "install-github-app": 967,
+    "install-slack-app": 967,
     "drag-and-drop-images": 960,
     "paste-images-mac": 962,
     "double-esc-code-restore": 962,
@@ -29,11 +29,11 @@
     "web-app": 957,
     "mobile-app": 957,
     "custom-agents": 957,
-    "permissions": 957,
+    "permissions": 967,
     "rename-conversation": 957,
     "custom-commands": 957,
     "agent-flag": 957,
-    "guest-passes": 964,
+    "guest-passes": 967,
     "shift-enter-setup": 95,
     "default-permission-mode-config": 964,
     "overage-promo": 130,
@@ -5431,6 +5431,9 @@
       },
       "enabledMcpServers": [
         "computer-use"
+      ],
+      "disabledMcpServers": [
+        "bullseye"
       ]
     },
     "/Users/marcelo/work/github.com/marcelocantos/pairdroid": {
