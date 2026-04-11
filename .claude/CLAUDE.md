@@ -261,7 +261,13 @@ Good moments to reach for mnemo:
 
 - Targets are managed via the **bullseye** MCP server. The source of
   truth is `docs/targets.yaml`; `docs/targets.md` is an auto-rendered
-  view. Use bullseye tools for all target operations:
+  view. Don't preflight-check whether bullseye is registered — just
+  use its tools naturally. If a call fails with "tool not found" or
+  "unknown tool", **stop the current operation** and report:
+  > **Error: bullseye MCP server is not registered.**
+  > Add it via `claude mcp add` or check `~/.claude.json`.
+  Do not fall back to reading `docs/targets.md` directly.
+- Use bullseye tools for all target operations:
   - `bullseye_frontier(cwd)` — unblocked targets ready for work
   - `bullseye_list(cwd)` — all targets with status
   - `bullseye_add(cwd, ...)` — create a new target
