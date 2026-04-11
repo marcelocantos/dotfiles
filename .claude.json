@@ -1,5 +1,5 @@
 {
-  "numStartups": 975,
+  "numStartups": 976,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -9,7 +9,7 @@
   "tipsHistory": {
     "new-user-warmup": 5,
     "plan-mode-for-complex-tasks": 972,
-    "terminal-setup": 966,
+    "terminal-setup": 976,
     "memory-command": 971,
     "theme-command": 967,
     "status-line": 960,
@@ -43,7 +43,7 @@
     "color-when-multi-clauding": 975,
     "desktop-shortcut": 972
   },
-  "promptQueueUseCount": 3157,
+  "promptQueueUseCount": 3161,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -1349,17 +1349,17 @@
       ],
       "exampleFilesGeneratedAt": 1775868677181,
       "hasCompletedProjectOnboarding": true,
-      "lastCost": 3.0854662499999996,
-      "lastAPIDuration": 267635,
-      "lastAPIDurationWithoutRetries": 267424,
-      "lastToolDuration": 109135,
-      "lastDuration": 29839524,
-      "lastLinesAdded": 2,
-      "lastLinesRemoved": 1,
-      "lastTotalInputTokens": 517,
-      "lastTotalOutputTokens": 14160,
-      "lastTotalCacheCreationInputTokens": 283745,
-      "lastTotalCacheReadInputTokens": 1915150,
+      "lastCost": 11.572409000000004,
+      "lastAPIDuration": 1094613,
+      "lastAPIDurationWithoutRetries": 1093755,
+      "lastToolDuration": 258947,
+      "lastDuration": 38096844,
+      "lastLinesAdded": 62,
+      "lastLinesRemoved": 18,
+      "lastTotalInputTokens": 719,
+      "lastTotalOutputTokens": 55973,
+      "lastTotalCacheCreationInputTokens": 543120,
+      "lastTotalCacheReadInputTokens": 13554178,
       "lastTotalWebSearchRequests": 0,
       "lastModelUsage": {
         "claude-haiku-4-5-20251001": {
@@ -1371,40 +1371,40 @@
           "costUSD": 0.0005250000000000001
         },
         "claude-opus-4-6[1m]": {
-          "inputTokens": 77,
-          "outputTokens": 14143,
-          "cacheReadInputTokens": 1915150,
-          "cacheCreationInputTokens": 283745,
+          "inputTokens": 279,
+          "outputTokens": 55956,
+          "cacheReadInputTokens": 13554178,
+          "cacheCreationInputTokens": 543120,
           "webSearchRequests": 0,
-          "costUSD": 3.08494125
+          "costUSD": 11.571884000000004
         }
       },
-      "lastSessionId": "c8868238-3f90-4174-a705-0e68b47f3aa0",
+      "lastSessionId": "08e57657-fb07-4f0f-aa7f-5b46253f6b98",
       "lastSessionMetrics": {
-        "frame_duration_ms_count": 472,
-        "frame_duration_ms_min": 0.11970799999835435,
-        "frame_duration_ms_max": 128.5381660000421,
-        "frame_duration_ms_avg": 1.1006325995751272,
-        "frame_duration_ms_p50": 0.6253959999994549,
-        "frame_duration_ms_p95": 1.363943899733202,
-        "frame_duration_ms_p99": 4.155794819998276,
-        "hook_duration_ms_count": 9,
-        "hook_duration_ms_min": 30,
-        "hook_duration_ms_max": 44,
-        "hook_duration_ms_avg": 37,
-        "hook_duration_ms_p50": 39,
-        "hook_duration_ms_p95": 42.8,
-        "hook_duration_ms_p99": 43.76,
-        "pre_tool_hook_duration_ms_count": 2,
-        "pre_tool_hook_duration_ms_min": 40,
-        "pre_tool_hook_duration_ms_max": 44,
-        "pre_tool_hook_duration_ms_avg": 42,
-        "pre_tool_hook_duration_ms_p50": 42,
-        "pre_tool_hook_duration_ms_p95": 43.8,
-        "pre_tool_hook_duration_ms_p99": 43.96
+        "frame_duration_ms_count": 15190,
+        "frame_duration_ms_min": 0.04766600000220933,
+        "frame_duration_ms_max": 16.051417000000015,
+        "frame_duration_ms_avg": 0.7571271745225943,
+        "frame_duration_ms_p50": 0.6751875001937151,
+        "frame_duration_ms_p95": 1.7272143500624175,
+        "frame_duration_ms_p99": 2.9624285902222613,
+        "hook_duration_ms_count": 259,
+        "hook_duration_ms_min": 27,
+        "hook_duration_ms_max": 83,
+        "hook_duration_ms_avg": 36.76061776061776,
+        "hook_duration_ms_p50": 37,
+        "hook_duration_ms_p95": 47,
+        "hook_duration_ms_p99": 61.239999999999725,
+        "pre_tool_hook_duration_ms_count": 122,
+        "pre_tool_hook_duration_ms_min": 29,
+        "pre_tool_hook_duration_ms_max": 79,
+        "pre_tool_hook_duration_ms_avg": 40.31967213114754,
+        "pre_tool_hook_duration_ms_p50": 40,
+        "pre_tool_hook_duration_ms_p95": 49,
+        "pre_tool_hook_duration_ms_p99": 70.37999999999982
       },
-      "lastFpsAverage": 0.05,
-      "lastFpsLow1Pct": 218.99
+      "lastFpsAverage": 1.84,
+      "lastFpsLow1Pct": 317.25
     },
     "/Users/marcelo/work/github.com/arr-ai/wbnf": {
       "allowedTools": [],
@@ -5389,20 +5389,20 @@
       ],
       "exampleFilesGeneratedAt": 1775512627427,
       "hasCompletedProjectOnboarding": true,
-      "lastCost": 115.69143424999996,
-      "lastAPIDuration": 5042129,
-      "lastAPIDurationWithoutRetries": 5039387,
-      "lastToolDuration": 1372236,
-      "lastDuration": 21924720,
-      "lastLinesAdded": 1941,
-      "lastLinesRemoved": 528,
-      "lastTotalInputTokens": 1123,
-      "lastTotalOutputTokens": 284473,
-      "lastTotalCacheCreationInputTokens": 2138119,
-      "lastTotalCacheReadInputTokens": 190424869,
+      "lastCost": 169.63711825,
+      "lastAPIDuration": 7228199,
+      "lastAPIDurationWithoutRetries": 7224763,
+      "lastToolDuration": 1735139,
+      "lastDuration": 26493557,
+      "lastLinesAdded": 3484,
+      "lastLinesRemoved": 836,
+      "lastTotalInputTokens": 1335,
+      "lastTotalOutputTokens": 412128,
+      "lastTotalCacheCreationInputTokens": 2975109,
+      "lastTotalCacheReadInputTokens": 281468992,
       "lastTotalWebSearchRequests": 0,
-      "lastFpsAverage": 1.46,
-      "lastFpsLow1Pct": 346.12,
+      "lastFpsAverage": 8.97,
+      "lastFpsLow1Pct": 487.82,
       "lastModelUsage": {
         "claude-haiku-4-5-20251001": {
           "inputTokens": 351,
@@ -5413,37 +5413,37 @@
           "costUSD": 0.00042100000000000004
         },
         "claude-opus-4-6[1m]": {
-          "inputTokens": 772,
-          "outputTokens": 284459,
-          "cacheReadInputTokens": 190424869,
-          "cacheCreationInputTokens": 2138119,
+          "inputTokens": 984,
+          "outputTokens": 412114,
+          "cacheReadInputTokens": 281468992,
+          "cacheCreationInputTokens": 2975109,
           "webSearchRequests": 0,
-          "costUSD": 115.69101324999997
+          "costUSD": 169.63669724999997
         }
       },
       "lastSessionId": "08efc825-3916-4050-91cb-f60efb9a7712",
       "lastSessionMetrics": {
-        "frame_duration_ms_count": 14228,
-        "frame_duration_ms_min": 0.17512500006705523,
-        "frame_duration_ms_max": 157.70704199999454,
-        "frame_duration_ms_avg": 1.1829319524171078,
-        "frame_duration_ms_p50": 1.0431874999776483,
-        "frame_duration_ms_p95": 2.320306350081227,
-        "frame_duration_ms_p99": 3.9563131598220203,
-        "hook_duration_ms_count": 106,
-        "hook_duration_ms_min": 26,
-        "hook_duration_ms_max": 106,
-        "hook_duration_ms_avg": 37.08490566037736,
-        "hook_duration_ms_p50": 37,
-        "hook_duration_ms_p95": 44,
-        "hook_duration_ms_p99": 51.900000000000006,
-        "pre_tool_hook_duration_ms_count": 46,
+        "frame_duration_ms_count": 40968,
+        "frame_duration_ms_min": 0.08712500002002344,
+        "frame_duration_ms_max": 52.48762499999998,
+        "frame_duration_ms_avg": 1.1862966032512698,
+        "frame_duration_ms_p50": 1.0312705000542337,
+        "frame_duration_ms_p95": 2.1559535499196487,
+        "frame_duration_ms_p99": 3.795151929846029,
+        "hook_duration_ms_count": 279,
+        "hook_duration_ms_min": 27,
+        "hook_duration_ms_max": 131,
+        "hook_duration_ms_avg": 37.03225806451613,
+        "hook_duration_ms_p50": 35,
+        "hook_duration_ms_p95": 47,
+        "hook_duration_ms_p99": 82.27999999999929,
+        "pre_tool_hook_duration_ms_count": 129,
         "pre_tool_hook_duration_ms_min": 30,
-        "pre_tool_hook_duration_ms_max": 46,
-        "pre_tool_hook_duration_ms_avg": 37.97826086956522,
-        "pre_tool_hook_duration_ms_p50": 38,
-        "pre_tool_hook_duration_ms_p95": 44,
-        "pre_tool_hook_duration_ms_p99": 45.55
+        "pre_tool_hook_duration_ms_max": 101,
+        "pre_tool_hook_duration_ms_avg": 40.51162790697674,
+        "pre_tool_hook_duration_ms_p50": 39,
+        "pre_tool_hook_duration_ms_p95": 51.599999999999994,
+        "pre_tool_hook_duration_ms_p99": 77.72
       },
       "enabledMcpServers": [
         "computer-use"
@@ -6272,7 +6272,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/mcpbridge"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.101",
+  "lastReleaseNotesSeen": "2.1.97",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -6311,12 +6311,12 @@
       "lastUsedAt": 1775601360746
     },
     "republish-skills": {
-      "usageCount": 75,
-      "lastUsedAt": 1775890454627
+      "usageCount": 76,
+      "lastUsedAt": 1775907184401
     },
     "release": {
-      "usageCount": 182,
-      "lastUsedAt": 1775906409250
+      "usageCount": 183,
+      "lastUsedAt": 1775907932710
     },
     "gsd:help": {
       "usageCount": 1,
@@ -6375,8 +6375,8 @@
       "lastUsedAt": 1772167215856
     },
     "push": {
-      "usageCount": 144,
-      "lastUsedAt": 1775906599873
+      "usageCount": 146,
+      "lastUsedAt": 1775907056734
     },
     "stash": {
       "usageCount": 67,
@@ -6403,8 +6403,8 @@
       "lastUsedAt": 1772625771549
     },
     "cv": {
-      "usageCount": 295,
-      "lastUsedAt": 1775902448432
+      "usageCount": 297,
+      "lastUsedAt": 1775907557898
     },
     "target": {
       "usageCount": 37,
