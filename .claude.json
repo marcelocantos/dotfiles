@@ -1,5 +1,5 @@
 {
-  "numStartups": 974,
+  "numStartups": 975,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -40,10 +40,10 @@
     "git-worktrees": 974,
     "frontend-design-plugin": 936,
     "feedback-command": 972,
-    "color-when-multi-clauding": 965,
+    "color-when-multi-clauding": 975,
     "desktop-shortcut": 972
   },
-  "promptQueueUseCount": 3155,
+  "promptQueueUseCount": 3157,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -6272,7 +6272,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/mcpbridge"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.97",
+  "lastReleaseNotesSeen": "2.1.101",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -6315,8 +6315,8 @@
       "lastUsedAt": 1775890454627
     },
     "release": {
-      "usageCount": 181,
-      "lastUsedAt": 1775900760573
+      "usageCount": 182,
+      "lastUsedAt": 1775906409250
     },
     "gsd:help": {
       "usageCount": 1,
@@ -6375,8 +6375,8 @@
       "lastUsedAt": 1772167215856
     },
     "push": {
-      "usageCount": 142,
-      "lastUsedAt": 1775898813033
+      "usageCount": 144,
+      "lastUsedAt": 1775906599873
     },
     "stash": {
       "usageCount": 67,
@@ -6694,7 +6694,7 @@
         "amount_minor_units": 31000,
         "currency": "AUD"
       },
-      "timestamp": 1775902280346
+      "timestamp": 1775906502985
     }
   },
   "migrationVersion": 11,
