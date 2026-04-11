@@ -210,6 +210,27 @@ else
 fi
 
 # ---------------------------------------------------------------------------
+# 9b. Homebrew tap token secret (needed by homebrew-releaser)
+# ---------------------------------------------------------------------------
+# homebrew-releaser reads HOMEBREW_TAP_TOKEN from the repo's action
+# secrets to authenticate its push to marcelocantos/homebrew-tap. A
+# new repo won't have it set, and the error when it's missing is
+# opaque ("You must provide all necessary environment variables").
+# Catching it in Phase 1 saves a failed release-workflow run after
+# the tag has already been created and the homebrew-releaser job
+# has to be re-run by hand.
+echo "# homebrew_tap_token_secret"
+if has_cmd gh; then
+    if gh secret list 2>/dev/null | awk '{print $1}' | grep -qx 'HOMEBREW_TAP_TOKEN'; then
+        echo "set"
+    else
+        echo "missing"
+    fi
+else
+    echo "(gh not installed)"
+fi
+
+# ---------------------------------------------------------------------------
 # 10. Description check
 # ---------------------------------------------------------------------------
 echo "# description_check"
