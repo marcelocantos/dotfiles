@@ -65,6 +65,8 @@ This script gathers all Phase 1 data in one invocation (tags, releases, build sy
 
    Also verify that the README mentions the agent guide for discoverability (e.g., "If you use an agentic coding tool, include `agents-guide.md` in your project context").
 
+   **Gotcha staleness check**: If the agent guide contains a "Gotchas" section (or equivalent list of known caveats), read each gotcha against the commits in this release. A release that *fixes* a behaviour previously described as a gotcha leaves a stale entry behind — future agents reading the guide will work around a problem that no longer exists, or worse, re-introduce it defensively. Look especially for commits whose messages mention parity fixes, removed workarounds, or "no longer needed" language. For each stale gotcha, either delete it, or rewrite it to reflect the new behaviour (e.g., a "was a hazard, now fixed" note if the historical context is useful). Flag any you find as a release-PR change rather than silently merging release notes over a stale guide.
+
    **MCP servers** (detected by MCP dependencies in the manifest, a `serve` subcommand, or "MCP" in the project description): The agents-guide and README must include complete installation instructions. The agents-guide must explicitly frame installation as a **multi-step process** and state that installation is not complete until all steps succeed — agents that see only `brew install` will stop there.
 
    Required steps (all must be documented):

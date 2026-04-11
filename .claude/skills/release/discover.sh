@@ -138,8 +138,31 @@ fi
 # ---------------------------------------------------------------------------
 echo "# project_type"
 is_binary=false
-# Go: cmd/ or main package
-if [[ -d cmd ]] || [[ -f main.go ]]; then
+# Go: a project is a library if the module root directory contains any
+# .go file declaring a non-main package — that non-main root package is
+# the importable surface consumers depend on. The presence of cmd/
+# alongside such a root package just means the repo also ships
+# diagnostic tools, examples, or ancillary binaries (e.g. claudia's
+# cmd/probe-ready), not that the project's primary product is a
+# binary. Only classify as binary if there is NO non-main root
+# package AND a main package exists (at the root or under cmd/).
+if [[ -f go.mod ]]; then
+    root_has_library=false
+    shopt -s nullglob
+    for f in *.go; do
+        [[ "$f" == *_test.go ]] && continue
+        pkg=$(grep -E '^package[[:space:]]+[A-Za-z_][A-Za-z0-9_]*' "$f" 2>/dev/null | head -1 | awk '{print $2}')
+        if [[ -n "$pkg" && "$pkg" != "main" ]]; then
+            root_has_library=true
+            break
+        fi
+    done
+    shopt -u nullglob
+    if [[ "$root_has_library" == false ]] && { [[ -d cmd ]] || [[ -f main.go ]]; }; then
+        is_binary=true
+    fi
+elif [[ -d cmd ]] || [[ -f main.go ]]; then
+    # Non-Go project with cmd/ or main.go — probably a binary.
     is_binary=true
 fi
 # Rust: check for [[bin]] in Cargo.toml or src/main.rs
