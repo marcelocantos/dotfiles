@@ -43,7 +43,7 @@
     "color-when-multi-clauding": 955,
     "desktop-shortcut": 957
   },
-  "promptQueueUseCount": 3141,
+  "promptQueueUseCount": 3142,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -5793,7 +5793,63 @@
         "mermaid.go"
       ],
       "exampleFilesGeneratedAt": 1775877586219,
-      "hasCompletedProjectOnboarding": true
+      "hasCompletedProjectOnboarding": true,
+      "lastCost": 2.4390657499999993,
+      "lastAPIDuration": 263815,
+      "lastAPIDurationWithoutRetries": 263643,
+      "lastToolDuration": 83424,
+      "lastDuration": 8372889,
+      "lastLinesAdded": 160,
+      "lastLinesRemoved": 3,
+      "lastTotalInputTokens": 425,
+      "lastTotalOutputTokens": 15830,
+      "lastTotalCacheCreationInputTokens": 117771,
+      "lastTotalCacheReadInputTokens": 2613476,
+      "lastTotalWebSearchRequests": 0,
+      "lastFpsAverage": 0.7,
+      "lastFpsLow1Pct": 372.31,
+      "lastModelUsage": {
+        "claude-haiku-4-5-20251001": {
+          "inputTokens": 344,
+          "outputTokens": 12,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.000404
+        },
+        "claude-opus-4-6[1m]": {
+          "inputTokens": 81,
+          "outputTokens": 15818,
+          "cacheReadInputTokens": 2613476,
+          "cacheCreationInputTokens": 117771,
+          "webSearchRequests": 0,
+          "costUSD": 2.438661749999999
+        }
+      },
+      "lastSessionId": "6c276731-1e32-4bd8-a0fd-0cd92ca64f28",
+      "lastSessionMetrics": {
+        "frame_duration_ms_count": 5902,
+        "frame_duration_ms_min": 0.03533400036394596,
+        "frame_duration_ms_max": 529,
+        "frame_duration_ms_avg": 0.8150898571625884,
+        "frame_duration_ms_p50": 0.5355839999392629,
+        "frame_duration_ms_p95": 1.6918188001029184,
+        "frame_duration_ms_p99": 2.474369159406051,
+        "hook_duration_ms_count": 108,
+        "hook_duration_ms_min": 27,
+        "hook_duration_ms_max": 47,
+        "hook_duration_ms_avg": 36.23148148148148,
+        "hook_duration_ms_p50": 35,
+        "hook_duration_ms_p95": 45.64999999999999,
+        "hook_duration_ms_p99": 47,
+        "pre_tool_hook_duration_ms_count": 51,
+        "pre_tool_hook_duration_ms_min": 31,
+        "pre_tool_hook_duration_ms_max": 48,
+        "pre_tool_hook_duration_ms_avg": 39.92156862745098,
+        "pre_tool_hook_duration_ms_p50": 41,
+        "pre_tool_hook_duration_ms_p95": 47,
+        "pre_tool_hook_duration_ms_p99": 48
+      }
     },
     "/private/var/folders/fn/8ffdcmbd13lfwzsm2h93xrx00000gn/T/TestNew_ProjectConfigMissing3591652391/001": {
       "allowedTools": [],
@@ -6167,7 +6223,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/vellum"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.101",
+  "lastReleaseNotesSeen": "2.1.97",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -6206,12 +6262,12 @@
       "lastUsedAt": 1775601360746
     },
     "republish-skills": {
-      "usageCount": 72,
-      "lastUsedAt": 1775878785605
+      "usageCount": 73,
+      "lastUsedAt": 1775885427492
     },
     "release": {
-      "usageCount": 178,
-      "lastUsedAt": 1775880438920
+      "usageCount": 179,
+      "lastUsedAt": 1775885313749
     },
     "gsd:help": {
       "usageCount": 1,
@@ -6270,8 +6326,8 @@
       "lastUsedAt": 1772167215856
     },
     "push": {
-      "usageCount": 140,
-      "lastUsedAt": 1775879075602
+      "usageCount": 141,
+      "lastUsedAt": 1775886033933
     },
     "stash": {
       "usageCount": 67,
@@ -6328,6 +6384,10 @@
     "keybindings-help": {
       "usageCount": 2,
       "lastUsedAt": 1773468611391
+    },
+    "build-perf-audit": {
+      "usageCount": 1,
+      "lastUsedAt": 1775886019175
     }
   },
   "feedbackSurveyState": {
@@ -6585,7 +6645,7 @@
         "amount_minor_units": 31000,
         "currency": "AUD"
       },
-      "timestamp": 1775881510812
+      "timestamp": 1775885164761
     }
   },
   "migrationVersion": 11,
