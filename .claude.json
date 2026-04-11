@@ -43,7 +43,7 @@
     "color-when-multi-clauding": 975,
     "desktop-shortcut": 972
   },
-  "promptQueueUseCount": 3181,
+  "promptQueueUseCount": 3185,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -1425,61 +1425,61 @@
       ],
       "exampleFilesGeneratedAt": 1775868802140,
       "hasCompletedProjectOnboarding": true,
-      "lastCost": 37.43030350000001,
-      "lastAPIDuration": 3959099,
-      "lastAPIDurationWithoutRetries": 3956787,
-      "lastToolDuration": 432386,
-      "lastDuration": 41270737,
-      "lastLinesAdded": 210,
-      "lastLinesRemoved": 80,
-      "lastTotalInputTokens": 773,
-      "lastTotalOutputTokens": 231511,
-      "lastTotalCacheCreationInputTokens": 909232,
-      "lastTotalCacheReadInputTokens": 51915463,
+      "lastCost": 1.2901472500000002,
+      "lastAPIDuration": 172548,
+      "lastAPIDurationWithoutRetries": 172420,
+      "lastToolDuration": 6335,
+      "lastDuration": 2866779,
+      "lastLinesAdded": 22,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 401,
+      "lastTotalOutputTokens": 8390,
+      "lastTotalCacheCreationInputTokens": 79883,
+      "lastTotalCacheReadInputTokens": 1161631,
       "lastTotalWebSearchRequests": 0,
       "lastModelUsage": {
         "claude-opus-4-6[1m]": {
-          "inputTokens": 411,
-          "outputTokens": 231495,
-          "cacheReadInputTokens": 51915463,
-          "cacheCreationInputTokens": 909232,
+          "inputTokens": 53,
+          "outputTokens": 8375,
+          "cacheReadInputTokens": 1161631,
+          "cacheCreationInputTokens": 79883,
           "webSearchRequests": 0,
-          "costUSD": 37.42986150000001
+          "costUSD": 1.2897242500000003
         },
         "claude-haiku-4-5-20251001": {
-          "inputTokens": 362,
-          "outputTokens": 16,
+          "inputTokens": 348,
+          "outputTokens": 15,
           "cacheReadInputTokens": 0,
           "cacheCreationInputTokens": 0,
           "webSearchRequests": 0,
-          "costUSD": 0.000442
+          "costUSD": 0.000423
         }
       },
-      "lastSessionId": "42a8b37a-dbbe-4de7-891a-e64da223703b",
-      "lastFpsAverage": 2.97,
-      "lastFpsLow1Pct": 277.62,
+      "lastSessionId": "56864eaa-02df-4164-8ba1-1240ef2e6e61",
+      "lastFpsAverage": 1.02,
+      "lastFpsLow1Pct": 757,
       "lastSessionMetrics": {
-        "frame_duration_ms_count": 34527,
-        "frame_duration_ms_min": 0.013666000217199326,
-        "frame_duration_ms_max": 65.89245899999992,
-        "frame_duration_ms_avg": 0.882800634194747,
-        "frame_duration_ms_p50": 0.7686665002256632,
-        "frame_duration_ms_p95": 2.1612937998026536,
-        "frame_duration_ms_p99": 3.4720393200335073,
-        "hook_duration_ms_count": 300,
-        "hook_duration_ms_min": 26,
-        "hook_duration_ms_max": 104,
-        "hook_duration_ms_avg": 37.15,
-        "hook_duration_ms_p50": 36,
-        "hook_duration_ms_p95": 49.05000000000001,
-        "hook_duration_ms_p99": 75.06999999999994,
-        "pre_tool_hook_duration_ms_count": 132,
-        "pre_tool_hook_duration_ms_min": 29,
-        "pre_tool_hook_duration_ms_max": 85,
-        "pre_tool_hook_duration_ms_avg": 39.36363636363637,
-        "pre_tool_hook_duration_ms_p50": 38,
-        "pre_tool_hook_duration_ms_p95": 51.349999999999966,
-        "pre_tool_hook_duration_ms_p99": 74.69
+        "frame_duration_ms_count": 2927,
+        "frame_duration_ms_min": 0.04404200000135461,
+        "frame_duration_ms_max": 6.564040999975987,
+        "frame_duration_ms_avg": 0.3680232275369016,
+        "frame_duration_ms_p50": 0.30525000000488944,
+        "frame_duration_ms_p95": 0.7629356499950508,
+        "frame_duration_ms_p99": 1.273013179994741,
+        "hook_duration_ms_count": 41,
+        "hook_duration_ms_min": 28,
+        "hook_duration_ms_max": 76,
+        "hook_duration_ms_avg": 35.853658536585364,
+        "hook_duration_ms_p50": 33,
+        "hook_duration_ms_p95": 47,
+        "hook_duration_ms_p99": 71.20000000000002,
+        "pre_tool_hook_duration_ms_count": 17,
+        "pre_tool_hook_duration_ms_min": 31,
+        "pre_tool_hook_duration_ms_max": 47,
+        "pre_tool_hook_duration_ms_avg": 36.05882352941177,
+        "pre_tool_hook_duration_ms_p50": 35,
+        "pre_tool_hook_duration_ms_p95": 44.599999999999994,
+        "pre_tool_hook_duration_ms_p99": 46.519999999999996
       }
     },
     "/Users/marcelo/work/github.com/arr-ai/frozen": {
@@ -6359,8 +6359,8 @@
       "lastUsedAt": 1772167215856
     },
     "push": {
-      "usageCount": 150,
-      "lastUsedAt": 1775910541482
+      "usageCount": 151,
+      "lastUsedAt": 1775912679564
     },
     "stash": {
       "usageCount": 67,
@@ -6424,7 +6424,7 @@
     }
   },
   "feedbackSurveyState": {
-    "lastShownTime": 1775911870711
+    "lastShownTime": 1775913822982
   },
   "claudeCodeFirstTokenDate": "2026-01-25T12:12:55.002215Z",
   "hasShownOpus45Notice": {
