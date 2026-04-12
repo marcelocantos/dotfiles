@@ -43,8 +43,9 @@
     "color-when-multi-clauding": 1216,
     "desktop-shortcut": 1220
   },
-  "promptQueueUseCount": 3311,
+  "promptQueueUseCount": 3314,
   "btwUseCount": 7,
+  "showExpandedTodos": true,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
   },
@@ -11633,7 +11634,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/mcpbridge"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.104",
+  "lastReleaseNotesSeen": "2.1.97",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
