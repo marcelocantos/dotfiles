@@ -1,5 +1,5 @@
 {
-  "numStartups": 1216,
+  "numStartups": 1218,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -9,7 +9,7 @@
   "tipsHistory": {
     "new-user-warmup": 5,
     "plan-mode-for-complex-tasks": 1215,
-    "terminal-setup": 1208,
+    "terminal-setup": 1218,
     "memory-command": 1211,
     "theme-command": 1216,
     "status-line": 1216,
@@ -43,7 +43,7 @@
     "color-when-multi-clauding": 1216,
     "desktop-shortcut": 1205
   },
-  "promptQueueUseCount": 3301,
+  "promptQueueUseCount": 3303,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -1198,61 +1198,61 @@
       ],
       "exampleFilesGeneratedAt": 1775961217900,
       "hasCompletedProjectOnboarding": true,
-      "lastCost": 0.435122,
-      "lastAPIDuration": 22449,
-      "lastAPIDurationWithoutRetries": 22443,
-      "lastToolDuration": 4,
-      "lastDuration": 17927912,
-      "lastLinesAdded": 0,
+      "lastCost": 0.557569,
+      "lastAPIDuration": 84629,
+      "lastAPIDurationWithoutRetries": 84508,
+      "lastToolDuration": 2933,
+      "lastDuration": 4922003,
+      "lastLinesAdded": 5,
       "lastLinesRemoved": 0,
-      "lastTotalInputTokens": 363,
-      "lastTotalOutputTokens": 766,
-      "lastTotalCacheCreationInputTokens": 53180,
-      "lastTotalCacheReadInputTokens": 166716,
+      "lastTotalInputTokens": 369,
+      "lastTotalOutputTokens": 1855,
+      "lastTotalCacheCreationInputTokens": 46746,
+      "lastTotalCacheReadInputTokens": 437677,
       "lastTotalWebSearchRequests": 0,
-      "lastFpsAverage": 0.03,
-      "lastFpsLow1Pct": 458.17,
+      "lastFpsAverage": 0.39,
+      "lastFpsLow1Pct": 400.65,
       "lastModelUsage": {
         "claude-opus-4-6[1m]": {
-          "inputTokens": 24,
-          "outputTokens": 755,
-          "cacheReadInputTokens": 166716,
-          "cacheCreationInputTokens": 53180,
+          "inputTokens": 26,
+          "outputTokens": 1841,
+          "cacheReadInputTokens": 437677,
+          "cacheCreationInputTokens": 46746,
           "webSearchRequests": 0,
-          "costUSD": 0.434728
+          "costUSD": 0.557156
         },
         "claude-haiku-4-5-20251001": {
-          "inputTokens": 339,
-          "outputTokens": 11,
+          "inputTokens": 343,
+          "outputTokens": 14,
           "cacheReadInputTokens": 0,
           "cacheCreationInputTokens": 0,
           "webSearchRequests": 0,
-          "costUSD": 0.000394
+          "costUSD": 0.00041299999999999996
         }
       },
-      "lastSessionId": "983d0f8c-2c86-4b8b-b176-6b774d1c1743",
+      "lastSessionId": "6908a926-4299-4ad4-89ce-05cdb8007479",
       "lastSessionMetrics": {
-        "frame_duration_ms_count": 474,
-        "frame_duration_ms_min": 0.04141700000036508,
-        "frame_duration_ms_max": 3.57162500000004,
-        "frame_duration_ms_avg": 0.29775140296252534,
-        "frame_duration_ms_p50": 0.2626250002740562,
-        "frame_duration_ms_p95": 0.614725099125553,
-        "frame_duration_ms_p99": 2.0954699099998813,
-        "hook_duration_ms_count": 11,
-        "hook_duration_ms_min": 31,
-        "hook_duration_ms_max": 87,
-        "hook_duration_ms_avg": 39.36363636363637,
-        "hook_duration_ms_p50": 34,
-        "hook_duration_ms_p95": 67.5,
-        "hook_duration_ms_p99": 83.10000000000002,
-        "pre_tool_hook_duration_ms_count": 3,
+        "frame_duration_ms_count": 1905,
+        "frame_duration_ms_min": 0.025750000029802322,
+        "frame_duration_ms_max": 7.025750000029802,
+        "frame_duration_ms_avg": 0.3416793790060814,
+        "frame_duration_ms_p50": 0.27410450018942356,
+        "frame_duration_ms_p95": 0.7066454497631635,
+        "frame_duration_ms_p99": 1.7850194099318544,
+        "hook_duration_ms_count": 35,
+        "hook_duration_ms_min": 29,
+        "hook_duration_ms_max": 86,
+        "hook_duration_ms_avg": 38.68571428571428,
+        "hook_duration_ms_p50": 36,
+        "hook_duration_ms_p95": 49,
+        "hook_duration_ms_p99": 73.41999999999987,
+        "pre_tool_hook_duration_ms_count": 12,
         "pre_tool_hook_duration_ms_min": 32,
-        "pre_tool_hook_duration_ms_max": 35,
-        "pre_tool_hook_duration_ms_avg": 33.333333333333336,
-        "pre_tool_hook_duration_ms_p50": 33,
-        "pre_tool_hook_duration_ms_p95": 34.8,
-        "pre_tool_hook_duration_ms_p99": 34.96
+        "pre_tool_hook_duration_ms_max": 49,
+        "pre_tool_hook_duration_ms_avg": 38.916666666666664,
+        "pre_tool_hook_duration_ms_p50": 36,
+        "pre_tool_hook_duration_ms_p95": 47.9,
+        "pre_tool_hook_duration_ms_p99": 48.78
       }
     },
     "/Users/marcelo/work/github.com/squz/multimaze2": {
@@ -1298,13 +1298,13 @@
       },
       "lastSessionId": "ecb17dd5-98b7-4a3c-81f2-802d3325e657",
       "exampleFiles": [
+        "sq",
         "main.cpp",
+        "Makefile",
         "Physics.h",
-        "Physics.cpp",
-        "Application.cpp",
-        "GameState.h"
+        "ge"
       ],
-      "exampleFilesGeneratedAt": 1772437064531,
+      "exampleFilesGeneratedAt": 1775984073408,
       "lastSessionMetrics": {
         "frame_duration_ms_count": 8733,
         "frame_duration_ms_min": 0.020416999999724794,
@@ -11656,8 +11656,8 @@
       "lastUsedAt": 1775959726779
     },
     "release": {
-      "usageCount": 196,
-      "lastUsedAt": 1775976956785
+      "usageCount": 197,
+      "lastUsedAt": 1775984629575
     },
     "gsd:help": {
       "usageCount": 1,
@@ -11716,8 +11716,8 @@
       "lastUsedAt": 1772167215856
     },
     "push": {
-      "usageCount": 165,
-      "lastUsedAt": 1775977212088
+      "usageCount": 166,
+      "lastUsedAt": 1775985121161
     },
     "stash": {
       "usageCount": 67,
@@ -11744,12 +11744,12 @@
       "lastUsedAt": 1772625771549
     },
     "cv": {
-      "usageCount": 328,
-      "lastUsedAt": 1775979153405
+      "usageCount": 330,
+      "lastUsedAt": 1775984171780
     },
     "target": {
-      "usageCount": 38,
-      "lastUsedAt": 1775979185143
+      "usageCount": 39,
+      "lastUsedAt": 1775984187479
     },
     "gsd:cleanup": {
       "usageCount": 5,
@@ -11768,8 +11768,8 @@
       "lastUsedAt": 1772940174060
     },
     "commit": {
-      "usageCount": 52,
-      "lastUsedAt": 1775978032779
+      "usageCount": 54,
+      "lastUsedAt": 1775984510351
     },
     "keybindings-help": {
       "usageCount": 2,
@@ -12047,7 +12047,7 @@
         "amount_minor_units": 31000,
         "currency": "AUD"
       },
-      "timestamp": 1775975959039
+      "timestamp": 1775984074125
     }
   },
   "migrationVersion": 11,
