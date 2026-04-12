@@ -12,7 +12,7 @@
     "terminal-setup": 1208,
     "memory-command": 1211,
     "theme-command": 1216,
-    "status-line": 1120,
+    "status-line": 1216,
     "prompt-queue": 17,
     "enter-to-steer-in-relatime": 1208,
     "todo-list": 1208,
@@ -43,7 +43,7 @@
     "color-when-multi-clauding": 1216,
     "desktop-shortcut": 1205
   },
-  "promptQueueUseCount": 3284,
+  "promptQueueUseCount": 3288,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -11613,7 +11613,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/mcpbridge"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.104",
+  "lastReleaseNotesSeen": "2.1.101",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
