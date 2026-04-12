@@ -24,15 +24,15 @@
     "double-esc-code-restore": 1214,
     "continue": 1216,
     "shift-tab": 1216,
-    "image-paste": 1124,
-    "desktop-app": 1173,
+    "image-paste": 1216,
+    "desktop-app": 1216,
     "web-app": 1208,
     "mobile-app": 1208,
-    "custom-agents": 1143,
+    "custom-agents": 1216,
     "permissions": 1216,
     "rename-conversation": 1215,
     "custom-commands": 1215,
-    "agent-flag": 1157,
+    "agent-flag": 1216,
     "guest-passes": 1216,
     "shift-enter-setup": 95,
     "default-permission-mode-config": 1211,
@@ -43,7 +43,7 @@
     "color-when-multi-clauding": 1216,
     "desktop-shortcut": 1205
   },
-  "promptQueueUseCount": 3288,
+  "promptQueueUseCount": 3301,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
