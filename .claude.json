@@ -1,5 +1,5 @@
 {
-  "numStartups": 1060,
+  "numStartups": 1061,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -10,7 +10,7 @@
     "new-user-warmup": 5,
     "plan-mode-for-complex-tasks": 1057,
     "terminal-setup": 1057,
-    "memory-command": 1046,
+    "memory-command": 1061,
     "theme-command": 1054,
     "status-line": 1039,
     "prompt-queue": 17,
@@ -35,7 +35,7 @@
     "agent-flag": 1049,
     "guest-passes": 1060,
     "shift-enter-setup": 95,
-    "default-permission-mode-config": 1051,
+    "default-permission-mode-config": 1061,
     "overage-promo": 130,
     "git-worktrees": 1056,
     "frontend-design-plugin": 936,
@@ -43,7 +43,7 @@
     "color-when-multi-clauding": 1056,
     "desktop-shortcut": 1049
   },
-  "promptQueueUseCount": 3211,
+  "promptQueueUseCount": 3215,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -5773,7 +5773,7 @@
       "enabledMcpjsonServers": [],
       "disabledMcpjsonServers": [],
       "hasTrustDialogAccepted": false,
-      "projectOnboardingSeenCount": 2,
+      "projectOnboardingSeenCount": 22,
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": [],
@@ -6069,7 +6069,7 @@
       "enabledMcpjsonServers": [],
       "disabledMcpjsonServers": [],
       "hasTrustDialogAccepted": false,
-      "projectOnboardingSeenCount": 0,
+      "projectOnboardingSeenCount": 10,
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": [
@@ -7728,7 +7728,7 @@
         "amount_minor_units": 31000,
         "currency": "AUD"
       },
-      "timestamp": 1775947998157
+      "timestamp": 1775951805707
     }
   },
   "migrationVersion": 11,
