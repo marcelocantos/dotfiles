@@ -11429,7 +11429,7 @@
       "enabledMcpjsonServers": [],
       "disabledMcpjsonServers": [],
       "hasTrustDialogAccepted": false,
-      "projectOnboardingSeenCount": 2,
+      "projectOnboardingSeenCount": 3,
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": []
@@ -11633,7 +11633,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/mcpbridge"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.96",
+  "lastReleaseNotesSeen": "2.1.104",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
