@@ -1,5 +1,5 @@
 {
-  "numStartups": 1249,
+  "numStartups": 1250,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -43,7 +43,7 @@
     "color-when-multi-clauding": 1249,
     "desktop-shortcut": 1239
   },
-  "promptQueueUseCount": 3391,
+  "promptQueueUseCount": 3395,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -5304,37 +5304,61 @@
       ],
       "exampleFilesGeneratedAt": 1775484411889,
       "hasCompletedProjectOnboarding": true,
-      "lastCost": 0,
-      "lastAPIDuration": 0,
-      "lastAPIDurationWithoutRetries": 0,
-      "lastToolDuration": 0,
-      "lastDuration": 8413537,
+      "lastCost": 3.9225307500000004,
+      "lastAPIDuration": 552502,
+      "lastAPIDurationWithoutRetries": 551821,
+      "lastToolDuration": 9495,
+      "lastDuration": 22821097,
       "lastLinesAdded": 0,
       "lastLinesRemoved": 0,
-      "lastTotalInputTokens": 0,
-      "lastTotalOutputTokens": 0,
-      "lastTotalCacheCreationInputTokens": 0,
-      "lastTotalCacheReadInputTokens": 0,
+      "lastTotalInputTokens": 488,
+      "lastTotalOutputTokens": 18423,
+      "lastTotalCacheCreationInputTokens": 309183,
+      "lastTotalCacheReadInputTokens": 3627778,
       "lastTotalWebSearchRequests": 0,
-      "lastFpsAverage": 0.01,
-      "lastFpsLow1Pct": 348.63,
-      "lastModelUsage": {},
-      "lastSessionId": "bde93a58-14d2-476d-9cbf-d3458f5bf0a9",
+      "lastFpsAverage": 0.49,
+      "lastFpsLow1Pct": 261.87,
+      "lastModelUsage": {
+        "claude-haiku-4-5-20251001": {
+          "inputTokens": 378,
+          "outputTokens": 103,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 56639,
+          "webSearchRequests": 0,
+          "costUSD": 0.07169175000000001
+        },
+        "claude-opus-4-6[1m]": {
+          "inputTokens": 110,
+          "outputTokens": 18320,
+          "cacheReadInputTokens": 3627778,
+          "cacheCreationInputTokens": 252544,
+          "webSearchRequests": 0,
+          "costUSD": 3.850839
+        }
+      },
+      "lastSessionId": "f4822a94-795b-4494-9dd1-38fabbdd3943",
       "lastSessionMetrics": {
-        "frame_duration_ms_count": 79,
-        "frame_duration_ms_min": 0.0470420000001468,
-        "frame_duration_ms_max": 2.86837499961257,
-        "frame_duration_ms_avg": 0.3392701012700557,
-        "frame_duration_ms_p50": 0.22466699965298176,
-        "frame_duration_ms_p95": 0.8190922000678227,
-        "frame_duration_ms_p99": 2.8032130199148013,
-        "hook_duration_ms_count": 2,
-        "hook_duration_ms_min": 42,
-        "hook_duration_ms_max": 55,
-        "hook_duration_ms_avg": 48.5,
-        "hook_duration_ms_p50": 48.5,
-        "hook_duration_ms_p95": 54.35,
-        "hook_duration_ms_p99": 54.87
+        "frame_duration_ms_count": 11095,
+        "frame_duration_ms_min": 0.04329200000211131,
+        "frame_duration_ms_max": 178.01162499934435,
+        "frame_duration_ms_avg": 0.5087094754533734,
+        "frame_duration_ms_p50": 0.42777100019156933,
+        "frame_duration_ms_p95": 0.8440686500107392,
+        "frame_duration_ms_p99": 2.7580476600014654,
+        "hook_duration_ms_count": 132,
+        "hook_duration_ms_min": 30,
+        "hook_duration_ms_max": 192,
+        "hook_duration_ms_avg": 40.68181818181818,
+        "hook_duration_ms_p50": 37,
+        "hook_duration_ms_p95": 53.89999999999998,
+        "hook_duration_ms_p99": 61.379999999999995,
+        "pre_tool_hook_duration_ms_count": 40,
+        "pre_tool_hook_duration_ms_min": 33,
+        "pre_tool_hook_duration_ms_max": 48,
+        "pre_tool_hook_duration_ms_avg": 39.75,
+        "pre_tool_hook_duration_ms_p50": 39,
+        "pre_tool_hook_duration_ms_p95": 48,
+        "pre_tool_hook_duration_ms_p99": 48
       }
     },
     "/Users/marcelo/work/github.com/marcelocantos/targets": {
@@ -12216,7 +12240,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/mcpbridge"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.104",
+  "lastReleaseNotesSeen": "2.1.101",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -12319,8 +12343,8 @@
       "lastUsedAt": 1772167215856
     },
     "push": {
-      "usageCount": 169,
-      "lastUsedAt": 1776078318032
+      "usageCount": 171,
+      "lastUsedAt": 1776089396556
     },
     "stash": {
       "usageCount": 67,
@@ -12347,8 +12371,8 @@
       "lastUsedAt": 1772625771549
     },
     "cv": {
-      "usageCount": 339,
-      "lastUsedAt": 1776085201382
+      "usageCount": 340,
+      "lastUsedAt": 1776088728438
     },
     "target": {
       "usageCount": 39,
