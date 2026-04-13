@@ -43,7 +43,7 @@
     "color-when-multi-clauding": 1216,
     "desktop-shortcut": 1220
   },
-  "promptQueueUseCount": 3346,
+  "promptQueueUseCount": 3349,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -11736,8 +11736,8 @@
       "lastUsedAt": 1772167215856
     },
     "push": {
-      "usageCount": 167,
-      "lastUsedAt": 1775988443610
+      "usageCount": 168,
+      "lastUsedAt": 1776042331427
     },
     "stash": {
       "usageCount": 67,
@@ -11805,7 +11805,7 @@
     }
   },
   "feedbackSurveyState": {
-    "lastShownTime": 1775959279728
+    "lastShownTime": 1776040983969
   },
   "claudeCodeFirstTokenDate": "2026-01-25T12:12:55.002215Z",
   "hasShownOpus45Notice": {
@@ -11822,7 +11822,7 @@
   "groveConfigCache": {
     "2909ba71-e527-4e91-9b22-2591e548b2d0": {
       "grove_enabled": true,
-      "timestamp": 1775954237779
+      "timestamp": 1776042517751
     }
   },
   "passesEligibilityCache": {
@@ -11838,7 +11838,7 @@
         "currency": "AUD"
       },
       "remaining_passes": 3,
-      "timestamp": 1775954238831
+      "timestamp": 1776042512965
     }
   },
   "passesUpsellSeenCount": 4,
@@ -11851,7 +11851,7 @@
     "c494be0f-a5ae-4ce5-9cfc-d9751d13c049": true
   },
   "showSpinnerTree": false,
-  "lastPlanModeUse": 1771371194810,
+  "lastPlanModeUse": 1776041125296,
   "opus46FeedSeenCount": 1656,
   "penguinModeOrgEnabled": true,
   "effortCalloutDismissed": true,
