@@ -1,5 +1,5 @@
 {
-  "numStartups": 1253,
+  "numStartups": 1254,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -16,7 +16,7 @@
     "prompt-queue": 17,
     "enter-to-steer-in-relatime": 1237,
     "todo-list": 1238,
-    "ide-upsell-external-terminal": 1249,
+    "ide-upsell-external-terminal": 1254,
     "install-github-app": 1249,
     "install-slack-app": 1249,
     "drag-and-drop-images": 1249,
@@ -25,23 +25,23 @@
     "continue": 1249,
     "shift-tab": 1249,
     "image-paste": 1238,
-    "desktop-app": 1239,
-    "web-app": 1238,
-    "mobile-app": 1238,
+    "desktop-app": 1254,
+    "web-app": 1253,
+    "mobile-app": 1254,
     "custom-agents": 1253,
     "permissions": 1249,
     "rename-conversation": 1253,
     "custom-commands": 1253,
-    "agent-flag": 1239,
-    "guest-passes": 1249,
+    "agent-flag": 1254,
+    "guest-passes": 1254,
     "shift-enter-setup": 95,
     "default-permission-mode-config": 1249,
     "overage-promo": 130,
     "git-worktrees": 1249,
     "frontend-design-plugin": 936,
-    "feedback-command": 1238,
+    "feedback-command": 1254,
     "color-when-multi-clauding": 1249,
-    "desktop-shortcut": 1239
+    "desktop-shortcut": 1254
   },
   "promptQueueUseCount": 3396,
   "btwUseCount": 7,
@@ -3197,7 +3197,8 @@
         "hook_duration_ms_p95": 93.69999999999999,
         "hook_duration_ms_p99": 96.33999999999999
       },
-      "hasCompletedProjectOnboarding": true
+      "hasCompletedProjectOnboarding": true,
+      "lastGracefulShutdown": false
     },
     "/Users/marcelo/work/github.com/marcelocantos/jevon": {
       "allowedTools": [],
@@ -9282,7 +9283,7 @@
       "enabledMcpjsonServers": [],
       "disabledMcpjsonServers": [],
       "hasTrustDialogAccepted": false,
-      "projectOnboardingSeenCount": 0,
+      "projectOnboardingSeenCount": 1,
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": [],
@@ -12369,8 +12370,8 @@
       "lastUsedAt": 1772940174060
     },
     "commit": {
-      "usageCount": 66,
-      "lastUsedAt": 1776085539460
+      "usageCount": 67,
+      "lastUsedAt": 1776150863429
     },
     "keybindings-help": {
       "usageCount": 2,
