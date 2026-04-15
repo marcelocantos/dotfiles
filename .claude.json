@@ -1,5 +1,5 @@
 {
-  "numStartups": 1276,
+  "numStartups": 1279,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -9,41 +9,41 @@
   "tipsHistory": {
     "new-user-warmup": 5,
     "plan-mode-for-complex-tasks": 1220,
-    "terminal-setup": 1259,
+    "terminal-setup": 1279,
     "memory-command": 1274,
-    "theme-command": 1258,
+    "theme-command": 1278,
     "status-line": 1274,
     "prompt-queue": 17,
-    "enter-to-steer-in-relatime": 1257,
-    "todo-list": 1258,
+    "enter-to-steer-in-relatime": 1278,
+    "todo-list": 1279,
     "ide-upsell-external-terminal": 1259,
-    "install-github-app": 1259,
-    "install-slack-app": 1259,
-    "drag-and-drop-images": 1259,
-    "paste-images-mac": 1259,
-    "double-esc-code-restore": 1259,
-    "continue": 1259,
-    "shift-tab": 1259,
-    "image-paste": 1259,
-    "desktop-app": 1254,
-    "web-app": 1253,
-    "mobile-app": 1254,
-    "custom-agents": 1253,
-    "permissions": 1259,
+    "install-github-app": 1279,
+    "install-slack-app": 1279,
+    "drag-and-drop-images": 1279,
+    "paste-images-mac": 1279,
+    "double-esc-code-restore": 1279,
+    "continue": 1279,
+    "shift-tab": 1279,
+    "image-paste": 1279,
+    "desktop-app": 1278,
+    "web-app": 1276,
+    "mobile-app": 1278,
+    "custom-agents": 1276,
+    "permissions": 1279,
     "rename-conversation": 1274,
     "custom-commands": 1275,
-    "agent-flag": 1254,
-    "guest-passes": 1264,
+    "agent-flag": 1278,
+    "guest-passes": 1279,
     "shift-enter-setup": 95,
-    "default-permission-mode-config": 1259,
+    "default-permission-mode-config": 1279,
     "overage-promo": 130,
-    "git-worktrees": 1259,
+    "git-worktrees": 1279,
     "frontend-design-plugin": 936,
-    "feedback-command": 1254,
-    "color-when-multi-clauding": 1259,
-    "desktop-shortcut": 1254
+    "feedback-command": 1278,
+    "color-when-multi-clauding": 1279,
+    "desktop-shortcut": 1278
   },
-  "promptQueueUseCount": 3408,
+  "promptQueueUseCount": 3413,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -1109,7 +1109,7 @@
       },
       "lastFpsAverage": 0.86,
       "lastFpsLow1Pct": 368.48,
-      "lastGracefulShutdown": true
+      "lastGracefulShutdown": false
     },
     "/Users/marcelo/work/github.com/squz/multimaze": {
       "allowedTools": [],
@@ -3256,7 +3256,7 @@
         "hook_duration_ms_p99": 67
       },
       "hasCompletedProjectOnboarding": true,
-      "lastGracefulShutdown": true
+      "lastGracefulShutdown": false
     },
     "/Users/marcelo/play/ytc": {
       "allowedTools": [],
@@ -12177,8 +12177,8 @@
       "lastUsedAt": 1775601360746
     },
     "republish-skills": {
-      "usageCount": 84,
-      "lastUsedAt": 1775988193924
+      "usageCount": 85,
+      "lastUsedAt": 1776242057868
     },
     "release": {
       "usageCount": 202,
