@@ -43,7 +43,7 @@
     "color-when-multi-clauding": 1259,
     "desktop-shortcut": 1254
   },
-  "promptQueueUseCount": 3407,
+  "promptQueueUseCount": 3408,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -12253,7 +12253,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/pageflip"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.107",
+  "lastReleaseNotesSeen": "2.1.104",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -12296,8 +12296,8 @@
       "lastUsedAt": 1775988193924
     },
     "release": {
-      "usageCount": 200,
-      "lastUsedAt": 1776074005246
+      "usageCount": 201,
+      "lastUsedAt": 1776237705202
     },
     "gsd:help": {
       "usageCount": 1,
