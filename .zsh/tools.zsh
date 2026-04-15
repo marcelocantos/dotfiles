@@ -70,6 +70,11 @@ eval "$(jenv init -)"
 
 # pyenv removed — using uv for Python version management
 
+# Google Cloud SDK requires Python 3.8-3.12; point it at uv-managed 3.12
+_cloudsdk_py=("$HOME"/.local/share/uv/python/cpython-3.12.*-macos-aarch64-none/bin/python3.12(N))
+(( ${#_cloudsdk_py} )) && export CLOUDSDK_PYTHON="${_cloudsdk_py[-1]}"
+unset _cloudsdk_py
+
 # nvm (lazy-loaded)
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
