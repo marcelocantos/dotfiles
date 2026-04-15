@@ -1,5 +1,5 @@
 {
-  "numStartups": 1280,
+  "numStartups": 1281,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -5336,53 +5336,53 @@
       ],
       "exampleFilesGeneratedAt": 1776149495449,
       "hasCompletedProjectOnboarding": true,
-      "lastCost": 6.715128750000001,
-      "lastAPIDuration": 432443,
-      "lastAPIDurationWithoutRetries": 432187,
-      "lastToolDuration": 288063,
-      "lastDuration": 7947095,
-      "lastLinesAdded": 124,
-      "lastLinesRemoved": 3,
-      "lastTotalInputTokens": 261,
-      "lastTotalOutputTokens": 16575,
-      "lastTotalCacheCreationInputTokens": 205869,
-      "lastTotalCacheReadInputTokens": 10025535,
+      "lastCost": 28.381015749999996,
+      "lastAPIDuration": 1472909,
+      "lastAPIDurationWithoutRetries": 1472175,
+      "lastToolDuration": 526540,
+      "lastDuration": 10731558,
+      "lastLinesAdded": 709,
+      "lastLinesRemoved": 782,
+      "lastTotalInputTokens": 522,
+      "lastTotalOutputTokens": 77144,
+      "lastTotalCacheCreationInputTokens": 533295,
+      "lastTotalCacheReadInputTokens": 46233424,
       "lastTotalWebSearchRequests": 0,
-      "lastFpsAverage": 1.44,
-      "lastFpsLow1Pct": 384.35,
+      "lastFpsAverage": 8.84,
+      "lastFpsLow1Pct": 189.97,
       "lastModelUsage": {
         "claude-opus-4-6[1m]": {
-          "inputTokens": 261,
-          "outputTokens": 16575,
-          "cacheReadInputTokens": 10025535,
-          "cacheCreationInputTokens": 205869,
+          "inputTokens": 522,
+          "outputTokens": 77144,
+          "cacheReadInputTokens": 46233424,
+          "cacheCreationInputTokens": 533295,
           "webSearchRequests": 0,
-          "costUSD": 6.715128750000001
+          "costUSD": 28.381015749999996
         }
       },
       "lastSessionId": "60b64e6c-a31b-4610-855b-aca8b72afcc7",
       "lastSessionMetrics": {
-        "frame_duration_ms_count": 11478,
-        "frame_duration_ms_min": 0.14983300000017152,
-        "frame_duration_ms_max": 148.01245800000015,
-        "frame_duration_ms_avg": 0.9939067787934688,
-        "frame_duration_ms_p50": 0.920499500061851,
-        "frame_duration_ms_p95": 1.162000050023198,
-        "frame_duration_ms_p99": 2.6022096800629417,
-        "hook_duration_ms_count": 93,
-        "hook_duration_ms_min": 28,
-        "hook_duration_ms_max": 120,
-        "hook_duration_ms_avg": 39.526881720430104,
-        "hook_duration_ms_p50": 33,
-        "hook_duration_ms_p95": 82,
-        "hook_duration_ms_p99": 103.43999999999997,
-        "pre_tool_hook_duration_ms_count": 43,
+        "frame_duration_ms_count": 24620,
+        "frame_duration_ms_min": 0.24383299999999508,
+        "frame_duration_ms_max": 109.29554199999984,
+        "frame_duration_ms_avg": 1.2519207933795207,
+        "frame_duration_ms_p50": 0.9591250000521541,
+        "frame_duration_ms_p95": 2.700157949898854,
+        "frame_duration_ms_p99": 5.294265929966931,
+        "hook_duration_ms_count": 254,
+        "hook_duration_ms_min": 27,
+        "hook_duration_ms_max": 265,
+        "hook_duration_ms_avg": 35.21259842519685,
+        "hook_duration_ms_p50": 32,
+        "hook_duration_ms_p95": 49.349999999999994,
+        "hook_duration_ms_p99": 64.75999999999999,
+        "pre_tool_hook_duration_ms_count": 121,
         "pre_tool_hook_duration_ms_min": 30,
-        "pre_tool_hook_duration_ms_max": 122,
-        "pre_tool_hook_duration_ms_avg": 43.02325581395349,
-        "pre_tool_hook_duration_ms_p50": 35,
-        "pre_tool_hook_duration_ms_p95": 83.9,
-        "pre_tool_hook_duration_ms_p99": 114.43999999999997
+        "pre_tool_hook_duration_ms_max": 266,
+        "pre_tool_hook_duration_ms_avg": 38.01652892561984,
+        "pre_tool_hook_duration_ms_p50": 34,
+        "pre_tool_hook_duration_ms_p95": 50,
+        "pre_tool_hook_duration_ms_p99": 76.19999999999997
       },
       "enabledMcpServers": [
         "computer-use"
@@ -12257,8 +12257,8 @@
       "lastUsedAt": 1772167215856
     },
     "push": {
-      "usageCount": 172,
-      "lastUsedAt": 1776159873372
+      "usageCount": 173,
+      "lastUsedAt": 1776251078242
     },
     "stash": {
       "usageCount": 67,
@@ -12285,8 +12285,8 @@
       "lastUsedAt": 1772625771549
     },
     "cv": {
-      "usageCount": 344,
-      "lastUsedAt": 1776241801605
+      "usageCount": 345,
+      "lastUsedAt": 1776252551246
     },
     "target": {
       "usageCount": 39,
