@@ -43,8 +43,9 @@
     "color-when-multi-clauding": 1279,
     "desktop-shortcut": 1278
   },
-  "promptQueueUseCount": 3442,
+  "promptQueueUseCount": 3444,
   "btwUseCount": 7,
+  "showExpandedTodos": true,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
   },
@@ -12594,7 +12595,7 @@
         "amount_minor_units": 31000,
         "currency": "AUD"
       },
-      "timestamp": 1776249763542
+      "timestamp": 1776256585019
     }
   },
   "migrationVersion": 11,
