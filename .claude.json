@@ -1,5 +1,5 @@
 {
-  "numStartups": 1260,
+  "numStartups": 1261,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -12253,7 +12253,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/pageflip"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.97",
+  "lastReleaseNotesSeen": "2.1.107",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -12446,7 +12446,7 @@
   "groveConfigCache": {
     "2909ba71-e527-4e91-9b22-2591e548b2d0": {
       "grove_enabled": true,
-      "timestamp": 1776149152003
+      "timestamp": 1776236475878
     }
   },
   "passesEligibilityCache": {
@@ -12462,7 +12462,7 @@
         "currency": "AUD"
       },
       "remaining_passes": 3,
-      "timestamp": 1776149153009
+      "timestamp": 1776236476729
     }
   },
   "passesUpsellSeenCount": 4,
@@ -12693,7 +12693,7 @@
         "amount_minor_units": 31000,
         "currency": "AUD"
       },
-      "timestamp": 1776229368477
+      "timestamp": 1776236474614
     }
   },
   "migrationVersion": 11,
