@@ -16,7 +16,7 @@
     "prompt-queue": 17,
     "enter-to-steer-in-relatime": 1278,
     "todo-list": 1279,
-    "ide-upsell-external-terminal": 1259,
+    "ide-upsell-external-terminal": 1281,
     "install-github-app": 1279,
     "install-slack-app": 1279,
     "drag-and-drop-images": 1279,
@@ -43,8 +43,9 @@
     "color-when-multi-clauding": 1279,
     "desktop-shortcut": 1278
   },
-  "promptQueueUseCount": 3433,
+  "promptQueueUseCount": 3440,
   "btwUseCount": 7,
+  "showExpandedTodos": true,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
   },
@@ -12309,8 +12310,8 @@
       "lastUsedAt": 1772940174060
     },
     "commit": {
-      "usageCount": 68,
-      "lastUsedAt": 1776239493046
+      "usageCount": 69,
+      "lastUsedAt": 1776253129576
     },
     "keybindings-help": {
       "usageCount": 2,
