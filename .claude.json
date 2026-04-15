@@ -1,5 +1,5 @@
 {
-  "numStartups": 1283,
+  "numStartups": 1284,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -43,7 +43,7 @@
     "color-when-multi-clauding": 1279,
     "desktop-shortcut": 1278
   },
-  "promptQueueUseCount": 3447,
+  "promptQueueUseCount": 3450,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -11927,6 +11927,82 @@
         "hook_duration_ms_p95": 71,
         "hook_duration_ms_p99": 71
       }
+    },
+    "/Users/marcelo/work/github.com/samuong/alpaca": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "proxy.go",
+        "closer.go",
+        "main.go",
+        "closer_test.go",
+        "proxyfinder.go"
+      ],
+      "lastGracefulShutdown": true,
+      "exampleFilesGeneratedAt": 1776259964004,
+      "lastCost": 0.58346325,
+      "lastAPIDuration": 97109,
+      "lastAPIDurationWithoutRetries": 97052,
+      "lastToolDuration": 3249,
+      "lastDuration": 663106,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 463,
+      "lastTotalOutputTokens": 5112,
+      "lastTotalCacheCreationInputTokens": 46031,
+      "lastTotalCacheReadInputTokens": 334557,
+      "lastTotalWebSearchRequests": 0,
+      "lastFpsAverage": 2.22,
+      "lastFpsLow1Pct": 190.48,
+      "lastModelUsage": {
+        "claude-haiku-4-5-20251001": {
+          "inputTokens": 341,
+          "outputTokens": 13,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.000406
+        },
+        "claude-opus-4-6[1m]": {
+          "inputTokens": 122,
+          "outputTokens": 5099,
+          "cacheReadInputTokens": 334557,
+          "cacheCreationInputTokens": 46031,
+          "webSearchRequests": 0,
+          "costUSD": 0.58305725
+        }
+      },
+      "lastSessionId": "78f5b40d-6243-40e5-b75e-13614e883421",
+      "lastSessionMetrics": {
+        "frame_duration_ms_count": 1468,
+        "frame_duration_ms_min": 0.05224999999995816,
+        "frame_duration_ms_max": 9.705042000001413,
+        "frame_duration_ms_avg": 0.9103425858310891,
+        "frame_duration_ms_p50": 0.6723334999987856,
+        "frame_duration_ms_p95": 2.46939190000703,
+        "frame_duration_ms_p99": 5.197007340000342,
+        "hook_duration_ms_count": 17,
+        "hook_duration_ms_min": 30,
+        "hook_duration_ms_max": 86,
+        "hook_duration_ms_avg": 46.88235294117647,
+        "hook_duration_ms_p50": 44,
+        "hook_duration_ms_p95": 76.39999999999999,
+        "hook_duration_ms_p99": 84.08,
+        "pre_tool_hook_duration_ms_count": 4,
+        "pre_tool_hook_duration_ms_min": 33,
+        "pre_tool_hook_duration_ms_max": 50,
+        "pre_tool_hook_duration_ms_avg": 42.25,
+        "pre_tool_hook_duration_ms_p50": 43,
+        "pre_tool_hook_duration_ms_p95": 48.949999999999996,
+        "pre_tool_hook_duration_ms_p99": 49.79
+      }
     }
   },
   "sonnet45MigrationComplete": true,
@@ -12129,6 +12205,9 @@
     ],
     "marcelocantos/pageflip": [
       "/Users/marcelo/work/github.com/marcelocantos/pageflip"
+    ],
+    "samuong/alpaca": [
+      "/Users/marcelo/work/github.com/samuong/alpaca"
     ]
   },
   "lastReleaseNotesSeen": "2.1.109",
