@@ -1,5 +1,5 @@
 {
-  "numStartups": 1284,
+  "numStartups": 1285,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -43,7 +43,7 @@
     "color-when-multi-clauding": 1279,
     "desktop-shortcut": 1278
   },
-  "promptQueueUseCount": 3450,
+  "promptQueueUseCount": 3453,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -5313,53 +5313,69 @@
       ],
       "exampleFilesGeneratedAt": 1776149495449,
       "hasCompletedProjectOnboarding": true,
-      "lastCost": 28.381015749999996,
-      "lastAPIDuration": 1472909,
-      "lastAPIDurationWithoutRetries": 1472175,
-      "lastToolDuration": 526540,
-      "lastDuration": 10731558,
-      "lastLinesAdded": 709,
-      "lastLinesRemoved": 782,
-      "lastTotalInputTokens": 522,
-      "lastTotalOutputTokens": 77144,
-      "lastTotalCacheCreationInputTokens": 533295,
-      "lastTotalCacheReadInputTokens": 46233424,
+      "lastCost": 4.73485825,
+      "lastAPIDuration": 761650,
+      "lastAPIDurationWithoutRetries": 761194,
+      "lastToolDuration": 621457,
+      "lastDuration": 9747624,
+      "lastLinesAdded": 520,
+      "lastLinesRemoved": 42,
+      "lastTotalInputTokens": 1430,
+      "lastTotalOutputTokens": 39009,
+      "lastTotalCacheCreationInputTokens": 330615,
+      "lastTotalCacheReadInputTokens": 6596165,
       "lastTotalWebSearchRequests": 0,
-      "lastFpsAverage": 8.84,
-      "lastFpsLow1Pct": 189.97,
+      "lastFpsAverage": 1.07,
+      "lastFpsLow1Pct": 324.91,
       "lastModelUsage": {
         "claude-opus-4-6[1m]": {
-          "inputTokens": 522,
-          "outputTokens": 77144,
-          "cacheReadInputTokens": 46233424,
-          "cacheCreationInputTokens": 533295,
+          "inputTokens": 999,
+          "outputTokens": 13717,
+          "cacheReadInputTokens": 1701950,
+          "cacheCreationInputTokens": 179203,
           "webSearchRequests": 0,
-          "costUSD": 28.381015749999996
+          "costUSD": 2.31891375
+        },
+        "claude-sonnet-4-6": {
+          "inputTokens": 92,
+          "outputTokens": 25281,
+          "cacheReadInputTokens": 4894215,
+          "cacheCreationInputTokens": 151412,
+          "webSearchRequests": 0,
+          "costUSD": 2.415550499999999
+        },
+        "claude-haiku-4-5-20251001": {
+          "inputTokens": 339,
+          "outputTokens": 11,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
+          "webSearchRequests": 0,
+          "costUSD": 0.000394
         }
       },
-      "lastSessionId": "60b64e6c-a31b-4610-855b-aca8b72afcc7",
+      "lastSessionId": "e96afaee-646b-4ca9-968e-463ccad38e03",
       "lastSessionMetrics": {
-        "frame_duration_ms_count": 24620,
-        "frame_duration_ms_min": 0.24383299999999508,
-        "frame_duration_ms_max": 109.29554199999984,
-        "frame_duration_ms_avg": 1.2519207933795207,
-        "frame_duration_ms_p50": 0.9591250000521541,
-        "frame_duration_ms_p95": 2.700157949898854,
-        "frame_duration_ms_p99": 5.294265929966931,
+        "frame_duration_ms_count": 10410,
+        "frame_duration_ms_min": 0.027375000005122274,
+        "frame_duration_ms_max": 11.845458999974653,
+        "frame_duration_ms_avg": 0.3614383441862356,
+        "frame_duration_ms_p50": 0.29281200002878904,
+        "frame_duration_ms_p95": 0.7380061999894676,
+        "frame_duration_ms_p99": 1.3125375000038155,
         "hook_duration_ms_count": 254,
-        "hook_duration_ms_min": 27,
-        "hook_duration_ms_max": 265,
-        "hook_duration_ms_avg": 35.21259842519685,
-        "hook_duration_ms_p50": 32,
-        "hook_duration_ms_p95": 49.349999999999994,
-        "hook_duration_ms_p99": 64.75999999999999,
+        "hook_duration_ms_min": 28,
+        "hook_duration_ms_max": 396,
+        "hook_duration_ms_avg": 39.188976377952756,
+        "hook_duration_ms_p50": 33,
+        "hook_duration_ms_p95": 66,
+        "hook_duration_ms_p99": 101.94,
         "pre_tool_hook_duration_ms_count": 121,
-        "pre_tool_hook_duration_ms_min": 30,
-        "pre_tool_hook_duration_ms_max": 266,
-        "pre_tool_hook_duration_ms_avg": 38.01652892561984,
+        "pre_tool_hook_duration_ms_min": 31,
+        "pre_tool_hook_duration_ms_max": 120,
+        "pre_tool_hook_duration_ms_avg": 39.80165289256198,
         "pre_tool_hook_duration_ms_p50": 34,
-        "pre_tool_hook_duration_ms_p95": 50,
-        "pre_tool_hook_duration_ms_p99": 76.19999999999997
+        "pre_tool_hook_duration_ms_p95": 74,
+        "pre_tool_hook_duration_ms_p99": 102.6
       },
       "enabledMcpServers": [
         "computer-use"
@@ -12650,7 +12666,7 @@
         "amount_minor_units": 31000,
         "currency": "AUD"
       },
-      "timestamp": 1776256585019
+      "timestamp": 1776262299564
     }
   },
   "migrationVersion": 11,
