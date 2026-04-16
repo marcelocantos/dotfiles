@@ -20,10 +20,10 @@
     "install-github-app": 1289,
     "install-slack-app": 1289,
     "drag-and-drop-images": 1289,
-    "paste-images-mac": 1279,
-    "double-esc-code-restore": 1279,
-    "continue": 1279,
-    "shift-tab": 1279,
+    "paste-images-mac": 1289,
+    "double-esc-code-restore": 1289,
+    "continue": 1289,
+    "shift-tab": 1289,
     "image-paste": 1279,
     "desktop-app": 1278,
     "web-app": 1276,
@@ -33,7 +33,7 @@
     "rename-conversation": 1289,
     "custom-commands": 1275,
     "agent-flag": 1278,
-    "guest-passes": 1286,
+    "guest-passes": 1289,
     "shift-enter-setup": 95,
     "default-permission-mode-config": 1289,
     "overage-promo": 130,
@@ -43,7 +43,7 @@
     "color-when-multi-clauding": 1289,
     "desktop-shortcut": 1278
   },
-  "promptQueueUseCount": 3458,
+  "promptQueueUseCount": 3459,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
