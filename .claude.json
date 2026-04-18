@@ -1,5 +1,5 @@
 {
-  "numStartups": 1297,
+  "numStartups": 1299,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -9,41 +9,41 @@
   "tipsHistory": {
     "new-user-warmup": 5,
     "plan-mode-for-complex-tasks": 1220,
-    "terminal-setup": 1289,
+    "terminal-setup": 1299,
     "memory-command": 1289,
-    "theme-command": 1278,
-    "status-line": 1274,
+    "theme-command": 1298,
+    "status-line": 1299,
     "prompt-queue": 17,
-    "enter-to-steer-in-relatime": 1278,
-    "todo-list": 1279,
+    "enter-to-steer-in-relatime": 1299,
+    "todo-list": 1299,
     "ide-upsell-external-terminal": 1297,
-    "install-github-app": 1289,
-    "install-slack-app": 1289,
-    "drag-and-drop-images": 1289,
-    "paste-images-mac": 1289,
+    "install-github-app": 1299,
+    "install-slack-app": 1299,
+    "drag-and-drop-images": 1299,
+    "paste-images-mac": 1299,
     "double-esc-code-restore": 1289,
     "continue": 1289,
     "shift-tab": 1289,
-    "image-paste": 1279,
+    "image-paste": 1299,
     "desktop-app": 1293,
     "web-app": 1291,
     "mobile-app": 1293,
     "custom-agents": 1291,
-    "permissions": 1289,
+    "permissions": 1299,
     "rename-conversation": 1289,
     "custom-commands": 1291,
     "agent-flag": 1293,
     "guest-passes": 1295,
     "shift-enter-setup": 95,
-    "default-permission-mode-config": 1289,
+    "default-permission-mode-config": 1299,
     "overage-promo": 130,
-    "git-worktrees": 1289,
+    "git-worktrees": 1299,
     "frontend-design-plugin": 936,
     "feedback-command": 1293,
-    "color-when-multi-clauding": 1289,
+    "color-when-multi-clauding": 1299,
     "desktop-shortcut": 1293
   },
-  "promptQueueUseCount": 3478,
+  "promptQueueUseCount": 3479,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -2565,71 +2565,47 @@
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": [
-        "help.go",
-        "config.go",
-        "Makefile",
+        "engine.go",
         "main.go",
-        "executor.go"
+        "level1.go",
+        "go.mod",
+        "config.go"
       ],
-      "lastCost": 35.260066050000006,
-      "lastAPIDuration": 3598537,
-      "lastAPIDurationWithoutRetries": 3597417,
-      "lastToolDuration": 818795,
-      "lastDuration": 144959740,
-      "lastLinesAdded": 1254,
-      "lastLinesRemoved": 776,
-      "lastTotalInputTokens": 1113,
-      "lastTotalOutputTokens": 200364,
-      "lastTotalCacheCreationInputTokens": 1054615,
-      "lastTotalCacheReadInputTokens": 54150728,
+      "lastCost": 0,
+      "lastAPIDuration": 0,
+      "lastAPIDurationWithoutRetries": 0,
+      "lastToolDuration": 0,
+      "lastDuration": 3519,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 0,
+      "lastTotalOutputTokens": 0,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
       "lastTotalWebSearchRequests": 0,
-      "lastModelUsage": {
-        "claude-haiku-4-5-20251001": {
-          "inputTokens": 342,
-          "outputTokens": 14,
-          "cacheReadInputTokens": 0,
-          "cacheCreationInputTokens": 0,
-          "webSearchRequests": 0,
-          "costUSD": 0.00041200000000000004
-        },
-        "claude-opus-4-6[1m]": {
-          "inputTokens": 386,
-          "outputTokens": 138144,
-          "cacheReadInputTokens": 43254322,
-          "cacheCreationInputTokens": 807596,
-          "webSearchRequests": 0,
-          "costUSD": 30.130165999999996
-        },
-        "claude-sonnet-4-6": {
-          "inputTokens": 385,
-          "outputTokens": 62206,
-          "cacheReadInputTokens": 10896406,
-          "cacheCreationInputTokens": 247019,
-          "webSearchRequests": 0,
-          "costUSD": 5.129488049999999
-        }
-      },
-      "lastSessionId": "aa522e4c-eb23-4505-a1d3-fca6aa8afd7b",
+      "lastModelUsage": {},
+      "lastSessionId": "b951900f-74ae-441d-8f69-c66376f836b5",
       "lastSessionMetrics": {
-        "frame_duration_ms_count": 214,
-        "frame_duration_ms_min": 0.07925000041723251,
-        "frame_duration_ms_max": 7.679875000000038,
-        "frame_duration_ms_avg": 0.5305544672655365,
-        "frame_duration_ms_p50": 0.3707085005007684,
-        "frame_duration_ms_p95": 1.2205017508938907,
-        "frame_duration_ms_p99": 1.986100290063769,
+        "frame_duration_ms_count": 23,
+        "frame_duration_ms_min": 0.056999999999789,
+        "frame_duration_ms_max": 4.207458999999972,
+        "frame_duration_ms_avg": 0.47248730434780406,
+        "frame_duration_ms_p50": 0.07462499999996908,
+        "frame_duration_ms_p95": 3.5969829999999843,
+        "frame_duration_ms_p99": 4.1427787799999765,
         "hook_duration_ms_count": 1,
-        "hook_duration_ms_min": 44,
-        "hook_duration_ms_max": 44,
-        "hook_duration_ms_avg": 44,
-        "hook_duration_ms_p50": 44,
-        "hook_duration_ms_p95": 44,
-        "hook_duration_ms_p99": 44
+        "hook_duration_ms_min": 50,
+        "hook_duration_ms_max": 50,
+        "hook_duration_ms_avg": 50,
+        "hook_duration_ms_p50": 50,
+        "hook_duration_ms_p95": 50,
+        "hook_duration_ms_p99": 50
       },
-      "exampleFilesGeneratedAt": 1775639120248,
+      "exampleFilesGeneratedAt": 1776500617242,
       "hasCompletedProjectOnboarding": true,
-      "lastFpsAverage": 0,
-      "lastFpsLow1Pct": 500.74
+      "lastFpsAverage": 8.57,
+      "lastFpsLow1Pct": 237.67,
+      "lastGracefulShutdown": false
     },
     "/Users/marcelo/work/github.com/marcelocantos/sqlift/.claude/worktrees/unruffled-williams": {
       "allowedTools": [],
@@ -12092,7 +12068,7 @@
   "opus45MigrationComplete": true,
   "opusProMigrationComplete": true,
   "thinkingMigrationComplete": true,
-  "changelogLastFetched": 1776380931687,
+  "changelogLastFetched": 1776500616706,
   "cachedChromeExtensionInstalled": true,
   "hasCompletedOnboarding": true,
   "lastOnboardingVersion": "2.1.14",
@@ -12296,7 +12272,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/spyder"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.109",
+  "lastReleaseNotesSeen": "2.1.114",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -12489,7 +12465,7 @@
   "groveConfigCache": {
     "2909ba71-e527-4e91-9b22-2591e548b2d0": {
       "grove_enabled": true,
-      "timestamp": 1776335252628
+      "timestamp": 1776500617046
     }
   },
   "passesEligibilityCache": {
@@ -12505,7 +12481,7 @@
         "currency": "AUD"
       },
       "remaining_passes": 3,
-      "timestamp": 1776335253690
+      "timestamp": 1776500617834
     }
   },
   "passesUpsellSeenCount": 4,
