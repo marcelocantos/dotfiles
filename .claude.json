@@ -43,7 +43,7 @@
     "color-when-multi-clauding": 1289,
     "desktop-shortcut": 1293
   },
-  "promptQueueUseCount": 3473,
+  "promptQueueUseCount": 3477,
   "btwUseCount": 7,
   "showExpandedTodos": true,
   "cachedStatsigGates": {
@@ -12297,7 +12297,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/spyder"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.112",
+  "lastReleaseNotesSeen": "2.1.109",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -12452,8 +12452,8 @@
       "lastUsedAt": 1772940174060
     },
     "commit": {
-      "usageCount": 69,
-      "lastUsedAt": 1776253129576
+      "usageCount": 70,
+      "lastUsedAt": 1776496472420
     },
     "keybindings-help": {
       "usageCount": 2,
@@ -12674,8 +12674,11 @@
     },
     "mnemo": {
       "type": "stdio",
-      "command": "mnemo",
-      "args": [],
+      "command": "/opt/homebrew/bin/mcpbridge",
+      "args": [
+        "--",
+        "mnemo"
+      ],
       "env": {}
     },
     "browsermcp": {
@@ -12688,8 +12691,11 @@
     },
     "sawmill": {
       "type": "stdio",
-      "command": "sawmill",
-      "args": [],
+      "command": "/opt/homebrew/bin/mcpbridge",
+      "args": [
+        "--",
+        "sawmill"
+      ],
       "env": {}
     },
     "bullseye": {
@@ -12706,14 +12712,19 @@
     },
     "doit": {
       "type": "stdio",
-      "command": "doit",
-      "args": [],
+      "command": "/opt/homebrew/bin/mcpbridge",
+      "args": [
+        "--",
+        "doit"
+      ],
       "env": {}
     },
     "vellum": {
       "type": "stdio",
-      "command": "vellum",
+      "command": "/opt/homebrew/bin/mcpbridge",
       "args": [
+        "--",
+        "vellum",
         "--mcp"
       ],
       "env": {}
@@ -12741,7 +12752,7 @@
         "amount_minor_units": 31000,
         "currency": "AUD"
       },
-      "timestamp": 1776480596255
+      "timestamp": 1776495526670
     }
   },
   "migrationVersion": 11,
