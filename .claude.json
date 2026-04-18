@@ -12296,7 +12296,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/spyder"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.112",
+  "lastReleaseNotesSeen": "2.1.109",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -12745,13 +12745,13 @@
   "overageCreditGrantCache": {
     "c494be0f-a5ae-4ce5-9cfc-d9751d13c049": {
       "info": {
-        "available": true,
-        "eligible": true,
-        "granted": true,
-        "amount_minor_units": 31000,
-        "currency": "AUD"
+        "available": false,
+        "eligible": false,
+        "granted": false,
+        "amount_minor_units": null,
+        "currency": null
       },
-      "timestamp": 1776495526670
+      "timestamp": 1776499304991
     }
   },
   "migrationVersion": 11,
