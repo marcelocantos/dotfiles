@@ -23,7 +23,7 @@
     "paste-images-mac": 1299,
     "double-esc-code-restore": 1299,
     "continue": 1299,
-    "shift-tab": 1289,
+    "shift-tab": 1299,
     "image-paste": 1299,
     "desktop-app": 1293,
     "web-app": 1291,
@@ -33,7 +33,7 @@
     "rename-conversation": 1289,
     "custom-commands": 1291,
     "agent-flag": 1293,
-    "guest-passes": 1295,
+    "guest-passes": 1299,
     "shift-enter-setup": 95,
     "default-permission-mode-config": 1299,
     "overage-promo": 130,
@@ -43,7 +43,7 @@
     "color-when-multi-clauding": 1299,
     "desktop-shortcut": 1293
   },
-  "promptQueueUseCount": 3482,
+  "promptQueueUseCount": 3489,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
