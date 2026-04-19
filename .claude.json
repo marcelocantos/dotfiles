@@ -37,14 +37,15 @@
     "shift-enter-setup": 95,
     "default-permission-mode-config": 1320,
     "overage-promo": 130,
-    "git-worktrees": 1309,
+    "git-worktrees": 1320,
     "frontend-design-plugin": 936,
     "feedback-command": 1308,
-    "color-when-multi-clauding": 1310,
+    "color-when-multi-clauding": 1320,
     "desktop-shortcut": 1308
   },
-  "promptQueueUseCount": 3520,
+  "promptQueueUseCount": 3521,
   "btwUseCount": 7,
+  "showExpandedTodos": true,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
   },
