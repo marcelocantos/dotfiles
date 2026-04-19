@@ -481,6 +481,7 @@
     "tengu_hawthorn_steeple": false,
     "tengu_willow_sentinel_ttl_hours": 1
   },
+  "unpinOpus47LaunchEffort": true,
   "userID": "9fecdd347f614ef7988d22bc6783427080c2c115da32d7c0ad890aad9d007729",
   "statsigModel": {
     "bedrock": "us.anthropic.claude-3-7-sonnet-20250219-v1:0",
@@ -12798,5 +12799,6 @@
   "opus47LaunchSeenCount": 12,
   "powerupsUnlocked": [
     "at-mentions"
-  ]
+  ],
+  "autoPermissionsNotificationCount": 1
 }
