@@ -43,7 +43,7 @@
     "color-when-multi-clauding": 1320,
     "desktop-shortcut": 1308
   },
-  "promptQueueUseCount": 3521,
+  "promptQueueUseCount": 3522,
   "btwUseCount": 7,
   "showExpandedTodos": true,
   "cachedStatsigGates": {
@@ -12473,7 +12473,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/spyder"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.114",
+  "lastReleaseNotesSeen": "2.1.109",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -12921,7 +12921,7 @@
         "amount_minor_units": null,
         "currency": null
       },
-      "timestamp": 1776580589753
+      "timestamp": 1776588372715
     }
   },
   "migrationVersion": 11,
