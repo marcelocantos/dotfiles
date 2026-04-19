@@ -1,5 +1,5 @@
 {
-  "numStartups": 1305,
+  "numStartups": 1306,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -26,12 +26,12 @@
     "shift-tab": 1299,
     "image-paste": 1299,
     "desktop-app": 1293,
-    "web-app": 1291,
+    "web-app": 1306,
     "mobile-app": 1293,
-    "custom-agents": 1291,
+    "custom-agents": 1306,
     "permissions": 1299,
     "rename-conversation": 1304,
-    "custom-commands": 1291,
+    "custom-commands": 1306,
     "agent-flag": 1293,
     "guest-passes": 1305,
     "shift-enter-setup": 95,
@@ -43,7 +43,7 @@
     "color-when-multi-clauding": 1299,
     "desktop-shortcut": 1293
   },
-  "promptQueueUseCount": 3511,
+  "promptQueueUseCount": 3513,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -12337,7 +12337,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/spyder"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.112",
+  "lastReleaseNotesSeen": "2.1.114",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -12380,8 +12380,8 @@
       "lastUsedAt": 1776242057868
     },
     "release": {
-      "usageCount": 208,
-      "lastUsedAt": 1776515591074
+      "usageCount": 209,
+      "lastUsedAt": 1776561647972
     },
     "gsd:help": {
       "usageCount": 1,
@@ -12790,7 +12790,7 @@
         "amount_minor_units": null,
         "currency": null
       },
-      "timestamp": 1776555487402
+      "timestamp": 1776560698292
     }
   },
   "migrationVersion": 11,
