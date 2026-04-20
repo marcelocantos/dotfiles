@@ -1,5 +1,5 @@
 {
-  "numStartups": 1358,
+  "numStartups": 1360,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -33,7 +33,7 @@
     "rename-conversation": 1357,
     "custom-commands": 1357,
     "agent-flag": 1357,
-    "guest-passes": 1356,
+    "guest-passes": 1359,
     "shift-enter-setup": 95,
     "default-permission-mode-config": 1352,
     "overage-promo": 130,
@@ -43,9 +43,8 @@
     "color-when-multi-clauding": 1352,
     "desktop-shortcut": 1357
   },
-  "promptQueueUseCount": 3583,
+  "promptQueueUseCount": 3591,
   "btwUseCount": 7,
-  "showExpandedTodos": true,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
   },
@@ -5838,10 +5837,10 @@
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": [
         "agent.go",
+        "lifecycle.go",
         "go.mod",
         "agent_test.go",
-        "task_test.go",
-        "event.go"
+        "chain.go"
       ],
       "lastCost": 34.387172899999996,
       "lastAPIDuration": 3655121,
@@ -5900,7 +5899,8 @@
         "hook_duration_ms_p95": 43.7,
         "hook_duration_ms_p99": 43.94
       },
-      "exampleFilesGeneratedAt": 1775959729943
+      "exampleFilesGeneratedAt": 1776685451240,
+      "lastGracefulShutdown": false
     },
     "/Users/marcelo/work/github.com/marcelocantos/vellum": {
       "allowedTools": [],
@@ -12069,54 +12069,38 @@
         "build.rs",
         "transcribe.py"
       ],
-      "lastGracefulShutdown": false,
-      "lastCost": 36.43905524999999,
-      "lastAPIDuration": 997972,
-      "lastAPIDurationWithoutRetries": 996588,
-      "lastToolDuration": 183192,
-      "lastDuration": 74116971,
-      "lastLinesAdded": 211,
-      "lastLinesRemoved": 27,
-      "lastTotalInputTokens": 542,
-      "lastTotalOutputTokens": 52130,
-      "lastTotalCacheCreationInputTokens": 830833,
-      "lastTotalCacheReadInputTokens": 59880778,
+      "lastGracefulShutdown": true,
+      "lastCost": 0,
+      "lastAPIDuration": 0,
+      "lastAPIDurationWithoutRetries": 0,
+      "lastToolDuration": 0,
+      "lastDuration": 16456,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 0,
+      "lastTotalOutputTokens": 0,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
       "lastTotalWebSearchRequests": 0,
-      "lastFpsAverage": 0.26,
-      "lastFpsLow1Pct": 105.58,
-      "lastModelUsage": {
-        "claude-opus-4-7[1m]": {
-          "inputTokens": 542,
-          "outputTokens": 52130,
-          "cacheReadInputTokens": 59880778,
-          "cacheCreationInputTokens": 830833,
-          "webSearchRequests": 0,
-          "costUSD": 36.43905524999999
-        }
-      },
-      "lastSessionId": "d81c4a92-7712-4bfa-a70d-d2d2c9e83653",
+      "lastFpsAverage": 1.51,
+      "lastFpsLow1Pct": 433.71,
+      "lastModelUsage": {},
+      "lastSessionId": "962d2618-63fa-4e75-ba57-6feaad737b7b",
       "lastSessionMetrics": {
-        "frame_duration_ms_count": 18770,
-        "frame_duration_ms_min": 0.17383300000801682,
-        "frame_duration_ms_max": 60.36549999564886,
-        "frame_duration_ms_avg": 0.9186182152335494,
-        "frame_duration_ms_p50": 0.7280004999884113,
-        "frame_duration_ms_p95": 1.9508606002200382,
-        "frame_duration_ms_p99": 5.091830000127665,
-        "hook_duration_ms_count": 149,
-        "hook_duration_ms_min": 29,
-        "hook_duration_ms_max": 142,
-        "hook_duration_ms_avg": 37.671140939597315,
-        "hook_duration_ms_p50": 35,
-        "hook_duration_ms_p95": 48.599999999999994,
-        "hook_duration_ms_p99": 56.64000000000007,
-        "pre_tool_hook_duration_ms_count": 64,
-        "pre_tool_hook_duration_ms_min": 31,
-        "pre_tool_hook_duration_ms_max": 60,
-        "pre_tool_hook_duration_ms_avg": 38.703125,
-        "pre_tool_hook_duration_ms_p50": 37,
-        "pre_tool_hook_duration_ms_p95": 48.54999999999998,
-        "pre_tool_hook_duration_ms_p99": 54.95999999999998
+        "frame_duration_ms_count": 24,
+        "frame_duration_ms_min": 0.052958000000217,
+        "frame_duration_ms_max": 2.3057079999999814,
+        "frame_duration_ms_avg": 0.221564291666688,
+        "frame_duration_ms_p50": 0.06883349999998245,
+        "frame_duration_ms_p95": 0.9756687999991083,
+        "frame_duration_ms_p99": 2.028855159999744,
+        "hook_duration_ms_count": 1,
+        "hook_duration_ms_min": 44,
+        "hook_duration_ms_max": 44,
+        "hook_duration_ms_avg": 44,
+        "hook_duration_ms_p50": 44,
+        "hook_duration_ms_p95": 44,
+        "hook_duration_ms_p99": 44
       },
       "exampleFilesGeneratedAt": 1776506695579
     },
@@ -13073,8 +13057,8 @@
       "lastUsedAt": 1776600205092
     },
     "release": {
-      "usageCount": 220,
-      "lastUsedAt": 1776605707797
+      "usageCount": 222,
+      "lastUsedAt": 1776684825369
     },
     "gsd:help": {
       "usageCount": 1,
@@ -13133,8 +13117,8 @@
       "lastUsedAt": 1772167215856
     },
     "push": {
-      "usageCount": 182,
-      "lastUsedAt": 1776684022290
+      "usageCount": 183,
+      "lastUsedAt": 1776684556814
     },
     "stash": {
       "usageCount": 67,
@@ -13161,8 +13145,8 @@
       "lastUsedAt": 1772625771549
     },
     "cv": {
-      "usageCount": 363,
-      "lastUsedAt": 1776684212549
+      "usageCount": 365,
+      "lastUsedAt": 1776685987526
     },
     "target": {
       "usageCount": 39,
