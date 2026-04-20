@@ -13005,7 +13005,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/spyder"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.114",
+  "lastReleaseNotesSeen": "2.1.109",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -13457,7 +13457,7 @@
         "amount_minor_units": null,
         "currency": null
       },
-      "timestamp": 1776660241502
+      "timestamp": 1776664887284
     }
   },
   "migrationVersion": 11,
