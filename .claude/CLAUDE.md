@@ -432,10 +432,15 @@ Good moments to reach for mnemo:
 
 ## Available Tools (Homebrew)
 
-When you need to check what CLI tools are available, read
-[`~/.claude/tools.md`](~/.claude/tools.md). Covers network testing,
-C/C++ build tooling, languages/runtimes, shell utilities, AI/ML,
-media, containers/cloud, iOS device tooling, and formal verification.
+Before using WebFetch, curl, generic Bash, or writing your own
+script for a domain task, check [`~/.claude/tools.md`](~/.claude/tools.md)
+— there is likely a dedicated CLI installed. Examples:
+YouTube transcripts (`ytt`), media conversion (`ffmpeg`,
+`imagemagick`), WebSocket testing (`websocat`), HTTP (`http`),
+gRPC (`grpcurl`), JSON/YAML (`jq`, `yq`), benchmarking
+(`hyperfine`), hex inspection (`hexyl`), local LLMs (`ollama`),
+running GitHub Actions (`act`), iOS device control
+(`pymobiledevice3`), syntax-aware diffs (`difft`).
 
 ## TLA+ / Formal Verification
 
