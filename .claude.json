@@ -1,5 +1,5 @@
 {
-  "numStartups": 1356,
+  "numStartups": 1357,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -10,7 +10,7 @@
     "new-user-warmup": 5,
     "plan-mode-for-complex-tasks": 1352,
     "terminal-setup": 1352,
-    "memory-command": 1342,
+    "memory-command": 1357,
     "theme-command": 1342,
     "status-line": 1350,
     "prompt-queue": 17,
