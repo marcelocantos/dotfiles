@@ -1,5 +1,5 @@
 {
-  "numStartups": 1361,
+  "numStartups": 1362,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -11,10 +11,10 @@
     "plan-mode-for-complex-tasks": 1357,
     "terminal-setup": 1352,
     "memory-command": 1357,
-    "theme-command": 1342,
+    "theme-command": 1362,
     "status-line": 1350,
     "prompt-queue": 17,
-    "enter-to-steer-in-relatime": 1342,
+    "enter-to-steer-in-relatime": 1362,
     "todo-list": 1342,
     "ide-upsell-external-terminal": 1297,
     "install-github-app": 1352,
@@ -44,7 +44,7 @@
     "desktop-shortcut": 1357,
     "remote-control": 1361
   },
-  "promptQueueUseCount": 3596,
+  "promptQueueUseCount": 3599,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -3212,7 +3212,7 @@
         "pre_tool_hook_duration_ms_p99": 74.82
       },
       "hasCompletedProjectOnboarding": true,
-      "lastGracefulShutdown": true
+      "lastGracefulShutdown": false
     },
     "/Users/marcelo/work/github.com/marcelocantos/jevon": {
       "allowedTools": [],
@@ -13021,7 +13021,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/spyder"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.114",
+  "lastReleaseNotesSeen": "2.1.116",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -13060,8 +13060,8 @@
       "lastUsedAt": 1775601360746
     },
     "republish-skills": {
-      "usageCount": 86,
-      "lastUsedAt": 1776600205092
+      "usageCount": 87,
+      "lastUsedAt": 1776761326468
     },
     "release": {
       "usageCount": 223,
@@ -13473,7 +13473,7 @@
         "amount_minor_units": null,
         "currency": null
       },
-      "timestamp": 1776757238946
+      "timestamp": 1776761632508
     }
   },
   "migrationVersion": 11,
