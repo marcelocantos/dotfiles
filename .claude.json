@@ -43,7 +43,7 @@
     "color-when-multi-clauding": 1352,
     "desktop-shortcut": 1357
   },
-  "promptQueueUseCount": 3592,
+  "promptQueueUseCount": 3596,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -13200,7 +13200,7 @@
     }
   },
   "feedbackSurveyState": {
-    "lastShownTime": 1776555512502
+    "lastShownTime": 1776757457302
   },
   "claudeCodeFirstTokenDate": "2026-01-25T12:12:55.002215Z",
   "hasShownOpus45Notice": {
@@ -13472,7 +13472,7 @@
         "amount_minor_units": null,
         "currency": null
       },
-      "timestamp": 1776682872419
+      "timestamp": 1776757238946
     }
   },
   "migrationVersion": 11,
