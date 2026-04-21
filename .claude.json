@@ -1,5 +1,5 @@
 {
-  "numStartups": 1364,
+  "numStartups": 1369,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -8,7 +8,7 @@
   "hasUsedBackgroundTask": true,
   "tipsHistory": {
     "new-user-warmup": 5,
-    "plan-mode-for-complex-tasks": 1363,
+    "plan-mode-for-complex-tasks": 1369,
     "terminal-setup": 1363,
     "memory-command": 1357,
     "theme-command": 1362,
@@ -20,10 +20,10 @@
     "install-github-app": 1363,
     "install-slack-app": 1363,
     "drag-and-drop-images": 1363,
-    "paste-images-mac": 1355,
-    "double-esc-code-restore": 1355,
-    "continue": 1355,
-    "shift-tab": 1356,
+    "paste-images-mac": 1369,
+    "double-esc-code-restore": 1369,
+    "continue": 1369,
+    "shift-tab": 1369,
     "image-paste": 1362,
     "desktop-app": 1357,
     "web-app": 1357,
@@ -33,7 +33,7 @@
     "rename-conversation": 1357,
     "custom-commands": 1357,
     "agent-flag": 1357,
-    "guest-passes": 1363,
+    "guest-passes": 1369,
     "shift-enter-setup": 95,
     "default-permission-mode-config": 1362,
     "overage-promo": 130,
@@ -44,7 +44,7 @@
     "desktop-shortcut": 1357,
     "remote-control": 1361
   },
-  "promptQueueUseCount": 3601,
+  "promptQueueUseCount": 3606,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -5834,65 +5834,40 @@
         "agent_test.go",
         "chain.go"
       ],
-      "lastCost": 34.387172899999996,
-      "lastAPIDuration": 3655121,
-      "lastAPIDurationWithoutRetries": 3653036,
-      "lastToolDuration": 1227468,
-      "lastDuration": 107785176,
-      "lastLinesAdded": 2851,
-      "lastLinesRemoved": 519,
-      "lastTotalInputTokens": 4699,
-      "lastTotalOutputTokens": 176714,
-      "lastTotalCacheCreationInputTokens": 1468668,
-      "lastTotalCacheReadInputTokens": 44892761,
+      "lastCost": 0,
+      "lastAPIDuration": 0,
+      "lastAPIDurationWithoutRetries": 0,
+      "lastToolDuration": 0,
+      "lastDuration": 1336,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 0,
+      "lastTotalOutputTokens": 0,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
       "lastTotalWebSearchRequests": 0,
-      "lastFpsAverage": 7.53,
-      "lastFpsLow1Pct": 217.64,
-      "lastModelUsage": {
-        "claude-opus-4-6[1m]": {
-          "inputTokens": 332,
-          "outputTokens": 142077,
-          "cacheReadInputTokens": 40217728,
-          "cacheCreationInputTokens": 1313174,
-          "webSearchRequests": 0,
-          "costUSD": 31.869786500000004
-        },
-        "claude-haiku-4-5-20251001": {
-          "inputTokens": 351,
-          "outputTokens": 18,
-          "cacheReadInputTokens": 0,
-          "cacheCreationInputTokens": 0,
-          "webSearchRequests": 0,
-          "costUSD": 0.00044100000000000004
-        },
-        "claude-sonnet-4-6": {
-          "inputTokens": 4016,
-          "outputTokens": 34619,
-          "cacheReadInputTokens": 4675033,
-          "cacheCreationInputTokens": 155494,
-          "webSearchRequests": 0,
-          "costUSD": 2.5169454
-        }
-      },
-      "lastSessionId": "f61ab93f-dfc0-4168-9c1e-8933d0e8a89c",
+      "lastFpsAverage": 12.65,
+      "lastFpsLow1Pct": 405.45,
+      "lastModelUsage": {},
+      "lastSessionId": "7e5a734a-05d6-4ffb-9652-2ef10f4d1856",
       "lastSessionMetrics": {
-        "frame_duration_ms_count": 153,
-        "frame_duration_ms_min": 0.2563750000000198,
-        "frame_duration_ms_max": 31.681959000000006,
-        "frame_duration_ms_avg": 1.1035490065359206,
-        "frame_duration_ms_p50": 0.7715829999997368,
-        "frame_duration_ms_p95": 1.9702416000000091,
-        "frame_duration_ms_p99": 4.3509131600000135,
-        "hook_duration_ms_count": 3,
-        "hook_duration_ms_min": 40,
-        "hook_duration_ms_max": 44,
-        "hook_duration_ms_avg": 41.666666666666664,
-        "hook_duration_ms_p50": 41,
-        "hook_duration_ms_p95": 43.7,
-        "hook_duration_ms_p99": 43.94
+        "frame_duration_ms_count": 13,
+        "frame_duration_ms_min": 0.058708000000024185,
+        "frame_duration_ms_max": 2.466374999999971,
+        "frame_duration_ms_avg": 0.3478975384615502,
+        "frame_duration_ms_p50": 0.0860419999999067,
+        "frame_duration_ms_p95": 1.6274747999999855,
+        "frame_duration_ms_p99": 2.298594959999973,
+        "hook_duration_ms_count": 1,
+        "hook_duration_ms_min": 144,
+        "hook_duration_ms_max": 144,
+        "hook_duration_ms_avg": 144,
+        "hook_duration_ms_p50": 144,
+        "hook_duration_ms_p95": 144,
+        "hook_duration_ms_p99": 144
       },
       "exampleFilesGeneratedAt": 1776685451240,
-      "lastGracefulShutdown": false
+      "lastGracefulShutdown": true
     },
     "/Users/marcelo/work/github.com/marcelocantos/vellum": {
       "allowedTools": [],
@@ -13006,7 +12981,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/spyder"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.116",
+  "lastReleaseNotesSeen": "2.1.112",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -13161,8 +13136,8 @@
       "lastUsedAt": 1772940174060
     },
     "commit": {
-      "usageCount": 70,
-      "lastUsedAt": 1776496472420
+      "usageCount": 71,
+      "lastUsedAt": 1776774011449
     },
     "keybindings-help": {
       "usageCount": 2,
@@ -13183,6 +13158,10 @@
     "c": {
       "usageCount": 2,
       "lastUsedAt": 1776604208615
+    },
+    "update-config": {
+      "usageCount": 1,
+      "lastUsedAt": 1776772925877
     }
   },
   "feedbackSurveyState": {
@@ -13461,7 +13440,7 @@
         "amount_minor_units": null,
         "currency": null
       },
-      "timestamp": 1776769240260
+      "timestamp": 1776772840729
     }
   },
   "migrationVersion": 11,
@@ -13472,5 +13451,5 @@
     "at-mentions"
   ],
   "autoPermissionsNotificationCount": 1,
-  "remoteControlUpsellSeenCount": 1
+  "remoteControlUpsellSeenCount": 2
 }
