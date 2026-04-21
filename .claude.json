@@ -1,5 +1,5 @@
 {
-  "numStartups": 1377,
+  "numStartups": 1398,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -8,45 +8,44 @@
   "hasUsedBackgroundTask": true,
   "tipsHistory": {
     "new-user-warmup": 5,
-    "plan-mode-for-complex-tasks": 1376,
-    "terminal-setup": 1374,
-    "memory-command": 1374,
-    "theme-command": 1362,
+    "plan-mode-for-complex-tasks": 1397,
+    "terminal-setup": 1387,
+    "memory-command": 1392,
+    "theme-command": 1382,
     "status-line": 1375,
     "prompt-queue": 17,
-    "enter-to-steer-in-relatime": 1362,
-    "todo-list": 1362,
+    "enter-to-steer-in-relatime": 1382,
+    "todo-list": 1382,
     "ide-upsell-external-terminal": 1297,
-    "install-github-app": 1374,
-    "install-slack-app": 1374,
-    "drag-and-drop-images": 1375,
-    "paste-images-mac": 1369,
-    "double-esc-code-restore": 1369,
-    "continue": 1369,
-    "shift-tab": 1369,
-    "image-paste": 1362,
-    "desktop-app": 1374,
-    "web-app": 1374,
-    "mobile-app": 1374,
-    "custom-agents": 1374,
-    "permissions": 1374,
-    "rename-conversation": 1374,
-    "custom-commands": 1374,
-    "agent-flag": 1374,
-    "guest-passes": 1376,
+    "install-github-app": 1392,
+    "install-slack-app": 1392,
+    "drag-and-drop-images": 1397,
+    "paste-images-mac": 1398,
+    "double-esc-code-restore": 1382,
+    "continue": 1382,
+    "shift-tab": 1382,
+    "image-paste": 1382,
+    "desktop-app": 1392,
+    "web-app": 1392,
+    "mobile-app": 1392,
+    "custom-agents": 1392,
+    "permissions": 1392,
+    "rename-conversation": 1392,
+    "custom-commands": 1392,
+    "agent-flag": 1392,
+    "guest-passes": 1398,
     "shift-enter-setup": 95,
-    "default-permission-mode-config": 1374,
+    "default-permission-mode-config": 1387,
     "overage-promo": 130,
-    "git-worktrees": 1374,
+    "git-worktrees": 1387,
     "frontend-design-plugin": 936,
-    "feedback-command": 1374,
-    "color-when-multi-clauding": 1374,
-    "desktop-shortcut": 1374,
-    "remote-control": 1376
+    "feedback-command": 1397,
+    "color-when-multi-clauding": 1387,
+    "desktop-shortcut": 1392,
+    "remote-control": 1397
   },
-  "promptQueueUseCount": 3606,
+  "promptQueueUseCount": 3609,
   "btwUseCount": 7,
-  "showExpandedTodos": true,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
   },
@@ -12787,6 +12786,58 @@
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": [],
       "lastGracefulShutdown": false
+    },
+    "/Users/marcelo/meetings/20260422T072930": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [],
+      "lastGracefulShutdown": false
+    },
+    "/Users/marcelo/meetings/20260422T073103": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [],
+      "lastGracefulShutdown": false
+    },
+    "/Users/marcelo/meetings/20260422T073822": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [],
+      "lastGracefulShutdown": false
+    },
+    "/Users/marcelo/meetings/20260422T074332": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [],
+      "lastGracefulShutdown": false
     }
   },
   "sonnet45MigrationComplete": true,
@@ -13036,12 +13087,12 @@
       "lastUsedAt": 1775601360746
     },
     "republish-skills": {
-      "usageCount": 87,
-      "lastUsedAt": 1776761326468
+      "usageCount": 88,
+      "lastUsedAt": 1776806891381
     },
     "release": {
-      "usageCount": 225,
-      "lastUsedAt": 1776806147298
+      "usageCount": 226,
+      "lastUsedAt": 1776807318503
     },
     "gsd:help": {
       "usageCount": 1,
@@ -13052,8 +13103,8 @@
       "lastUsedAt": 1771768715015
     },
     "progress-report": {
-      "usageCount": 9,
-      "lastUsedAt": 1776054037245
+      "usageCount": 10,
+      "lastUsedAt": 1776807988872
     },
     "gsd:update": {
       "usageCount": 1,
@@ -13456,7 +13507,7 @@
         "amount_minor_units": null,
         "currency": null
       },
-      "timestamp": 1776804214243
+      "timestamp": 1776807815069
     }
   },
   "migrationVersion": 11,
