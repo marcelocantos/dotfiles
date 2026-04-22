@@ -7,11 +7,32 @@ set -uo pipefail
 LOG="$HOME/.local/var/log/yadm-auto-sync.log"
 export PATH="/opt/homebrew/bin:$PATH"
 
+# Bound a half-dead TCP session — a push without these can hang for hours,
+# blocking every subsequent launchd invocation. ~45s ceiling on a stuck push.
+export GIT_SSH_COMMAND="ssh -o ConnectTimeout=15 -o ServerAliveInterval=10 -o ServerAliveCountMax=3"
+
 ts() { date '+%Y-%m-%d %H:%M:%S'; }
 
-# Heartbeat — always logged, proves the job ran.
+# True iff there are local commits not yet on the upstream branch.
+has_unpushed() {
+  local n
+  n=$(yadm rev-list --count '@{u}..HEAD' 2>/dev/null) || return 1
+  [ "$n" -gt 0 ]
+}
+
+# No working-tree changes — but a previous push may have failed, leaving
+# commits stranded. Push them before exiting; otherwise the next file edit
+# is the only thing that retries.
 if yadm diff --quiet && yadm diff --cached --quiet; then
-  echo "[$(ts)] heartbeat: no changes" >> "$LOG"
+  if has_unpushed; then
+    if yadm push >> "$LOG" 2>&1; then
+      echo "[$(ts)] ok: pushed pending commits" >> "$LOG"
+    else
+      echo "[$(ts)] ERROR: push of pending commits failed" >> "$LOG"
+    fi
+  else
+    echo "[$(ts)] heartbeat: no changes" >> "$LOG"
+  fi
   exit 0
 fi
 
