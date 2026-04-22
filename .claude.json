@@ -9,7 +9,7 @@
   "tipsHistory": {
     "new-user-warmup": 5,
     "plan-mode-for-complex-tasks": 1397,
-    "terminal-setup": 1387,
+    "terminal-setup": 1398,
     "memory-command": 1392,
     "theme-command": 1382,
     "status-line": 1375,
@@ -44,7 +44,7 @@
     "desktop-shortcut": 1392,
     "remote-control": 1397
   },
-  "promptQueueUseCount": 3609,
+  "promptQueueUseCount": 3610,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -13153,8 +13153,8 @@
       "lastUsedAt": 1772167215856
     },
     "push": {
-      "usageCount": 183,
-      "lastUsedAt": 1776684556814
+      "usageCount": 184,
+      "lastUsedAt": 1776828916094
     },
     "stash": {
       "usageCount": 67,
@@ -13181,8 +13181,8 @@
       "lastUsedAt": 1772625771549
     },
     "cv": {
-      "usageCount": 365,
-      "lastUsedAt": 1776685987526
+      "usageCount": 366,
+      "lastUsedAt": 1776828775321
     },
     "target": {
       "usageCount": 39,
