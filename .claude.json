@@ -44,8 +44,9 @@
     "desktop-shortcut": 1421,
     "remote-control": 1422
   },
-  "promptQueueUseCount": 3614,
+  "promptQueueUseCount": 3618,
   "btwUseCount": 7,
+  "showExpandedTodos": true,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
   },
