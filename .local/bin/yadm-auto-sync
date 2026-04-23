@@ -5,6 +5,10 @@
 set -uo pipefail
 
 LOG="$HOME/.local/var/log/yadm-auto-sync.log"
+STATE_DIR="$HOME/.local/state"
+FAILURE_COUNTER="$STATE_DIR/yadm-auto-sync.failures"
+ALERT_THRESHOLD=3
+mkdir -p "$STATE_DIR"
 export PATH="/opt/homebrew/bin:$PATH"
 
 # Bound a half-dead TCP session — a push without these can hang for hours,
@@ -20,16 +24,34 @@ has_unpushed() {
   [ "$n" -gt 0 ]
 }
 
+# Push, manage consecutive-failure counter, alert only on threshold crossing.
+# Single notification when N consecutive failures accumulate; further failures
+# stay quiet until a success resets the counter.
+push_with_backoff_alert() {
+  local context="$1"
+  if yadm push >> "$LOG" 2>&1; then
+    echo 0 > "$FAILURE_COUNTER"
+    echo "[$(ts)] ok: $context" >> "$LOG"
+    return 0
+  fi
+  local n=1
+  [ -f "$FAILURE_COUNTER" ] && n=$(($(cat "$FAILURE_COUNTER") + 1))
+  echo "$n" > "$FAILURE_COUNTER"
+  echo "[$(ts)] ERROR: $context failed (consecutive=$n)" >> "$LOG"
+  if [ "$n" -eq "$ALERT_THRESHOLD" ]; then
+    alerter --title "yadm-auto-sync" \
+      --message "Push has failed $n consecutive times — check ~/.local/var/log/yadm-auto-sync.log" \
+      --sound default
+  fi
+  return 1
+}
+
 # No working-tree changes — but a previous push may have failed, leaving
 # commits stranded. Push them before exiting; otherwise the next file edit
 # is the only thing that retries.
 if yadm diff --quiet && yadm diff --cached --quiet; then
   if has_unpushed; then
-    if yadm push >> "$LOG" 2>&1; then
-      echo "[$(ts)] ok: pushed pending commits" >> "$LOG"
-    else
-      echo "[$(ts)] ERROR: push of pending commits failed" >> "$LOG"
-    fi
+    push_with_backoff_alert "pushed pending commits"
   else
     echo "[$(ts)] heartbeat: no changes" >> "$LOG"
   fi
@@ -38,12 +60,7 @@ fi
 
 # Commit and push, capturing errors.
 if yadm add -u && yadm commit -m "auto-sync dotfiles ($(date '+%Y-%m-%d %H:%M'))" >> "$LOG" 2>&1; then
-  if yadm push >> "$LOG" 2>&1; then
-    echo "[$(ts)] ok: committed and pushed" >> "$LOG"
-  else
-    echo "[$(ts)] ERROR: commit succeeded but push failed" >> "$LOG"
-    alerter --title "yadm-auto-sync" --message "Push failed — check ~/.local/var/log/yadm-auto-sync.log" --sound default
-  fi
+  push_with_backoff_alert "committed and pushed"
 else
   echo "[$(ts)] ERROR: commit failed" >> "$LOG"
   alerter -title "yadm-auto-sync" -message "Commit failed — check ~/.local/var/log/yadm-auto-sync.log" -sound default
