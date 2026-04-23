@@ -26,18 +26,19 @@ has_unpushed() {
 
 # Push, manage consecutive-failure counter, alert only on threshold crossing.
 # Single notification when N consecutive failures accumulate; further failures
-# stay quiet until a success resets the counter.
+# stay quiet until a success resets the counter. $1 names the push operation
+# for log readability, e.g. "post-commit push" or "pending-commits push".
 push_with_backoff_alert() {
-  local context="$1"
+  local op="$1"
   if yadm push >> "$LOG" 2>&1; then
     echo 0 > "$FAILURE_COUNTER"
-    echo "[$(ts)] ok: $context" >> "$LOG"
+    echo "[$(ts)] ok: $op" >> "$LOG"
     return 0
   fi
   local n=1
   [ -f "$FAILURE_COUNTER" ] && n=$(($(cat "$FAILURE_COUNTER") + 1))
   echo "$n" > "$FAILURE_COUNTER"
-  echo "[$(ts)] ERROR: $context failed (consecutive=$n)" >> "$LOG"
+  echo "[$(ts)] ERROR: $op failed (consecutive=$n)" >> "$LOG"
   if [ "$n" -eq "$ALERT_THRESHOLD" ]; then
     alerter --title "yadm-auto-sync" \
       --message "Push has failed $n consecutive times — check ~/.local/var/log/yadm-auto-sync.log" \
@@ -51,7 +52,7 @@ push_with_backoff_alert() {
 # is the only thing that retries.
 if yadm diff --quiet && yadm diff --cached --quiet; then
   if has_unpushed; then
-    push_with_backoff_alert "pushed pending commits"
+    push_with_backoff_alert "pending-commits push"
   else
     echo "[$(ts)] heartbeat: no changes" >> "$LOG"
   fi
@@ -60,7 +61,7 @@ fi
 
 # Commit and push, capturing errors.
 if yadm add -u && yadm commit -m "auto-sync dotfiles ($(date '+%Y-%m-%d %H:%M'))" >> "$LOG" 2>&1; then
-  push_with_backoff_alert "committed and pushed"
+  push_with_backoff_alert "post-commit push"
 else
   echo "[$(ts)] ERROR: commit failed" >> "$LOG"
   alerter -title "yadm-auto-sync" -message "Commit failed — check ~/.local/var/log/yadm-auto-sync.log" -sound default
