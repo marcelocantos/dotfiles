@@ -435,8 +435,8 @@ Good moments to reach for mnemo:
 Before using WebFetch, curl, generic Bash, or writing your own
 script for a domain task, check [`~/.claude/tools.md`](~/.claude/tools.md)
 — there is likely a dedicated CLI installed. Examples:
-YouTube transcripts (`ytt`), media conversion (`ffmpeg`,
-`imagemagick`), WebSocket testing (`websocat`), HTTP (`http`),
+media conversion (`ffmpeg`, `imagemagick`),
+WebSocket testing (`websocat`), HTTP (`http`),
 gRPC (`grpcurl`), JSON/YAML (`jq`, `yq`), benchmarking
 (`hyperfine`), hex inspection (`hexyl`), local LLMs (`ollama`),
 running GitHub Actions (`act`), iOS device control

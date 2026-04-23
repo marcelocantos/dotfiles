@@ -47,7 +47,6 @@ Notable tools installed via Homebrew that may be useful during development.
 **Media:**
 - `ffmpeg` — audio/video transcoding and manipulation.
 - `imagemagick` — image conversion and manipulation from CLI.
-- `ytt <video_id_or_url>` — print a YouTube video's transcript to stdout. Use when summarising a YouTube video: `WebFetch` only returns YouTube's footer chrome. **Always single-quote the URL** — zsh treats `?` as a glob and errors with `no matches found` on unquoted YouTube URLs (e.g. `ytt 'https://www.youtube.com/watch?v=...'`).
 
 **JSON / Data:**
 - `jq` — JSON processor (installed via zerobrew at `/opt/zerobrew/prefix/bin/jq`).
