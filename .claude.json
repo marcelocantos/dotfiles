@@ -1,5 +1,5 @@
 {
-  "numStartups": 1431,
+  "numStartups": 1432,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -19,7 +19,7 @@
     "ide-upsell-external-terminal": 1297,
     "install-github-app": 1423,
     "install-slack-app": 1423,
-    "drag-and-drop-images": 1422,
+    "drag-and-drop-images": 1432,
     "paste-images-mac": 1423,
     "double-esc-code-restore": 1423,
     "continue": 1423,
@@ -33,7 +33,7 @@
     "rename-conversation": 1421,
     "custom-commands": 1421,
     "agent-flag": 1421,
-    "guest-passes": 1429,
+    "guest-passes": 1432,
     "shift-enter-setup": 95,
     "default-permission-mode-config": 1423,
     "overage-promo": 130,
@@ -44,8 +44,9 @@
     "desktop-shortcut": 1421,
     "remote-control": 1422
   },
-  "promptQueueUseCount": 3661,
+  "promptQueueUseCount": 3662,
   "btwUseCount": 7,
+  "showExpandedTodos": true,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
   },
@@ -12938,7 +12939,7 @@
   "opus45MigrationComplete": true,
   "opusProMigrationComplete": true,
   "thinkingMigrationComplete": true,
-  "changelogLastFetched": 1776976521800,
+  "changelogLastFetched": 1777030339327,
   "cachedChromeExtensionInstalled": true,
   "hasCompletedOnboarding": true,
   "lastOnboardingVersion": "2.1.14",
@@ -13142,7 +13143,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/spyder"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.117",
+  "lastReleaseNotesSeen": "2.1.114",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -13612,10 +13613,10 @@
         "amount_minor_units": null,
         "currency": null
       },
-      "timestamp": 1777019348731
+      "timestamp": 1777030340354
     }
   },
-  "migrationVersion": 11,
+  "migrationVersion": 12,
   "additionalModelCostsCache": {},
   "transcriptShareDismissed": true,
   "opus47LaunchSeenCount": 12,
@@ -13624,5 +13625,6 @@
   ],
   "autoPermissionsNotificationCount": 1,
   "remoteControlUpsellSeenCount": 3,
-  "closedIssuesLastChecked": 1776977892680
+  "closedIssuesLastChecked": 1776977892680,
+  "hasResetAutoModeOptInForDefaultOffer": true
 }
