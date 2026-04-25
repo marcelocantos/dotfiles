@@ -44,8 +44,9 @@
     "desktop-shortcut": 1572,
     "remote-control": 1572
   },
-  "promptQueueUseCount": 3791,
+  "promptQueueUseCount": 3795,
   "btwUseCount": 7,
+  "showExpandedTodos": true,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
   },
@@ -12795,7 +12796,7 @@
       "enabledMcpjsonServers": [],
       "disabledMcpjsonServers": [],
       "hasTrustDialogAccepted": false,
-      "projectOnboardingSeenCount": 30,
+      "projectOnboardingSeenCount": 34,
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": [],
@@ -12860,7 +12861,7 @@
       "enabledMcpjsonServers": [],
       "disabledMcpjsonServers": [],
       "hasTrustDialogAccepted": false,
-      "projectOnboardingSeenCount": 30,
+      "projectOnboardingSeenCount": 34,
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": [],
@@ -12873,7 +12874,7 @@
       "enabledMcpjsonServers": [],
       "disabledMcpjsonServers": [],
       "hasTrustDialogAccepted": false,
-      "projectOnboardingSeenCount": 29,
+      "projectOnboardingSeenCount": 33,
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": [],
@@ -12886,7 +12887,7 @@
       "enabledMcpjsonServers": [],
       "disabledMcpjsonServers": [],
       "hasTrustDialogAccepted": false,
-      "projectOnboardingSeenCount": 6,
+      "projectOnboardingSeenCount": 7,
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": [],
@@ -13002,7 +13003,7 @@
       "enabledMcpjsonServers": [],
       "disabledMcpjsonServers": [],
       "hasTrustDialogAccepted": false,
-      "projectOnboardingSeenCount": 1,
+      "projectOnboardingSeenCount": 2,
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": [],
@@ -13423,7 +13424,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/spyder"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.119",
+  "lastReleaseNotesSeen": "2.1.114",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -13462,12 +13463,12 @@
       "lastUsedAt": 1775601360746
     },
     "republish-skills": {
-      "usageCount": 92,
-      "lastUsedAt": 1777122292244
+      "usageCount": 93,
+      "lastUsedAt": 1777129713794
     },
     "release": {
-      "usageCount": 247,
-      "lastUsedAt": 1777127892735
+      "usageCount": 249,
+      "lastUsedAt": 1777129865770
     },
     "gsd:help": {
       "usageCount": 1,
@@ -13526,8 +13527,8 @@
       "lastUsedAt": 1772167215856
     },
     "push": {
-      "usageCount": 202,
-      "lastUsedAt": 1777126713640
+      "usageCount": 204,
+      "lastUsedAt": 1777130278079
     },
     "stash": {
       "usageCount": 67,
@@ -13594,8 +13595,8 @@
       "lastUsedAt": 1775914605467
     },
     "schedule": {
-      "usageCount": 1,
-      "lastUsedAt": 1776200288697
+      "usageCount": 2,
+      "lastUsedAt": 1777128679483
     },
     "c": {
       "usageCount": 2,
