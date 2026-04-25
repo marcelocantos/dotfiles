@@ -1,5 +1,5 @@
 {
-  "numStartups": 1472,
+  "numStartups": 1484,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -8,17 +8,17 @@
   "hasUsedBackgroundTask": true,
   "tipsHistory": {
     "new-user-warmup": 5,
-    "plan-mode-for-complex-tasks": 1472,
-    "terminal-setup": 1470,
-    "memory-command": 1462,
+    "plan-mode-for-complex-tasks": 1484,
+    "terminal-setup": 1484,
+    "memory-command": 1484,
     "theme-command": 1470,
     "status-line": 1462,
     "prompt-queue": 17,
     "enter-to-steer-in-relatime": 1470,
     "todo-list": 1470,
     "ide-upsell-external-terminal": 1297,
-    "install-github-app": 1470,
-    "install-slack-app": 1470,
+    "install-github-app": 1484,
+    "install-slack-app": 1484,
     "drag-and-drop-images": 1472,
     "paste-images-mac": 1472,
     "double-esc-code-restore": 1472,
@@ -33,18 +33,18 @@
     "rename-conversation": 1472,
     "custom-commands": 1472,
     "agent-flag": 1472,
-    "guest-passes": 1472,
+    "guest-passes": 1476,
     "shift-enter-setup": 95,
-    "default-permission-mode-config": 1472,
+    "default-permission-mode-config": 1484,
     "overage-promo": 130,
-    "git-worktrees": 1470,
+    "git-worktrees": 1484,
     "frontend-design-plugin": 936,
     "feedback-command": 1472,
-    "color-when-multi-clauding": 1470,
+    "color-when-multi-clauding": 1484,
     "desktop-shortcut": 1472,
     "remote-control": 1472
   },
-  "promptQueueUseCount": 3750,
+  "promptQueueUseCount": 3752,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -12027,12 +12027,12 @@
         "build.rs",
         "transcribe.py"
       ],
-      "lastGracefulShutdown": true,
+      "lastGracefulShutdown": false,
       "lastCost": 0,
       "lastAPIDuration": 0,
       "lastAPIDurationWithoutRetries": 0,
       "lastToolDuration": 0,
-      "lastDuration": 16456,
+      "lastDuration": 2495,
       "lastLinesAdded": 0,
       "lastLinesRemoved": 0,
       "lastTotalInputTokens": 0,
@@ -12040,27 +12040,27 @@
       "lastTotalCacheCreationInputTokens": 0,
       "lastTotalCacheReadInputTokens": 0,
       "lastTotalWebSearchRequests": 0,
-      "lastFpsAverage": 1.51,
-      "lastFpsLow1Pct": 433.71,
+      "lastFpsAverage": 8.19,
+      "lastFpsLow1Pct": 288.04,
       "lastModelUsage": {},
-      "lastSessionId": "962d2618-63fa-4e75-ba57-6feaad737b7b",
+      "lastSessionId": "af203c9e-2a26-5d71-8343-b30f26e7951a",
       "lastSessionMetrics": {
-        "frame_duration_ms_count": 24,
-        "frame_duration_ms_min": 0.052958000000217,
-        "frame_duration_ms_max": 2.3057079999999814,
-        "frame_duration_ms_avg": 0.221564291666688,
-        "frame_duration_ms_p50": 0.06883349999998245,
-        "frame_duration_ms_p95": 0.9756687999991083,
-        "frame_duration_ms_p99": 2.028855159999744,
+        "frame_duration_ms_count": 18,
+        "frame_duration_ms_min": 0.05429099999992104,
+        "frame_duration_ms_max": 3.4717500000000427,
+        "frame_duration_ms_avg": 0.390361055555543,
+        "frame_duration_ms_p50": 0.09449949999975615,
+        "frame_duration_ms_p95": 2.0326642999998543,
+        "frame_duration_ms_p99": 3.1839328600000028,
         "hook_duration_ms_count": 1,
-        "hook_duration_ms_min": 44,
-        "hook_duration_ms_max": 44,
-        "hook_duration_ms_avg": 44,
-        "hook_duration_ms_p50": 44,
-        "hook_duration_ms_p95": 44,
-        "hook_duration_ms_p99": 44
+        "hook_duration_ms_min": 273,
+        "hook_duration_ms_max": 273,
+        "hook_duration_ms_avg": 273,
+        "hook_duration_ms_p50": 273,
+        "hook_duration_ms_p95": 273,
+        "hook_duration_ms_p99": 273
       },
-      "exampleFilesGeneratedAt": 1776506695579,
+      "exampleFilesGeneratedAt": 1777115338152,
       "hasCompletedProjectOnboarding": true
     },
     "/Users/marcelo/work/github.com/samuong/alpaca": {
@@ -13399,7 +13399,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/spyder"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.114",
+  "lastReleaseNotesSeen": "2.1.119",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -13442,8 +13442,8 @@
       "lastUsedAt": 1776976835892
     },
     "release": {
-      "usageCount": 237,
-      "lastUsedAt": 1777113832514
+      "usageCount": 238,
+      "lastUsedAt": 1777115436155
     },
     "gsd:help": {
       "usageCount": 1,
@@ -13502,8 +13502,8 @@
       "lastUsedAt": 1772167215856
     },
     "push": {
-      "usageCount": 198,
-      "lastUsedAt": 1777113456151
+      "usageCount": 199,
+      "lastUsedAt": 1777114209838
     },
     "stash": {
       "usageCount": 67,
@@ -13883,7 +13883,7 @@
         "amount_minor_units": null,
         "currency": null
       },
-      "timestamp": 1777112183087
+      "timestamp": 1777115854442
     }
   },
   "migrationVersion": 12,
