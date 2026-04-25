@@ -1,5 +1,5 @@
 {
-  "numStartups": 1432,
+  "numStartups": 1437,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -25,26 +25,26 @@
     "continue": 1423,
     "shift-tab": 1423,
     "image-paste": 1428,
-    "desktop-app": 1421,
-    "web-app": 1421,
-    "mobile-app": 1421,
-    "custom-agents": 1421,
+    "desktop-app": 1437,
+    "web-app": 1437,
+    "mobile-app": 1437,
+    "custom-agents": 1437,
     "permissions": 1431,
-    "rename-conversation": 1421,
-    "custom-commands": 1421,
-    "agent-flag": 1421,
+    "rename-conversation": 1437,
+    "custom-commands": 1437,
+    "agent-flag": 1437,
     "guest-passes": 1432,
     "shift-enter-setup": 95,
-    "default-permission-mode-config": 1423,
+    "default-permission-mode-config": 1437,
     "overage-promo": 130,
     "git-worktrees": 1423,
     "frontend-design-plugin": 936,
-    "feedback-command": 1422,
+    "feedback-command": 1437,
     "color-when-multi-clauding": 1423,
-    "desktop-shortcut": 1421,
-    "remote-control": 1422
+    "desktop-shortcut": 1437,
+    "remote-control": 1437
   },
-  "promptQueueUseCount": 3668,
+  "promptQueueUseCount": 3672,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -12927,13 +12927,26 @@
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": [],
       "lastGracefulShutdown": false
+    },
+    "/Users/marcelo/meetings/20260425T110402": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 1,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [],
+      "lastGracefulShutdown": false
     }
   },
   "sonnet45MigrationComplete": true,
   "opus45MigrationComplete": true,
   "opusProMigrationComplete": true,
   "thinkingMigrationComplete": true,
-  "changelogLastFetched": 1777030339327,
+  "changelogLastFetched": 1777079046013,
   "cachedChromeExtensionInstalled": true,
   "hasCompletedOnboarding": true,
   "lastOnboardingVersion": "2.1.14",
@@ -13180,8 +13193,8 @@
       "lastUsedAt": 1776976835892
     },
     "release": {
-      "usageCount": 231,
-      "lastUsedAt": 1776977912856
+      "usageCount": 232,
+      "lastUsedAt": 1777079013917
     },
     "gsd:help": {
       "usageCount": 1,
@@ -13240,8 +13253,8 @@
       "lastUsedAt": 1772167215856
     },
     "push": {
-      "usageCount": 190,
-      "lastUsedAt": 1776978710814
+      "usageCount": 192,
+      "lastUsedAt": 1777079284930
     },
     "stash": {
       "usageCount": 67,
@@ -13268,8 +13281,8 @@
       "lastUsedAt": 1772625771549
     },
     "cv": {
-      "usageCount": 374,
-      "lastUsedAt": 1776977945422
+      "usageCount": 375,
+      "lastUsedAt": 1777079454161
     },
     "target": {
       "usageCount": 39,
@@ -13346,7 +13359,7 @@
   "groveConfigCache": {
     "2909ba71-e527-4e91-9b22-2591e548b2d0": {
       "grove_enabled": true,
-      "timestamp": 1776981266915
+      "timestamp": 1777079046386
     }
   },
   "passesEligibilityCache": {
@@ -13362,7 +13375,7 @@
         "currency": "AUD"
       },
       "remaining_passes": 3,
-      "timestamp": 1776981267947
+      "timestamp": 1777079047801
     }
   },
   "passesUpsellSeenCount": 4,
@@ -13493,7 +13506,11 @@
     "organizationName": "marcelo.cantos@gmail.com's Organization",
     "ccOnboardingFlags": {},
     "claudeCodeTrialEndsAt": null,
-    "claudeCodeTrialDurationDays": null
+    "claudeCodeTrialDurationDays": null,
+    "organizationType": "claude_max",
+    "organizationRateLimitTier": "default_claude_max_20x",
+    "userRateLimitTier": null,
+    "seatTier": null
   },
   "effortCalloutV2Dismissed": true,
   "mcpServers": {
@@ -13607,7 +13624,7 @@
         "amount_minor_units": null,
         "currency": null
       },
-      "timestamp": 1777030340354
+      "timestamp": 1777079047042
     }
   },
   "migrationVersion": 12,
