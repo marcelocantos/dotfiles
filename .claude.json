@@ -1,5 +1,5 @@
 {
-  "numStartups": 1438,
+  "numStartups": 1440,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -33,7 +33,7 @@
     "rename-conversation": 1437,
     "custom-commands": 1437,
     "agent-flag": 1437,
-    "guest-passes": 1437,
+    "guest-passes": 1440,
     "shift-enter-setup": 95,
     "default-permission-mode-config": 1437,
     "overage-promo": 130,
@@ -4903,44 +4903,60 @@
       "exampleFiles": [
         "store.go",
         "tools.go",
-        "server.go",
         "main.go",
-        "proxy.go"
+        "server.go",
+        "mnemo.iss"
       ],
       "hasCompletedProjectOnboarding": true,
-      "lastCost": 0,
-      "lastAPIDuration": 0,
-      "lastAPIDurationWithoutRetries": 0,
-      "lastToolDuration": 0,
-      "lastDuration": 6996,
-      "lastLinesAdded": 0,
-      "lastLinesRemoved": 0,
-      "lastTotalInputTokens": 0,
-      "lastTotalOutputTokens": 0,
-      "lastTotalCacheCreationInputTokens": 0,
-      "lastTotalCacheReadInputTokens": 0,
+      "lastCost": 87.69517774999991,
+      "lastAPIDuration": 4640281,
+      "lastAPIDurationWithoutRetries": 4637672,
+      "lastToolDuration": 5591028,
+      "lastDuration": 502603863,
+      "lastLinesAdded": 3209,
+      "lastLinesRemoved": 426,
+      "lastTotalInputTokens": 1746,
+      "lastTotalOutputTokens": 286152,
+      "lastTotalCacheCreationInputTokens": 3671099,
+      "lastTotalCacheReadInputTokens": 115176558,
       "lastTotalWebSearchRequests": 0,
-      "lastFpsAverage": 6.09,
-      "lastFpsLow1Pct": 356.23,
-      "lastModelUsage": {},
-      "lastSessionId": "cc2c4748-eb7a-4cb6-94e7-cfa5d6f73b39",
-      "lastSessionMetrics": {
-        "frame_duration_ms_count": 37,
-        "frame_duration_ms_min": 0.05537499999991269,
-        "frame_duration_ms_max": 2.807166000000052,
-        "frame_duration_ms_avg": 0.4270764054053986,
-        "frame_duration_ms_p50": 0.11729200000002038,
-        "frame_duration_ms_p95": 2.2168749999999795,
-        "frame_duration_ms_p99": 2.753061240000079,
-        "hook_duration_ms_count": 1,
-        "hook_duration_ms_min": 55,
-        "hook_duration_ms_max": 55,
-        "hook_duration_ms_avg": 55,
-        "hook_duration_ms_p50": 55,
-        "hook_duration_ms_p95": 55,
-        "hook_duration_ms_p99": 55
+      "lastFpsAverage": 0.58,
+      "lastFpsLow1Pct": 338.26,
+      "lastModelUsage": {
+        "claude-opus-4-7[1m]": {
+          "inputTokens": 1746,
+          "outputTokens": 286152,
+          "cacheReadInputTokens": 115176558,
+          "cacheCreationInputTokens": 3671099,
+          "webSearchRequests": 0,
+          "costUSD": 87.69517774999991
+        }
       },
-      "exampleFilesGeneratedAt": 1776229367824,
+      "lastSessionId": "a78fe4bb-fe10-4d63-a75a-4324e5c3f1d2",
+      "lastSessionMetrics": {
+        "frame_duration_ms_count": 188740,
+        "frame_duration_ms_min": 0.016624999998384737,
+        "frame_duration_ms_max": 511.18754199147224,
+        "frame_duration_ms_avg": 0.7578648585596756,
+        "frame_duration_ms_p50": 0.6191454976797104,
+        "frame_duration_ms_p95": 1.442615103721618,
+        "frame_duration_ms_p99": 2.8159075123071666,
+        "hook_duration_ms_count": 1031,
+        "hook_duration_ms_min": 27,
+        "hook_duration_ms_max": 201,
+        "hook_duration_ms_avg": 38.882638215324924,
+        "hook_duration_ms_p50": 36,
+        "hook_duration_ms_p95": 53,
+        "hook_duration_ms_p99": 67.53999999999996,
+        "pre_tool_hook_duration_ms_count": 476,
+        "pre_tool_hook_duration_ms_min": 31,
+        "pre_tool_hook_duration_ms_max": 207,
+        "pre_tool_hook_duration_ms_avg": 41.04201680672269,
+        "pre_tool_hook_duration_ms_p50": 38,
+        "pre_tool_hook_duration_ms_p95": 52.25,
+        "pre_tool_hook_duration_ms_p99": 69.25
+      },
+      "exampleFilesGeneratedAt": 1777106810557,
       "lastGracefulShutdown": false
     },
     "/": {
@@ -6160,7 +6176,7 @@
         "pre_tool_hook_duration_ms_p95": 48,
         "pre_tool_hook_duration_ms_p99": 56
       },
-      "lastGracefulShutdown": true
+      "lastGracefulShutdown": false
     },
     "/private/var/folders/fn/8ffdcmbd13lfwzsm2h93xrx00000gn/T/TestAgentReadinessSmoke3568738145/001": {
       "allowedTools": [],
@@ -13154,7 +13170,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/spyder"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.114",
+  "lastReleaseNotesSeen": "2.1.119",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -13612,8 +13628,14 @@
       "url": "http://localhost:3030/mcp"
     },
     "mnemo": {
-      "type": "http",
-      "url": "http://localhost:19419/mcp"
+      "type": "stdio",
+      "command": "mcpbridge",
+      "args": [
+        "--url",
+        "http://localhost:19419/mcp?user=marcelo",
+        "--config",
+        "mnemo"
+      ]
     }
   },
   "claudeAiMcpEverConnected": [
@@ -13632,7 +13654,7 @@
         "amount_minor_units": null,
         "currency": null
       },
-      "timestamp": 1777102933066
+      "timestamp": 1777106810812
     }
   },
   "migrationVersion": 12,
