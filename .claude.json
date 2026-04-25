@@ -44,8 +44,9 @@
     "desktop-shortcut": 1572,
     "remote-control": 1572
   },
-  "promptQueueUseCount": 3803,
+  "promptQueueUseCount": 3809,
   "btwUseCount": 7,
+  "showExpandedTodos": true,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
   },
@@ -12832,7 +12833,7 @@
       "enabledMcpjsonServers": [],
       "disabledMcpjsonServers": [],
       "hasTrustDialogAccepted": false,
-      "projectOnboardingSeenCount": 28,
+      "projectOnboardingSeenCount": 30,
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": [],
@@ -12845,7 +12846,7 @@
       "enabledMcpjsonServers": [],
       "disabledMcpjsonServers": [],
       "hasTrustDialogAccepted": false,
-      "projectOnboardingSeenCount": 7,
+      "projectOnboardingSeenCount": 9,
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": [],
@@ -13084,7 +13085,7 @@
       "enabledMcpjsonServers": [],
       "disabledMcpjsonServers": [],
       "hasTrustDialogAccepted": false,
-      "projectOnboardingSeenCount": 1,
+      "projectOnboardingSeenCount": 2,
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": [],
@@ -13490,8 +13491,8 @@
       "lastUsedAt": 1777131560089
     },
     "release": {
-      "usageCount": 249,
-      "lastUsedAt": 1777129865770
+      "usageCount": 250,
+      "lastUsedAt": 1777132551492
     },
     "gsd:help": {
       "usageCount": 1,
