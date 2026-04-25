@@ -44,7 +44,7 @@
     "desktop-shortcut": 1437,
     "remote-control": 1437
   },
-  "promptQueueUseCount": 3706,
+  "promptQueueUseCount": 3716,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -3143,64 +3143,64 @@
       "projectOnboardingSeenCount": 10,
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
-      "lastCost": 1.5305152499999999,
-      "lastAPIDuration": 275701,
-      "lastAPIDurationWithoutRetries": 275488,
-      "lastToolDuration": 149431,
-      "lastDuration": 4691714,
-      "lastLinesAdded": 67,
-      "lastLinesRemoved": 3,
-      "lastTotalInputTokens": 532,
-      "lastTotalOutputTokens": 10444,
-      "lastTotalCacheCreationInputTokens": 95201,
-      "lastTotalCacheReadInputTokens": 1346994,
+      "lastCost": 2.02010375,
+      "lastAPIDuration": 199207,
+      "lastAPIDurationWithoutRetries": 198930,
+      "lastToolDuration": 154122,
+      "lastDuration": 230686893,
+      "lastLinesAdded": 32,
+      "lastLinesRemoved": 26,
+      "lastTotalInputTokens": 654,
+      "lastTotalOutputTokens": 6869,
+      "lastTotalCacheCreationInputTokens": 147517,
+      "lastTotalCacheReadInputTokens": 1850103,
       "lastTotalWebSearchRequests": 0,
-      "lastFpsAverage": 1.43,
-      "lastFpsLow1Pct": 507.35,
+      "lastFpsAverage": 0.07,
+      "lastFpsLow1Pct": 641.51,
       "lastModelUsage": {
         "claude-haiku-4-5-20251001": {
-          "inputTokens": 372,
-          "outputTokens": 13,
+          "inputTokens": 406,
+          "outputTokens": 15,
           "cacheReadInputTokens": 0,
           "cacheCreationInputTokens": 0,
           "webSearchRequests": 0,
-          "costUSD": 0.000437
+          "costUSD": 0.000481
         },
         "claude-opus-4-7[1m]": {
-          "inputTokens": 160,
-          "outputTokens": 10431,
-          "cacheReadInputTokens": 1346994,
-          "cacheCreationInputTokens": 95201,
+          "inputTokens": 248,
+          "outputTokens": 6854,
+          "cacheReadInputTokens": 1850103,
+          "cacheCreationInputTokens": 147517,
           "webSearchRequests": 0,
-          "costUSD": 1.5300782499999999
+          "costUSD": 2.0196227500000004
         }
       },
-      "lastSessionId": "39f9a984-2e76-41d6-9684-b7b43ca36796",
+      "lastSessionId": "cefa9f24-33c1-4657-9d51-58e112b0e235",
       "lastSessionMetrics": {
-        "frame_duration_ms_count": 6695,
-        "frame_duration_ms_min": 0.01829199999338016,
-        "frame_duration_ms_max": 21.5854589999999,
-        "frame_duration_ms_avg": 0.4374828256906328,
-        "frame_duration_ms_p50": 0.3704164999653585,
-        "frame_duration_ms_p95": 0.693337399998563,
-        "frame_duration_ms_p99": 1.3323798399855145,
+        "frame_duration_ms_count": 7059,
+        "frame_duration_ms_min": 0.04345800000010058,
+        "frame_duration_ms_max": 503.81758300960064,
+        "frame_duration_ms_avg": 0.49729580747588564,
+        "frame_duration_ms_p50": 0.35054150223731995,
+        "frame_duration_ms_p95": 0.705909901112318,
+        "frame_duration_ms_p99": 1.5535737498104571,
         "hook_duration_ms_count": 57,
         "hook_duration_ms_min": 31,
-        "hook_duration_ms_max": 251,
-        "hook_duration_ms_avg": 47.64912280701754,
-        "hook_duration_ms_p50": 39,
-        "hook_duration_ms_p95": 81.79999999999998,
-        "hook_duration_ms_p99": 160.27999999999963,
-        "pre_tool_hook_duration_ms_count": 21,
-        "pre_tool_hook_duration_ms_min": 35,
-        "pre_tool_hook_duration_ms_max": 51,
-        "pre_tool_hook_duration_ms_avg": 41.57142857142857,
-        "pre_tool_hook_duration_ms_p50": 39,
-        "pre_tool_hook_duration_ms_p95": 51,
-        "pre_tool_hook_duration_ms_p99": 51
+        "hook_duration_ms_max": 169,
+        "hook_duration_ms_avg": 40.21052631578947,
+        "hook_duration_ms_p50": 37,
+        "hook_duration_ms_p95": 49.399999999999885,
+        "hook_duration_ms_p99": 115.23999999999978,
+        "pre_tool_hook_duration_ms_count": 27,
+        "pre_tool_hook_duration_ms_min": 33,
+        "pre_tool_hook_duration_ms_max": 73,
+        "pre_tool_hook_duration_ms_avg": 39.2962962962963,
+        "pre_tool_hook_duration_ms_p50": 38,
+        "pre_tool_hook_duration_ms_p95": 43.4,
+        "pre_tool_hook_duration_ms_p99": 65.45999999999995
       },
       "hasCompletedProjectOnboarding": true,
-      "lastGracefulShutdown": false
+      "lastGracefulShutdown": true
     },
     "/Users/marcelo/work/github.com/marcelocantos/jevon": {
       "allowedTools": [],
@@ -12033,7 +12033,8 @@
         "hook_duration_ms_p95": 44,
         "hook_duration_ms_p99": 44
       },
-      "exampleFilesGeneratedAt": 1776506695579
+      "exampleFilesGeneratedAt": 1776506695579,
+      "hasCompletedProjectOnboarding": true
     },
     "/Users/marcelo/work/github.com/samuong/alpaca": {
       "allowedTools": [],
@@ -12743,7 +12744,7 @@
       "enabledMcpjsonServers": [],
       "disabledMcpjsonServers": [],
       "hasTrustDialogAccepted": false,
-      "projectOnboardingSeenCount": 21,
+      "projectOnboardingSeenCount": 26,
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": [],
@@ -12808,7 +12809,7 @@
       "enabledMcpjsonServers": [],
       "disabledMcpjsonServers": [],
       "hasTrustDialogAccepted": false,
-      "projectOnboardingSeenCount": 24,
+      "projectOnboardingSeenCount": 26,
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": [],
@@ -12821,7 +12822,7 @@
       "enabledMcpjsonServers": [],
       "disabledMcpjsonServers": [],
       "hasTrustDialogAccepted": false,
-      "projectOnboardingSeenCount": 22,
+      "projectOnboardingSeenCount": 25,
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": [],
@@ -13283,8 +13284,8 @@
       "lastUsedAt": 1772625771549
     },
     "cv": {
-      "usageCount": 380,
-      "lastUsedAt": 1777081932644
+      "usageCount": 382,
+      "lastUsedAt": 1777086906622
     },
     "target": {
       "usageCount": 39,
@@ -13343,8 +13344,8 @@
       "lastUsedAt": 1776981204403
     },
     "loop": {
-      "usageCount": 3,
-      "lastUsedAt": 1777084140427
+      "usageCount": 4,
+      "lastUsedAt": 1777086180248
     }
   },
   "feedbackSurveyState": {
