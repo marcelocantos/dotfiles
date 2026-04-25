@@ -1,5 +1,5 @@
 {
-  "numStartups": 1464,
+  "numStartups": 1472,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -8,43 +8,43 @@
   "hasUsedBackgroundTask": true,
   "tipsHistory": {
     "new-user-warmup": 5,
-    "plan-mode-for-complex-tasks": 1462,
-    "terminal-setup": 1451,
+    "plan-mode-for-complex-tasks": 1472,
+    "terminal-setup": 1470,
     "memory-command": 1462,
-    "theme-command": 1450,
+    "theme-command": 1470,
     "status-line": 1462,
     "prompt-queue": 17,
-    "enter-to-steer-in-relatime": 1450,
-    "todo-list": 1450,
+    "enter-to-steer-in-relatime": 1470,
+    "todo-list": 1470,
     "ide-upsell-external-terminal": 1297,
-    "install-github-app": 1451,
-    "install-slack-app": 1451,
-    "drag-and-drop-images": 1462,
-    "paste-images-mac": 1451,
-    "double-esc-code-restore": 1451,
-    "continue": 1451,
-    "shift-tab": 1451,
-    "image-paste": 1450,
-    "desktop-app": 1452,
-    "web-app": 1452,
-    "mobile-app": 1452,
-    "custom-agents": 1452,
-    "permissions": 1462,
-    "rename-conversation": 1452,
-    "custom-commands": 1452,
-    "agent-flag": 1452,
-    "guest-passes": 1451,
+    "install-github-app": 1470,
+    "install-slack-app": 1470,
+    "drag-and-drop-images": 1472,
+    "paste-images-mac": 1472,
+    "double-esc-code-restore": 1472,
+    "continue": 1472,
+    "shift-tab": 1472,
+    "image-paste": 1470,
+    "desktop-app": 1472,
+    "web-app": 1472,
+    "mobile-app": 1472,
+    "custom-agents": 1472,
+    "permissions": 1472,
+    "rename-conversation": 1472,
+    "custom-commands": 1472,
+    "agent-flag": 1472,
+    "guest-passes": 1472,
     "shift-enter-setup": 95,
-    "default-permission-mode-config": 1462,
+    "default-permission-mode-config": 1472,
     "overage-promo": 130,
-    "git-worktrees": 1451,
+    "git-worktrees": 1470,
     "frontend-design-plugin": 936,
-    "feedback-command": 1452,
-    "color-when-multi-clauding": 1451,
-    "desktop-shortcut": 1452,
-    "remote-control": 1452
+    "feedback-command": 1472,
+    "color-when-multi-clauding": 1470,
+    "desktop-shortcut": 1472,
+    "remote-control": 1472
   },
-  "promptQueueUseCount": 3747,
+  "promptQueueUseCount": 3750,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -12007,7 +12007,8 @@
         "hook_duration_ms_p50": 74,
         "hook_duration_ms_p95": 74,
         "hook_duration_ms_p99": 74
-      }
+      },
+      "lastGracefulShutdown": false
     },
     "/Users/marcelo/work/github.com/marcelocantos/pageflip": {
       "allowedTools": [],
@@ -12809,7 +12810,7 @@
       "enabledMcpjsonServers": [],
       "disabledMcpjsonServers": [],
       "hasTrustDialogAccepted": false,
-      "projectOnboardingSeenCount": 4,
+      "projectOnboardingSeenCount": 8,
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": [],
@@ -12822,7 +12823,7 @@
       "enabledMcpjsonServers": [],
       "disabledMcpjsonServers": [],
       "hasTrustDialogAccepted": false,
-      "projectOnboardingSeenCount": 3,
+      "projectOnboardingSeenCount": 7,
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": [],
@@ -13142,6 +13143,51 @@
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": [],
+      "lastGracefulShutdown": false,
+      "lastCost": 0,
+      "lastAPIDuration": 0,
+      "lastAPIDurationWithoutRetries": 0,
+      "lastToolDuration": 0,
+      "lastDuration": 2748,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 0,
+      "lastTotalOutputTokens": 0,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
+      "lastTotalWebSearchRequests": 0,
+      "lastFpsAverage": 9.82,
+      "lastFpsLow1Pct": 75.76,
+      "lastModelUsage": {},
+      "lastSessionId": "ee2b5dea-5a26-572c-8db8-c327a8a142c1",
+      "lastSessionMetrics": {
+        "frame_duration_ms_count": 22,
+        "frame_duration_ms_min": 0.06299999999998818,
+        "frame_duration_ms_max": 13.199207999999999,
+        "frame_duration_ms_avg": 0.7644394090909284,
+        "frame_duration_ms_p50": 0.08868750000004866,
+        "frame_duration_ms_p95": 1.4436107000000808,
+        "frame_duration_ms_p99": 10.742934390000007,
+        "hook_duration_ms_count": 1,
+        "hook_duration_ms_min": 138,
+        "hook_duration_ms_max": 138,
+        "hook_duration_ms_avg": 138,
+        "hook_duration_ms_p50": 138,
+        "hook_duration_ms_p95": 138,
+        "hook_duration_ms_p99": 138
+      }
+    },
+    "/Users/marcelo/meetings/20260425T201821": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [],
       "lastGracefulShutdown": false
     }
   },
@@ -13353,7 +13399,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/spyder"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.119",
+  "lastReleaseNotesSeen": "2.1.114",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -13396,8 +13442,8 @@
       "lastUsedAt": 1776976835892
     },
     "release": {
-      "usageCount": 234,
-      "lastUsedAt": 1777082814634
+      "usageCount": 237,
+      "lastUsedAt": 1777113832514
     },
     "gsd:help": {
       "usageCount": 1,
@@ -13456,8 +13502,8 @@
       "lastUsedAt": 1772167215856
     },
     "push": {
-      "usageCount": 197,
-      "lastUsedAt": 1777112210005
+      "usageCount": 198,
+      "lastUsedAt": 1777113456151
     },
     "stash": {
       "usageCount": 67,
@@ -13484,8 +13530,8 @@
       "lastUsedAt": 1772625771549
     },
     "cv": {
-      "usageCount": 391,
-      "lastUsedAt": 1777111685880
+      "usageCount": 392,
+      "lastUsedAt": 1777114097835
     },
     "target": {
       "usageCount": 39,
