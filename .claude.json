@@ -44,7 +44,7 @@
     "desktop-shortcut": 1437,
     "remote-control": 1437
   },
-  "promptQueueUseCount": 3693,
+  "promptQueueUseCount": 3706,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -13343,8 +13343,8 @@
       "lastUsedAt": 1776981204403
     },
     "loop": {
-      "usageCount": 2,
-      "lastUsedAt": 1777082220670
+      "usageCount": 3,
+      "lastUsedAt": 1777084140427
     }
   },
   "feedbackSurveyState": {
@@ -13630,7 +13630,7 @@
         "amount_minor_units": null,
         "currency": null
       },
-      "timestamp": 1777079047042
+      "timestamp": 1777084576337
     }
   },
   "migrationVersion": 12,
