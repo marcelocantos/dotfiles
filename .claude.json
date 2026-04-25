@@ -44,7 +44,7 @@
     "desktop-shortcut": 1437,
     "remote-control": 1437
   },
-  "promptQueueUseCount": 3721,
+  "promptQueueUseCount": 3732,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -13153,7 +13153,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/spyder"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.114",
+  "lastReleaseNotesSeen": "2.1.116",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -13284,8 +13284,8 @@
       "lastUsedAt": 1772625771549
     },
     "cv": {
-      "usageCount": 382,
-      "lastUsedAt": 1777086906622
+      "usageCount": 383,
+      "lastUsedAt": 1777093384652
     },
     "target": {
       "usageCount": 39,
@@ -13349,7 +13349,7 @@
     }
   },
   "feedbackSurveyState": {
-    "lastShownTime": 1776850824251
+    "lastShownTime": 1777092780369
   },
   "claudeCodeFirstTokenDate": "2026-01-25T12:12:55.002215Z",
   "hasShownOpus45Notice": {
