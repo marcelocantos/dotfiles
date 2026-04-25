@@ -1,5 +1,5 @@
 {
-  "numStartups": 1582,
+  "numStartups": 1584,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -8,7 +8,7 @@
   "hasUsedBackgroundTask": true,
   "tipsHistory": {
     "new-user-warmup": 5,
-    "plan-mode-for-complex-tasks": 1577,
+    "plan-mode-for-complex-tasks": 1584,
     "terminal-setup": 1582,
     "memory-command": 1572,
     "theme-command": 1572,
@@ -23,7 +23,7 @@
     "paste-images-mac": 1582,
     "double-esc-code-restore": 1582,
     "continue": 1582,
-    "shift-tab": 1572,
+    "shift-tab": 1584,
     "image-paste": 1572,
     "desktop-app": 1572,
     "web-app": 1572,
@@ -33,11 +33,11 @@
     "rename-conversation": 1572,
     "custom-commands": 1572,
     "agent-flag": 1572,
-    "guest-passes": 1581,
+    "guest-passes": 1584,
     "shift-enter-setup": 95,
     "default-permission-mode-config": 1582,
     "overage-promo": 130,
-    "git-worktrees": 1573,
+    "git-worktrees": 1584,
     "frontend-design-plugin": 1572,
     "feedback-command": 1572,
     "color-when-multi-clauding": 1582,
@@ -5327,7 +5327,7 @@
         "pre_tool_hook_duration_ms_p95": 54.45,
         "pre_tool_hook_duration_ms_p99": 60.32000000000005
       },
-      "lastGracefulShutdown": true
+      "lastGracefulShutdown": false
     },
     "/Users/marcelo/work/github.com/marcelocantos/pigeon": {
       "allowedTools": [],
@@ -5936,7 +5936,7 @@
         "hook_duration_ms_p99": 50
       },
       "exampleFilesGeneratedAt": 1776685451240,
-      "lastGracefulShutdown": true
+      "lastGracefulShutdown": false
     },
     "/Users/marcelo/work/github.com/marcelocantos/vellum": {
       "allowedTools": [],
@@ -12045,7 +12045,7 @@
       "lastAPIDuration": 0,
       "lastAPIDurationWithoutRetries": 0,
       "lastToolDuration": 0,
-      "lastDuration": 18282,
+      "lastDuration": 44343081,
       "lastLinesAdded": 0,
       "lastLinesRemoved": 0,
       "lastTotalInputTokens": 0,
@@ -12053,27 +12053,27 @@
       "lastTotalCacheCreationInputTokens": 0,
       "lastTotalCacheReadInputTokens": 0,
       "lastTotalWebSearchRequests": 0,
-      "lastFpsAverage": 1.86,
-      "lastFpsLow1Pct": 432.05,
+      "lastFpsAverage": 0.15,
+      "lastFpsLow1Pct": 161.94,
       "lastModelUsage": {},
       "lastSessionId": "10594db6-e413-4d70-aaf2-e6557865c7e8",
       "lastSessionMetrics": {
-        "frame_duration_ms_count": 23,
-        "frame_duration_ms_min": 0.05191599999989194,
-        "frame_duration_ms_max": 2.314540999999963,
-        "frame_duration_ms_avg": 0.30873730434787516,
-        "frame_duration_ms_p50": 0.07558300000027884,
-        "frame_duration_ms_p95": 2.030717300000058,
-        "frame_duration_ms_p99": 2.286362959999974,
+        "frame_duration_ms_count": 6830,
+        "frame_duration_ms_min": 0.01604200154542923,
+        "frame_duration_ms_max": 149.48145799711347,
+        "frame_duration_ms_avg": 0.3274729749330864,
+        "frame_duration_ms_p50": 0.06829149834811687,
+        "frame_duration_ms_p95": 0.38004374932497725,
+        "frame_duration_ms_p99": 3.1775214106217016,
         "hook_duration_ms_count": 1,
-        "hook_duration_ms_min": 74,
-        "hook_duration_ms_max": 74,
-        "hook_duration_ms_avg": 74,
-        "hook_duration_ms_p50": 74,
-        "hook_duration_ms_p95": 74,
-        "hook_duration_ms_p99": 74
+        "hook_duration_ms_min": 123,
+        "hook_duration_ms_max": 123,
+        "hook_duration_ms_avg": 123,
+        "hook_duration_ms_p50": 123,
+        "hook_duration_ms_p95": 123,
+        "hook_duration_ms_p99": 123
       },
-      "lastGracefulShutdown": false
+      "lastGracefulShutdown": true
     },
     "/Users/marcelo/work/github.com/marcelocantos/pageflip": {
       "allowedTools": [],
@@ -14115,8 +14115,8 @@
       "lastUsedAt": 1771914747958
     },
     "waw": {
-      "usageCount": 113,
-      "lastUsedAt": 1777127861287
+      "usageCount": 114,
+      "lastUsedAt": 1777156567004
     },
     "audit": {
       "usageCount": 29,
@@ -14151,8 +14151,8 @@
       "lastUsedAt": 1772167215856
     },
     "push": {
-      "usageCount": 205,
-      "lastUsedAt": 1777130647071
+      "usageCount": 206,
+      "lastUsedAt": 1777156783567
     },
     "stash": {
       "usageCount": 67,
