@@ -1,5 +1,5 @@
 {
-  "numStartups": 1437,
+  "numStartups": 1438,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -10,7 +10,7 @@
     "new-user-warmup": 5,
     "plan-mode-for-complex-tasks": 1437,
     "terminal-setup": 1437,
-    "memory-command": 1423,
+    "memory-command": 1438,
     "theme-command": 1423,
     "status-line": 1428,
     "prompt-queue": 17,
@@ -5907,7 +5907,8 @@
         "pre_tool_hook_duration_ms_p50": 41,
         "pre_tool_hook_duration_ms_p95": 43.7,
         "pre_tool_hook_duration_ms_p99": 43.94
-      }
+      },
+      "lastGracefulShutdown": false
     },
     "/private/var/folders/fn/8ffdcmbd13lfwzsm2h93xrx00000gn/T/TestNew_ProjectConfigMissing3591652391/001": {
       "allowedTools": [],
@@ -12949,7 +12950,7 @@
   "opus45MigrationComplete": true,
   "opusProMigrationComplete": true,
   "thinkingMigrationComplete": true,
-  "changelogLastFetched": 1777079046013,
+  "changelogLastFetched": 1777102932080,
   "cachedChromeExtensionInstalled": true,
   "hasCompletedOnboarding": true,
   "lastOnboardingVersion": "2.1.14",
@@ -13153,7 +13154,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/spyder"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.114",
+  "lastReleaseNotesSeen": "2.1.119",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -13256,8 +13257,8 @@
       "lastUsedAt": 1772167215856
     },
     "push": {
-      "usageCount": 193,
-      "lastUsedAt": 1777080314689
+      "usageCount": 194,
+      "lastUsedAt": 1777102899353
     },
     "stash": {
       "usageCount": 67,
@@ -13284,8 +13285,8 @@
       "lastUsedAt": 1772625771549
     },
     "cv": {
-      "usageCount": 383,
-      "lastUsedAt": 1777093384652
+      "usageCount": 387,
+      "lastUsedAt": 1777103201426
     },
     "target": {
       "usageCount": 39,
@@ -13308,8 +13309,8 @@
       "lastUsedAt": 1772940174060
     },
     "commit": {
-      "usageCount": 71,
-      "lastUsedAt": 1776774011449
+      "usageCount": 72,
+      "lastUsedAt": 1777103125229
     },
     "keybindings-help": {
       "usageCount": 2,
@@ -13631,7 +13632,7 @@
         "amount_minor_units": null,
         "currency": null
       },
-      "timestamp": 1777099283749
+      "timestamp": 1777102933066
     }
   },
   "migrationVersion": 12,
