@@ -1,5 +1,5 @@
 {
-  "numStartups": 1586,
+  "numStartups": 1593,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -10,12 +10,12 @@
     "new-user-warmup": 5,
     "plan-mode-for-complex-tasks": 1584,
     "terminal-setup": 1582,
-    "memory-command": 1572,
-    "theme-command": 1572,
+    "memory-command": 1591,
+    "theme-command": 1593,
     "status-line": 1573,
     "prompt-queue": 17,
-    "enter-to-steer-in-relatime": 1572,
-    "todo-list": 1572,
+    "enter-to-steer-in-relatime": 1593,
+    "todo-list": 1593,
     "ide-upsell-external-terminal": 1297,
     "install-github-app": 1582,
     "install-slack-app": 1582,
@@ -30,8 +30,8 @@
     "mobile-app": 1572,
     "custom-agents": 1572,
     "permissions": 1582,
-    "rename-conversation": 1572,
-    "custom-commands": 1572,
+    "rename-conversation": 1593,
+    "custom-commands": 1593,
     "agent-flag": 1572,
     "guest-passes": 1584,
     "shift-enter-setup": 95,
@@ -44,7 +44,7 @@
     "desktop-shortcut": 1572,
     "remote-control": 1572
   },
-  "promptQueueUseCount": 3816,
+  "promptQueueUseCount": 3824,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -1996,7 +1996,7 @@
       "exampleFilesGeneratedAt": 1776595692481,
       "lastFpsAverage": 0.73,
       "lastFpsLow1Pct": 34.04,
-      "lastGracefulShutdown": true
+      "lastGracefulShutdown": false
     },
     "/Users/marcelo/work/github.com/arr-ai/hash": {
       "allowedTools": [],
@@ -5006,7 +5006,7 @@
         "pre_tool_hook_duration_ms_p99": 241.44000000000005
       },
       "exampleFilesGeneratedAt": 1777106810557,
-      "lastGracefulShutdown": true
+      "lastGracefulShutdown": false
     },
     "/": {
       "allowedTools": [],
@@ -5341,12 +5341,12 @@
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": [
         "conn_test.go",
-        "gogen.go",
+        "protocol.go",
         "main.go",
         "PairingCeremony.tla",
         "relay.ts"
       ],
-      "exampleFilesGeneratedAt": 1776259715150,
+      "exampleFilesGeneratedAt": 1777165333457,
       "hasCompletedProjectOnboarding": true,
       "lastCost": 154.25678935000002,
       "lastAPIDuration": 12393115,
@@ -5420,7 +5420,7 @@
         "pre_tool_hook_duration_ms_p95": 56,
         "pre_tool_hook_duration_ms_p99": 377.86000000000035
       },
-      "lastGracefulShutdown": true
+      "lastGracefulShutdown": false
     },
     "/Users/marcelo/work/github.com/marcelocantos/targets": {
       "allowedTools": [],
@@ -5593,7 +5593,7 @@
         "computer-use"
       ],
       "disabledMcpServers": [],
-      "lastGracefulShutdown": true
+      "lastGracefulShutdown": false
     },
     "/Users/marcelo/work/github.com/marcelocantos/pairdroid": {
       "allowedTools": [],
@@ -6250,7 +6250,7 @@
         "hook_duration_ms_p95": 527.9499999999999,
         "hook_duration_ms_p99": 533.59
       },
-      "lastGracefulShutdown": true
+      "lastGracefulShutdown": false
     },
     "/private/var/folders/fn/8ffdcmbd13lfwzsm2h93xrx00000gn/T/TestAgentReadinessSmoke3568738145/001": {
       "allowedTools": [],
@@ -12245,7 +12245,7 @@
         "autoawake.go",
         "tools.go"
       ],
-      "lastGracefulShutdown": true,
+      "lastGracefulShutdown": false,
       "hasCompletedProjectOnboarding": true,
       "lastCost": 874.8143945999982,
       "lastAPIDuration": 44971828,
@@ -14151,8 +14151,8 @@
       "lastUsedAt": 1772167215856
     },
     "push": {
-      "usageCount": 206,
-      "lastUsedAt": 1777156783567
+      "usageCount": 207,
+      "lastUsedAt": 1777165436238
     },
     "stash": {
       "usageCount": 67,
@@ -14530,7 +14530,7 @@
         "amount_minor_units": null,
         "currency": null
       },
-      "timestamp": 1777161720909
+      "timestamp": 1777165325696
     }
   },
   "migrationVersion": 12,
@@ -14542,6 +14542,6 @@
   ],
   "autoPermissionsNotificationCount": 1,
   "remoteControlUpsellSeenCount": 3,
-  "closedIssuesLastChecked": 1777076999575,
+  "closedIssuesLastChecked": 1777164130003,
   "hasResetAutoModeOptInForDefaultOffer": true
 }
