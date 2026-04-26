@@ -1,0 +1,107 @@
+#!/usr/bin/env bash
+# Run a PowerShell command on the Windows VM.
+#
+#   rpwsh Get-Service MSSQLSERVER
+#   rpwsh Get-Item 'C:\HMS_Master\hms.exe'
+#   rpwsh 'Get-Process | Where-Object Name -eq hms'
+#   rpwsh < script.ps1                       # pipe a multi-line script
+#
+# Override the target via RPWSH_HOST (default: 10.211.55.4).
+# Backslashes in args are preserved verbatim — no double-escaping needed.
+set -eu
+
+HOST="${RPWSH_HOST:-10.211.55.4}"
+
+# Fuse comma-separated args back into a single token so PowerShell's
+# array operator survives bash word-splitting:
+#
+#     rpwsh Get-Service MSSQLSERVER, sshd, SQLBrowser
+#         → bash gives us 4 args, the middle three with trailing commas
+#         → we re-fuse to: 'Get-Service' 'MSSQLSERVER,sshd,SQLBrowser'
+#         → PowerShell sees a 3-element array, as intended.
+#
+# Heuristic: fuse adjacent args whenever the comma sits exactly at the
+# boundary between them (current ends with ',' OR next starts with ',').
+# False-positive case is a string-arg deliberately ending with ',' that
+# the caller wanted kept distinct — rare; quote the whole array form
+# instead: rpwsh 'Write-Output "hello," "world"'.
+fused=()
+fused_was_merged=()      # parallel array: 1 if this entry was built by fusion
+prev=""
+prev_merged=0
+have_prev=0
+for arg in "$@"; do
+    if [ "$have_prev" -eq 1 ] && { [ "${prev: -1}" = "," ] || [ "${arg:0:1}" = "," ]; }; then
+        prev+="$arg"
+        prev_merged=1
+    else
+        if [ "$have_prev" -eq 1 ]; then
+            fused+=("$prev")
+            fused_was_merged+=("$prev_merged")
+        fi
+        prev="$arg"
+        prev_merged=0
+        have_prev=1
+    fi
+done
+if [ "$have_prev" -eq 1 ]; then
+    fused+=("$prev")
+    fused_was_merged+=("$prev_merged")
+fi
+
+# Disable PowerShell's ANSI colour and progress streams so output is
+# clean in pipes and tool consumers — suppresses the [32;1m… codes
+# pwsh injects for tables and the CLIXML progress objects implicit
+# remoting emits to stderr.
+PREAMBLE='$PSStyle.OutputRendering = "PlainText"; $ProgressPreference = "SilentlyContinue"; '
+
+# No args -> stdin is the entire script.
+if [ $# -eq 0 ]; then
+    user_script=$(cat)
+    encoded=$(printf '%s\n%s' "$PREAMBLE" "$user_script" | iconv -t UTF-16LE | base64 | tr -d '\n')
+    ssh "$HOST" "pwsh -NoLogo -NoProfile -EncodedCommand $encoded"
+    exit
+fi
+
+# Single arg -> treat as raw PowerShell. Lets you pass pipelines,
+# semicolons, expressions etc. as one quoted bash string.
+#   rpwsh 'Get-Process | Where Name -eq hms'
+#
+# Two or more args -> first is the cmdlet, rest are its arguments.
+# Each is single-quoted (with embedded single quotes doubled — that's
+# PowerShell's escape, not bash's '\''). The leading '&' is the call
+# operator so the first quoted token invokes as a command rather than
+# being parsed as an adjacent string literal.
+#   rpwsh Get-Item 'C:\HMS_Master\hms.exe'
+if [ ${#fused[@]} -eq 1 ]; then
+    script="$PREAMBLE ${fused[0]}"
+else
+    script="$PREAMBLE &"
+    for i in "${!fused[@]}"; do
+        arg="${fused[$i]}"
+        if [ "${fused_was_merged[$i]}" = "1" ]; then
+            # Was built by comma-fusion — emit as PowerShell array literal
+            IFS=',' read -ra parts <<< "$arg"
+            joined=""
+            for p in "${parts[@]}"; do
+                [ -z "$p" ] && continue
+                joined+="'${p//\'/\'\'}',"
+            done
+            script+=" ${joined%,}"
+        elif [[ "$arg" =~ ^-[A-Za-z][A-Za-z0-9]*$ ]]; then
+            # Parameter switch (e.g. -Name, -Force) — must stay unquoted so
+            # PowerShell's command parser binds it as a parameter, not as a
+            # positional string value.
+            script+=" $arg"
+        else
+            script+=" '${arg//\'/\'\'}'"
+        fi
+    done
+fi
+
+# Encode the assembled script as UTF-16LE base64 and pass via
+# -EncodedCommand. This bypasses pwsh's stdin parser, which silently
+# rejects multi-line block constructs (`if {…}`, `try {…}`) when fed
+# over a pipe — the parser treats each input line as its own statement.
+encoded=$(printf '%s' "$script" | iconv -t UTF-16LE | base64 | tr -d '\n')
+ssh "$HOST" "pwsh -NoLogo -NoProfile -EncodedCommand $encoded"

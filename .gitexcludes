@@ -1,0 +1,12 @@
+/.history
+/*.prof
+/*.test
+.aider*
+*.DSYM
+.DS_Store
+.direnv
+.envrc
+.local/*
+!.local/bin/
+__pycache__
+.vscode

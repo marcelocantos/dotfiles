@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# displayplacer list | tail -1 | perl -pe 's{("id:)\S+}{qq{\\\n  "id:}.++$i}eg'
+displayplacer \
+  "id:1 res:1680x1050 hz:60 color_depth:8 enabled:true scaling:on origin:(0,0) degree:0" \
+  "id:2 res:3840x2160 hz:60 color_depth:8 enabled:true scaling:off origin:(1680,0) degree:0"

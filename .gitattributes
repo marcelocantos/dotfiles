@@ -1,0 +1,7 @@
+.local/bin/apktool.jar filter=lfs diff=lfs merge=lfs -text
+.local/bin/astcenc filter=lfs diff=lfs merge=lfs -text
+.local/bin/cwork filter=lfs diff=lfs merge=lfs -text
+.local/bin/direnv filter=lfs diff=lfs merge=lfs -text
+.local/bin/sqldeep filter=lfs diff=lfs merge=lfs -text
+.local/bin/triangle filter=lfs diff=lfs merge=lfs -text
+.local/bin/zb filter=lfs diff=lfs merge=lfs -text

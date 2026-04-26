@@ -1,0 +1,10 @@
+#!/bin/sh
+
+LOG=~/.local/log/edid.log
+
+mkdir -p $(dirname $LOG)
+time=$(date -Iseconds)
+edid=$(ioreg -lw0 | grep "EDID UUID" | gawk '{gsub(/"/, ""); print $8}')
+portid=$(ioreg -lw0 | perl -ne 'print "$1\n" if /"PortID"=(\d+)/')
+echo $time $edid $portid >>$LOG
+tail $LOG

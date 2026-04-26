@@ -1,0 +1,4 @@
+#!/bin/sh
+
+code --wait "$@"
+printf '\e]1337;StealFocus\a'

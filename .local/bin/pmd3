@@ -1,0 +1,11 @@
+#!/usr/bin/env zsh
+# Thin wrapper around `sudo pymobiledevice3 ...` so callers in sandboxed
+# shells that can't invoke `sudo` directly (e.g. Claude Code) can still
+# reach pmd3 subcommands that need root (tunneld, RSD-based developer
+# services, etc.) — provided the user's sudoers rule permits pmd3 with
+# NOPASSWD.
+#
+# Usage: pmd3 <pmd3-args...>
+# Example: pmd3 developer dvt screenshot /tmp/shot.png --udid <UDID>
+
+exec sudo -n /Users/marcelo/.py/bin/pymobiledevice3 "$@"
