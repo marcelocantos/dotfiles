@@ -1,5 +1,5 @@
 {
-  "numStartups": 1601,
+  "numStartups": 1602,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -14493,7 +14493,7 @@
         "amount_minor_units": null,
         "currency": null
       },
-      "timestamp": 1777183040245
+      "timestamp": 1777194170292
     }
   },
   "migrationVersion": 12,
