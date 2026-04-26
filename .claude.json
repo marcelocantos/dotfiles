@@ -44,7 +44,7 @@
     "desktop-shortcut": 1593,
     "remote-control": 1593
   },
-  "promptQueueUseCount": 3869,
+  "promptQueueUseCount": 3873,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -14054,8 +14054,8 @@
       "lastUsedAt": 1777131560089
     },
     "release": {
-      "usageCount": 256,
-      "lastUsedAt": 1777184314424
+      "usageCount": 257,
+      "lastUsedAt": 1777188263191
     },
     "gsd:help": {
       "usageCount": 1,
