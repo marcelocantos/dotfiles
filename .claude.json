@@ -1,5 +1,5 @@
 {
-  "numStartups": 1594,
+  "numStartups": 1596,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -37,7 +37,7 @@
     "shift-enter-setup": 95,
     "default-permission-mode-config": 1593,
     "overage-promo": 130,
-    "git-worktrees": 1584,
+    "git-worktrees": 1594,
     "frontend-design-plugin": 1572,
     "feedback-command": 1593,
     "color-when-multi-clauding": 1593,
@@ -2953,7 +2953,7 @@
         "pre_tool_hook_duration_ms_p99": 49.82
       },
       "hasCompletedProjectOnboarding": true,
-      "lastGracefulShutdown": true
+      "lastGracefulShutdown": false
     },
     "/Users/marcelo/work/github.com/Health-Management-Systems/hms.bak": {
       "allowedTools": [],
@@ -3184,64 +3184,56 @@
       "projectOnboardingSeenCount": 10,
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
-      "lastCost": 4.25161625,
-      "lastAPIDuration": 646839,
-      "lastAPIDurationWithoutRetries": 646203,
-      "lastToolDuration": 41554,
-      "lastDuration": 23942544,
+      "lastCost": 3.6923930000000005,
+      "lastAPIDuration": 63983,
+      "lastAPIDurationWithoutRetries": 63928,
+      "lastToolDuration": 1081,
+      "lastDuration": 4709580,
       "lastLinesAdded": 0,
       "lastLinesRemoved": 0,
-      "lastTotalInputTokens": 899,
-      "lastTotalOutputTokens": 36945,
-      "lastTotalCacheCreationInputTokens": 192953,
-      "lastTotalCacheReadInputTokens": 4238344,
+      "lastTotalInputTokens": 124,
+      "lastTotalOutputTokens": 2884,
+      "lastTotalCacheCreationInputTokens": 428676,
+      "lastTotalCacheReadInputTokens": 1880896,
       "lastTotalWebSearchRequests": 0,
-      "lastFpsAverage": 0.48,
-      "lastFpsLow1Pct": 147.17,
+      "lastFpsAverage": 0.2,
+      "lastFpsLow1Pct": 149.59,
       "lastModelUsage": {
-        "claude-haiku-4-5-20251001": {
-          "inputTokens": 343,
-          "outputTokens": 13,
-          "cacheReadInputTokens": 0,
-          "cacheCreationInputTokens": 0,
-          "webSearchRequests": 0,
-          "costUSD": 0.000408
-        },
         "claude-opus-4-7[1m]": {
-          "inputTokens": 556,
-          "outputTokens": 36932,
-          "cacheReadInputTokens": 4238344,
-          "cacheCreationInputTokens": 192953,
+          "inputTokens": 124,
+          "outputTokens": 2884,
+          "cacheReadInputTokens": 1880896,
+          "cacheCreationInputTokens": 428676,
           "webSearchRequests": 0,
-          "costUSD": 4.25120825
+          "costUSD": 3.6923930000000005
         }
       },
-      "lastSessionId": "fdf86f40-c40f-4b14-a217-394de429b2f8",
+      "lastSessionId": "4cc47532-9537-4291-aa39-cdcf984d302a",
       "lastSessionMetrics": {
-        "frame_duration_ms_count": 11537,
-        "frame_duration_ms_min": 0.06145899999864923,
-        "frame_duration_ms_max": 260.69070799999463,
-        "frame_duration_ms_avg": 1.7063188146675483,
-        "frame_duration_ms_p50": 1.220958000048995,
-        "frame_duration_ms_p95": 4.023391949757928,
-        "frame_duration_ms_p99": 7.215057161040601,
-        "hook_duration_ms_count": 105,
-        "hook_duration_ms_min": 26,
-        "hook_duration_ms_max": 1027,
-        "hook_duration_ms_avg": 93.42857142857143,
-        "hook_duration_ms_p50": 53,
-        "hook_duration_ms_p95": 448.3999999999997,
-        "hook_duration_ms_p99": 646.3599999999999,
-        "pre_tool_hook_duration_ms_count": 30,
-        "pre_tool_hook_duration_ms_min": 31,
-        "pre_tool_hook_duration_ms_max": 585,
-        "pre_tool_hook_duration_ms_avg": 98.56666666666666,
-        "pre_tool_hook_duration_ms_p50": 53,
-        "pre_tool_hook_duration_ms_p95": 472.3999999999994,
-        "pre_tool_hook_duration_ms_p99": 579.49
+        "frame_duration_ms_count": 942,
+        "frame_duration_ms_min": 0.28758300000001213,
+        "frame_duration_ms_max": 60.42862500000001,
+        "frame_duration_ms_avg": 2.4557505148661485,
+        "frame_duration_ms_p50": 2.191978999879211,
+        "frame_duration_ms_p95": 4.754062499618158,
+        "frame_duration_ms_p99": 6.662526029730217,
+        "hook_duration_ms_count": 20,
+        "hook_duration_ms_min": 29,
+        "hook_duration_ms_max": 53,
+        "hook_duration_ms_avg": 39.6,
+        "hook_duration_ms_p50": 38.5,
+        "hook_duration_ms_p95": 50.150000000000006,
+        "hook_duration_ms_p99": 52.42999999999999,
+        "pre_tool_hook_duration_ms_count": 6,
+        "pre_tool_hook_duration_ms_min": 37,
+        "pre_tool_hook_duration_ms_max": 54,
+        "pre_tool_hook_duration_ms_avg": 43.666666666666664,
+        "pre_tool_hook_duration_ms_p50": 42.5,
+        "pre_tool_hook_duration_ms_p95": 52.25,
+        "pre_tool_hook_duration_ms_p99": 53.65
       },
       "hasCompletedProjectOnboarding": true,
-      "lastGracefulShutdown": false
+      "lastGracefulShutdown": true
     },
     "/Users/marcelo/work/github.com/marcelocantos/jevon": {
       "allowedTools": [],
@@ -14509,7 +14501,7 @@
         "amount_minor_units": null,
         "currency": null
       },
-      "timestamp": 1777165325696
+      "timestamp": 1777172300763
     }
   },
   "migrationVersion": 12,
