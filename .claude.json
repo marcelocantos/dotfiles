@@ -1,5 +1,5 @@
 {
-  "numStartups": 1598,
+  "numStartups": 1600,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -8,7 +8,7 @@
   "hasUsedBackgroundTask": true,
   "tipsHistory": {
     "new-user-warmup": 5,
-    "plan-mode-for-complex-tasks": 1594,
+    "plan-mode-for-complex-tasks": 1600,
     "terminal-setup": 1593,
     "memory-command": 1591,
     "theme-command": 1593,
@@ -33,7 +33,7 @@
     "rename-conversation": 1593,
     "custom-commands": 1593,
     "agent-flag": 1593,
-    "guest-passes": 1597,
+    "guest-passes": 1600,
     "shift-enter-setup": 95,
     "default-permission-mode-config": 1593,
     "overage-promo": 130,
@@ -44,7 +44,7 @@
     "desktop-shortcut": 1593,
     "remote-control": 1593
   },
-  "promptQueueUseCount": 3831,
+  "promptQueueUseCount": 3835,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -571,7 +571,7 @@
         "hook_duration_ms_p95": 38,
         "hook_duration_ms_p99": 38
       },
-      "lastGracefulShutdown": true
+      "lastGracefulShutdown": false
     },
     "/Users/marcelo/work/github.com/squz/yourworld": {
       "allowedTools": [],
@@ -14053,8 +14053,8 @@
       "lastUsedAt": 1777131560089
     },
     "release": {
-      "usageCount": 252,
-      "lastUsedAt": 1777175070827
+      "usageCount": 254,
+      "lastUsedAt": 1777177874661
     },
     "gsd:help": {
       "usageCount": 1,
@@ -14113,8 +14113,8 @@
       "lastUsedAt": 1772167215856
     },
     "push": {
-      "usageCount": 207,
-      "lastUsedAt": 1777165436238
+      "usageCount": 208,
+      "lastUsedAt": 1777177969684
     },
     "stash": {
       "usageCount": 67,
@@ -14141,8 +14141,8 @@
       "lastUsedAt": 1772625771549
     },
     "cv": {
-      "usageCount": 404,
-      "lastUsedAt": 1777174961301
+      "usageCount": 405,
+      "lastUsedAt": 1777177190709
     },
     "target": {
       "usageCount": 39,
