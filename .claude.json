@@ -1,5 +1,5 @@
 {
-  "numStartups": 1597,
+  "numStartups": 1598,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -12,7 +12,7 @@
     "terminal-setup": 1593,
     "memory-command": 1591,
     "theme-command": 1593,
-    "status-line": 1573,
+    "status-line": 1598,
     "prompt-queue": 17,
     "enter-to-steer-in-relatime": 1593,
     "todo-list": 1593,
@@ -44,7 +44,7 @@
     "desktop-shortcut": 1593,
     "remote-control": 1593
   },
-  "promptQueueUseCount": 3826,
+  "promptQueueUseCount": 3831,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -3217,7 +3217,7 @@
         "hook_duration_ms_p99": 49
       },
       "hasCompletedProjectOnboarding": true,
-      "lastGracefulShutdown": true
+      "lastGracefulShutdown": false
     },
     "/Users/marcelo/work/github.com/marcelocantos/jevon": {
       "allowedTools": [],
@@ -14492,7 +14492,7 @@
         "amount_minor_units": null,
         "currency": null
       },
-      "timestamp": 1777172300763
+      "timestamp": 1777176497436
     }
   },
   "migrationVersion": 12,
