@@ -46,6 +46,7 @@
   },
   "promptQueueUseCount": 3882,
   "btwUseCount": 7,
+  "showExpandedTodos": true,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
   },
@@ -14142,8 +14143,8 @@
       "lastUsedAt": 1772625771549
     },
     "cv": {
-      "usageCount": 412,
-      "lastUsedAt": 1777187494840
+      "usageCount": 413,
+      "lastUsedAt": 1777199913496
     },
     "target": {
       "usageCount": 39,
