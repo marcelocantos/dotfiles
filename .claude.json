@@ -44,7 +44,7 @@
     "desktop-shortcut": 1593,
     "remote-control": 1593
   },
-  "promptQueueUseCount": 3835,
+  "promptQueueUseCount": 3837,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -14053,8 +14053,8 @@
       "lastUsedAt": 1777131560089
     },
     "release": {
-      "usageCount": 254,
-      "lastUsedAt": 1777177874661
+      "usageCount": 255,
+      "lastUsedAt": 1777180560517
     },
     "gsd:help": {
       "usageCount": 1,
@@ -14505,5 +14505,6 @@
   "autoPermissionsNotificationCount": 1,
   "remoteControlUpsellSeenCount": 3,
   "closedIssuesLastChecked": 1777164130003,
-  "hasResetAutoModeOptInForDefaultOffer": true
+  "hasResetAutoModeOptInForDefaultOffer": true,
+  "hasUsedBackslashReturn": true
 }
