@@ -1,5 +1,5 @@
 {
-  "numStartups": 1828,
+  "numStartups": 1829,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -44,7 +44,7 @@
     "desktop-shortcut": 1828,
     "remote-control": 1828
   },
-  "promptQueueUseCount": 3961,
+  "promptQueueUseCount": 3962,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -3212,7 +3212,7 @@
         "pre_tool_hook_duration_ms_p99": 70.85
       },
       "hasCompletedProjectOnboarding": true,
-      "lastGracefulShutdown": true
+      "lastGracefulShutdown": false
     },
     "/Users/marcelo/work/github.com/marcelocantos/jevon": {
       "allowedTools": [],
@@ -20653,8 +20653,8 @@
       "lastUsedAt": 1777269317491
     },
     "release": {
-      "usageCount": 276,
-      "lastUsedAt": 1777271220722
+      "usageCount": 277,
+      "lastUsedAt": 1777275396781
     },
     "gsd:help": {
       "usageCount": 1,
