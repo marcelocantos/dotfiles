@@ -65,9 +65,7 @@
       "Read(/etc/*)",
       "Bash(sudo:*)"
     ],
-    "ask": [
-      "Bash(rm:*)"
-    ]
+    "ask": []
   },
   "hooks": {
     "Notification": [
