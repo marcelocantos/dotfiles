@@ -1,5 +1,5 @@
 {
-  "numStartups": 1846,
+  "numStartups": 1848,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -11,7 +11,7 @@
     "plan-mode-for-complex-tasks": 1846,
     "terminal-setup": 1839,
     "memory-command": 1843,
-    "theme-command": 1828,
+    "theme-command": 1848,
     "status-line": 1826,
     "prompt-queue": 17,
     "enter-to-steer-in-relatime": 1828,
@@ -33,18 +33,18 @@
     "rename-conversation": 1846,
     "custom-commands": 1846,
     "agent-flag": 1846,
-    "guest-passes": 1832,
+    "guest-passes": 1846,
     "shift-enter-setup": 95,
     "default-permission-mode-config": 1846,
     "overage-promo": 130,
-    "git-worktrees": 1837,
+    "git-worktrees": 1847,
     "frontend-design-plugin": 1572,
     "feedback-command": 1846,
-    "color-when-multi-clauding": 1837,
+    "color-when-multi-clauding": 1847,
     "desktop-shortcut": 1846,
     "remote-control": 1846
   },
-  "promptQueueUseCount": 3983,
+  "promptQueueUseCount": 3991,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -20805,8 +20805,8 @@
       "lastUsedAt": 1772625771549
     },
     "cv": {
-      "usageCount": 435,
-      "lastUsedAt": 1777279064450
+      "usageCount": 436,
+      "lastUsedAt": 1777290862991
     },
     "target": {
       "usageCount": 39,
@@ -21167,7 +21167,7 @@
         "amount_minor_units": null,
         "currency": null
       },
-      "timestamp": 1777288469026
+      "timestamp": 1777292302548
     }
   },
   "migrationVersion": 12,
