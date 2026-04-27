@@ -31,5 +31,10 @@ alias h='http --check-status --follow'
 
 alias clc='claude --continue'
 
+alias bmcp-on='claude mcp add browsermcp -s user -- npx @browsermcp/mcp@latest'
+alias bmcp-off='claude mcp remove browsermcp -s user'
+alias pwmcp-on='claude mcp add playwright -s user -- npx @playwright/mcp@latest --user-data-dir ~/.config/playwright-mcp/profile'
+alias pwmcp-off='claude mcp remove playwright -s user'
+
 unalias g la lsa 2>/dev/null
 unalias gg 2>/dev/null
