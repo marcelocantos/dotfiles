@@ -1,5 +1,5 @@
 {
-  "numStartups": 1720,
+  "numStartups": 1724,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -8,8 +8,8 @@
   "hasUsedBackgroundTask": true,
   "tipsHistory": {
     "new-user-warmup": 5,
-    "plan-mode-for-complex-tasks": 1719,
-    "terminal-setup": 1710,
+    "plan-mode-for-complex-tasks": 1724,
+    "terminal-setup": 1721,
     "memory-command": 1714,
     "theme-command": 1719,
     "status-line": 1706,
@@ -17,35 +17,36 @@
     "enter-to-steer-in-relatime": 1719,
     "todo-list": 1719,
     "ide-upsell-external-terminal": 1297,
-    "install-github-app": 1712,
-    "install-slack-app": 1712,
-    "drag-and-drop-images": 1712,
-    "paste-images-mac": 1712,
-    "double-esc-code-restore": 1712,
-    "continue": 1712,
-    "shift-tab": 1712,
+    "install-github-app": 1722,
+    "install-slack-app": 1722,
+    "drag-and-drop-images": 1723,
+    "paste-images-mac": 1723,
+    "double-esc-code-restore": 1723,
+    "continue": 1724,
+    "shift-tab": 1724,
     "image-paste": 1719,
     "desktop-app": 1719,
     "web-app": 1719,
     "mobile-app": 1572,
     "custom-agents": 1714,
-    "permissions": 1712,
+    "permissions": 1723,
     "rename-conversation": 1714,
     "custom-commands": 1714,
     "agent-flag": 1714,
-    "guest-passes": 1719,
+    "guest-passes": 1724,
     "shift-enter-setup": 95,
     "default-permission-mode-config": 1720,
     "overage-promo": 130,
-    "git-worktrees": 1712,
+    "git-worktrees": 1722,
     "frontend-design-plugin": 1572,
-    "feedback-command": 1708,
-    "color-when-multi-clauding": 1710,
+    "feedback-command": 1723,
+    "color-when-multi-clauding": 1721,
     "desktop-shortcut": 1719,
-    "remote-control": 1706
+    "remote-control": 1721
   },
   "promptQueueUseCount": 3916,
   "btwUseCount": 7,
+  "showExpandedTodos": true,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
   },
@@ -3212,7 +3213,7 @@
         "pre_tool_hook_duration_ms_p99": 59.68
       },
       "hasCompletedProjectOnboarding": true,
-      "lastGracefulShutdown": true
+      "lastGracefulShutdown": false
     },
     "/Users/marcelo/work/github.com/marcelocantos/jevon": {
       "allowedTools": [],
@@ -12193,13 +12194,13 @@
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": [
-        "main.go",
-        "daemon.go",
         "ios.go",
         "autoawake.go",
-        "tools.go"
+        "daemon.go",
+        "main.go",
+        "server.go"
       ],
-      "lastGracefulShutdown": true,
+      "lastGracefulShutdown": false,
       "hasCompletedProjectOnboarding": true,
       "lastCost": 1017.6657801999984,
       "lastAPIDuration": 54189951,
@@ -12265,7 +12266,7 @@
         "pre_tool_hook_duration_ms_p95": 60,
         "pre_tool_hook_duration_ms_p99": 76.76999999999998
       },
-      "exampleFilesGeneratedAt": 1776562271309
+      "exampleFilesGeneratedAt": 1777253871208
     },
     "/private/var/folders/fn/8ffdcmbd13lfwzsm2h93xrx00000gn/T/TestCrashSurvival2452682639/001": {
       "allowedTools": [],
@@ -17396,8 +17397,8 @@
       "lastUsedAt": 1777205278103
     },
     "release": {
-      "usageCount": 265,
-      "lastUsedAt": 1777253221923
+      "usageCount": 266,
+      "lastUsedAt": 1777254634792
     },
     "gsd:help": {
       "usageCount": 1,
@@ -17484,8 +17485,8 @@
       "lastUsedAt": 1772625771549
     },
     "cv": {
-      "usageCount": 423,
-      "lastUsedAt": 1777253227424
+      "usageCount": 424,
+      "lastUsedAt": 1777254597767
     },
     "target": {
       "usageCount": 39,
@@ -17548,8 +17549,8 @@
       "lastUsedAt": 1777087440337
     },
     "pr-audit": {
-      "usageCount": 2,
-      "lastUsedAt": 1777252451515
+      "usageCount": 3,
+      "lastUsedAt": 1777253936378
     }
   },
   "feedbackSurveyState": {
