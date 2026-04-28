@@ -21012,7 +21012,7 @@
       "enabledMcpjsonServers": [],
       "disabledMcpjsonServers": [],
       "hasTrustDialogAccepted": false,
-      "projectOnboardingSeenCount": 3,
+      "projectOnboardingSeenCount": 5,
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": [],
@@ -21776,7 +21776,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/ytt"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.121",
+  "lastReleaseNotesSeen": "2.1.119",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -22269,7 +22269,7 @@
         "amount_minor_units": null,
         "currency": null
       },
-      "timestamp": 1777388953928
+      "timestamp": 1777405567600
     }
   },
   "migrationVersion": 12,
