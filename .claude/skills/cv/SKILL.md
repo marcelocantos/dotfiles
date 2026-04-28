@@ -130,8 +130,34 @@ act on it mechanically:
   fire.
 
 - **Line starts with `**Blocked**:`** — standing invariants are
-  failing, validation errors, or the frontier is empty. Do not
-  execute. Relay the block reason to the user and wait for direction.
+  failing, validation errors, or the frontier is empty. Before
+  surrendering, check for the **dirty `bullseye.yaml`** special
+  case (see below). Otherwise, do not execute. Relay the block
+  reason to the user and wait for direction.
+
+#### Special case: dirty `bullseye.yaml`
+
+If the only blocker is a dirty tree whose **sole** modified file is
+`bullseye.yaml` (no other staged or unstaged changes, no untracked
+files that matter), auto-resolve without asking:
+
+1. Inspect the most recent commit on `HEAD` with
+   `git show --stat --format= HEAD`.
+2. If that commit's changed files are **exactly** `bullseye.yaml`
+   (and nothing else), `git commit --amend --no-edit bullseye.yaml`
+   to fold the new state into it. Skip when on a protected branch
+   (`master`/`main`) with the commit already pushed — in that case,
+   create a new commit instead.
+3. Otherwise, create a new commit:
+   `git commit -m "Update bullseye.yaml" bullseye.yaml`
+   (use a HEREDOC trailer with the standard Co-Authored-By line per
+   the global commit conventions).
+4. Re-run `bullseye_convergence` and proceed with its new
+   recommendation.
+
+If the dirty tree contains anything beyond `bullseye.yaml`, do **not**
+auto-commit — fall through to the normal blocked-flow and ask the
+user.
 
 - **Anything else** — unrecognised shape. Present to the user and
   ask for direction.

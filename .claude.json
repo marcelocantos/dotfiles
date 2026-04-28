@@ -1,5 +1,5 @@
 {
-  "numStartups": 1881,
+  "numStartups": 1884,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -8,7 +8,7 @@
   "hasUsedBackgroundTask": true,
   "tipsHistory": {
     "new-user-warmup": 5,
-    "plan-mode-for-complex-tasks": 1877,
+    "plan-mode-for-complex-tasks": 1884,
     "terminal-setup": 1877,
     "memory-command": 1872,
     "theme-command": 1877,
@@ -20,10 +20,10 @@
     "install-github-app": 1877,
     "install-slack-app": 1877,
     "drag-and-drop-images": 1877,
-    "paste-images-mac": 1872,
-    "double-esc-code-restore": 1872,
-    "continue": 1872,
-    "shift-tab": 1872,
+    "paste-images-mac": 1882,
+    "double-esc-code-restore": 1883,
+    "continue": 1883,
+    "shift-tab": 1884,
     "image-paste": 1877,
     "desktop-app": 1872,
     "web-app": 1872,
@@ -33,7 +33,7 @@
     "rename-conversation": 1872,
     "custom-commands": 1872,
     "agent-flag": 1872,
-    "guest-passes": 1880,
+    "guest-passes": 1884,
     "shift-enter-setup": 95,
     "default-permission-mode-config": 1878,
     "overage-promo": 130,
@@ -44,7 +44,7 @@
     "desktop-shortcut": 1872,
     "remote-control": 1872
   },
-  "promptQueueUseCount": 4019,
+  "promptQueueUseCount": 4021,
   "btwUseCount": 7,
   "cachedGrowthBookFeatures": {
     "tengu_gleaming_fair": true,
@@ -3234,10 +3234,10 @@
         "pre_tool_hook_duration_ms_p99": 70.38
       },
       "hasCompletedProjectOnboarding": true,
-      "lastGracefulShutdown": true,
-      "lastHintSessionId": "6a148a1a-2bef-4566-9ba7-b86da2f45ec8",
-      "lastSessionFirstPrompt": "progress reports mention mcpsafe. It's an empty dead repo. cull it everywhere, including in the reports.",
-      "lastSessionModified": 1777367144015
+      "lastGracefulShutdown": false,
+      "lastHintSessionId": "8fff2b6d-d459-4dcf-aefc-d1ff972668ad",
+      "lastSessionFirstPrompt": "If Claude did an `rm -rf` and accidentally blew away my entire home directory, what would I lose and what would it take to recover? Develop a strategy to avoid this being a complete disaster.",
+      "lastSessionModified": 1777369584756
     },
     "/Users/marcelo/work/github.com/marcelocantos/jevon": {
       "allowedTools": [],
@@ -5609,7 +5609,10 @@
         "computer-use"
       ],
       "disabledMcpServers": [],
-      "lastGracefulShutdown": true
+      "lastGracefulShutdown": false,
+      "lastHintSessionId": "52a3280f-8827-45ce-89f2-1de10b7b75b9",
+      "lastSessionFirstPrompt": "Add a target to ignore dirty bullseye.yaml when checking if the repo is dirty. Then implement it, do a release, and remove the exception that was recently added to the /cv skill. Don't ask me any ques",
+      "lastSessionModified": 1777369391994
     },
     "/Users/marcelo/work/github.com/marcelocantos/pairdroid": {
       "allowedTools": [],
@@ -5831,7 +5834,8 @@
         "pre_tool_hook_duration_ms_p50": 35,
         "pre_tool_hook_duration_ms_p95": 69.14999999999998,
         "pre_tool_hook_duration_ms_p99": 73.82999999999998
-      }
+      },
+      "lastGracefulShutdown": false
     },
     "/Users/marcelo/work/github.com/marcelocantos/real": {
       "allowedTools": [],
@@ -6305,7 +6309,10 @@
         "pre_tool_hook_duration_ms_p95": 61.599999999999994,
         "pre_tool_hook_duration_ms_p99": 70.28999999999999
       },
-      "lastGracefulShutdown": false
+      "lastGracefulShutdown": false,
+      "lastHintSessionId": "2b222a9f-d45d-4b75-a9cc-571dacae6632",
+      "lastSessionFirstPrompt": "This happens almost every single time. I think we need to make an exception in the /cv skill for Dirty bullseye.yaml. Let's have it always automatically create a commit, or if the most recent commit o",
+      "lastSessionModified": 1777369255361
     },
     "/private/var/folders/fn/8ffdcmbd13lfwzsm2h93xrx00000gn/T/TestAgentReadinessSmoke3568738145/001": {
       "allowedTools": [],
@@ -21267,8 +21274,8 @@
       "lastUsedAt": 1777289490720
     },
     "release": {
-      "usageCount": 283,
-      "lastUsedAt": 1777367437297
+      "usageCount": 284,
+      "lastUsedAt": 1777369218164
     },
     "gsd:help": {
       "usageCount": 1,
@@ -21355,8 +21362,8 @@
       "lastUsedAt": 1772625771549
     },
     "cv": {
-      "usageCount": 442,
-      "lastUsedAt": 1777369115460
+      "usageCount": 443,
+      "lastUsedAt": 1777369197412
     },
     "target": {
       "usageCount": 39,
@@ -21395,8 +21402,8 @@
       "lastUsedAt": 1775914605467
     },
     "schedule": {
-      "usageCount": 2,
-      "lastUsedAt": 1777128679483
+      "usageCount": 3,
+      "lastUsedAt": 1777370473581
     },
     "c": {
       "usageCount": 2,
