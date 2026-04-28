@@ -44,7 +44,7 @@
     "desktop-shortcut": 1903,
     "remote-control": 1903
   },
-  "promptQueueUseCount": 4025,
+  "promptQueueUseCount": 4027,
   "btwUseCount": 7,
   "cachedGrowthBookFeatures": {
     "tengu_gleaming_fair": true,
@@ -21774,7 +21774,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/ytt"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.119",
+  "lastReleaseNotesSeen": "2.1.121",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
