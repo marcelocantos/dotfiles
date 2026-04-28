@@ -46,6 +46,9 @@
   },
   "promptQueueUseCount": 4027,
   "btwUseCount": 7,
+  "cachedStatsigGates": {
+    "tengu_prompt_suggestion": false
+  },
   "cachedGrowthBookFeatures": {
     "tengu_gleaming_fair": true,
     "tengu_hazel_osprey_floor": 75000,
@@ -467,9 +470,6 @@
     }
   },
   "unpinOpus47LaunchEffort": true,
-  "cachedStatsigGates": {
-    "tengu_prompt_suggestion": false
-  },
   "userID": "9fecdd347f614ef7988d22bc6783427080c2c115da32d7c0ad890aad9d007729",
   "statsigModel": {
     "bedrock": "us.anthropic.claude-3-7-sonnet-20250219-v1:0",
@@ -21774,7 +21774,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/ytt"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.121",
+  "lastReleaseNotesSeen": "2.1.119",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
