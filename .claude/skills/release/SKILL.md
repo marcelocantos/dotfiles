@@ -542,6 +542,10 @@ Squash-merge the prepared PR(s), tag, and create the GitHub release. Run unatten
 
    **Verify the install**: Run `<project> --version` (or the equivalent) and confirm the output matches the released version. If it doesn't match, diagnose — common causes are a stale `brew update`, a PATH shadowing issue, or the homebrew-releaser job not having completed.
 
+   **Never hand-edit the brew-managed tap working tree** at `/opt/homebrew/Library/Taps/marcelocantos/homebrew-tap`. It is Homebrew's working copy of the tap, not a scratch space. Uncommitted edits there get autostashed and re-applied around the next `brew update`, which will trip a stash-pop conflict against the homebrew-releaser-regenerated formula and abort the next `brew upgrade` mid-release with a Ruby parse error full of `>>>>>>> Stashed changes` markers. Treat that state as a bug, not a workflow.
+
+   **Smoke-testing a formula change pre-release.** The release.yml-driven flow makes the formula a build artifact — homebrew-releaser regenerates it from `install:` / `formula_includes:` on every release. Use the **rc.1 prerelease** as the smoke test: change the generator inputs in release.yml, cut `v<X.Y.Z>-rc.1`, let homebrew-releaser publish, then `brew upgrade marcelocantos/tap/<project>` and verify. If you genuinely need to test a candidate formula *before* an rc is cut (e.g. because the change is risky and you don't want to burn a tag on a malformed install: block), install from a local file path: `brew install /path/to/working-dir/homebrew-tap/Formula/<project>.rb`. That leaves the brew-managed tap untouched. After verifying, throw the install away (`brew uninstall <project>`) and proceed with the rc as normal.
+
    **Non-Homebrew projects**: If the project has no Homebrew tap (e.g., a library, or a binary distributed another way), skip this step and note it in the Phase B report.
 
 11. **Report**: Print:
