@@ -1,4 +1,4 @@
-# C++ Style and Dependencies
+# C / C++ Style and Dependencies
 
 ## C++ Style
 
@@ -6,8 +6,10 @@
 
 ## Dependencies
 
+- **Never link against Homebrew-installed C/C++ libraries.** Homebrew paths are machine-specific, break on `brew upgrade`, and make builds non-reproducible. Vendor everything instead:
+  - **Small libraries** (single `.c`/`.h`): vendor directly into `vendor/include` and `vendor/src`.
+  - **Substantial libraries** (ngtcp2, libsodium, etc.): add as a git submodule under `vendor/github.com/<org>/<repo>` and build from source.
 - Favour header-only libraries over compiled ones when a suitable option exists.
-- Prefer vendored submodules over homebrew installs where practicable.
 - When bringing in third-party repos, submodule them into `vendor/github.com/<org>/<repo>` (or `bitbucket.com`, etc).
 - When bringing in single `.h` libraries, put them in `vendor/include`.
 - If there's an associated `.c`/`.cpp`, put it in `vendor/src`.
@@ -22,3 +24,8 @@
   - **Triangulation**: earcut.hpp (header-only), Triangle (C library for quality meshes)
   - **Database**: SQLite3
 - When vendoring third-party code, always include the dependency's original LICENSE file alongside it. For distributed projects, maintain a NOTICES file (or THIRD_PARTY if one already exists) with attribution for all bundled dependencies.
+
+## JSON
+
+- **cJSON** for C and simple C++ JSON. Vendor as `vendor/cjson/`.
+- **nlohmann/json** only when C++ ergonomics justify the compile cost.
