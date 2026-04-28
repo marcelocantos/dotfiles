@@ -21010,7 +21010,7 @@
       "enabledMcpjsonServers": [],
       "disabledMcpjsonServers": [],
       "hasTrustDialogAccepted": false,
-      "projectOnboardingSeenCount": 2,
+      "projectOnboardingSeenCount": 3,
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": [],
@@ -22267,7 +22267,7 @@
         "amount_minor_units": null,
         "currency": null
       },
-      "timestamp": 1777376041045
+      "timestamp": 1777388953928
     }
   },
   "migrationVersion": 12,
