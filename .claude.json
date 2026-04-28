@@ -1,5 +1,5 @@
 {
-  "numStartups": 1878,
+  "numStartups": 1881,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -12,7 +12,7 @@
     "terminal-setup": 1877,
     "memory-command": 1872,
     "theme-command": 1877,
-    "status-line": 1855,
+    "status-line": 1880,
     "prompt-queue": 17,
     "enter-to-steer-in-relatime": 1877,
     "todo-list": 1877,
@@ -33,18 +33,18 @@
     "rename-conversation": 1872,
     "custom-commands": 1872,
     "agent-flag": 1872,
-    "guest-passes": 1877,
+    "guest-passes": 1880,
     "shift-enter-setup": 95,
     "default-permission-mode-config": 1878,
     "overage-promo": 130,
     "git-worktrees": 1877,
-    "frontend-design-plugin": 1877,
+    "frontend-design-plugin": 1880,
     "feedback-command": 1872,
     "color-when-multi-clauding": 1877,
     "desktop-shortcut": 1872,
     "remote-control": 1872
   },
-  "promptQueueUseCount": 4002,
+  "promptQueueUseCount": 4019,
   "btwUseCount": 7,
   "cachedGrowthBookFeatures": {
     "tengu_gleaming_fair": true,
@@ -3177,64 +3177,64 @@
       "projectOnboardingSeenCount": 10,
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
-      "lastCost": 0.5794135,
-      "lastAPIDuration": 57481,
-      "lastAPIDurationWithoutRetries": 57375,
-      "lastToolDuration": 5383,
-      "lastDuration": 5211974,
-      "lastLinesAdded": 10,
-      "lastLinesRemoved": 7,
-      "lastTotalInputTokens": 1063,
-      "lastTotalOutputTokens": 2793,
-      "lastTotalCacheCreationInputTokens": 42682,
-      "lastTotalCacheReadInputTokens": 483182,
+      "lastCost": 10.663718250000002,
+      "lastAPIDuration": 909516,
+      "lastAPIDurationWithoutRetries": 908821,
+      "lastToolDuration": 207594,
+      "lastDuration": 92119832,
+      "lastLinesAdded": 268,
+      "lastLinesRemoved": 58,
+      "lastTotalInputTokens": 846,
+      "lastTotalOutputTokens": 49680,
+      "lastTotalCacheCreationInputTokens": 577543,
+      "lastTotalCacheReadInputTokens": 11620113,
       "lastTotalWebSearchRequests": 0,
-      "lastFpsAverage": 1.87,
-      "lastFpsLow1Pct": 2260.31,
+      "lastFpsAverage": 0.67,
+      "lastFpsLow1Pct": 260.55,
       "lastModelUsage": {
         "claude-haiku-4-5-20251001": {
-          "inputTokens": 935,
+          "inputTokens": 468,
           "outputTokens": 17,
           "cacheReadInputTokens": 0,
           "cacheCreationInputTokens": 0,
           "webSearchRequests": 0,
-          "costUSD": 0.00102
+          "costUSD": 0.000553
         },
         "claude-opus-4-7[1m]": {
-          "inputTokens": 128,
-          "outputTokens": 2776,
-          "cacheReadInputTokens": 483182,
-          "cacheCreationInputTokens": 42682,
+          "inputTokens": 378,
+          "outputTokens": 49663,
+          "cacheReadInputTokens": 11620113,
+          "cacheCreationInputTokens": 577543,
           "webSearchRequests": 0,
-          "costUSD": 0.5783935
+          "costUSD": 10.663165250000002
         }
       },
-      "lastSessionId": "b23f3132-149e-4636-91f3-5ac9da2432f5",
+      "lastSessionId": "d660af32-57c9-4fad-98a3-5cc197e38bcc",
       "lastSessionMetrics": {
-        "frame_duration_ms_count": 9748,
-        "frame_duration_ms_min": 0.04770799999823794,
-        "frame_duration_ms_max": 17.628624999895692,
-        "frame_duration_ms_avg": 0.17835820168230668,
-        "frame_duration_ms_p50": 0.1293334998190403,
-        "frame_duration_ms_p95": 0.3571972999896385,
-        "frame_duration_ms_p99": 0.6633194299996796,
-        "hook_duration_ms_count": 21,
-        "hook_duration_ms_min": 33,
-        "hook_duration_ms_max": 114,
-        "hook_duration_ms_avg": 53,
-        "hook_duration_ms_p50": 50,
-        "hook_duration_ms_p95": 74,
-        "hook_duration_ms_p99": 106.00000000000003,
-        "pre_tool_hook_duration_ms_count": 6,
-        "pre_tool_hook_duration_ms_min": 36,
-        "pre_tool_hook_duration_ms_max": 60,
-        "pre_tool_hook_duration_ms_avg": 48.5,
-        "pre_tool_hook_duration_ms_p50": 51.5,
-        "pre_tool_hook_duration_ms_p95": 58.5,
-        "pre_tool_hook_duration_ms_p99": 59.7
+        "frame_duration_ms_count": 39803,
+        "frame_duration_ms_min": 0.04641700000502169,
+        "frame_duration_ms_max": 140.52137500047684,
+        "frame_duration_ms_avg": 1.2376286278393946,
+        "frame_duration_ms_p50": 0.5871664995793253,
+        "frame_duration_ms_p95": 3.3910839994787234,
+        "frame_duration_ms_p99": 5.078277661171738,
+        "hook_duration_ms_count": 161,
+        "hook_duration_ms_min": 30,
+        "hook_duration_ms_max": 71,
+        "hook_duration_ms_avg": 45.53416149068323,
+        "hook_duration_ms_p50": 46,
+        "hook_duration_ms_p95": 66,
+        "hook_duration_ms_p99": 68.4,
+        "pre_tool_hook_duration_ms_count": 63,
+        "pre_tool_hook_duration_ms_min": 34,
+        "pre_tool_hook_duration_ms_max": 71,
+        "pre_tool_hook_duration_ms_avg": 49.698412698412696,
+        "pre_tool_hook_duration_ms_p50": 49,
+        "pre_tool_hook_duration_ms_p95": 67,
+        "pre_tool_hook_duration_ms_p99": 70.38
       },
       "hasCompletedProjectOnboarding": true,
-      "lastGracefulShutdown": false,
+      "lastGracefulShutdown": true,
       "lastHintSessionId": "6a148a1a-2bef-4566-9ba7-b86da2f45ec8",
       "lastSessionFirstPrompt": "progress reports mention mcpsafe. It's an empty dead repo. cull it everywhere, including in the reports.",
       "lastSessionModified": 1777367144015
@@ -4174,11 +4174,11 @@
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": [
+        "sequence.rs",
         "main.rs",
-        "lib.rs",
         "mod.rs",
-        "generator.rs",
-        "oracle.rs"
+        "golden_pairs.rs",
+        "extract.rs"
       ],
       "hasCompletedProjectOnboarding": true,
       "lastCost": 1201.6353282000057,
@@ -4245,7 +4245,11 @@
         "pre_tool_hook_duration_ms_p95": 60,
         "pre_tool_hook_duration_ms_p99": 148.69999999999982
       },
-      "exampleFilesGeneratedAt": 1774162328563
+      "exampleFilesGeneratedAt": 1777367352670,
+      "lastGracefulShutdown": false,
+      "lastHintSessionId": "d59cebe7-9d1f-4674-af30-54976ff994d8",
+      "lastSessionFirstPrompt": "<task-notification> <task-id>b4rrf3pqv</task-id> <summary>Monitor event: \"PR #52 CI status (each non-pending check is an event; exits when all checks settle)\"</summary> <event>Check &amp; Lint: fail</",
+      "lastSessionModified": 1777367789020
     },
     "/Users/marcelo/work/github.com/marcelocantos/tern": {
       "allowedTools": [],
@@ -6301,7 +6305,7 @@
         "pre_tool_hook_duration_ms_p95": 61.599999999999994,
         "pre_tool_hook_duration_ms_p99": 70.28999999999999
       },
-      "lastGracefulShutdown": true
+      "lastGracefulShutdown": false
     },
     "/private/var/folders/fn/8ffdcmbd13lfwzsm2h93xrx00000gn/T/TestAgentReadinessSmoke3568738145/001": {
       "allowedTools": [],
@@ -20988,6 +20992,22 @@
         "hook_duration_ms_p95": 61,
         "hook_duration_ms_p99": 61
       }
+    },
+    "/Users/marcelo/work/github.com/marcelocantos/ytt": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 1,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [],
+      "lastGracefulShutdown": false,
+      "lastHintSessionId": "8c979d25-a422-4b5d-9f6a-bf231cb11d62",
+      "lastSessionFirstPrompt": "Tag T1 as a showcase and fix it",
+      "lastSessionModified": 1777367405559
     }
   },
   "sonnet45MigrationComplete": true,
@@ -21199,6 +21219,9 @@
     ],
     "marcelocantos/think": [
       "/Users/marcelo/think"
+    ],
+    "marcelocantos/ytt": [
+      "/Users/marcelo/work/github.com/marcelocantos/ytt"
     ]
   },
   "lastReleaseNotesSeen": "2.1.121",
@@ -21244,8 +21267,8 @@
       "lastUsedAt": 1777289490720
     },
     "release": {
-      "usageCount": 281,
-      "lastUsedAt": 1777362727596
+      "usageCount": 283,
+      "lastUsedAt": 1777367437297
     },
     "gsd:help": {
       "usageCount": 1,
@@ -21332,8 +21355,8 @@
       "lastUsedAt": 1772625771549
     },
     "cv": {
-      "usageCount": 439,
-      "lastUsedAt": 1777360360221
+      "usageCount": 442,
+      "lastUsedAt": 1777369115460
     },
     "target": {
       "usageCount": 39,
@@ -21401,7 +21424,7 @@
     }
   },
   "feedbackSurveyState": {
-    "lastShownTime": 1777248368324
+    "lastShownTime": 1777368247645
   },
   "claudeCodeFirstTokenDate": "2026-01-25T12:12:55.002215Z",
   "hasShownOpus45Notice": {
