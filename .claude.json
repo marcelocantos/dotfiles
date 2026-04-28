@@ -1,5 +1,5 @@
 {
-  "numStartups": 1877,
+  "numStartups": 1878,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -17,9 +17,9 @@
     "enter-to-steer-in-relatime": 1877,
     "todo-list": 1877,
     "ide-upsell-external-terminal": 1297,
-    "install-github-app": 1855,
-    "install-slack-app": 1855,
-    "drag-and-drop-images": 1855,
+    "install-github-app": 1877,
+    "install-slack-app": 1877,
+    "drag-and-drop-images": 1877,
     "paste-images-mac": 1872,
     "double-esc-code-restore": 1872,
     "continue": 1872,
@@ -29,13 +29,13 @@
     "web-app": 1872,
     "mobile-app": 1572,
     "custom-agents": 1872,
-    "permissions": 1855,
+    "permissions": 1877,
     "rename-conversation": 1872,
     "custom-commands": 1872,
     "agent-flag": 1872,
-    "guest-passes": 1855,
+    "guest-passes": 1877,
     "shift-enter-setup": 95,
-    "default-permission-mode-config": 1856,
+    "default-permission-mode-config": 1878,
     "overage-promo": 130,
     "git-worktrees": 1877,
     "frontend-design-plugin": 1877,
@@ -3234,7 +3234,10 @@
         "pre_tool_hook_duration_ms_p99": 59.7
       },
       "hasCompletedProjectOnboarding": true,
-      "lastGracefulShutdown": true
+      "lastGracefulShutdown": false,
+      "lastHintSessionId": "6a148a1a-2bef-4566-9ba7-b86da2f45ec8",
+      "lastSessionFirstPrompt": "progress reports mention mcpsafe. It's an empty dead repo. cull it everywhere, including in the reports.",
+      "lastSessionModified": 1777367144015
     },
     "/Users/marcelo/work/github.com/marcelocantos/jevon": {
       "allowedTools": [],
@@ -21691,7 +21694,7 @@
         "amount_minor_units": null,
         "currency": null
       },
-      "timestamp": 1777363379750
+      "timestamp": 1777367120844
     }
   },
   "migrationVersion": 12,
