@@ -1,5 +1,5 @@
 {
-  "numStartups": 1885,
+  "numStartups": 1886,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -46,6 +46,7 @@
   },
   "promptQueueUseCount": 4021,
   "btwUseCount": 7,
+  "showExpandedTodos": true,
   "cachedGrowthBookFeatures": {
     "tengu_gleaming_fair": true,
     "tengu_hazel_osprey_floor": 75000,
@@ -5787,53 +5788,53 @@
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": [],
       "hasCompletedProjectOnboarding": true,
-      "lastCost": 1.3906192500000003,
-      "lastAPIDuration": 39218,
-      "lastAPIDurationWithoutRetries": 39174,
-      "lastToolDuration": 8,
-      "lastDuration": 2157365,
+      "lastCost": 0.9007205,
+      "lastAPIDuration": 90080,
+      "lastAPIDurationWithoutRetries": 90007,
+      "lastToolDuration": 6139,
+      "lastDuration": 6843092,
       "lastLinesAdded": 0,
       "lastLinesRemoved": 0,
-      "lastTotalInputTokens": 15,
-      "lastTotalOutputTokens": 393,
-      "lastTotalCacheCreationInputTokens": 144763,
-      "lastTotalCacheReadInputTokens": 951901,
+      "lastTotalInputTokens": 125,
+      "lastTotalOutputTokens": 4708,
+      "lastTotalCacheCreationInputTokens": 91802,
+      "lastTotalCacheReadInputTokens": 417266,
       "lastTotalWebSearchRequests": 0,
-      "lastFpsAverage": 0.48,
-      "lastFpsLow1Pct": 254.23,
+      "lastFpsAverage": 0.64,
+      "lastFpsLow1Pct": 1025.86,
       "lastModelUsage": {
-        "claude-opus-4-6[1m]": {
-          "inputTokens": 15,
-          "outputTokens": 393,
-          "cacheReadInputTokens": 951901,
-          "cacheCreationInputTokens": 144763,
+        "claude-opus-4-7[1m]": {
+          "inputTokens": 125,
+          "outputTokens": 4708,
+          "cacheReadInputTokens": 417266,
+          "cacheCreationInputTokens": 91802,
           "webSearchRequests": 0,
-          "costUSD": 1.3906192500000003
+          "costUSD": 0.9007205
         }
       },
-      "lastSessionId": "5e0f1c53-7799-49e5-8053-354b05a5df57",
+      "lastSessionId": "0dcd183c-6388-46fd-a2ce-d4a24828d521",
       "lastSessionMetrics": {
-        "frame_duration_ms_count": 1031,
-        "frame_duration_ms_min": 0.2429170000000056,
-        "frame_duration_ms_max": 40.56591700000001,
-        "frame_duration_ms_avg": 1.040901397673572,
-        "frame_duration_ms_p50": 0.9409784999966178,
-        "frame_duration_ms_p95": 1.329708799999206,
-        "frame_duration_ms_p99": 3.9079887499942676,
-        "hook_duration_ms_count": 15,
-        "hook_duration_ms_min": 29,
-        "hook_duration_ms_max": 85,
-        "hook_duration_ms_avg": 43.2,
-        "hook_duration_ms_p50": 34,
-        "hook_duration_ms_p95": 77.29999999999998,
-        "hook_duration_ms_p99": 83.46,
-        "pre_tool_hook_duration_ms_count": 4,
-        "pre_tool_hook_duration_ms_min": 32,
-        "pre_tool_hook_duration_ms_max": 75,
-        "pre_tool_hook_duration_ms_avg": 44.25,
-        "pre_tool_hook_duration_ms_p50": 35,
-        "pre_tool_hook_duration_ms_p95": 69.14999999999998,
-        "pre_tool_hook_duration_ms_p99": 73.82999999999998
+        "frame_duration_ms_count": 4397,
+        "frame_duration_ms_min": 0.04387499998847488,
+        "frame_duration_ms_max": 9.610499999995227,
+        "frame_duration_ms_avg": 0.2424744455314711,
+        "frame_duration_ms_p50": 0.12895849999040365,
+        "frame_duration_ms_p95": 0.4407606999990088,
+        "frame_duration_ms_p99": 1.4310885701759186,
+        "hook_duration_ms_count": 16,
+        "hook_duration_ms_min": 32,
+        "hook_duration_ms_max": 79,
+        "hook_duration_ms_avg": 41.125,
+        "hook_duration_ms_p50": 37.5,
+        "hook_duration_ms_p95": 60.25,
+        "hook_duration_ms_p99": 75.25,
+        "pre_tool_hook_duration_ms_count": 6,
+        "pre_tool_hook_duration_ms_min": 35,
+        "pre_tool_hook_duration_ms_max": 80,
+        "pre_tool_hook_duration_ms_avg": 44.666666666666664,
+        "pre_tool_hook_duration_ms_p50": 37.5,
+        "pre_tool_hook_duration_ms_p95": 70.5,
+        "pre_tool_hook_duration_ms_p99": 78.10000000000001
       },
       "lastGracefulShutdown": false
     },
@@ -21270,8 +21271,8 @@
       "lastUsedAt": 1775601360746
     },
     "republish-skills": {
-      "usageCount": 99,
-      "lastUsedAt": 1777289490720
+      "usageCount": 100,
+      "lastUsedAt": 1777375930980
     },
     "release": {
       "usageCount": 284,
@@ -21362,8 +21363,8 @@
       "lastUsedAt": 1772625771549
     },
     "cv": {
-      "usageCount": 443,
-      "lastUsedAt": 1777369197412
+      "usageCount": 446,
+      "lastUsedAt": 1777376293245
     },
     "target": {
       "usageCount": 39,
@@ -21724,7 +21725,7 @@
         "amount_minor_units": null,
         "currency": null
       },
-      "timestamp": 1777371751885
+      "timestamp": 1777376041045
     }
   },
   "migrationVersion": 12,
