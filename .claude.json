@@ -44,9 +44,8 @@
     "desktop-shortcut": 1926,
     "remote-control": 1926
   },
-  "promptQueueUseCount": 4033,
+  "promptQueueUseCount": 4035,
   "btwUseCount": 7,
-  "showExpandedTodos": true,
   "cachedGrowthBookFeatures": {
     "tengu_cobalt_ridge": true,
     "tengu_sparrow_ledger": false,
@@ -17695,7 +17694,7 @@
       "enabledMcpjsonServers": [],
       "disabledMcpjsonServers": [],
       "hasTrustDialogAccepted": false,
-      "projectOnboardingSeenCount": 1,
+      "projectOnboardingSeenCount": 2,
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": [],
@@ -18235,7 +18234,7 @@
       "enabledMcpjsonServers": [],
       "disabledMcpjsonServers": [],
       "hasTrustDialogAccepted": false,
-      "projectOnboardingSeenCount": 2,
+      "projectOnboardingSeenCount": 3,
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": [],
@@ -22455,7 +22454,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/ytt"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.123",
+  "lastReleaseNotesSeen": "2.1.121",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
