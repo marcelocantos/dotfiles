@@ -31,7 +31,7 @@
     "custom-agents": 1926,
     "permissions": 1926,
     "rename-conversation": 1926,
-    "custom-commands": 1903,
+    "custom-commands": 1926,
     "agent-flag": 1903,
     "guest-passes": 1926,
     "shift-enter-setup": 95,
@@ -44,7 +44,7 @@
     "desktop-shortcut": 1926,
     "remote-control": 1926
   },
-  "promptQueueUseCount": 4035,
+  "promptQueueUseCount": 4037,
   "btwUseCount": 7,
   "cachedStatsigGates": {
     "tengu_prompt_suggestion": false
@@ -22454,7 +22454,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/ytt"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.119",
+  "lastReleaseNotesSeen": "2.1.121",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
