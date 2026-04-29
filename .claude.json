@@ -17,20 +17,20 @@
     "enter-to-steer-in-relatime": 1926,
     "todo-list": 1926,
     "ide-upsell-external-terminal": 1903,
-    "install-github-app": 1903,
-    "install-slack-app": 1903,
-    "drag-and-drop-images": 1903,
-    "paste-images-mac": 1903,
-    "double-esc-code-restore": 1903,
-    "continue": 1903,
+    "install-github-app": 1926,
+    "install-slack-app": 1926,
+    "drag-and-drop-images": 1926,
+    "paste-images-mac": 1926,
+    "double-esc-code-restore": 1926,
+    "continue": 1926,
     "shift-tab": 1903,
     "image-paste": 1903,
     "desktop-app": 1904,
     "web-app": 1903,
     "mobile-app": 1572,
     "custom-agents": 1903,
-    "permissions": 1903,
-    "rename-conversation": 1903,
+    "permissions": 1926,
+    "rename-conversation": 1926,
     "custom-commands": 1903,
     "agent-flag": 1903,
     "guest-passes": 1911,
@@ -44,7 +44,7 @@
     "desktop-shortcut": 1903,
     "remote-control": 1903
   },
-  "promptQueueUseCount": 4029,
+  "promptQueueUseCount": 4031,
   "btwUseCount": 7,
   "cachedGrowthBookFeatures": {
     "tengu_cobalt_ridge": true,
@@ -22578,8 +22578,8 @@
       "lastUsedAt": 1772167215856
     },
     "push": {
-      "usageCount": 223,
-      "lastUsedAt": 1777456413535
+      "usageCount": 224,
+      "lastUsedAt": 1777460654221
     },
     "stash": {
       "usageCount": 67,
