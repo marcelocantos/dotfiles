@@ -120,16 +120,6 @@ else
 fi
 
 # ---------------------------------------------------------------------------
-# 2d. STABILITY.md (complement to version_era)
-# ---------------------------------------------------------------------------
-echo "# stability_md"
-if [[ -f STABILITY.md ]]; then
-    echo "exists"
-else
-    echo "missing"
-fi
-
-# ---------------------------------------------------------------------------
 # 3. Releases (requires gh)
 # ---------------------------------------------------------------------------
 echo "# releases"
@@ -587,68 +577,50 @@ else
 fi
 
 # ---------------------------------------------------------------------------
-# Release-workflow touch detection.
+# Open PRs carrying post-tag work
 #
-# The release CI workflow only runs end-to-end when a real release is
-# published, so bugs in it aren't caught by PR CI. When this release
-# changes the workflow itself (or adjacent packaging scripts / new
-# matrix legs / new artefact names), the risk of a mid-release failure
-# that requires tag surgery is meaningfully higher. Emit a boolean
-# plus the specific signals that fired so Phase 1 of SKILL.md can
-# suggest a prerelease dry-run.
+# An open PR whose head branch contains commits not in $latest_tag is a
+# scope-clarification trigger: those commits are likely either (a) the
+# substantive work that should ship as this release, in which case the
+# release-prep work needs to ride that PR rather than open a sibling, or
+# (b) unrelated parallel work, in which case the user needs to decide
+# whether to wait or release independently. Either way, the release skill
+# can't proceed unattended without naming the choice.
 #
-# Triggers (any one is enough):
-#   - .github/workflows/release.yml modified in this release
-#   - New or modified packaging scripts under installer/, packaging/,
-#     or any *.iss, *.nsi, *.wxs file
-#   - Net-new matrix legs in release.yml (new `os:`/`goos:`/`goarch:`
-#     lines under a matrix include)
-#   - Net-new artefact names in release.yml upload steps
+# Output format:
+#   # open_prs_with_release_work
+#   <count>
+#   #<PR#>\t<ahead-count>\t<title>      (one per line, only if count > 0)
 # ---------------------------------------------------------------------------
 
-echo "# release_workflow_touched"
-if [[ -n "${latest_tag:-}" ]]; then
-    triggers=()
-    changed_files=$(git diff --name-only "$latest_tag..HEAD" 2>/dev/null) || changed_files=""
-
-    if echo "$changed_files" | grep -qE '^\.github/workflows/release\.ya?ml$'; then
-        triggers+=("release.yml")
-    fi
-    if echo "$changed_files" | grep -qE '^(installer|packaging)/|\.(iss|nsi|wxs)$'; then
-        triggers+=("packaging-scripts")
-    fi
-
-    # New matrix legs: compare `- os:` or `goos:` lines at $latest_tag vs HEAD.
-    if echo "$changed_files" | grep -qE '^\.github/workflows/release\.ya?ml$'; then
-        old_legs=$(git show "$latest_tag:.github/workflows/release.yml" 2>/dev/null \
-            | grep -cE '^\s*-\s*os:' || echo 0)
-        new_legs=$(git show "HEAD:.github/workflows/release.yml" 2>/dev/null \
-            | grep -cE '^\s*-\s*os:' || echo 0)
-        if [[ "$new_legs" -gt "$old_legs" ]]; then
-            triggers+=("new-matrix-leg")
-        fi
-
-        # Net-new artefact patterns in upload steps.
-        old_uploads=$(git show "$latest_tag:.github/workflows/release.yml" 2>/dev/null \
-            | grep -cE 'gh release upload|gh_release_upload' || echo 0)
-        new_uploads=$(git show "HEAD:.github/workflows/release.yml" 2>/dev/null \
-            | grep -cE 'gh release upload|gh_release_upload' || echo 0)
-        if [[ "$new_uploads" -gt "$old_uploads" ]]; then
-            triggers+=("new-artefact")
-        fi
-    fi
-
-    if [[ ${#triggers[@]} -gt 0 ]]; then
-        echo "yes"
-        echo "# release_workflow_triggers"
-        printf '%s\n' "${triggers[@]}"
-    else
-        echo "no"
-        echo "# release_workflow_triggers"
-        echo "(none)"
-    fi
+echo "# open_prs_with_release_work"
+if ! command -v gh >/dev/null 2>&1; then
+    echo "(gh not available)"
+elif [[ -z "${latest_tag:-}" ]]; then
+    echo "0 (no prior tag to diff against)"
 else
-    echo "no (no prior tag to diff against)"
-    echo "# release_workflow_triggers"
-    echo "(none)"
+    # One fetch covers all open-PR head refs.
+    git fetch --quiet origin 2>/dev/null || true
+
+    # gh pr list emits one record per open PR. We don't paginate beyond
+    # the default page (30) — projects with >30 open PRs have bigger
+    # problems than release-prep scope ambiguity.
+    pr_records=$(gh pr list --state open --json number,title,headRefName --jq \
+        '.[] | "\(.number)\t\(.headRefName)\t\(.title)"' 2>/dev/null) || pr_records=""
+
+    relevant_prs=()
+    while IFS=$'\t' read -r pr_num head_ref pr_title; do
+        [[ -z "$pr_num" ]] && continue
+        # ahead-of-tag count on the PR's head branch. Use origin/<head>
+        # because the PR's head lives on the remote.
+        ahead=$(git rev-list --count "$latest_tag..origin/$head_ref" 2>/dev/null || echo 0)
+        if [[ "$ahead" -gt 0 ]]; then
+            relevant_prs+=("#$pr_num	$ahead	$pr_title")
+        fi
+    done <<<"$pr_records"
+
+    echo "${#relevant_prs[@]}"
+    if [[ ${#relevant_prs[@]} -gt 0 ]]; then
+        printf '%s\n' "${relevant_prs[@]}"
+    fi
 fi

@@ -18,9 +18,9 @@ pre-merge:
         the primitive, but no test actually sends a prompt through
         the primitive and verifies a response arrives. Three
         independent bugs shipped this way in claudia v0.4.0 under
-        a green gate — see docs/audit-log.md in that repo. Prefer
-        one end-to-end test that drives the user-facing flow over
-        several isolated tests of the individual parts.
+        a green gate. Prefer one end-to-end test that drives the
+        user-facing flow over several isolated tests of the
+        individual parts.
   - ci-green:
       type: automated
       check: "CI passes on the PR branch."

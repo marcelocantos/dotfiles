@@ -270,12 +270,6 @@ deep links, sample data, and visual verification cadence.
 - Wait for CI to pass before merging. Do not merge with failing checks.
 - **Do not push to a PR branch that has passing CI** without explicit user approval. A green CI run is valuable — pushing additional commits (even docs-only changes) resets it and forces another full cycle. If further changes are needed, create a new branch (off the green PR branch or off master) and open a separate PR.
 
-## Audit log
-
-- Skills that perform maintenance work (`/docs`, `/release`, `/open-source`) append entries to `docs/audit-log.md` in the repo. The `/waw` skill reads this log for its maintenance status section.
-- Format spec: `~/.claude/skills/audit-log-convention.md`
-- When a skill invokes another skill, only the parent logs — children skip to avoid double entries.
-
 ## Task tracking
 
 - Projects track TODOs in `docs/TODO.md` (all-caps `TODO`). When you discover a new TODO item during work (a bug to fix later, a feature idea, a cleanup opportunity), check the repo-local `CLAUDE.md` for the TODO file location and append the item there. If the repo has no TODO file or `CLAUDE.md` doesn't mention one, create `docs/TODO.md`.
@@ -431,6 +425,38 @@ Good moments to reach for mnemo:
 
 - After executing any skill (`~/.claude/skills/`), reflect on whether the run surfaced reusable insights — new edge cases, better patterns, additional checks, or workflow improvements that would benefit future runs across any project. Pay special attention to unexpected failures in companion scripts or tool invocations encountered during the run — these may indicate bugs to fix in the skill or its scripts, not just one-off issues. If so, propose the specific changes to the skill file (or its companion files) to the user. Only integrate them with user consent. This keeps skills evolving from real-world usage.
 - After modifying any skill file(s) under `~/.claude/skills/`, run `/republish-skills` to sync changes to the `marcelocantos/skills` repo.
+
+## Sawmill (structural code edits)
+
+**HARD RULE — try Sawmill first for code-shaped operations.** Sawmill
+is an MCP server that performs AST-level transforms across a
+codebase. Its primary purpose is to **save tokens and time** by
+letting you express a structural intent once instead of reading every
+file and emitting Edit calls for each one. Even when the text-shaped
+path (Read + Grep + Edit) would also work, prefer Sawmill — that is
+the bias being established here.
+
+**Triggers — reach for Sawmill when:**
+- Renaming a symbol (function, type, variable, file) — `mcp__sawmill__rename` / `rename_file`
+- Finding callers, references, or definitions — `find_references` / `find_symbol` / `definition` / `lsp_references`
+- Migrating an API or pattern across files — `migrate_pattern` / `migrate_type` / `transform` / `transform_batch`
+- Adding, removing, or changing a function parameter — `add_parameter` / `remove_parameter`
+- Promoting a literal to a constant or moving config to env — `promote_constant` / `extract_to_env`
+- Codegen from a spec, or applying a learned recipe — `codegen` / `apply` / `instantiate` / `clone_and_adapt`
+- Querying structure (definitions, hovers, diagnostics) — `query` / `hover` / `diagnostics` / `parse`
+- Auditing conventions or invariants — `check_conventions` / `check_invariants` / `check_equivalences`
+
+**When to fall back to Read/Edit/Grep:**
+- Single-file, single-site edits where the structural detour is pure overhead
+- Prose, config, or markdown (Sawmill is for code)
+- Languages or constructs Sawmill doesn't understand — try once; if `parse` or `find_symbol` fails, fall back
+
+**Honest framing:** the user is not 100% sold on Sawmill's utility —
+modern models manipulate text-form code well, so structural tooling
+may be redundant. The point of the aggressive trigger is to **give it
+a fair shake**: actually use it on real tasks, then judge from
+evidence. If after a sustained trial it isn't paying off in tokens,
+speed, or correctness, surface that and we'll retire it.
 
 ## Available Tools (Homebrew)
 
