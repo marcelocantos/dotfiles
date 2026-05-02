@@ -1,5 +1,5 @@
 {
-  "numStartups": 2156,
+  "numStartups": 2160,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -33,7 +33,7 @@
     "rename-conversation": 2142,
     "custom-commands": 2144,
     "agent-flag": 2149,
-    "guest-passes": 2149,
+    "guest-passes": 2156,
     "shift-enter-setup": 95,
     "default-permission-mode-config": 2154,
     "overage-promo": 130,
@@ -44,7 +44,7 @@
     "desktop-shortcut": 2142,
     "remote-control": 2142
   },
-  "promptQueueUseCount": 4182,
+  "promptQueueUseCount": 4183,
   "btwUseCount": 7,
   "cachedGrowthBookFeatures": {
     "tengu_harbor_prism": false,
@@ -546,7 +546,7 @@
         "mainTemplate.gradle",
         "RaceManager.cs"
       ],
-      "exampleFilesGeneratedAt": 1777109124513,
+      "exampleFilesGeneratedAt": 1777717630472,
       "lastSessionMetrics": {
         "frame_duration_ms_count": 21687,
         "frame_duration_ms_min": 0.3419160000000261,
@@ -563,7 +563,7 @@
         "hook_duration_ms_p95": 67,
         "hook_duration_ms_p99": 67
       },
-      "lastGracefulShutdown": true
+      "lastGracefulShutdown": false
     },
     "/Users/marcelo/work/github.com/squz/yourworld": {
       "allowedTools": [],
@@ -3477,7 +3477,7 @@
       ],
       "exampleFilesGeneratedAt": 1777546256252,
       "hasCompletedProjectOnboarding": true,
-      "lastGracefulShutdown": true,
+      "lastGracefulShutdown": false,
       "lastHintSessionId": "56901513-b031-43c2-92da-78b2468a68d1",
       "lastSessionFirstPrompt": "Let's start with just running a build to see where things are at.",
       "lastSessionModified": 1777546488981,
@@ -29892,8 +29892,8 @@
       "lastUsedAt": 1772167215856
     },
     "push": {
-      "usageCount": 232,
-      "lastUsedAt": 1777714688424
+      "usageCount": 233,
+      "lastUsedAt": 1777717613341
     },
     "stash": {
       "usageCount": 67,
@@ -30282,7 +30282,7 @@
         "amount_minor_units": null,
         "currency": null
       },
-      "timestamp": 1777712025559
+      "timestamp": 1777717630809
     }
   },
   "migrationVersion": 13,
