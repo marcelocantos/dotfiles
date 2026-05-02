@@ -1,5 +1,5 @@
 {
-  "numStartups": 2160,
+  "numStartups": 2170,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -8,23 +8,23 @@
   "hasUsedBackgroundTask": true,
   "tipsHistory": {
     "new-user-warmup": 5,
-    "plan-mode-for-complex-tasks": 2156,
-    "terminal-setup": 2156,
+    "plan-mode-for-complex-tasks": 2161,
+    "terminal-setup": 2170,
     "memory-command": 2160,
-    "theme-command": 2145,
+    "theme-command": 2170,
     "status-line": 2150,
     "prompt-queue": 17,
-    "enter-to-steer-in-relatime": 2145,
-    "todo-list": 2146,
+    "enter-to-steer-in-relatime": 2170,
+    "todo-list": 2170,
     "ide-upsell-external-terminal": 1926,
-    "install-github-app": 2156,
+    "install-github-app": 2170,
     "install-slack-app": 2156,
     "drag-and-drop-images": 2156,
     "paste-images-mac": 2156,
     "double-esc-code-restore": 2156,
     "continue": 2156,
     "shift-tab": 2156,
-    "image-paste": 2146,
+    "image-paste": 2170,
     "desktop-app": 2142,
     "web-app": 2160,
     "mobile-app": 1572,
@@ -33,18 +33,18 @@
     "rename-conversation": 2160,
     "custom-commands": 2144,
     "agent-flag": 2149,
-    "guest-passes": 2160,
+    "guest-passes": 2163,
     "shift-enter-setup": 95,
-    "default-permission-mode-config": 2154,
+    "default-permission-mode-config": 2170,
     "overage-promo": 130,
     "git-worktrees": 2160,
     "frontend-design-plugin": 2074,
     "feedback-command": 2160,
-    "color-when-multi-clauding": 2156,
+    "color-when-multi-clauding": 2170,
     "desktop-shortcut": 2160,
     "remote-control": 2160
   },
-  "promptQueueUseCount": 4187,
+  "promptQueueUseCount": 4190,
   "btwUseCount": 7,
   "cachedGrowthBookFeatures": {
     "tengu_harbor_prism": false,
@@ -792,7 +792,7 @@
         "pre_tool_hook_duration_ms_p95": 450.79999999999995,
         "pre_tool_hook_duration_ms_p99": 707.9400000000002
       },
-      "lastGracefulShutdown": true,
+      "lastGracefulShutdown": false,
       "lastHintSessionId": "eecff972-9c1c-4562-a707-976c6dab2779",
       "lastSessionFirstPrompt": "Let's start with just running a build to see where things are at.",
       "lastSessionModified": 1777546600366
@@ -1179,7 +1179,7 @@
       },
       "lastFpsAverage": 0.07,
       "lastFpsLow1Pct": 186.64,
-      "lastGracefulShutdown": true
+      "lastGracefulShutdown": false
     },
     "/Users/marcelo/work/github.com/squz/multimaze": {
       "allowedTools": [],
@@ -1325,7 +1325,7 @@
       },
       "lastFpsAverage": 0.07,
       "lastFpsLow1Pct": 94.45,
-      "lastGracefulShutdown": true
+      "lastGracefulShutdown": false
     },
     "/Users/marcelo/work/github.com/squz/bricabrac": {
       "allowedTools": [],
@@ -1963,7 +1963,10 @@
       "exampleFilesGeneratedAt": 1777288544525,
       "lastFpsAverage": 5.4,
       "lastFpsLow1Pct": 14.68,
-      "lastGracefulShutdown": false
+      "lastGracefulShutdown": false,
+      "lastHintSessionId": "ea881f66-78d2-40af-a619-2daab1155d43",
+      "lastSessionFirstPrompt": "1. go ahead 2. inline; all at once; up to you; csp_net.cpp",
+      "lastSessionModified": 1777720189347
     },
     "/Users/marcelo/work/github.com/arr-ai/hash": {
       "allowedTools": [],
@@ -2917,7 +2920,7 @@
         "hook_duration_ms_p99": 53
       },
       "hasCompletedProjectOnboarding": true,
-      "lastGracefulShutdown": true
+      "lastGracefulShutdown": false
     },
     "/Users/marcelo/work/github.com/Health-Management-Systems/hms.bak": {
       "allowedTools": [],
@@ -3621,7 +3624,7 @@
         "pre_tool_hook_duration_ms_p95": 486.4,
         "pre_tool_hook_duration_ms_p99": 773.9199999999993
       },
-      "lastGracefulShutdown": true,
+      "lastGracefulShutdown": false,
       "lastHintSessionId": "d8b9da52-d009-4d66-b305-cc5fc69c41b9",
       "lastSessionFirstPrompt": "<task-notification> <task-id>bb8vo173q</task-id> <tool-use-id>toolu_013NXUXWBRFk9MYucJTC7s1H</tool-use-id> <output-file>/private/tmp/claude-501/-Users-marcelo-work-github-com-minicadesmobile-mopar-dra",
       "lastSessionModified": 1777547081268
@@ -5335,11 +5338,11 @@
       "exampleFiles": [
         "main.go",
         "server.go",
+        "go.mod",
         "mcpserver.go",
-        "Makefile",
-        "process.go"
+        "index.html"
       ],
-      "exampleFilesGeneratedAt": 1777107647101,
+      "exampleFilesGeneratedAt": 1777720878044,
       "hasCompletedProjectOnboarding": true,
       "lastCost": 97.61355875,
       "lastAPIDuration": 3353606,
@@ -5389,7 +5392,7 @@
         "pre_tool_hook_duration_ms_p95": 72.39999999999998,
         "pre_tool_hook_duration_ms_p99": 86.16999999999999
       },
-      "lastGracefulShutdown": true
+      "lastGracefulShutdown": false
     },
     "/Users/marcelo/work/github.com/marcelocantos/pigeon": {
       "allowedTools": [],
@@ -5474,7 +5477,7 @@
         "pre_tool_hook_duration_ms_p95": 77,
         "pre_tool_hook_duration_ms_p99": 112.79999999999988
       },
-      "lastGracefulShutdown": true,
+      "lastGracefulShutdown": false,
       "lastHintSessionId": "94b7e8a4-9fe3-405e-93ef-d9069bb90c7d",
       "lastSessionFirstPrompt": "commit then push on",
       "lastSessionModified": 1777688754802
@@ -5943,10 +5946,10 @@
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": [
         "agent.go",
+        "realtime.go",
         "lifecycle.go",
-        "go.mod",
         "agent_test.go",
-        "chain.go"
+        "task.go"
       ],
       "lastCost": 35.874046100000044,
       "lastAPIDuration": 3451609,
@@ -6004,8 +6007,8 @@
         "pre_tool_hook_duration_ms_p95": 57,
         "pre_tool_hook_duration_ms_p99": 83.27999999999997
       },
-      "exampleFilesGeneratedAt": 1776685451240,
-      "lastGracefulShutdown": true
+      "exampleFilesGeneratedAt": 1777720879425,
+      "lastGracefulShutdown": false
     },
     "/Users/marcelo/work/github.com/marcelocantos/vellum": {
       "allowedTools": [],
@@ -12175,11 +12178,11 @@
       "exampleFiles": [
         "main.rs",
         "main.go",
+        "Makefile",
         "mod.rs",
-        "build.rs",
-        "transcribe.py"
+        "macos.rs"
       ],
-      "lastGracefulShutdown": true,
+      "lastGracefulShutdown": false,
       "lastCost": 20.40250325000001,
       "lastAPIDuration": 2622553,
       "lastAPIDurationWithoutRetries": 2620790,
@@ -12244,7 +12247,7 @@
         "pre_tool_hook_duration_ms_p95": 64.19999999999993,
         "pre_tool_hook_duration_ms_p99": 82.07999999999993
       },
-      "exampleFilesGeneratedAt": 1777115338152,
+      "exampleFilesGeneratedAt": 1777720880869,
       "hasCompletedProjectOnboarding": true,
       "lastHintSessionId": "ae7c020c-34ee-4a30-ad83-1ef9d30f9d6d",
       "lastSessionFirstPrompt": "is everything released?",
@@ -29832,8 +29835,8 @@
       "lastUsedAt": 1777700938264
     },
     "release": {
-      "usageCount": 298,
-      "lastUsedAt": 1777719634147
+      "usageCount": 299,
+      "lastUsedAt": 1777721579280
     },
     "gsd:help": {
       "usageCount": 1,
@@ -29920,8 +29923,8 @@
       "lastUsedAt": 1772625771549
     },
     "cv": {
-      "usageCount": 475,
-      "lastUsedAt": 1777714424518
+      "usageCount": 476,
+      "lastUsedAt": 1777720057702
     },
     "target": {
       "usageCount": 39,
