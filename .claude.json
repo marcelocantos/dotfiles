@@ -10,7 +10,7 @@
     "new-user-warmup": 5,
     "plan-mode-for-complex-tasks": 2156,
     "terminal-setup": 2156,
-    "memory-command": 2143,
+    "memory-command": 2160,
     "theme-command": 2145,
     "status-line": 2150,
     "prompt-queue": 17,
@@ -26,25 +26,25 @@
     "shift-tab": 2156,
     "image-paste": 2146,
     "desktop-app": 2142,
-    "web-app": 2142,
+    "web-app": 2160,
     "mobile-app": 1572,
-    "custom-agents": 2143,
+    "custom-agents": 2160,
     "permissions": 2156,
-    "rename-conversation": 2142,
+    "rename-conversation": 2160,
     "custom-commands": 2144,
     "agent-flag": 2149,
-    "guest-passes": 2156,
+    "guest-passes": 2160,
     "shift-enter-setup": 95,
     "default-permission-mode-config": 2154,
     "overage-promo": 130,
-    "git-worktrees": 2142,
+    "git-worktrees": 2160,
     "frontend-design-plugin": 2074,
-    "feedback-command": 2142,
+    "feedback-command": 2160,
     "color-when-multi-clauding": 2156,
-    "desktop-shortcut": 2142,
-    "remote-control": 2142
+    "desktop-shortcut": 2160,
+    "remote-control": 2160
   },
-  "promptQueueUseCount": 4183,
+  "promptQueueUseCount": 4187,
   "btwUseCount": 7,
   "cachedGrowthBookFeatures": {
     "tengu_harbor_prism": false,
@@ -29832,8 +29832,8 @@
       "lastUsedAt": 1777700938264
     },
     "release": {
-      "usageCount": 297,
-      "lastUsedAt": 1777701047844
+      "usageCount": 298,
+      "lastUsedAt": 1777719634147
     },
     "gsd:help": {
       "usageCount": 1,
@@ -30294,7 +30294,7 @@
   ],
   "autoPermissionsNotificationCount": 1,
   "remoteControlUpsellSeenCount": 3,
-  "closedIssuesLastChecked": 1777631330887,
+  "closedIssuesLastChecked": 1777719056337,
   "hasResetAutoModeOptInForDefaultOffer": true,
   "hasUsedBackslashReturn": true,
   "cachedExperimentFeatures": [
