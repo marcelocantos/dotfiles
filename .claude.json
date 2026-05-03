@@ -1,5 +1,5 @@
 {
-  "numStartups": 2171,
+  "numStartups": 2172,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -44,7 +44,7 @@
     "desktop-shortcut": 2160,
     "remote-control": 2160
   },
-  "promptQueueUseCount": 4213,
+  "promptQueueUseCount": 4214,
   "btwUseCount": 7,
   "cachedGrowthBookFeatures": {
     "tengu_snippet_save": false,
@@ -3208,10 +3208,10 @@
         "pre_tool_hook_duration_ms_p99": 92
       },
       "hasCompletedProjectOnboarding": true,
-      "lastGracefulShutdown": true,
-      "lastHintSessionId": "1c9de7df-f1c8-46db-8dd6-016f4feceeaa",
-      "lastSessionFirstPrompt": "The /release skill is still quite time consuming. Do an audit of recent release activity, come up with a theory as to where the time is going, and then we can talk about what to do about it.",
-      "lastSessionModified": 1777687546618
+      "lastGracefulShutdown": false,
+      "lastHintSessionId": "74a511fb-13ba-4ac2-a7f5-76ad9b948983",
+      "lastSessionFirstPrompt": "the bullseye showcase construct has proven ineffective. remove it. all work should continue until further progess is impossible without human input.",
+      "lastSessionModified": 1777785401868
     },
     "/Users/marcelo/work/github.com/marcelocantos/jevon": {
       "allowedTools": [],
@@ -30288,7 +30288,7 @@
         "amount_minor_units": null,
         "currency": null
       },
-      "timestamp": 1777763835978
+      "timestamp": 1777785358460
     }
   },
   "migrationVersion": 13,
