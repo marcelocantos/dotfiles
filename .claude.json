@@ -29838,8 +29838,8 @@
       "lastUsedAt": 1777700938264
     },
     "release": {
-      "usageCount": 299,
-      "lastUsedAt": 1777721579280
+      "usageCount": 300,
+      "lastUsedAt": 1777807607897
     },
     "gsd:help": {
       "usageCount": 1,
@@ -30300,7 +30300,7 @@
   ],
   "autoPermissionsNotificationCount": 1,
   "remoteControlUpsellSeenCount": 3,
-  "closedIssuesLastChecked": 1777719056337,
+  "closedIssuesLastChecked": 1777807607921,
   "hasResetAutoModeOptInForDefaultOffer": true,
   "hasUsedBackslashReturn": true,
   "cachedExperimentFeatures": [
