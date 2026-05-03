@@ -391,6 +391,17 @@ Good moments to reach for mnemo:
   current task — a quality issue, a missing capability, an
   inconsistency — add it as a target via `bullseye_put` rather than
   fixing it inline or dropping a bare TODO.
+- **Targets, not GitHub issues.** Bullseye targets are the canonical
+  place to record any followable piece of work — bugs to fix later,
+  features to design, cleanups, blockers, dependencies between
+  projects. Do **not** file GitHub issues for these. `bullseye_put`
+  on the relevant repo (or a cross-repo edge to it) replaces
+  `gh issue create` for the work-tracking case. The only
+  legitimate reasons to file a GitHub issue are: an upstream
+  third-party repo where the user wants to report a bug or
+  request a feature externally, or an explicit user instruction
+  to file an issue. Existing issues can stay where they are; new
+  work goes into bullseye.
 - A target is a desired state, not a task. Write it as an assertion:
   "All tests pass on Windows" not "Fix Windows tests."
 - Include enough context that a future agent in a fresh session can
