@@ -5065,9 +5065,9 @@
       },
       "exampleFilesGeneratedAt": 1778061599410,
       "lastGracefulShutdown": true,
-      "lastHintSessionId": "f5b4a8af-a284-4f1d-a651-949765f7da5a",
-      "lastSessionFirstPrompt": "<task-notification> <task-id>bidupy8ou</task-id> <summary>Monitor event: \"wait for docs ingest to complete in fresh mnemo\"</summary> <event>[Monitor timed out — re-arm if needed.]</event> </task-notif",
-      "lastSessionModified": 1778063745554
+      "lastHintSessionId": "0e11d458-a637-4c9d-94a1-0d454f7fb4e8",
+      "lastSessionFirstPrompt": "Does mnemo compress content when storing it as is?",
+      "lastSessionModified": 1778282405321
     },
     "/": {
       "allowedTools": [],
@@ -29908,8 +29908,8 @@
       "lastUsedAt": 1772625771549
     },
     "cv": {
-      "usageCount": 480,
-      "lastUsedAt": 1778063249194
+      "usageCount": 481,
+      "lastUsedAt": 1778282301214
     },
     "target": {
       "usageCount": 39,
@@ -30286,7 +30286,7 @@
   ],
   "autoPermissionsNotificationCount": 1,
   "remoteControlUpsellSeenCount": 3,
-  "closedIssuesLastChecked": 1778061599156,
+  "closedIssuesLastChecked": 1778282301237,
   "hasResetAutoModeOptInForDefaultOffer": true,
   "hasUsedBackslashReturn": true,
   "cachedExperimentFeatures": [
