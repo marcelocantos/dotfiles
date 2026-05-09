@@ -44,9 +44,8 @@
     "desktop-shortcut": 2191,
     "remote-control": 2191
   },
-  "promptQueueUseCount": 4343,
+  "promptQueueUseCount": 4347,
   "btwUseCount": 9,
-  "showExpandedTodos": true,
   "cachedGrowthBookFeatures": {
     "tengu_auto_mode_config": {
       "enabled": "enabled",
@@ -29835,7 +29834,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/crosshair"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.138",
+  "lastReleaseNotesSeen": "2.1.126",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
