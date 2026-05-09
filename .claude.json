@@ -1,5 +1,5 @@
 {
-  "numStartups": 2182,
+  "numStartups": 2183,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -44,9 +44,8 @@
     "desktop-shortcut": 2175,
     "remote-control": 2175
   },
-  "promptQueueUseCount": 4274,
+  "promptQueueUseCount": 4279,
   "btwUseCount": 7,
-  "showExpandedTodos": true,
   "cachedGrowthBookFeatures": {
     "tengu_tern_alloy": "copy_a",
     "tengu_amber_flint": true,
@@ -3204,9 +3203,9 @@
       },
       "hasCompletedProjectOnboarding": true,
       "lastGracefulShutdown": false,
-      "lastHintSessionId": "b44c4cfa-1ae5-4680-9b42-6e33eb32401d",
-      "lastSessionFirstPrompt": "What's the deal with release-prep PRs?",
-      "lastSessionModified": 1778064943257
+      "lastHintSessionId": "23846743-6543-4dfc-a5d6-e06dd30e1fad",
+      "lastSessionFirstPrompt": "I've always preferred squash merges because they result in a much cleaner git history. Now that I use a genetic coding for almost all my work and I almost never look at git history, am I just making t",
+      "lastSessionModified": 1778287557107
     },
     "/Users/marcelo/work/github.com/marcelocantos/jevon": {
       "allowedTools": [],
@@ -29568,7 +29567,7 @@
   "opus45MigrationComplete": true,
   "opusProMigrationComplete": true,
   "thinkingMigrationComplete": true,
-  "changelogLastFetched": 1778061596771,
+  "changelogLastFetched": 1778287530994,
   "cachedChromeExtensionInstalled": true,
   "hasCompletedOnboarding": true,
   "lastOnboardingVersion": "2.1.14",
@@ -29778,7 +29777,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/ytt"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.128",
+  "lastReleaseNotesSeen": "2.1.132",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -29817,12 +29816,12 @@
       "lastUsedAt": 1775601360746
     },
     "republish-skills": {
-      "usageCount": 107,
-      "lastUsedAt": 1778062720877
+      "usageCount": 109,
+      "lastUsedAt": 1778287756904
     },
     "release": {
-      "usageCount": 301,
-      "lastUsedAt": 1778064722470
+      "usageCount": 302,
+      "lastUsedAt": 1778287412589
     },
     "gsd:help": {
       "usageCount": 1,
@@ -29982,7 +29981,7 @@
     }
   },
   "feedbackSurveyState": {
-    "lastShownTime": 1777811861868
+    "lastShownTime": 1778287481559
   },
   "claudeCodeFirstTokenDate": "2026-01-25T12:12:55.002215Z",
   "hasShownOpus45Notice": {

@@ -378,6 +378,8 @@ and is not sufficient for a release.
 
 **Release-prep goes through a PR.** The `pr-workflow` pre-merge gate means release-skill work routes through a feature branch and PR, not a direct push to master. The release PR carries the version bump and any doc changes; CI must go green before squash-merge. If the project has no CI, the `pr-workflow` gate still applies — you still need to go through a PR, but CI waits are zero.
 
+**Release-prep PR is sometimes a no-op — skip it when there's nothing to commit.** When all release content has already landed via earlier PRs *and* the release introduces no new commits (no in-source version string to bump, no STABILITY.md snapshot to update, no dist regen, no release-notes file committed to the repo), there is nothing to PR. Opening an empty PR for the sole purpose of satisfying the `pr-workflow` gate creates churn without value: an empty diff, a green-CI placeholder, an immediate squash-merge. Don't do it. The `pr-workflow` gate is satisfied by *the PRs that landed the changes being released* — those already routed through a feature branch and CI. The release event itself (the `gh release create` in Phase C) is not a content change to master and doesn't need its own PR. Detect this case by checking that (a) the working tree is clean, (b) there are no in-source version strings to update, (c) discover.sh's dist target is empty, and (d) there are no other release-prep edits the skill would normally make. If all four hold, skip the PR step and proceed straight to Phase C with a one-line note in the Phase B report explaining the skip.
+
 **Always squash-merge release PRs via `~/.claude/skills/push/merge.sh`, never via raw `gh pr merge`.** After a squash-merge, local master has N pre-squash commits while origin/master has one squash commit with a different SHA — `git pull` fails to fast-forward, `rebase` re-applies already-merged content, and `merge` would create a merge commit (forbidden under squash-only). The only safe resolution is `git reset --hard origin/master`, which is normally a user-only operation. `merge.sh` bundles the squash-merge, the fetch, the checkout, the hard reset, and the local feature-branch cleanup into a single vetted script — pre-authorising the reset by virtue of being a known script. Invoke as:
 
 ```
@@ -466,17 +468,25 @@ Squash-merge the prepared PR(s), tag, and create the GitHub release. Run unatten
 
    ```bash
    brew update
-   brew upgrade marcelocantos/tap/<project> || brew install marcelocantos/tap/<project>
+   log=$(mktemp -t brew-upgrade-<project>.XXXXXX) && trap 'rm -f "$log"' EXIT
+   brew upgrade marcelocantos/tap/<project> 2>&1 | tee "$log" || \
+     brew install marcelocantos/tap/<project> 2>&1 | tee "$log"
    ```
 
-   `brew update` is required to pull the fresh formula from the tap. Use `upgrade || install` so the command works whether or not the formula is already installed.
+   `brew update` is required to pull the fresh formula from the tap. Use `upgrade || install` so the command works whether or not the formula is already installed. **Always tee the full output to a temp file** — when something goes wrong, a `tail -5` of the truncated output never shows the actual failure mode, and you'll be guessing instead of diagnosing. Keep the `mktemp` path so you can inspect it if the verify step below fails.
 
    **Persistent services**: If the project is a long-running server with a Homebrew service definition (detected in Phase 4 step 3), restart the service so the new binary takes effect:
    ```bash
    brew services restart <project>
    ```
 
-   **Verify the install**: Run `<project> --version` (or the equivalent) and confirm the output matches the released version. If it doesn't match, **fail loud** — print the expected version, the observed version, and `which <project>` (a PATH shadow is the only remaining plausible cause once step 8 has returned success), then stop. Do not enter a diagnostic loop of repeated `brew update` / `brew reinstall` attempts — the timing race that used to motivate that loop has been eliminated by the step-8 wait.
+   **Verify the install**: Run `<project> --version` (or the equivalent) and confirm the output matches the released version. If it doesn't match, **inspect `"$log"` first** — the full upgrade output is there, including any "Failed to fix install linkage" warnings, missing-symlink hints, or Cellar-vs-bin-symlink mismatches. Then **fail loud**: print the expected version, the observed version, `which <project>`, and the relevant lines from `"$log"`. Common causes:
+
+   - **Cellar populated but `bin/<project>` missing**: a formula-name collision with a published Homebrew cask shadows the symlink-creation step. `brew link --overwrite marcelocantos/tap/<project>` resolves it; report the formula's name as a candidate for renaming if this recurs.
+   - **PATH shadow**: a different `<project>` binary earlier in `$PATH`. `which -a <project>` shows all candidates.
+   - **`brew upgrade` ran but skipped link**: the symptom is "Cellar has new version, `which` returns command-not-found, no obvious error in the truncated tail." This is exactly why `tee`-ing the full log matters; grep the log for `link` / `symlink` / `Error:` to find the actual cause.
+
+   Do not enter a diagnostic loop of repeated `brew update` / `brew reinstall` attempts — the timing race that used to motivate that loop has been eliminated by the step-8 wait.
 
    **Never hand-edit the brew-managed tap working tree** at `/opt/homebrew/Library/Taps/marcelocantos/homebrew-tap`. It is Homebrew's working copy of the tap, not a scratch space. Uncommitted edits there get autostashed and re-applied around the next `brew update`, which will trip a stash-pop conflict against the homebrew-releaser-regenerated formula and abort the next `brew upgrade` mid-release with a Ruby parse error full of `>>>>>>> Stashed changes` markers. Treat that state as a bug, not a workflow.
 
