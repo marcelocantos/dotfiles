@@ -44,8 +44,9 @@
     "desktop-shortcut": 2191,
     "remote-control": 2191
   },
-  "promptQueueUseCount": 4340,
+  "promptQueueUseCount": 4343,
   "btwUseCount": 9,
+  "showExpandedTodos": true,
   "cachedGrowthBookFeatures": {
     "tengu_auto_mode_config": {
       "enabled": "enabled",
