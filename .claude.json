@@ -1,5 +1,5 @@
 {
-  "numStartups": 2184,
+  "numStartups": 2185,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -33,7 +33,7 @@
     "rename-conversation": 2175,
     "custom-commands": 2144,
     "agent-flag": 2149,
-    "guest-passes": 2182,
+    "guest-passes": 2185,
     "shift-enter-setup": 95,
     "default-permission-mode-config": 2180,
     "overage-promo": 130,
@@ -44,7 +44,7 @@
     "desktop-shortcut": 2175,
     "remote-control": 2175
   },
-  "promptQueueUseCount": 4280,
+  "promptQueueUseCount": 4281,
   "btwUseCount": 9,
   "cachedGrowthBookFeatures": {
     "tengu_bramble_lintel": 7,
@@ -2337,7 +2337,7 @@
         "sqlpipe.h",
         "types.go",
         "sqlpipe.cpp",
-        "sqlpipe_wapi.cpp"
+        "mkfile"
       ],
       "hasCompletedProjectOnboarding": true,
       "lastCost": 293.22875474999995,
@@ -2404,7 +2404,11 @@
         "pre_tool_hook_duration_ms_p95": 41,
         "pre_tool_hook_duration_ms_p99": 44.42
       },
-      "exampleFilesGeneratedAt": 1775120693946
+      "exampleFilesGeneratedAt": 1778295358899,
+      "lastGracefulShutdown": false,
+      "lastHintSessionId": "54589d0b-0152-4ffa-8ba3-9764ec98442d",
+      "lastSessionFirstPrompt": "upgrade sqlift",
+      "lastSessionModified": 1778295361598
     },
     "/Users/marcelo/work/github.com/marcelocantos/sqlift": {
       "allowedTools": [],
@@ -29777,7 +29781,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/ytt"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.128",
+  "lastReleaseNotesSeen": "2.1.137",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -29820,8 +29824,8 @@
       "lastUsedAt": 1778287756904
     },
     "release": {
-      "usageCount": 302,
-      "lastUsedAt": 1778287412589
+      "usageCount": 303,
+      "lastUsedAt": 1778294936382
     },
     "gsd:help": {
       "usageCount": 1,
@@ -29998,7 +30002,7 @@
   "groveConfigCache": {
     "2909ba71-e527-4e91-9b22-2591e548b2d0": {
       "grove_enabled": true,
-      "timestamp": 1778205416851
+      "timestamp": 1778295358634
     }
   },
   "passesEligibilityCache": {
@@ -30014,7 +30018,7 @@
         "currency": "AUD"
       },
       "remaining_passes": 3,
-      "timestamp": 1778205413068
+      "timestamp": 1778295360112
     }
   },
   "passesUpsellSeenCount": 4,
@@ -30274,7 +30278,7 @@
         "amount_minor_units": null,
         "currency": null
       },
-      "timestamp": 1778289048298
+      "timestamp": 1778294693926
     }
   },
   "migrationVersion": 13,
