@@ -1,5 +1,5 @@
 {
-  "numStartups": 2193,
+  "numStartups": 2195,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -33,7 +33,7 @@
     "rename-conversation": 2191,
     "custom-commands": 2144,
     "agent-flag": 2149,
-    "guest-passes": 2192,
+    "guest-passes": 2195,
     "shift-enter-setup": 95,
     "default-permission-mode-config": 2192,
     "overage-promo": 130,
@@ -44,7 +44,7 @@
     "desktop-shortcut": 2191,
     "remote-control": 2191
   },
-  "promptQueueUseCount": 4322,
+  "promptQueueUseCount": 4324,
   "btwUseCount": 9,
   "cachedGrowthBookFeatures": {
     "tengu_plugin_official_mkt_git_fallback": true,
@@ -563,7 +563,10 @@
         "pre_tool_hook_duration_ms_p95": 36.9,
         "pre_tool_hook_duration_ms_p99": 36.98
       },
-      "lastGracefulShutdown": false
+      "lastGracefulShutdown": false,
+      "lastHintSessionId": "28e07dae-afce-4b62-9ae8-d90daa1e540e",
+      "lastSessionFirstPrompt": "Note from a library vendor:  The provider of AppMetrica SDK (io.appmetrica.analytics:analytics) added this note on 5 May: ‘Fixed in newer version: https://github.com/appmetrica/appmetrica-sdk-android/",
+      "lastSessionModified": 1778325993875
     },
     "/Users/marcelo/work/github.com/squz/yourworld": {
       "allowedTools": [],
@@ -3204,10 +3207,10 @@
         "pre_tool_hook_duration_ms_p99": 49.70000000000002
       },
       "hasCompletedProjectOnboarding": true,
-      "lastGracefulShutdown": true,
-      "lastHintSessionId": "23846743-6543-4dfc-a5d6-e06dd30e1fad",
-      "lastSessionFirstPrompt": "I've always preferred squash merges because they result in a much cleaner git history. Now that I use a genetic coding for almost all my work and I almost never look at git history, am I just making t",
-      "lastSessionModified": 1778287557107
+      "lastGracefulShutdown": false,
+      "lastHintSessionId": "aff9e990-d2b9-48ff-a952-cab8c683c58c",
+      "lastSessionFirstPrompt": "Claude is complaining about the size of my Claude.md.",
+      "lastSessionModified": 1778324594666
     },
     "/Users/marcelo/work/github.com/marcelocantos/jevon": {
       "allowedTools": [],
@@ -3368,10 +3371,10 @@
         "pre_tool_hook_duration_ms_p99": 52.04000000000002
       },
       "hasCompletedProjectOnboarding": true,
-      "lastGracefulShutdown": true,
-      "lastHintSessionId": "0821c4f3-c55d-447f-a771-ad19d1f11747",
-      "lastSessionFirstPrompt": "everything's tested, so just bundle up some commits, push everything, and continue the release",
-      "lastSessionModified": 1778064794574
+      "lastGracefulShutdown": false,
+      "lastHintSessionId": "742fa7f5-7ebb-4be5-ba41-3197f7faafe5",
+      "lastSessionFirstPrompt": "The blue rectangle in the Tilt Bogey Demo is supposed to represent an icy frozen pond. Use the SVG feature to render that as something that looks a bit like an icy pond. It can be some sort of irregul",
+      "lastSessionModified": 1778325629013
     },
     "/Users/marcelo/play/ytc": {
       "allowedTools": [],
@@ -29836,7 +29839,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/crosshair"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.137",
+  "lastReleaseNotesSeen": "2.1.138",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
