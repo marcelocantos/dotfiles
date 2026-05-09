@@ -44,7 +44,7 @@
     "desktop-shortcut": 2175,
     "remote-control": 2175
   },
-  "promptQueueUseCount": 4302,
+  "promptQueueUseCount": 4306,
   "btwUseCount": 9,
   "cachedGrowthBookFeatures": {
     "tengu_bramble_lintel": 7,
@@ -29781,7 +29781,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/ytt"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.137",
+  "lastReleaseNotesSeen": "2.1.126",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
