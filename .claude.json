@@ -44,8 +44,9 @@
     "desktop-shortcut": 2191,
     "remote-control": 2191
   },
-  "promptQueueUseCount": 4325,
+  "promptQueueUseCount": 4328,
   "btwUseCount": 9,
+  "showExpandedTodos": true,
   "cachedGrowthBookFeatures": {
     "tengu_plugin_official_mkt_git_fallback": true,
     "tengu_prompt_cache_diagnostics": false,
@@ -564,9 +565,9 @@
         "pre_tool_hook_duration_ms_p99": 36.98
       },
       "lastGracefulShutdown": false,
-      "lastHintSessionId": "28e07dae-afce-4b62-9ae8-d90daa1e540e",
-      "lastSessionFirstPrompt": "Note from a library vendor:  The provider of AppMetrica SDK (io.appmetrica.analytics:analytics) added this note on 5 May: ‘Fixed in newer version: https://github.com/appmetrica/appmetrica-sdk-android/",
-      "lastSessionModified": 1778325993875
+      "lastHintSessionId": "663d5fa6-df44-40ee-9791-cbc55993f903",
+      "lastSessionFirstPrompt": "https://developer.android.com/google/play/billing/subscriptions#in-app-messaging",
+      "lastSessionModified": 1778328828674
     },
     "/Users/marcelo/work/github.com/squz/yourworld": {
       "allowedTools": [],
@@ -3306,72 +3307,64 @@
         "main.mm"
       ],
       "exampleFilesGeneratedAt": 1778064718432,
-      "lastCost": 98.83340519999992,
-      "lastAPIDuration": 8025703,
-      "lastAPIDurationWithoutRetries": 7966770,
-      "lastToolDuration": 1027878,
-      "lastDuration": 300881888,
-      "lastLinesAdded": 1404,
-      "lastLinesRemoved": 765,
-      "lastTotalInputTokens": 5577,
-      "lastTotalOutputTokens": 436150,
-      "lastTotalCacheCreationInputTokens": 2988682,
-      "lastTotalCacheReadInputTokens": 167858042,
+      "lastCost": 93.23817949999993,
+      "lastAPIDuration": 5111437,
+      "lastAPIDurationWithoutRetries": 5108573,
+      "lastToolDuration": 371497,
+      "lastDuration": 264985767,
+      "lastLinesAdded": 1226,
+      "lastLinesRemoved": 105,
+      "lastTotalInputTokens": 10770,
+      "lastTotalOutputTokens": 281983,
+      "lastTotalCacheCreationInputTokens": 2356480,
+      "lastTotalCacheReadInputTokens": 142816861,
       "lastTotalWebSearchRequests": 0,
-      "lastFpsAverage": 0.34,
-      "lastFpsLow1Pct": 289.56,
+      "lastFpsAverage": 0.66,
+      "lastFpsLow1Pct": 945.63,
       "lastModelUsage": {
         "claude-opus-4-7[1m]": {
-          "inputTokens": 1556,
-          "outputTokens": 267110,
-          "cacheReadInputTokens": 111979643,
-          "cacheCreationInputTokens": 2256055,
+          "inputTokens": 10416,
+          "outputTokens": 281970,
+          "cacheReadInputTokens": 142816861,
+          "cacheCreationInputTokens": 2356480,
           "webSearchRequests": 0,
-          "costUSD": 76.77569524999993
-        },
-        "claude-sonnet-4-6": {
-          "inputTokens": 3679,
-          "outputTokens": 169026,
-          "cacheReadInputTokens": 55878399,
-          "cacheCreationInputTokens": 732627,
-          "webSearchRequests": 0,
-          "costUSD": 22.057297949999974
+          "costUSD": 93.23776049999994
         },
         "claude-haiku-4-5-20251001": {
-          "inputTokens": 342,
-          "outputTokens": 14,
+          "inputTokens": 354,
+          "outputTokens": 13,
           "cacheReadInputTokens": 0,
           "cacheCreationInputTokens": 0,
           "webSearchRequests": 0,
-          "costUSD": 0.00041200000000000004
+          "costUSD": 0.000419
         }
       },
-      "lastSessionId": "ad30896c-c7c8-4ed6-9db5-bd341a362cf0",
+      "lastSessionId": "0821c4f3-c55d-447f-a771-ad19d1f11747",
       "lastSessionMetrics": {
-        "frame_duration_ms_count": 54847,
-        "frame_duration_ms_min": 0.1934170126914978,
-        "frame_duration_ms_max": 92.85579099999995,
-        "frame_duration_ms_avg": 0.6662486056605618,
-        "frame_duration_ms_p50": 0.6314579918980598,
-        "frame_duration_ms_p95": 0.9222955513745545,
-        "frame_duration_ms_p99": 2.150248250141733,
-        "hook_duration_ms_count": 344,
-        "hook_duration_ms_min": 31,
-        "hook_duration_ms_max": 73,
-        "hook_duration_ms_avg": 37.47093023255814,
-        "hook_duration_ms_p50": 36,
-        "hook_duration_ms_p95": 45,
-        "hook_duration_ms_p99": 59.56999999999999,
-        "pre_tool_hook_duration_ms_count": 149,
-        "pre_tool_hook_duration_ms_min": 33,
-        "pre_tool_hook_duration_ms_max": 57,
-        "pre_tool_hook_duration_ms_avg": 37.671140939597315,
-        "pre_tool_hook_duration_ms_p50": 37,
-        "pre_tool_hook_duration_ms_p95": 43.599999999999994,
-        "pre_tool_hook_duration_ms_p99": 52.04000000000002
+        "frame_duration_ms_count": 114804,
+        "frame_duration_ms_min": 0.056583000005048234,
+        "frame_duration_ms_max": 8140.73749999702,
+        "frame_duration_ms_avg": 0.6029390891590174,
+        "frame_duration_ms_p50": 0.5038959980010986,
+        "frame_duration_ms_p95": 0.728958013653755,
+        "frame_duration_ms_p99": 2.407627852857112,
+        "hook_duration_ms_count": 895,
+        "hook_duration_ms_min": 30,
+        "hook_duration_ms_max": 942,
+        "hook_duration_ms_avg": 42.37988826815643,
+        "hook_duration_ms_p50": 37,
+        "hook_duration_ms_p95": 54,
+        "hook_duration_ms_p99": 189.83999999999924,
+        "pre_tool_hook_duration_ms_count": 386,
+        "pre_tool_hook_duration_ms_min": 32,
+        "pre_tool_hook_duration_ms_max": 942,
+        "pre_tool_hook_duration_ms_avg": 44.32383419689119,
+        "pre_tool_hook_duration_ms_p50": 38,
+        "pre_tool_hook_duration_ms_p95": 51.75,
+        "pre_tool_hook_duration_ms_p99": 169.59999999999945
       },
       "hasCompletedProjectOnboarding": true,
-      "lastGracefulShutdown": false,
+      "lastGracefulShutdown": true,
       "lastHintSessionId": "742fa7f5-7ebb-4be5-ba41-3197f7faafe5",
       "lastSessionFirstPrompt": "The blue rectangle in the Tilt Bogey Demo is supposed to represent an icy frozen pond. Use the SVG feature to render that as something that looks a bit like an icy pond. It can be some sort of irregul",
       "lastSessionModified": 1778325629013
@@ -29839,7 +29832,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/crosshair"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.138",
+  "lastReleaseNotesSeen": "2.1.126",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -29882,8 +29875,8 @@
       "lastUsedAt": 1778287756904
     },
     "release": {
-      "usageCount": 306,
-      "lastUsedAt": 1778315841618
+      "usageCount": 307,
+      "lastUsedAt": 1778328859435
     },
     "gsd:help": {
       "usageCount": 1,
