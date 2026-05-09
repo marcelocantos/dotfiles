@@ -44,9 +44,8 @@
     "desktop-shortcut": 2191,
     "remote-control": 2191
   },
-  "promptQueueUseCount": 4328,
+  "promptQueueUseCount": 4334,
   "btwUseCount": 9,
-  "showExpandedTodos": true,
   "cachedGrowthBookFeatures": {
     "tengu_plugin_official_mkt_git_fallback": true,
     "tengu_prompt_cache_diagnostics": false,
@@ -29832,7 +29831,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/crosshair"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.126",
+  "lastReleaseNotesSeen": "2.1.137",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -30329,7 +30328,7 @@
         "amount_minor_units": null,
         "currency": null
       },
-      "timestamp": 1778321783330
+      "timestamp": 1778331251544
     }
   },
   "migrationVersion": 13,
