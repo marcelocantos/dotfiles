@@ -1,5 +1,5 @@
 {
-  "numStartups": 2195,
+  "numStartups": 2196,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -44,7 +44,7 @@
     "desktop-shortcut": 2191,
     "remote-control": 2191
   },
-  "promptQueueUseCount": 4334,
+  "promptQueueUseCount": 4336,
   "btwUseCount": 9,
   "cachedGrowthBookFeatures": {
     "tengu_plugin_official_mkt_git_fallback": true,
@@ -3208,9 +3208,9 @@
       },
       "hasCompletedProjectOnboarding": true,
       "lastGracefulShutdown": false,
-      "lastHintSessionId": "aff9e990-d2b9-48ff-a952-cab8c683c58c",
-      "lastSessionFirstPrompt": "Claude is complaining about the size of my Claude.md.",
-      "lastSessionModified": 1778324594666
+      "lastHintSessionId": "d81173d3-9e03-4bcb-a8f9-b2884e174ef8",
+      "lastSessionFirstPrompt": "I'm getting a stream of pop-ups asking me to give git permission to access files that it really shouldn't be accessing, like photos. What's up?",
+      "lastSessionModified": 1778332201201
     },
     "/Users/marcelo/work/github.com/marcelocantos/jevon": {
       "allowedTools": [],
@@ -29831,7 +29831,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/crosshair"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.137",
+  "lastReleaseNotesSeen": "2.1.126",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
