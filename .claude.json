@@ -1,5 +1,5 @@
 {
-  "numStartups": 2183,
+  "numStartups": 2184,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -2474,10 +2474,10 @@
         "hook_duration_ms_p99": 303.35
       },
       "exampleFilesGeneratedAt": 1777697290443,
-      "lastGracefulShutdown": true,
-      "lastHintSessionId": "e75fb09d-05b0-4687-bff2-c246af8ac592",
-      "lastSessionFirstPrompt": "Does SQL Lift add any metadata tables to a scanner?",
-      "lastSessionModified": 1777697296064
+      "lastGracefulShutdown": false,
+      "lastHintSessionId": "f02edc5c-aac8-4c86-9b88-5c5ac7dfaa3e",
+      "lastSessionFirstPrompt": "Can SQLift enforce an additive-only policy with schemas?",
+      "lastSessionModified": 1778288816965
     },
     "/Users/marcelo/work/github.com/marcelocantos/skills": {
       "allowedTools": [],
@@ -29777,7 +29777,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/ytt"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.132",
+  "lastReleaseNotesSeen": "2.1.131",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -30274,7 +30274,7 @@
         "amount_minor_units": null,
         "currency": null
       },
-      "timestamp": 1778226972797
+      "timestamp": 1778289048298
     }
   },
   "migrationVersion": 13,
@@ -30303,5 +30303,6 @@
     "tengu_read_dedup_killswitch",
     "tengu_willow_prism"
   ],
-  "seenNotifications": {}
+  "seenNotifications": {},
+  "routineFiredWatermark": "2026-05-09T01:06:45.074Z"
 }
