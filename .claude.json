@@ -44,7 +44,7 @@
     "desktop-shortcut": 2175,
     "remote-control": 2175
   },
-  "promptQueueUseCount": 4289,
+  "promptQueueUseCount": 4294,
   "btwUseCount": 9,
   "cachedGrowthBookFeatures": {
     "tengu_bramble_lintel": 7,
@@ -29781,7 +29781,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/ytt"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.137",
+  "lastReleaseNotesSeen": "2.1.131",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -29824,8 +29824,8 @@
       "lastUsedAt": 1778287756904
     },
     "release": {
-      "usageCount": 303,
-      "lastUsedAt": 1778294936382
+      "usageCount": 304,
+      "lastUsedAt": 1778299860222
     },
     "gsd:help": {
       "usageCount": 1,
