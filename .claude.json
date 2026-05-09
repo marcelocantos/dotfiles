@@ -44,7 +44,7 @@
     "desktop-shortcut": 2191,
     "remote-control": 2191
   },
-  "promptQueueUseCount": 4319,
+  "promptQueueUseCount": 4320,
   "btwUseCount": 9,
   "showExpandedTodos": true,
   "cachedGrowthBookFeatures": {
@@ -29837,7 +29837,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/crosshair"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.126",
+  "lastReleaseNotesSeen": "2.1.131",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -30334,7 +30334,7 @@
         "amount_minor_units": null,
         "currency": null
       },
-      "timestamp": 1778307715359
+      "timestamp": 1778321783330
     }
   },
   "migrationVersion": 13,
