@@ -1,5 +1,5 @@
 {
-  "numStartups": 2197,
+  "numStartups": 2198,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -16,7 +16,7 @@
     "prompt-queue": 17,
     "enter-to-steer-in-relatime": 2191,
     "todo-list": 2191,
-    "ide-upsell-external-terminal": 1926,
+    "ide-upsell-external-terminal": 2198,
     "install-github-app": 2192,
     "install-slack-app": 2192,
     "drag-and-drop-images": 2192,
@@ -33,7 +33,7 @@
     "rename-conversation": 2191,
     "custom-commands": 2144,
     "agent-flag": 2149,
-    "guest-passes": 2195,
+    "guest-passes": 2198,
     "shift-enter-setup": 95,
     "default-permission-mode-config": 2192,
     "overage-promo": 130,
@@ -44,7 +44,7 @@
     "desktop-shortcut": 2191,
     "remote-control": 2191
   },
-  "promptQueueUseCount": 4339,
+  "promptQueueUseCount": 4340,
   "btwUseCount": 9,
   "cachedGrowthBookFeatures": {
     "tengu_auto_mode_config": {
@@ -2094,7 +2094,10 @@
       "disabledMcpServers": [
         "cworkers"
       ],
-      "lastGracefulShutdown": true
+      "lastGracefulShutdown": false,
+      "lastHintSessionId": "b4a8916a-49db-4e83-aced-7d151c192510",
+      "lastSessionFirstPrompt": "The release skill can probably parallelize things a bit more. At the very least, it could be writing documentation while it's doing other things. Go in and see what opportunities there are.",
+      "lastSessionModified": 1778336128195
     },
     "/Users/marcelo/work/github.com/marcelocantos/dais": {
       "allowedTools": [],
@@ -29831,7 +29834,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/crosshair"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.126",
+  "lastReleaseNotesSeen": "2.1.138",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -29870,12 +29873,12 @@
       "lastUsedAt": 1775601360746
     },
     "republish-skills": {
-      "usageCount": 109,
-      "lastUsedAt": 1778287756904
+      "usageCount": 110,
+      "lastUsedAt": 1778336755347
     },
     "release": {
-      "usageCount": 307,
-      "lastUsedAt": 1778328859435
+      "usageCount": 308,
+      "lastUsedAt": 1778335996580
     },
     "gsd:help": {
       "usageCount": 1,
@@ -30035,7 +30038,7 @@
     }
   },
   "feedbackSurveyState": {
-    "lastShownTime": 1778287481559
+    "lastShownTime": 1778337525542
   },
   "claudeCodeFirstTokenDate": "2026-01-25T12:12:55.002215Z",
   "hasShownOpus45Notice": {
@@ -30328,7 +30331,7 @@
         "amount_minor_units": null,
         "currency": null
       },
-      "timestamp": 1778331251544
+      "timestamp": 1778336216202
     }
   },
   "migrationVersion": 13,
