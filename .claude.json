@@ -44,7 +44,7 @@
     "desktop-shortcut": 2191,
     "remote-control": 2191
   },
-  "promptQueueUseCount": 4372,
+  "promptQueueUseCount": 4374,
   "btwUseCount": 9,
   "cachedGrowthBookFeatures": {
     "tengu_review_bughunter_config": {
@@ -29834,7 +29834,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/crosshair"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.126",
+  "lastReleaseNotesSeen": "2.1.137",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -29877,8 +29877,8 @@
       "lastUsedAt": 1778336755347
     },
     "release": {
-      "usageCount": 310,
-      "lastUsedAt": 1778372357384
+      "usageCount": 311,
+      "lastUsedAt": 1778374015856
     },
     "gsd:help": {
       "usageCount": 1,
