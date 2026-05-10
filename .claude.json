@@ -44,9 +44,8 @@
     "desktop-shortcut": 2191,
     "remote-control": 2191
   },
-  "promptQueueUseCount": 4459,
+  "promptQueueUseCount": 4468,
   "btwUseCount": 9,
-  "showExpandedTodos": true,
   "cachedGrowthBookFeatures": {
     "tengu_velvet_ibis": {},
     "tengu_feedback_survey_config": {
@@ -29825,7 +29824,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/crosshair"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.138",
+  "lastReleaseNotesSeen": "2.1.126",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -29928,8 +29927,8 @@
       "lastUsedAt": 1772167215856
     },
     "push": {
-      "usageCount": 243,
-      "lastUsedAt": 1778402850988
+      "usageCount": 244,
+      "lastUsedAt": 1778406606174
     },
     "stash": {
       "usageCount": 67,
@@ -29956,8 +29955,8 @@
       "lastUsedAt": 1772625771549
     },
     "cv": {
-      "usageCount": 488,
-      "lastUsedAt": 1778405025774
+      "usageCount": 489,
+      "lastUsedAt": 1778405732241
     },
     "target": {
       "usageCount": 39,
@@ -30322,7 +30321,7 @@
         "amount_minor_units": null,
         "currency": null
       },
-      "timestamp": 1778399919072
+      "timestamp": 1778406286633
     }
   },
   "migrationVersion": 13,
