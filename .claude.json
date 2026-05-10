@@ -1,5 +1,5 @@
 {
-  "numStartups": 2201,
+  "numStartups": 2202,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -17,9 +17,9 @@
     "enter-to-steer-in-relatime": 2191,
     "todo-list": 2191,
     "ide-upsell-external-terminal": 2198,
-    "install-github-app": 2192,
-    "install-slack-app": 2192,
-    "drag-and-drop-images": 2192,
+    "install-github-app": 2202,
+    "install-slack-app": 2202,
+    "drag-and-drop-images": 2202,
     "paste-images-mac": 2192,
     "double-esc-code-restore": 2192,
     "continue": 2192,
@@ -29,23 +29,24 @@
     "web-app": 2191,
     "mobile-app": 1572,
     "custom-agents": 2191,
-    "permissions": 2192,
+    "permissions": 2202,
     "rename-conversation": 2191,
     "custom-commands": 2144,
     "agent-flag": 2149,
     "guest-passes": 2201,
     "shift-enter-setup": 95,
-    "default-permission-mode-config": 2192,
+    "default-permission-mode-config": 2202,
     "overage-promo": 130,
-    "git-worktrees": 2192,
+    "git-worktrees": 2202,
     "frontend-design-plugin": 2074,
     "feedback-command": 2192,
-    "color-when-multi-clauding": 2192,
+    "color-when-multi-clauding": 2202,
     "desktop-shortcut": 2191,
     "remote-control": 2191
   },
-  "promptQueueUseCount": 4380,
+  "promptQueueUseCount": 4383,
   "btwUseCount": 9,
+  "showExpandedTodos": true,
   "cachedGrowthBookFeatures": {
     "tengu_jade_anvil_4": false,
     "tengu_coral_fern": false,
@@ -12315,13 +12316,13 @@
         "main.go",
         "server.go"
       ],
-      "lastGracefulShutdown": false,
+      "lastGracefulShutdown": true,
       "hasCompletedProjectOnboarding": true,
       "lastCost": 9.340081249999994,
       "lastAPIDuration": 999263,
       "lastAPIDurationWithoutRetries": 998461,
       "lastToolDuration": 97755,
-      "lastDuration": 21371939,
+      "lastDuration": 87749406,
       "lastLinesAdded": 67,
       "lastLinesRemoved": 22,
       "lastTotalInputTokens": 3452,
@@ -12329,8 +12330,8 @@
       "lastTotalCacheCreationInputTokens": 389117,
       "lastTotalCacheReadInputTokens": 10736276,
       "lastTotalWebSearchRequests": 0,
-      "lastFpsAverage": 1.33,
-      "lastFpsLow1Pct": 336.39,
+      "lastFpsAverage": 0.07,
+      "lastFpsLow1Pct": 463.54,
       "lastModelUsage": {
         "claude-haiku-4-5-20251001": {
           "inputTokens": 342,
@@ -12351,27 +12352,20 @@
       },
       "lastSessionId": "fb7b365a-7e10-4c61-9cbd-d60d6630f708",
       "lastSessionMetrics": {
-        "frame_duration_ms_count": 28320,
-        "frame_duration_ms_min": 0.021292000001267297,
-        "frame_duration_ms_max": 25.10025000013411,
-        "frame_duration_ms_avg": 0.41374355373794697,
-        "frame_duration_ms_p50": 0.35822900058701634,
-        "frame_duration_ms_p95": 0.5713063002593112,
-        "frame_duration_ms_p99": 1.5117401795461742,
-        "hook_duration_ms_count": 234,
-        "hook_duration_ms_min": 33,
-        "hook_duration_ms_max": 471,
-        "hook_duration_ms_avg": 46.48290598290598,
-        "hook_duration_ms_p50": 37,
-        "hook_duration_ms_p95": 78.49999999999994,
-        "hook_duration_ms_p99": 173.72999999999976,
-        "pre_tool_hook_duration_ms_count": 102,
-        "pre_tool_hook_duration_ms_min": 34,
-        "pre_tool_hook_duration_ms_max": 154,
-        "pre_tool_hook_duration_ms_avg": 46.96078431372549,
-        "pre_tool_hook_duration_ms_p50": 39,
-        "pre_tool_hook_duration_ms_p95": 87.89999999999998,
-        "pre_tool_hook_duration_ms_p99": 147.87999999999994
+        "frame_duration_ms_count": 4529,
+        "frame_duration_ms_min": 0.23087500035762787,
+        "frame_duration_ms_max": 48.93070799999998,
+        "frame_duration_ms_avg": 0.4734906105029592,
+        "frame_duration_ms_p50": 0.3692704997956753,
+        "frame_duration_ms_p95": 0.6733767000026991,
+        "frame_duration_ms_p99": 2.881839839985477,
+        "hook_duration_ms_count": 1,
+        "hook_duration_ms_min": 51,
+        "hook_duration_ms_max": 51,
+        "hook_duration_ms_avg": 51,
+        "hook_duration_ms_p50": 51,
+        "hook_duration_ms_p95": 51,
+        "hook_duration_ms_p99": 51
       },
       "exampleFilesGeneratedAt": 1778301826774,
       "lastHintSessionId": "fb7b365a-7e10-4c61-9cbd-d60d6630f708",
@@ -29557,7 +29551,7 @@
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": [],
-      "lastGracefulShutdown": true,
+      "lastGracefulShutdown": false,
       "hasCompletedProjectOnboarding": true,
       "lastCost": 0.6566445000000001,
       "lastAPIDuration": 35524,
@@ -29826,7 +29820,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/crosshair"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.137",
+  "lastReleaseNotesSeen": "2.1.138",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -29957,8 +29951,8 @@
       "lastUsedAt": 1772625771549
     },
     "cv": {
-      "usageCount": 485,
-      "lastUsedAt": 1778316043895
+      "usageCount": 487,
+      "lastUsedAt": 1778389597248
     },
     "target": {
       "usageCount": 39,
@@ -30030,7 +30024,7 @@
     }
   },
   "feedbackSurveyState": {
-    "lastShownTime": 1778388795817
+    "lastShownTime": 1778388853120
   },
   "claudeCodeFirstTokenDate": "2026-01-25T12:12:55.002215Z",
   "hasShownOpus45Notice": {
