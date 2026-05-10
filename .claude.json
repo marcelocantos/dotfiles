@@ -44,8 +44,9 @@
     "desktop-shortcut": 2191,
     "remote-control": 2191
   },
-  "promptQueueUseCount": 4443,
+  "promptQueueUseCount": 4458,
   "btwUseCount": 9,
+  "showExpandedTodos": true,
   "cachedGrowthBookFeatures": {
     "tengu_velvet_ibis": {},
     "tengu_feedback_survey_config": {
@@ -29927,8 +29928,8 @@
       "lastUsedAt": 1772167215856
     },
     "push": {
-      "usageCount": 242,
-      "lastUsedAt": 1778395833359
+      "usageCount": 243,
+      "lastUsedAt": 1778402850988
     },
     "stash": {
       "usageCount": 67,
