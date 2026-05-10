@@ -8,8 +8,8 @@
   "hasUsedBackgroundTask": true,
   "tipsHistory": {
     "new-user-warmup": 5,
-    "plan-mode-for-complex-tasks": 2197,
-    "terminal-setup": 2192,
+    "plan-mode-for-complex-tasks": 2202,
+    "terminal-setup": 2202,
     "memory-command": 2191,
     "theme-command": 2190,
     "status-line": 2200,
@@ -21,9 +21,9 @@
     "install-slack-app": 2202,
     "drag-and-drop-images": 2202,
     "paste-images-mac": 2202,
-    "double-esc-code-restore": 2192,
-    "continue": 2192,
-    "shift-tab": 2192,
+    "double-esc-code-restore": 2202,
+    "continue": 2202,
+    "shift-tab": 2202,
     "image-paste": 2191,
     "desktop-app": 2142,
     "web-app": 2191,
@@ -44,9 +44,8 @@
     "desktop-shortcut": 2191,
     "remote-control": 2191
   },
-  "promptQueueUseCount": 4384,
+  "promptQueueUseCount": 4388,
   "btwUseCount": 9,
-  "showExpandedTodos": true,
   "cachedGrowthBookFeatures": {
     "tengu_jade_anvil_4": false,
     "tengu_coral_fern": false,
@@ -29600,7 +29599,10 @@
         "pre_tool_hook_duration_ms_p50": 36.5,
         "pre_tool_hook_duration_ms_p95": 38.65,
         "pre_tool_hook_duration_ms_p99": 38.93
-      }
+      },
+      "lastHintSessionId": "4c9ee9f1-25f9-458a-8bb9-44b253df3f4d",
+      "lastSessionFirstPrompt": "<task-notification> <task-id>bgd5ewpp0</task-id> <tool-use-id>toolu_01Lz4C1MhnFpuMCaN4NtJNjP</tool-use-id> <output-file>/private/tmp/claude-501/-Users-marcelo-work-github-com-marcelocantos-crosshair/4",
+      "lastSessionModified": 1778390882991
     }
   },
   "sonnet45MigrationComplete": true,
@@ -29863,8 +29865,8 @@
       "lastUsedAt": 1778336755347
     },
     "release": {
-      "usageCount": 312,
-      "lastUsedAt": 1778390192431
+      "usageCount": 313,
+      "lastUsedAt": 1778390464774
     },
     "gsd:help": {
       "usageCount": 1,
