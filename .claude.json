@@ -44,8 +44,9 @@
     "desktop-shortcut": 2191,
     "remote-control": 2191
   },
-  "promptQueueUseCount": 4410,
+  "promptQueueUseCount": 4428,
   "btwUseCount": 9,
+  "showExpandedTodos": true,
   "cachedGrowthBookFeatures": {
     "tengu_jade_anvil_4": false,
     "tengu_coral_fern": false,
@@ -29821,7 +29822,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/crosshair"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.126",
+  "lastReleaseNotesSeen": "2.1.138",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -29864,8 +29865,8 @@
       "lastUsedAt": 1778336755347
     },
     "release": {
-      "usageCount": 313,
-      "lastUsedAt": 1778390464774
+      "usageCount": 314,
+      "lastUsedAt": 1778396234484
     },
     "gsd:help": {
       "usageCount": 1,
@@ -29924,8 +29925,8 @@
       "lastUsedAt": 1772167215856
     },
     "push": {
-      "usageCount": 241,
-      "lastUsedAt": 1778391380608
+      "usageCount": 242,
+      "lastUsedAt": 1778395833359
     },
     "stash": {
       "usageCount": 67,
