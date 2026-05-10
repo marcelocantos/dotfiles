@@ -44,8 +44,9 @@
     "desktop-shortcut": 2191,
     "remote-control": 2191
   },
-  "promptQueueUseCount": 4388,
+  "promptQueueUseCount": 4392,
   "btwUseCount": 9,
+  "showExpandedTodos": true,
   "cachedGrowthBookFeatures": {
     "tengu_jade_anvil_4": false,
     "tengu_coral_fern": false,
@@ -3359,9 +3360,9 @@
       },
       "hasCompletedProjectOnboarding": true,
       "lastGracefulShutdown": true,
-      "lastHintSessionId": "592a6404-0052-42a7-b8cc-40608c2a5300",
-      "lastSessionFirstPrompt": "Do the linalg types offer swizzlers (v.xz()) and swizzling constructors (float4{float2{1, 0}, 0, 1}) for vector types?",
-      "lastSessionModified": 1778370920690
+      "lastHintSessionId": "da3c7772-da5d-49ea-9bff-c6658877035e",
+      "lastSessionFirstPrompt": "How would we integrate fastlane?",
+      "lastSessionModified": 1778391656210
     },
     "/Users/marcelo/play/ytc": {
       "allowedTools": [],
@@ -5091,64 +5092,63 @@
       ],
       "exampleFilesGeneratedAt": 1777889208302,
       "hasCompletedProjectOnboarding": true,
-      "lastCost": 37.651670050000014,
-      "lastAPIDuration": 2998709,
-      "lastAPIDurationWithoutRetries": 2996385,
-      "lastToolDuration": 2236868,
-      "lastDuration": 13533687,
-      "lastLinesAdded": 2964,
-      "lastLinesRemoved": 138,
-      "lastTotalInputTokens": 1322,
-      "lastTotalOutputTokens": 156835,
-      "lastTotalCacheCreationInputTokens": 618795,
-      "lastTotalCacheReadInputTokens": 62379631,
+      "lastCost": 30.02650825,
+      "lastAPIDuration": 1753295,
+      "lastAPIDurationWithoutRetries": 1751664,
+      "lastToolDuration": 2154227,
+      "lastDuration": 502085060,
+      "lastLinesAdded": 1112,
+      "lastLinesRemoved": 167,
+      "lastTotalInputTokens": 1545,
+      "lastTotalOutputTokens": 106801,
+      "lastTotalCacheCreationInputTokens": 1097447,
+      "lastTotalCacheReadInputTokens": 40982869,
       "lastTotalWebSearchRequests": 0,
-      "lastFpsAverage": 4.91,
-      "lastFpsLow1Pct": 83.35,
+      "lastFpsAverage": 0.22,
+      "lastFpsLow1Pct": 422.36,
       "lastModelUsage": {
         "claude-haiku-4-5-20251001": {
-          "inputTokens": 411,
-          "outputTokens": 4273,
-          "cacheReadInputTokens": 871896,
-          "cacheCreationInputTokens": 110243,
+          "inputTokens": 360,
+          "outputTokens": 14,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
           "webSearchRequests": 0,
-          "costUSD": 0.24676935000000003
+          "costUSD": 0.00043000000000000004
         },
         "claude-opus-4-7[1m]": {
-          "inputTokens": 884,
-          "outputTokens": 143938,
-          "cacheReadInputTokens": 60720696,
-          "cacheCreationInputTokens": 467624,
+          "inputTokens": 1185,
+          "outputTokens": 106787,
+          "cacheReadInputTokens": 40982869,
+          "cacheCreationInputTokens": 1097447,
           "webSearchRequests": 0,
-          "costUSD": 36.88586800000001
-        },
-        "claude-sonnet-4-6": {
-          "inputTokens": 27,
-          "outputTokens": 8624,
-          "cacheReadInputTokens": 787039,
-          "cacheCreationInputTokens": 40928,
-          "webSearchRequests": 0,
-          "costUSD": 0.5190327
+          "costUSD": 30.026078249999998
         }
       },
-      "lastSessionId": "97a86dc4-7ad9-4f02-ac62-f6413642f731",
+      "lastSessionId": "99f93c5c-0f57-4230-89fd-937534d2dc95",
       "lastSessionMetrics": {
-        "frame_duration_ms_count": 23,
-        "frame_duration_ms_min": 0.1043329999999969,
-        "frame_duration_ms_max": 11.997459000000049,
-        "frame_duration_ms_avg": 0.9062864347825859,
-        "frame_duration_ms_p50": 0.15649999999993724,
-        "frame_duration_ms_p95": 4.222187800000011,
-        "frame_duration_ms_p99": 10.37811226000005,
-        "hook_duration_ms_count": 1,
-        "hook_duration_ms_min": 52,
-        "hook_duration_ms_max": 52,
-        "hook_duration_ms_avg": 52,
-        "hook_duration_ms_p50": 52,
-        "hook_duration_ms_p95": 52,
-        "hook_duration_ms_p99": 52
+        "frame_duration_ms_count": 78102,
+        "frame_duration_ms_min": 0.027457999996840954,
+        "frame_duration_ms_max": 73.2347080000036,
+        "frame_duration_ms_avg": 0.5356135693106263,
+        "frame_duration_ms_p50": 0.5088335275650024,
+        "frame_duration_ms_p95": 0.758268791437149,
+        "frame_duration_ms_p99": 2.0521748346090276,
+        "hook_duration_ms_count": 479,
+        "hook_duration_ms_min": 32,
+        "hook_duration_ms_max": 201,
+        "hook_duration_ms_avg": 40.52400835073069,
+        "hook_duration_ms_p50": 37,
+        "hook_duration_ms_p95": 61,
+        "hook_duration_ms_p99": 107.07999999999959,
+        "pre_tool_hook_duration_ms_count": 228,
+        "pre_tool_hook_duration_ms_min": 34,
+        "pre_tool_hook_duration_ms_max": 201,
+        "pre_tool_hook_duration_ms_avg": 42.57017543859649,
+        "pre_tool_hook_duration_ms_p50": 38,
+        "pre_tool_hook_duration_ms_p95": 63.299999999999955,
+        "pre_tool_hook_duration_ms_p99": 123.70999999999972
       },
-      "lastGracefulShutdown": false,
+      "lastGracefulShutdown": true,
       "lastHintSessionId": "99f93c5c-0f57-4230-89fd-937534d2dc95",
       "lastSessionFirstPrompt": "The sawmill database is massive. Study the factors contributing to its size and suggest ways to cut it down in size.",
       "lastSessionModified": 1777889235023
@@ -29822,7 +29822,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/crosshair"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.138",
+  "lastReleaseNotesSeen": "2.1.126",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -29925,8 +29925,8 @@
       "lastUsedAt": 1772167215856
     },
     "push": {
-      "usageCount": 240,
-      "lastUsedAt": 1778335522082
+      "usageCount": 241,
+      "lastUsedAt": 1778391380608
     },
     "stash": {
       "usageCount": 67,
@@ -29993,8 +29993,8 @@
       "lastUsedAt": 1775914605467
     },
     "schedule": {
-      "usageCount": 3,
-      "lastUsedAt": 1777370473581
+      "usageCount": 4,
+      "lastUsedAt": 1778391210650
     },
     "c": {
       "usageCount": 4,
