@@ -44,7 +44,7 @@
     "desktop-shortcut": 2191,
     "remote-control": 2191
   },
-  "promptQueueUseCount": 4383,
+  "promptQueueUseCount": 4384,
   "btwUseCount": 9,
   "showExpandedTodos": true,
   "cachedGrowthBookFeatures": {
@@ -29863,8 +29863,8 @@
       "lastUsedAt": 1778336755347
     },
     "release": {
-      "usageCount": 311,
-      "lastUsedAt": 1778374015856
+      "usageCount": 312,
+      "lastUsedAt": 1778390192431
     },
     "gsd:help": {
       "usageCount": 1,
