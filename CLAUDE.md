@@ -8,14 +8,6 @@ MacBook Pro M4 Max, 128 GB unified memory, macOS 26 (Tahoe) arm64. **Before** pl
 
 zsh + Oh-My-Zsh + Powerlevel10k. **Before** editing any dotfile (`~/.zshrc`, `~/.zshenv`, `~/.zsh/*.zsh`, `~/.bashrc`, `~/.profile`), modifying aliases or shell functions, or troubleshooting shell startup behaviour, read [`~/.claude/shell-environment.md`](~/.claude/shell-environment.md) for the load order, modular config layout, alias table, and editing rules.
 
-## iOS Testing
-
-**Pippa** (iPad Air 5th gen) is the preferred real device for testing iOS builds.
-- **Hardware UDID** (for xcodebuild/devicectl): `00008103-000D39301A6A201E`
-- **CoreDevice UUID** (for pymobiledevice3): `E1A01EA6-8D77-556C-B18D-D470B2909E87`
-
-Use `xcrun xctrace list devices` to discover the hardware UDID; use `pymobiledevice3 usbmux list` for the CoreDevice UUID. These are different identifier systems for the same physical device.
-
 ## Home Directory Backup
 
 **yadm** manages dotfiles via a bare git repo over `$HOME`. Files are tracked in-place — edit live, then `yadm add`, `yadm commit`, `yadm push`. Remote: `marcelocantos/dotfiles`.
