@@ -26,7 +26,7 @@
     "shift-tab": 2202,
     "image-paste": 2191,
     "desktop-app": 2142,
-    "web-app": 2191,
+    "web-app": 2206,
     "mobile-app": 1572,
     "custom-agents": 2206,
     "permissions": 2202,
@@ -41,8 +41,8 @@
     "frontend-design-plugin": 2074,
     "feedback-command": 2192,
     "color-when-multi-clauding": 2202,
-    "desktop-shortcut": 2191,
-    "remote-control": 2191
+    "desktop-shortcut": 2206,
+    "remote-control": 2206
   },
   "promptQueueUseCount": 4478,
   "btwUseCount": 9,
@@ -29822,7 +29822,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/crosshair"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.131",
+  "lastReleaseNotesSeen": "2.1.138",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
