@@ -1,5 +1,5 @@
 {
-  "numStartups": 2209,
+  "numStartups": 2210,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -11,7 +11,7 @@
     "plan-mode-for-complex-tasks": 2207,
     "terminal-setup": 2202,
     "memory-command": 2206,
-    "theme-command": 2190,
+    "theme-command": 2210,
     "status-line": 2200,
     "prompt-queue": 17,
     "enter-to-steer-in-relatime": 2191,
@@ -44,9 +44,8 @@
     "desktop-shortcut": 2206,
     "remote-control": 2206
   },
-  "promptQueueUseCount": 4483,
+  "promptQueueUseCount": 4484,
   "btwUseCount": 9,
-  "showExpandedTodos": true,
   "cachedGrowthBookFeatures": {
     "tengu_slim_subagent_claudemd": true,
     "tengu_pewter_brook": false,
@@ -3222,9 +3221,9 @@
       },
       "hasCompletedProjectOnboarding": true,
       "lastGracefulShutdown": false,
-      "lastHintSessionId": "31ded257-b2b1-4b2d-8f26-257b072bc888",
-      "lastSessionFirstPrompt": "Remove any mention of the Pippa iPad device from CLAUDE.md and elsewhere.",
-      "lastSessionModified": 1778409493276
+      "lastHintSessionId": "0e223338-bf80-4f8f-aa5d-d5f9cb478fc4",
+      "lastSessionFirstPrompt": "Add @WesRoth to the ytt channel watch list",
+      "lastSessionModified": 1778492446858
     },
     "/Users/marcelo/work/github.com/marcelocantos/jevon": {
       "allowedTools": [],
