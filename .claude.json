@@ -1,5 +1,5 @@
 {
-  "numStartups": 2210,
+  "numStartups": 2211,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -14,8 +14,8 @@
     "theme-command": 2210,
     "status-line": 2200,
     "prompt-queue": 17,
-    "enter-to-steer-in-relatime": 2191,
-    "todo-list": 2191,
+    "enter-to-steer-in-relatime": 2211,
+    "todo-list": 2211,
     "ide-upsell-external-terminal": 2198,
     "install-github-app": 2202,
     "install-slack-app": 2202,
@@ -24,7 +24,7 @@
     "double-esc-code-restore": 2202,
     "continue": 2202,
     "shift-tab": 2202,
-    "image-paste": 2191,
+    "image-paste": 2211,
     "desktop-app": 2142,
     "web-app": 2206,
     "mobile-app": 1572,
@@ -33,7 +33,7 @@
     "rename-conversation": 2206,
     "custom-commands": 2144,
     "agent-flag": 2149,
-    "guest-passes": 2208,
+    "guest-passes": 2211,
     "shift-enter-setup": 95,
     "default-permission-mode-config": 2202,
     "overage-promo": 130,
@@ -44,7 +44,7 @@
     "desktop-shortcut": 2206,
     "remote-control": 2206
   },
-  "promptQueueUseCount": 4485,
+  "promptQueueUseCount": 4487,
   "btwUseCount": 9,
   "cachedGrowthBookFeatures": {
     "tengu_slim_subagent_claudemd": true,
@@ -1279,37 +1279,37 @@
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "hasCompletedProjectOnboarding": true,
-      "lastCost": 53.48114825000005,
-      "lastAPIDuration": 8522642,
-      "lastAPIDurationWithoutRetries": 8520765,
-      "lastToolDuration": 32348,
-      "lastDuration": 7524296,
-      "lastLinesAdded": 12538,
-      "lastLinesRemoved": 11831,
-      "lastTotalInputTokens": 5749,
-      "lastTotalOutputTokens": 610160,
-      "lastTotalCacheCreationInputTokens": 1967187,
-      "lastTotalCacheReadInputTokens": 51810889,
+      "lastCost": 0.5174924999999999,
+      "lastAPIDuration": 45850,
+      "lastAPIDurationWithoutRetries": 45727,
+      "lastToolDuration": 818,
+      "lastDuration": 156006,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 450,
+      "lastTotalOutputTokens": 2083,
+      "lastTotalCacheCreationInputTokens": 60194,
+      "lastTotalCacheReadInputTokens": 178110,
       "lastTotalWebSearchRequests": 0,
       "lastModelUsage": {
+        "claude-opus-4-7[1m]": {
+          "inputTokens": 15,
+          "outputTokens": 2065,
+          "cacheReadInputTokens": 178110,
+          "cacheCreationInputTokens": 60194,
+          "webSearchRequests": 0,
+          "costUSD": 0.5169674999999999
+        },
         "claude-haiku-4-5-20251001": {
-          "inputTokens": 400,
+          "inputTokens": 435,
           "outputTokens": 18,
           "cacheReadInputTokens": 0,
           "cacheCreationInputTokens": 0,
           "webSearchRequests": 0,
-          "costUSD": 0.00049
-        },
-        "claude-opus-4-7[1m]": {
-          "inputTokens": 5349,
-          "outputTokens": 610142,
-          "cacheReadInputTokens": 51810889,
-          "cacheCreationInputTokens": 1967187,
-          "webSearchRequests": 0,
-          "costUSD": 53.48065825000005
+          "costUSD": 0.000525
         }
       },
-      "lastSessionId": "dd465c62-f068-44e0-9581-ea139f7e6699",
+      "lastSessionId": "f2ab8656-5d8b-47be-aa1d-57368156b0e8",
       "exampleFiles": [
         "ge",
         "main.cpp",
@@ -1319,34 +1319,34 @@
       ],
       "exampleFilesGeneratedAt": 1778400559478,
       "lastSessionMetrics": {
-        "frame_duration_ms_count": 50072,
-        "frame_duration_ms_min": 0.03162500000325963,
-        "frame_duration_ms_max": 43.56408299971372,
-        "frame_duration_ms_avg": 0.40354944224357375,
-        "frame_duration_ms_p50": 0.39781250013038516,
-        "frame_duration_ms_p95": 0.6162482500192702,
-        "frame_duration_ms_p99": 1.802586410013027,
-        "hook_duration_ms_count": 1471,
-        "hook_duration_ms_min": 30,
-        "hook_duration_ms_max": 124,
-        "hook_duration_ms_avg": 34.569680489462954,
-        "hook_duration_ms_p50": 34,
-        "hook_duration_ms_p95": 38,
-        "hook_duration_ms_p99": 44,
-        "pre_tool_hook_duration_ms_count": 707,
-        "pre_tool_hook_duration_ms_min": 30,
+        "frame_duration_ms_count": 1272,
+        "frame_duration_ms_min": 0.051041999977314845,
+        "frame_duration_ms_max": 5.570875000000001,
+        "frame_duration_ms_avg": 0.25885441666675035,
+        "frame_duration_ms_p50": 0.22783349999735947,
+        "frame_duration_ms_p95": 0.4428731999963927,
+        "frame_duration_ms_p99": 2.6304481800014026,
+        "hook_duration_ms_count": 15,
+        "hook_duration_ms_min": 35,
+        "hook_duration_ms_max": 125,
+        "hook_duration_ms_avg": 55.2,
+        "hook_duration_ms_p50": 40,
+        "hook_duration_ms_p95": 120.1,
+        "hook_duration_ms_p99": 124.02,
+        "pre_tool_hook_duration_ms_count": 6,
+        "pre_tool_hook_duration_ms_min": 37,
         "pre_tool_hook_duration_ms_max": 125,
-        "pre_tool_hook_duration_ms_avg": 35.26732673267327,
-        "pre_tool_hook_duration_ms_p50": 35,
-        "pre_tool_hook_duration_ms_p95": 38,
-        "pre_tool_hook_duration_ms_p99": 41.93999999999994
+        "pre_tool_hook_duration_ms_avg": 58.833333333333336,
+        "pre_tool_hook_duration_ms_p50": 45,
+        "pre_tool_hook_duration_ms_p95": 109.5,
+        "pre_tool_hook_duration_ms_p99": 121.9
       },
-      "lastFpsAverage": 6.66,
-      "lastFpsLow1Pct": 377.74,
+      "lastFpsAverage": 8.21,
+      "lastFpsLow1Pct": 314.1,
       "lastGracefulShutdown": true,
-      "lastHintSessionId": "dd465c62-f068-44e0-9581-ea139f7e6699",
-      "lastSessionFirstPrompt": "I want to do a systematic audit of the old code base against the new code base. At the end of it, I want a data-driven review that demonstrates that all the code in the old game has been accounted for",
-      "lastSessionModified": 1778400607799
+      "lastHintSessionId": "f2ab8656-5d8b-47be-aa1d-57368156b0e8",
+      "lastSessionFirstPrompt": "File a couple of UI cleanup targets. 1. Replace the green glow image with an SVG. This should allow us to remove the buttons.png asset from the build. 2. I noticed that the original buttons had a thin",
+      "lastSessionModified": 1778501915784
     },
     "/Users/marcelo/work/github.com/squz/bricabrac": {
       "allowedTools": [],
@@ -29901,7 +29901,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/crosshair"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.138",
+  "lastReleaseNotesSeen": "2.1.126",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -30105,7 +30105,7 @@
     }
   },
   "feedbackSurveyState": {
-    "lastShownTime": 1778388853120
+    "lastShownTime": 1778501316527
   },
   "claudeCodeFirstTokenDate": "2026-01-25T12:12:55.002215Z",
   "hasShownOpus45Notice": {
@@ -30398,7 +30398,7 @@
         "amount_minor_units": null,
         "currency": null
       },
-      "timestamp": 1778472866275
+      "timestamp": 1778501505752
     }
   },
   "migrationVersion": 13,
