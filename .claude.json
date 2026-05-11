@@ -44,7 +44,7 @@
     "desktop-shortcut": 2191,
     "remote-control": 2191
   },
-  "promptQueueUseCount": 4477,
+  "promptQueueUseCount": 4478,
   "btwUseCount": 9,
   "cachedGrowthBookFeatures": {
     "tengu_kairos_cron_durable": false,
@@ -30336,7 +30336,7 @@
         "amount_minor_units": null,
         "currency": null
       },
-      "timestamp": 1778421373300
+      "timestamp": 1778458289053
     }
   },
   "migrationVersion": 13,
