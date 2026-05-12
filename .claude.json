@@ -8,8 +8,8 @@
   "hasUsedBackgroundTask": true,
   "tipsHistory": {
     "new-user-warmup": 5,
-    "plan-mode-for-complex-tasks": 2207,
-    "terminal-setup": 2202,
+    "plan-mode-for-complex-tasks": 2212,
+    "terminal-setup": 2212,
     "memory-command": 2206,
     "theme-command": 2210,
     "status-line": 2200,
@@ -18,18 +18,18 @@
     "todo-list": 2211,
     "ide-upsell-external-terminal": 2198,
     "install-github-app": 2212,
-    "install-slack-app": 2202,
-    "drag-and-drop-images": 2202,
-    "paste-images-mac": 2202,
-    "double-esc-code-restore": 2202,
-    "continue": 2202,
-    "shift-tab": 2202,
+    "install-slack-app": 2212,
+    "drag-and-drop-images": 2212,
+    "paste-images-mac": 2212,
+    "double-esc-code-restore": 2212,
+    "continue": 2212,
+    "shift-tab": 2212,
     "image-paste": 2211,
     "desktop-app": 2142,
     "web-app": 2206,
     "mobile-app": 1572,
     "custom-agents": 2206,
-    "permissions": 2202,
+    "permissions": 2212,
     "rename-conversation": 2206,
     "custom-commands": 2144,
     "agent-flag": 2149,
@@ -44,7 +44,7 @@
     "desktop-shortcut": 2206,
     "remote-control": 2206
   },
-  "promptQueueUseCount": 4489,
+  "promptQueueUseCount": 4491,
   "btwUseCount": 9,
   "cachedGrowthBookFeatures": {
     "tengu_vscode_review_upsell": false,
@@ -30108,7 +30108,7 @@
     }
   },
   "feedbackSurveyState": {
-    "lastShownTime": 1778579184272
+    "lastShownTime": 1778580521654
   },
   "claudeCodeFirstTokenDate": "2026-01-25T12:12:55.002215Z",
   "hasShownOpus45Notice": {
