@@ -37,14 +37,14 @@
     "shift-enter-setup": 95,
     "default-permission-mode-config": 2212,
     "overage-promo": 130,
-    "git-worktrees": 2202,
+    "git-worktrees": 2212,
     "frontend-design-plugin": 2074,
     "feedback-command": 2207,
     "color-when-multi-clauding": 2212,
     "desktop-shortcut": 2206,
     "remote-control": 2206
   },
-  "promptQueueUseCount": 4491,
+  "promptQueueUseCount": 4501,
   "btwUseCount": 9,
   "cachedGrowthBookFeatures": {
     "tengu_vscode_review_upsell": false,
@@ -29904,7 +29904,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/crosshair"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.139",
+  "lastReleaseNotesSeen": "2.1.137",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
