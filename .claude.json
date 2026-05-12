@@ -30123,8 +30123,7 @@
   },
   "groveConfigCache": {
     "2909ba71-e527-4e91-9b22-2591e548b2d0": {
-      "grove_enabled": true,
-      "timestamp": 1778472879392
+      "timestamp": 1778566756620
     }
   },
   "passesEligibilityCache": {
@@ -30140,7 +30139,7 @@
         "currency": "AUD"
       },
       "remaining_passes": 3,
-      "timestamp": 1778472880508
+      "timestamp": 1778566755728
     }
   },
   "passesUpsellSeenCount": 4,
