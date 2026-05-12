@@ -1,5 +1,5 @@
 {
-  "numStartups": 2211,
+  "numStartups": 2212,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -17,7 +17,7 @@
     "enter-to-steer-in-relatime": 2211,
     "todo-list": 2211,
     "ide-upsell-external-terminal": 2198,
-    "install-github-app": 2202,
+    "install-github-app": 2212,
     "install-slack-app": 2202,
     "drag-and-drop-images": 2202,
     "paste-images-mac": 2202,
@@ -35,12 +35,12 @@
     "agent-flag": 2149,
     "guest-passes": 2211,
     "shift-enter-setup": 95,
-    "default-permission-mode-config": 2202,
+    "default-permission-mode-config": 2212,
     "overage-promo": 130,
     "git-worktrees": 2202,
     "frontend-design-plugin": 2074,
     "feedback-command": 2207,
-    "color-when-multi-clauding": 2202,
+    "color-when-multi-clauding": 2212,
     "desktop-shortcut": 2206,
     "remote-control": 2206
   },
@@ -3378,10 +3378,11 @@
         "pre_tool_hook_duration_ms_p99": 38
       },
       "hasCompletedProjectOnboarding": true,
-      "lastGracefulShutdown": true,
-      "lastHintSessionId": "da3c7772-da5d-49ea-9bff-c6658877035e",
-      "lastSessionFirstPrompt": "How would we integrate fastlane?",
-      "lastSessionModified": 1778391656210
+      "lastGracefulShutdown": false,
+      "lastHintSessionId": "bfefbf97-f482-4727-a9ff-9e4a3839a434",
+      "lastSessionFirstPrompt": "Recall the conversation that we had regarding automated deployments.",
+      "lastSessionModified": 1778579064291,
+      "lastVersionBase": "2.1.139"
     },
     "/Users/marcelo/play/ytc": {
       "allowedTools": [],
@@ -29690,7 +29691,7 @@
   "opus45MigrationComplete": true,
   "opusProMigrationComplete": true,
   "thinkingMigrationComplete": true,
-  "changelogLastFetched": 1778309209788,
+  "changelogLastFetched": 1778579044904,
   "cachedChromeExtensionInstalled": true,
   "hasCompletedOnboarding": true,
   "lastOnboardingVersion": "2.1.14",
@@ -29903,7 +29904,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/crosshair"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.138",
+  "lastReleaseNotesSeen": "2.1.139",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -30107,7 +30108,7 @@
     }
   },
   "feedbackSurveyState": {
-    "lastShownTime": 1778501316527
+    "lastShownTime": 1778579184272
   },
   "claudeCodeFirstTokenDate": "2026-01-25T12:12:55.002215Z",
   "hasShownOpus45Notice": {
@@ -30411,7 +30412,7 @@
   ],
   "autoPermissionsNotificationCount": 1,
   "remoteControlUpsellSeenCount": 3,
-  "closedIssuesLastChecked": 1778463135539,
+  "closedIssuesLastChecked": 1778579044782,
   "hasResetAutoModeOptInForDefaultOffer": true,
   "hasUsedBackslashReturn": true,
   "cachedExperimentFeatures": [
