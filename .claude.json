@@ -44,8 +44,9 @@
     "desktop-shortcut": 2206,
     "remote-control": 2206
   },
-  "promptQueueUseCount": 4508,
+  "promptQueueUseCount": 4509,
   "btwUseCount": 9,
+  "showExpandedTodos": true,
   "cachedGrowthBookFeatures": {
     "tengu_jade_anvil_4": false,
     "tengu_team_discovery": false,
@@ -29909,7 +29910,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/crosshair"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.131",
+  "lastReleaseNotesSeen": "2.1.138",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -30113,7 +30114,7 @@
     }
   },
   "feedbackSurveyState": {
-    "lastShownTime": 1778580521654
+    "lastShownTime": 1778651903518
   },
   "claudeCodeFirstTokenDate": "2026-01-25T12:12:55.002215Z",
   "hasShownOpus45Notice": {

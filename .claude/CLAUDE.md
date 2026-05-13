@@ -165,6 +165,7 @@ Reach for mnemo when the user references prior work ("that thing we discussed", 
 - When you discover something during work that doesn't belong in the current task — a quality issue, a missing capability, an inconsistency — add it as a target via `bullseye_put` rather than fixing it inline or dropping a bare TODO.
 - If execution reveals that a target is wrong — misframed, incomplete, or pointing at the wrong thing — update the target first, then decide whether to continue, revise, or abandon the current plan. The target is the source of truth, not the plan.
 - Evaluate convergence at decision boundaries (session start, run completion, blockage), not continuously.
+- **Target lifecycle changes ride the PR that triggers them.** A PR that materially affects a target's state should also update `bullseye.yaml` in the same diff: raise a new target you discover during the work, refresh acceptance to match what was actually built, retire when the PR's diff satisfies acceptance. Don't open follow-up "retire X" PRs — the merge IS the lifecycle event. Use `converging` only when work genuinely spans multiple PRs. Exception: when a contributor PR you didn't author achieves a target, retire it in a paired commit on merge.
 - **After achieving a target**: Run `/cv` to pick up the next piece of work.
 - **Session startup**: If the project has a `docs/targets.yaml` or `bullseye.yaml`, call `bullseye_startup_context(cwd)` to load context. Present a brief summary only if there's something actionable.
 
