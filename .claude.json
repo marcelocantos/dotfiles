@@ -29923,7 +29923,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/crosshair"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.139",
+  "lastReleaseNotesSeen": "2.1.126",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -30419,7 +30419,7 @@
         "amount_minor_units": null,
         "currency": null
       },
-      "timestamp": 1778655783236
+      "timestamp": 1778666165450
     }
   },
   "migrationVersion": 13,
@@ -30431,7 +30431,7 @@
   ],
   "autoPermissionsNotificationCount": 1,
   "remoteControlUpsellSeenCount": 3,
-  "closedIssuesLastChecked": 1778579044782,
+  "closedIssuesLastChecked": 1778665751651,
   "hasResetAutoModeOptInForDefaultOffer": true,
   "hasUsedBackslashReturn": true,
   "cachedExperimentFeatures": [
