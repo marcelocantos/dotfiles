@@ -1,5 +1,5 @@
 {
-  "numStartups": 2212,
+  "numStartups": 2213,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -44,9 +44,8 @@
     "desktop-shortcut": 2206,
     "remote-control": 2206
   },
-  "promptQueueUseCount": 4509,
+  "promptQueueUseCount": 4512,
   "btwUseCount": 9,
-  "showExpandedTodos": true,
   "cachedGrowthBookFeatures": {
     "tengu_jade_anvil_4": false,
     "tengu_team_discovery": false,
@@ -3106,9 +3105,9 @@
       "exampleFiles": [
         "test_sqlite.cpp",
         "sqldeep.cpp",
+        "sqldeep_agent_guide.inc",
         "sqldeep.go",
-        "demo.cpp",
-        "test_transpile.cpp"
+        "Package.swift"
       ],
       "hasCompletedProjectOnboarding": true,
       "lastCost": 0.40877074999999996,
@@ -3167,7 +3166,12 @@
         "pre_tool_hook_duration_ms_p95": 37,
         "pre_tool_hook_duration_ms_p99": 37
       },
-      "exampleFilesGeneratedAt": 1775339145843
+      "exampleFilesGeneratedAt": 1778652734441,
+      "lastGracefulShutdown": false,
+      "lastVersionBase": "2.1.140",
+      "lastHintSessionId": "fb8c2a0a-6d93-4080-a7e6-f0b302b48013",
+      "lastSessionFirstPrompt": "I'm worried that partial parsing will continue to bite use for the foreseeable future.",
+      "lastSessionModified": 1778652979469
     },
     "/Users/marcelo/think": {
       "allowedTools": [],
@@ -29697,7 +29701,7 @@
   "opus45MigrationComplete": true,
   "opusProMigrationComplete": true,
   "thinkingMigrationComplete": true,
-  "changelogLastFetched": 1778579044904,
+  "changelogLastFetched": 1778652734356,
   "cachedChromeExtensionInstalled": true,
   "hasCompletedOnboarding": true,
   "lastOnboardingVersion": "2.1.14",
@@ -29953,8 +29957,8 @@
       "lastUsedAt": 1778336755347
     },
     "release": {
-      "usageCount": 318,
-      "lastUsedAt": 1778536989905
+      "usageCount": 319,
+      "lastUsedAt": 1778653124470
     },
     "gsd:help": {
       "usageCount": 1,
@@ -30041,8 +30045,8 @@
       "lastUsedAt": 1772625771549
     },
     "cv": {
-      "usageCount": 490,
-      "lastUsedAt": 1778409012561
+      "usageCount": 491,
+      "lastUsedAt": 1778652780089
     },
     "target": {
       "usageCount": 39,
@@ -30130,7 +30134,7 @@
   },
   "groveConfigCache": {
     "2909ba71-e527-4e91-9b22-2591e548b2d0": {
-      "timestamp": 1778566756620
+      "timestamp": 1778653471334
     }
   },
   "passesEligibilityCache": {
@@ -30146,7 +30150,7 @@
         "currency": "AUD"
       },
       "remaining_passes": 3,
-      "timestamp": 1778566755728
+      "timestamp": 1778653469145
     }
   },
   "passesUpsellSeenCount": 4,
