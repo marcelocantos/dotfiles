@@ -16,7 +16,7 @@
     "prompt-queue": 17,
     "enter-to-steer-in-relatime": 2211,
     "todo-list": 2211,
-    "ide-upsell-external-terminal": 2198,
+    "ide-upsell-external-terminal": 2216,
     "install-github-app": 2212,
     "install-slack-app": 2212,
     "drag-and-drop-images": 2212,
@@ -44,7 +44,7 @@
     "desktop-shortcut": 2206,
     "remote-control": 2206
   },
-  "promptQueueUseCount": 4522,
+  "promptQueueUseCount": 4523,
   "btwUseCount": 9,
   "cachedGrowthBookFeatures": {
     "tengu_jade_anvil_4": false,
@@ -29923,7 +29923,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/crosshair"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.140",
+  "lastReleaseNotesSeen": "2.1.139",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -29966,8 +29966,8 @@
       "lastUsedAt": 1778336755347
     },
     "release": {
-      "usageCount": 319,
-      "lastUsedAt": 1778653124470
+      "usageCount": 320,
+      "lastUsedAt": 1778660534706
     },
     "gsd:help": {
       "usageCount": 1,
@@ -30054,8 +30054,8 @@
       "lastUsedAt": 1772625771549
     },
     "cv": {
-      "usageCount": 491,
-      "lastUsedAt": 1778652780089
+      "usageCount": 492,
+      "lastUsedAt": 1778660505105
     },
     "target": {
       "usageCount": 39,
