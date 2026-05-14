@@ -9,7 +9,7 @@
   "tipsHistory": {
     "new-user-warmup": 5,
     "plan-mode-for-complex-tasks": 2217,
-    "terminal-setup": 2212,
+    "terminal-setup": 2224,
     "memory-command": 2221,
     "theme-command": 2210,
     "status-line": 2200,
@@ -29955,7 +29955,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/crosshair"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.141",
+  "lastReleaseNotesSeen": "2.1.138",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
