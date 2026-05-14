@@ -19,17 +19,17 @@
     "ide-upsell-external-terminal": 2216,
     "install-github-app": 2224,
     "install-slack-app": 2224,
-    "drag-and-drop-images": 2212,
-    "paste-images-mac": 2212,
-    "double-esc-code-restore": 2212,
-    "continue": 2212,
+    "drag-and-drop-images": 2224,
+    "paste-images-mac": 2224,
+    "double-esc-code-restore": 2224,
+    "continue": 2224,
     "shift-tab": 2212,
     "image-paste": 2211,
     "desktop-app": 2142,
     "web-app": 2223,
     "mobile-app": 1572,
     "custom-agents": 2222,
-    "permissions": 2212,
+    "permissions": 2224,
     "rename-conversation": 2221,
     "custom-commands": 2144,
     "agent-flag": 2149,
@@ -30451,7 +30451,7 @@
         "amount_minor_units": null,
         "currency": null
       },
-      "timestamp": 1778733908711
+      "timestamp": 1778737897107
     }
   },
   "migrationVersion": 13,
