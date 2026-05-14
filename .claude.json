@@ -17,7 +17,7 @@
     "enter-to-steer-in-relatime": 2232,
     "todo-list": 2232,
     "ide-upsell-external-terminal": 2229,
-    "install-github-app": 2224,
+    "install-github-app": 2234,
     "install-slack-app": 2224,
     "drag-and-drop-images": 2224,
     "paste-images-mac": 2224,
@@ -29973,7 +29973,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/crosshair"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.126",
+  "lastReleaseNotesSeen": "2.1.140",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
