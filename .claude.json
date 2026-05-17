@@ -45,7 +45,7 @@
     "remote-control": 2287,
     "console-api-key": 2287
   },
-  "promptQueueUseCount": 4653,
+  "promptQueueUseCount": 4666,
   "btwUseCount": 9,
   "cachedGrowthBookFeatures": {
     "tengu_harbor_prism": false,
@@ -30544,7 +30544,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/crosshair"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.143",
+  "lastReleaseNotesSeen": "2.1.138",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
