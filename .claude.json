@@ -45,9 +45,8 @@
     "remote-control": 2287,
     "console-api-key": 2287
   },
-  "promptQueueUseCount": 4673,
+  "promptQueueUseCount": 4676,
   "btwUseCount": 9,
-  "showExpandedTodos": true,
   "cachedGrowthBookFeatures": {
     "tengu_ccr_bridge": true,
     "tengu_velvet_moth": 0.2,
