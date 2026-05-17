@@ -45,7 +45,7 @@
     "remote-control": 2287,
     "console-api-key": 2287
   },
-  "promptQueueUseCount": 4641,
+  "promptQueueUseCount": 4644,
   "btwUseCount": 9,
   "cachedGrowthBookFeatures": {
     "tengu_amber_lynx": false,
@@ -4521,9 +4521,9 @@
       "exampleFilesGeneratedAt": 1778835978663,
       "lastGracefulShutdown": false,
       "lastVersionBase": "2.1.142",
-      "lastHintSessionId": "6c73b8b2-3bfe-47d2-bec9-08602f98e3b6",
-      "lastSessionFirstPrompt": "how goes?",
-      "lastSessionModified": 1778987772108
+      "lastHintSessionId": "85ea1d91-72fe-45b4-8d58-fcdafb61f809",
+      "lastSessionFirstPrompt": "merg",
+      "lastSessionModified": 1778993290003
     },
     "/Users/marcelo/.jevon/jevon": {
       "allowedTools": [],
@@ -30544,7 +30544,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/crosshair"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.140",
+  "lastReleaseNotesSeen": "2.1.138",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -30675,8 +30675,8 @@
       "lastUsedAt": 1772625771549
     },
     "cv": {
-      "usageCount": 504,
-      "lastUsedAt": 1778992741324
+      "usageCount": 505,
+      "lastUsedAt": 1778993138461
     },
     "target": {
       "usageCount": 39,
