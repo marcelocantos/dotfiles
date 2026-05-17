@@ -45,8 +45,9 @@
     "remote-control": 2287,
     "console-api-key": 2287
   },
-  "promptQueueUseCount": 4676,
+  "promptQueueUseCount": 4679,
   "btwUseCount": 9,
+  "showExpandedTodos": true,
   "cachedGrowthBookFeatures": {
     "tengu_ccr_bridge": true,
     "tengu_velvet_moth": 0.2,
@@ -30647,8 +30648,8 @@
       "lastUsedAt": 1772167215856
     },
     "push": {
-      "usageCount": 250,
-      "lastUsedAt": 1779001262720
+      "usageCount": 251,
+      "lastUsedAt": 1779005170609
     },
     "stash": {
       "usageCount": 67,
