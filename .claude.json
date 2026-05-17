@@ -3176,9 +3176,9 @@
       "exampleFilesGeneratedAt": 1778652734441,
       "lastGracefulShutdown": false,
       "lastVersionBase": "2.1.140",
-      "lastHintSessionId": "fb8c2a0a-6d93-4080-a7e6-f0b302b48013",
-      "lastSessionFirstPrompt": "I'm worried that partial parsing will continue to bite use for the foreseeable future.",
-      "lastSessionModified": 1778652979469
+      "lastHintSessionId": "244d9fc0-09f1-4dd2-a702-e2ab5bbb72ef",
+      "lastSessionFirstPrompt": "add xml to deepparser",
+      "lastSessionModified": 1778978228144
     },
     "/Users/marcelo/think": {
       "allowedTools": [],
@@ -29942,7 +29942,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/crosshair"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.138",
+  "lastReleaseNotesSeen": "2.1.142",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
