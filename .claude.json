@@ -45,7 +45,7 @@
     "remote-control": 2287,
     "console-api-key": 2287
   },
-  "promptQueueUseCount": 4682,
+  "promptQueueUseCount": 4687,
   "btwUseCount": 9,
   "cachedGrowthBookFeatures": {
     "tengu_walrus_canteen": false,
@@ -2893,57 +2893,64 @@
         "+page.svelte"
       ],
       "exampleFilesGeneratedAt": 1779087446472,
-      "lastCost": 3.3545515499999996,
-      "lastAPIDuration": 480740,
-      "lastAPIDurationWithoutRetries": 480469,
-      "lastToolDuration": 400647,
-      "lastDuration": 1053584383,
-      "lastLinesAdded": 344,
+      "lastCost": 0.8579652500000001,
+      "lastAPIDuration": 106908,
+      "lastAPIDurationWithoutRetries": 106694,
+      "lastToolDuration": 12841,
+      "lastDuration": 1416346,
+      "lastLinesAdded": 0,
       "lastLinesRemoved": 0,
-      "lastTotalInputTokens": 308,
-      "lastTotalOutputTokens": 26741,
-      "lastTotalCacheCreationInputTokens": 241213,
-      "lastTotalCacheReadInputTokens": 5583517,
+      "lastTotalInputTokens": 2740,
+      "lastTotalOutputTokens": 4687,
+      "lastTotalCacheCreationInputTokens": 32815,
+      "lastTotalCacheReadInputTokens": 1048137,
       "lastTotalWebSearchRequests": 0,
-      "lastFpsAverage": 0.07,
-      "lastFpsLow1Pct": 491.43,
+      "lastFpsAverage": 1.59,
+      "lastFpsLow1Pct": 463.51,
       "lastModelUsage": {
-        "claude-opus-4-7[1m]": {
-          "inputTokens": 225,
-          "outputTokens": 5111,
-          "cacheReadInputTokens": 532506,
-          "cacheCreationInputTokens": 85939,
+        "claude-haiku-4-5-20251001": {
+          "inputTokens": 453,
+          "outputTokens": 13,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0,
           "webSearchRequests": 0,
-          "costUSD": 0.9322717500000001
+          "costUSD": 0.000518
         },
-        "claude-sonnet-4-6": {
-          "inputTokens": 83,
-          "outputTokens": 21630,
-          "cacheReadInputTokens": 5051011,
-          "cacheCreationInputTokens": 155274,
+        "claude-opus-4-7[1m]": {
+          "inputTokens": 2287,
+          "outputTokens": 4674,
+          "cacheReadInputTokens": 1048137,
+          "cacheCreationInputTokens": 32815,
           "webSearchRequests": 0,
-          "costUSD": 2.4222798
+          "costUSD": 0.8574472500000001
         }
       },
-      "lastSessionId": "248da154-850e-477a-9e37-4da35d4e9ff1",
+      "lastSessionId": "40ec2a1e-8453-4967-b31b-0baa3504e044",
       "lastSessionMetrics": {
-        "frame_duration_ms_count": 21320,
-        "frame_duration_ms_min": 0.053165972232818604,
-        "frame_duration_ms_max": 105.08762499690056,
-        "frame_duration_ms_avg": 0.17072632966619405,
-        "frame_duration_ms_p50": 0.1289374998304993,
-        "frame_duration_ms_p95": 0.21840365082025512,
-        "frame_duration_ms_p99": 0.5191781924664962,
-        "hook_duration_ms_count": 1,
-        "hook_duration_ms_min": 53,
-        "hook_duration_ms_max": 53,
-        "hook_duration_ms_avg": 53,
-        "hook_duration_ms_p50": 53,
-        "hook_duration_ms_p95": 53,
-        "hook_duration_ms_p99": 53
+        "frame_duration_ms_count": 2246,
+        "frame_duration_ms_min": 0.04104200000006131,
+        "frame_duration_ms_max": 6.909542000001238,
+        "frame_duration_ms_avg": 0.582397875779166,
+        "frame_duration_ms_p50": 0.5278330000583082,
+        "frame_duration_ms_p95": 1.1895268000487702,
+        "frame_duration_ms_p99": 2.212118089816066,
+        "hook_duration_ms_count": 42,
+        "hook_duration_ms_min": 31,
+        "hook_duration_ms_max": 151,
+        "hook_duration_ms_avg": 48.476190476190474,
+        "hook_duration_ms_p50": 49.5,
+        "hook_duration_ms_p95": 65.74999999999997,
+        "hook_duration_ms_p99": 118.1999999999997,
+        "pre_tool_hook_duration_ms_count": 12,
+        "pre_tool_hook_duration_ms_min": 36,
+        "pre_tool_hook_duration_ms_max": 62,
+        "pre_tool_hook_duration_ms_avg": 52,
+        "pre_tool_hook_duration_ms_p50": 54,
+        "pre_tool_hook_duration_ms_p95": 60.349999999999994,
+        "pre_tool_hook_duration_ms_p99": 61.67
       },
       "hasCompletedProjectOnboarding": true,
-      "lastGracefulShutdown": false,
+      "lastGracefulShutdown": true,
       "lastVersionBase": "2.1.143",
       "lastHintSessionId": "40ec2a1e-8453-4967-b31b-0baa3504e044",
       "lastSessionFirstPrompt": "we're using the vm's sql server for everything now. We can blow away the local containers",
@@ -30548,7 +30555,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/crosshair"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.142",
+  "lastReleaseNotesSeen": "2.1.126",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -30591,8 +30598,8 @@
       "lastUsedAt": 1778847635991
     },
     "release": {
-      "usageCount": 329,
-      "lastUsedAt": 1779087158803
+      "usageCount": 330,
+      "lastUsedAt": 1779089493972
     },
     "gsd:help": {
       "usageCount": 1,
