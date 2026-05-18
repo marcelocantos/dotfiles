@@ -1,5 +1,5 @@
 {
-  "numStartups": 2292,
+  "numStartups": 2294,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -16,7 +16,7 @@
     "prompt-queue": 17,
     "enter-to-steer-in-relatime": 2286,
     "todo-list": 2286,
-    "ide-upsell-external-terminal": 2287,
+    "ide-upsell-external-terminal": 2292,
     "install-github-app": 2287,
     "install-slack-app": 2287,
     "drag-and-drop-images": 2287,
@@ -33,19 +33,19 @@
     "rename-conversation": 2286,
     "custom-commands": 2144,
     "agent-flag": 2149,
-    "guest-passes": 2290,
+    "guest-passes": 2294,
     "shift-enter-setup": 95,
     "default-permission-mode-config": 2286,
     "overage-promo": 130,
     "git-worktrees": 2287,
-    "frontend-design-plugin": 2290,
+    "frontend-design-plugin": 2294,
     "feedback-command": 2287,
     "color-when-multi-clauding": 2287,
     "desktop-shortcut": 2286,
     "remote-control": 2287,
     "console-api-key": 2287
   },
-  "promptQueueUseCount": 4696,
+  "promptQueueUseCount": 4705,
   "btwUseCount": 9,
   "cachedGrowthBookFeatures": {
     "tengu_velvet_ibis": {},
@@ -5371,7 +5371,7 @@
       "lastAPIDuration": 184377,
       "lastAPIDurationWithoutRetries": 184260,
       "lastToolDuration": 2653,
-      "lastDuration": 350501795,
+      "lastDuration": 351664393,
       "lastLinesAdded": 0,
       "lastLinesRemoved": 0,
       "lastTotalInputTokens": 15094,
@@ -5379,8 +5379,8 @@
       "lastTotalCacheCreationInputTokens": 211181,
       "lastTotalCacheReadInputTokens": 843753,
       "lastTotalWebSearchRequests": 0,
-      "lastFpsAverage": 0.01,
-      "lastFpsLow1Pct": 13.99,
+      "lastFpsAverage": 0.02,
+      "lastFpsLow1Pct": 17.07,
       "lastModelUsage": {
         "claude-haiku-4-5-20251001": {
           "inputTokens": 1064,
@@ -5410,19 +5410,19 @@
       "lastSessionId": "ba99db60-a111-4100-87a3-b55d3b8c6dcb",
       "lastSessionMetrics": {
         "hook_duration_ms_count": 1,
-        "hook_duration_ms_min": 41,
-        "hook_duration_ms_max": 41,
-        "hook_duration_ms_avg": 41,
-        "hook_duration_ms_p50": 41,
-        "hook_duration_ms_p95": 41,
-        "hook_duration_ms_p99": 41,
-        "frame_duration_ms_count": 20,
-        "frame_duration_ms_min": 0.15120900000010806,
-        "frame_duration_ms_max": 71.46895899999998,
-        "frame_duration_ms_avg": 4.984358300002205,
-        "frame_duration_ms_p50": 0.1858335000000011,
-        "frame_duration_ms_p95": 21.445956600000056,
-        "frame_duration_ms_p99": 61.46435851999993
+        "hook_duration_ms_min": 38,
+        "hook_duration_ms_max": 38,
+        "hook_duration_ms_avg": 38,
+        "hook_duration_ms_p50": 38,
+        "hook_duration_ms_p95": 38,
+        "hook_duration_ms_p99": 38,
+        "frame_duration_ms_count": 21,
+        "frame_duration_ms_min": 0.14637500000003456,
+        "frame_duration_ms_max": 58.57358299999993,
+        "frame_duration_ms_avg": 3.3533214761962507,
+        "frame_duration_ms_p50": 0.18908299999998235,
+        "frame_duration_ms_p95": 4.678916999999956,
+        "frame_duration_ms_p99": 47.79464979999997
       },
       "lastGracefulShutdown": false,
       "lastVersionBase": "2.1.143",
@@ -12205,7 +12205,7 @@
       "lastAPIDuration": 274701,
       "lastAPIDurationWithoutRetries": 274414,
       "lastToolDuration": 1659,
-      "lastDuration": 378585254,
+      "lastDuration": 379747847,
       "lastLinesAdded": 0,
       "lastLinesRemoved": 0,
       "lastTotalInputTokens": 4700,
@@ -12213,8 +12213,8 @@
       "lastTotalCacheCreationInputTokens": 164141,
       "lastTotalCacheReadInputTokens": 1447194,
       "lastTotalWebSearchRequests": 0,
-      "lastFpsAverage": 0.01,
-      "lastFpsLow1Pct": 15.51,
+      "lastFpsAverage": 0.02,
+      "lastFpsLow1Pct": 20.85,
       "lastModelUsage": {
         "claude-opus-4-7": {
           "inputTokens": 4700,
@@ -12242,7 +12242,7 @@
         "frame_duration_ms_p95": 11.551366400000063,
         "frame_duration_ms_p99": 50.28900647999995
       },
-      "lastGracefulShutdown": true,
+      "lastGracefulShutdown": false,
       "lastVersionBase": "2.1.143",
       "hasCompletedProjectOnboarding": true,
       "lastHintSessionId": "10594db6-e413-4d70-aaf2-e6557865c7e8",
@@ -30571,7 +30571,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/crosshair"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.143",
+  "lastReleaseNotesSeen": "2.1.126",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -30702,8 +30702,8 @@
       "lastUsedAt": 1772625771549
     },
     "cv": {
-      "usageCount": 508,
-      "lastUsedAt": 1779093093216
+      "usageCount": 510,
+      "lastUsedAt": 1779096261952
     },
     "target": {
       "usageCount": 39,
