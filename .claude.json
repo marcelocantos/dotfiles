@@ -45,7 +45,7 @@
     "remote-control": 2372,
     "console-api-key": 2372
   },
-  "promptQueueUseCount": 4823,
+  "promptQueueUseCount": 4840,
   "btwUseCount": 9,
   "showExpandedTodos": true,
   "cachedGrowthBookFeatures": {
@@ -5162,9 +5162,9 @@
       },
       "exampleFilesGeneratedAt": 1778987438291,
       "lastGracefulShutdown": false,
-      "lastHintSessionId": "a3dce768-b34a-4991-8a72-c9dd3ceaa0bf",
-      "lastSessionFirstPrompt": "A day has passed. What's the state of my database backup?",
-      "lastSessionModified": 1779267205831,
+      "lastHintSessionId": "a1596a7c-4e50-4766-aa2e-e5357b32bc99",
+      "lastSessionFirstPrompt": "An update to claudia is available",
+      "lastSessionModified": 1779271776167,
       "lastVersionBase": "2.1.143"
     },
     "/": {
@@ -5681,83 +5681,67 @@
       ],
       "exampleFilesGeneratedAt": 1779267659163,
       "hasCompletedProjectOnboarding": true,
-      "lastCost": 80.79638255000002,
-      "lastAPIDuration": 6445299,
-      "lastAPIDurationWithoutRetries": 6441473,
-      "lastToolDuration": 3664918,
-      "lastDuration": 671160016,
-      "lastLinesAdded": 1870,
-      "lastLinesRemoved": 3427,
-      "lastTotalInputTokens": 8240,
-      "lastTotalOutputTokens": 398644,
-      "lastTotalCacheCreationInputTokens": 2517453,
-      "lastTotalCacheReadInputTokens": 118606944,
+      "lastCost": 15.840897700000001,
+      "lastAPIDuration": 1097601,
+      "lastAPIDurationWithoutRetries": 1096803,
+      "lastToolDuration": 464022,
+      "lastDuration": 4915909,
+      "lastLinesAdded": 1184,
+      "lastLinesRemoved": 13,
+      "lastTotalInputTokens": 3551,
+      "lastTotalOutputTokens": 66140,
+      "lastTotalCacheCreationInputTokens": 463816,
+      "lastTotalCacheReadInputTokens": 26470509,
       "lastTotalWebSearchRequests": 0,
-      "lastFpsAverage": 0.28,
-      "lastFpsLow1Pct": 313.05,
+      "lastFpsAverage": 5.01,
+      "lastFpsLow1Pct": 353.91,
       "lastModelUsage": {
-        "claude-opus-4-7[1m]": {
-          "inputTokens": 1722,
-          "outputTokens": 190924,
-          "cacheReadInputTokens": 67727098,
-          "cacheCreationInputTokens": 1012433,
-          "webSearchRequests": 0,
-          "costUSD": 44.97296525000001
-        },
         "claude-haiku-4-5-20251001": {
-          "inputTokens": 1033,
-          "outputTokens": 40,
-          "cacheReadInputTokens": 0,
-          "cacheCreationInputTokens": 0,
+          "inputTokens": 744,
+          "outputTokens": 4969,
+          "cacheReadInputTokens": 2931402,
+          "cacheCreationInputTokens": 137909,
           "webSearchRequests": 0,
-          "costUSD": 0.001233
+          "costUSD": 0.49111545
         },
-        "claude-opus-4-7": {
-          "inputTokens": 5321,
-          "outputTokens": 141564,
-          "cacheReadInputTokens": 37034505,
-          "cacheCreationInputTokens": 1179827,
+        "claude-opus-4-7[1m]": {
+          "inputTokens": 2807,
+          "outputTokens": 61171,
+          "cacheReadInputTokens": 23539107,
+          "cacheCreationInputTokens": 325907,
           "webSearchRequests": 0,
-          "costUSD": 29.45687625
-        },
-        "claude-sonnet-4-6": {
-          "inputTokens": 164,
-          "outputTokens": 66116,
-          "cacheReadInputTokens": 13845341,
-          "cacheCreationInputTokens": 325193,
-          "webSearchRequests": 0,
-          "costUSD": 6.365308050000001
+          "costUSD": 15.349782249999999
         }
       },
-      "lastSessionId": "1524e815-a9f5-4dd2-aa9f-593e1e84be08",
+      "lastSessionId": "e382f37c-692f-4b95-96f1-c3b5ebf89db0",
       "lastSessionMetrics": {
-        "hook_duration_ms_count": 712,
-        "hook_duration_ms_min": 28,
-        "hook_duration_ms_max": 525,
-        "hook_duration_ms_avg": 47.05477528089887,
-        "hook_duration_ms_p50": 40,
-        "hook_duration_ms_p95": 70,
-        "hook_duration_ms_p99": 126.88999999999999,
-        "frame_duration_ms_count": 63303,
-        "frame_duration_ms_min": 0.04725000262260437,
-        "frame_duration_ms_max": 1021.4059999883175,
-        "frame_duration_ms_avg": 1.6293778154824248,
-        "frame_duration_ms_p50": 1.4005829989910126,
-        "frame_duration_ms_p95": 4.042312459647654,
-        "frame_duration_ms_p99": 5.210888928174972,
-        "pre_tool_hook_duration_ms_count": 329,
-        "pre_tool_hook_duration_ms_min": 33,
-        "pre_tool_hook_duration_ms_max": 526,
-        "pre_tool_hook_duration_ms_avg": 57.30091185410334,
-        "pre_tool_hook_duration_ms_p50": 53,
-        "pre_tool_hook_duration_ms_p95": 72,
-        "pre_tool_hook_duration_ms_p99": 132.31999999999982
+        "frame_duration_ms_count": 24613,
+        "frame_duration_ms_min": 0.05195800000001327,
+        "frame_duration_ms_max": 122.98566700005904,
+        "frame_duration_ms_avg": 0.9366467736171834,
+        "frame_duration_ms_p50": 0.742083000135608,
+        "frame_duration_ms_p95": 1.9488527002045866,
+        "frame_duration_ms_p99": 3.0359129098476827,
+        "hook_duration_ms_count": 308,
+        "hook_duration_ms_min": 30,
+        "hook_duration_ms_max": 89,
+        "hook_duration_ms_avg": 43.58116883116883,
+        "hook_duration_ms_p50": 39,
+        "hook_duration_ms_p95": 66.64999999999998,
+        "hook_duration_ms_p99": 82.86000000000001,
+        "pre_tool_hook_duration_ms_count": 140,
+        "pre_tool_hook_duration_ms_min": 31,
+        "pre_tool_hook_duration_ms_max": 82,
+        "pre_tool_hook_duration_ms_avg": 47.17142857142857,
+        "pre_tool_hook_duration_ms_p50": 45,
+        "pre_tool_hook_duration_ms_p95": 68.04999999999998,
+        "pre_tool_hook_duration_ms_p99": 76.04999999999993
       },
       "enabledMcpServers": [
         "computer-use"
       ],
       "disabledMcpServers": [],
-      "lastGracefulShutdown": false,
+      "lastGracefulShutdown": true,
       "lastHintSessionId": "1524e815-a9f5-4dd2-aa9f-593e1e84be08",
       "lastSessionFirstPrompt": "Are tunnels still a thing?",
       "lastSessionModified": 1778850303177,
@@ -32254,7 +32238,7 @@
       "/Users/marcelo/work/github.com/marcelocantos/crosshair"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.145",
+  "lastReleaseNotesSeen": "2.1.144",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -32293,8 +32277,8 @@
       "lastUsedAt": 1775601360746
     },
     "republish-skills": {
-      "usageCount": 112,
-      "lastUsedAt": 1779191009045
+      "usageCount": 113,
+      "lastUsedAt": 1779272232898
     },
     "release": {
       "usageCount": 340,
@@ -32762,7 +32746,7 @@
   ],
   "autoPermissionsNotificationCount": 1,
   "remoteControlUpsellSeenCount": 3,
-  "closedIssuesLastChecked": 1779185440180,
+  "closedIssuesLastChecked": 1779272118939,
   "hasResetAutoModeOptInForDefaultOffer": true,
   "hasUsedBackslashReturn": true,
   "cachedExperimentFeatures": [
