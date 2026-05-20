@@ -45,8 +45,9 @@
     "remote-control": 2372,
     "console-api-key": 2372
   },
-  "promptQueueUseCount": 4772,
+  "promptQueueUseCount": 4776,
   "btwUseCount": 9,
+  "showExpandedTodos": true,
   "cachedGrowthBookFeatures": {
     "tengu_agent_list_attach": false,
     "tengu_relay_chain_v1": false,
@@ -32264,8 +32265,8 @@
       "lastUsedAt": 1779191009045
     },
     "release": {
-      "usageCount": 338,
-      "lastUsedAt": 1779198347296
+      "usageCount": 339,
+      "lastUsedAt": 1779249945334
     },
     "gsd:help": {
       "usageCount": 1,
@@ -32324,8 +32325,8 @@
       "lastUsedAt": 1772167215856
     },
     "push": {
-      "usageCount": 255,
-      "lastUsedAt": 1779195505312
+      "usageCount": 256,
+      "lastUsedAt": 1779250505230
     },
     "stash": {
       "usageCount": 67,
