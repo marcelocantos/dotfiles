@@ -1,5 +1,5 @@
 {
-  "numStartups": 2387,
+  "numStartups": 2388,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -33,7 +33,7 @@
     "rename-conversation": 2386,
     "custom-commands": 2144,
     "agent-flag": 2149,
-    "guest-passes": 2384,
+    "guest-passes": 2388,
     "shift-enter-setup": 95,
     "default-permission-mode-config": 2381,
     "overage-promo": 130,
@@ -42,12 +42,13 @@
     "feedback-command": 2386,
     "color-when-multi-clauding": 2381,
     "desktop-shortcut": 2386,
-    "remote-control": 2372,
+    "remote-control": 2388,
     "console-api-key": 2372,
     "team-onboarding-share": 2385
   },
-  "promptQueueUseCount": 5032,
+  "promptQueueUseCount": 5050,
   "btwUseCount": 9,
+  "showExpandedTodos": true,
   "cachedGrowthBookFeatures": {
     "tengu_file_write_optimization": true,
     "tengu_cobalt_ridge": true,
@@ -3735,7 +3736,10 @@
       "lastGracefulShutdown": false,
       "lastHintSessionId": "d8b9da52-d009-4d66-b305-cc5fc69c41b9",
       "lastSessionFirstPrompt": "<task-notification> <task-id>bb8vo173q</task-id> <tool-use-id>toolu_013NXUXWBRFk9MYucJTC7s1H</tool-use-id> <output-file>/private/tmp/claude-501/-Users-marcelo-work-github-com-minicadesmobile-mopar-dra",
-      "lastSessionModified": 1777547081268
+      "lastSessionModified": 1777547081268,
+      "enabledMcpServers": [
+        "computer-use"
+      ]
     },
     "/Users/marcelo/work/github.com/marcelocantos/mcpsafe": {
       "allowedTools": [],
@@ -32098,7 +32102,7 @@
         "Modules.mk",
         "InterstitialAds.cs"
       ],
-      "lastGracefulShutdown": true,
+      "lastGracefulShutdown": false,
       "lastVersionBase": "2.1.148",
       "hasUnseenTeamArtifacts": false,
       "exampleFilesGeneratedAt": 1779446566131,
@@ -32356,15 +32360,15 @@
       "/Users/marcelo/work/github.com/minicadesmobile/Minicadeskit"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.148",
+  "lastReleaseNotesSeen": "2.1.143",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
   "officialMarketplaceAutoInstalled": true,
   "skillUsage": {
     "init": {
-      "usageCount": 31,
-      "lastUsedAt": 1775511387795
+      "usageCount": 32,
+      "lastUsedAt": 1779446585764
     },
     "triage": {
       "usageCount": 2,
