@@ -46,7 +46,7 @@
     "console-api-key": 2372,
     "team-onboarding-share": 2385
   },
-  "promptQueueUseCount": 5050,
+  "promptQueueUseCount": 5065,
   "btwUseCount": 9,
   "showExpandedTodos": true,
   "cachedGrowthBookFeatures": {
@@ -32092,7 +32092,7 @@
       "enabledMcpjsonServers": [],
       "disabledMcpjsonServers": [],
       "hasTrustDialogAccepted": false,
-      "projectOnboardingSeenCount": 1,
+      "projectOnboardingSeenCount": 3,
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": [
@@ -32137,7 +32137,8 @@
         "hook_duration_ms_p50": 63,
         "hook_duration_ms_p95": 63,
         "hook_duration_ms_p99": 63
-      }
+      },
+      "hasCompletedProjectOnboarding": true
     }
   },
   "sonnet45MigrationComplete": true,
@@ -32360,7 +32361,7 @@
       "/Users/marcelo/work/github.com/minicadesmobile/Minicadeskit"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.143",
+  "lastReleaseNotesSeen": "2.1.148",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
