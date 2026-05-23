@@ -1,5 +1,5 @@
 {
-  "numStartups": 2405,
+  "numStartups": 2406,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -46,7 +46,7 @@
     "console-api-key": 2372,
     "team-onboarding-share": 2404
   },
-  "promptQueueUseCount": 5167,
+  "promptQueueUseCount": 5168,
   "btwUseCount": 9,
   "cachedGrowthBookFeatures": {
     "tengu_ccr_bridge": true,
@@ -2183,7 +2183,7 @@
       "lastHintSessionId": "40d17f2c-da29-466a-842b-7b51acdd1ad9",
       "lastSessionFirstPrompt": "what's up with git? [Image #1]",
       "lastSessionModified": 1778985818832,
-      "lastVersionBase": "2.1.148"
+      "lastVersionBase": "2.1.150"
     },
     "/Users/marcelo/work/github.com/marcelocantos/dais": {
       "allowedTools": [],
@@ -32156,7 +32156,7 @@
   "opus45MigrationComplete": true,
   "opusProMigrationComplete": true,
   "thinkingMigrationComplete": true,
-  "changelogLastFetched": 1779499292298,
+  "changelogLastFetched": 1779533945396,
   "cachedChromeExtensionInstalled": true,
   "hasCompletedOnboarding": true,
   "lastOnboardingVersion": "2.1.14",
@@ -32372,7 +32372,7 @@
       "/Users/marcelo/work/github.com/minicadesmobile/Minicadeskit"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.149",
+  "lastReleaseNotesSeen": "2.1.150",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -32563,8 +32563,8 @@
       "lastUsedAt": 1776981204403
     },
     "loop": {
-      "usageCount": 20,
-      "lastUsedAt": 1779523536176
+      "usageCount": 21,
+      "lastUsedAt": 1779528187174
     },
     "pr-audit": {
       "usageCount": 3,
@@ -32593,7 +32593,7 @@
   "groveConfigCache": {
     "2909ba71-e527-4e91-9b22-2591e548b2d0": {
       "grove_enabled": true,
-      "timestamp": 1779445587627
+      "timestamp": 1779533161940
     }
   },
   "passesEligibilityCache": {
@@ -32609,7 +32609,7 @@
         "currency": "AUD"
       },
       "remaining_passes": 3,
-      "timestamp": 1779445588172
+      "timestamp": 1779533162388
     }
   },
   "passesUpsellSeenCount": 4,
@@ -32881,7 +32881,7 @@
   ],
   "autoPermissionsNotificationCount": 1,
   "remoteControlUpsellSeenCount": 3,
-  "closedIssuesLastChecked": 1779445899303,
+  "closedIssuesLastChecked": 1779533945995,
   "hasResetAutoModeOptInForDefaultOffer": true,
   "hasUsedBackslashReturn": true,
   "cachedExperimentFeatures": [
