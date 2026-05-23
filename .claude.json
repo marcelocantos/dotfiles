@@ -1,5 +1,5 @@
 {
-  "numStartups": 2398,
+  "numStartups": 2399,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -17,36 +17,36 @@
     "enter-to-steer-in-relatime": 2396,
     "todo-list": 2396,
     "ide-upsell-external-terminal": 2388,
-    "install-github-app": 2381,
-    "install-slack-app": 2380,
-    "drag-and-drop-images": 2380,
-    "paste-images-mac": 2380,
-    "double-esc-code-restore": 2381,
-    "continue": 2381,
-    "shift-tab": 2381,
-    "image-paste": 2371,
+    "install-github-app": 2399,
+    "install-slack-app": 2398,
+    "drag-and-drop-images": 2398,
+    "paste-images-mac": 2398,
+    "double-esc-code-restore": 2399,
+    "continue": 2399,
+    "shift-tab": 2399,
+    "image-paste": 2398,
     "desktop-app": 2142,
     "web-app": 2387,
     "mobile-app": 1572,
     "custom-agents": 2386,
-    "permissions": 2380,
+    "permissions": 2398,
     "rename-conversation": 2386,
     "custom-commands": 2144,
     "agent-flag": 2149,
     "guest-passes": 2388,
     "shift-enter-setup": 95,
-    "default-permission-mode-config": 2381,
+    "default-permission-mode-config": 2399,
     "overage-promo": 130,
     "git-worktrees": 2381,
     "frontend-design-plugin": 2388,
     "feedback-command": 2386,
-    "color-when-multi-clauding": 2381,
+    "color-when-multi-clauding": 2399,
     "desktop-shortcut": 2386,
     "remote-control": 2388,
     "console-api-key": 2372,
-    "team-onboarding-share": 2385
+    "team-onboarding-share": 2399
   },
-  "promptQueueUseCount": 5137,
+  "promptQueueUseCount": 5139,
   "btwUseCount": 9,
   "showExpandedTodos": true,
   "cachedGrowthBookFeatures": {
@@ -32436,8 +32436,8 @@
       "lastUsedAt": 1779272232898
     },
     "release": {
-      "usageCount": 342,
-      "lastUsedAt": 1779276369263
+      "usageCount": 343,
+      "lastUsedAt": 1779501292644
     },
     "gsd:help": {
       "usageCount": 1,
@@ -32584,8 +32584,8 @@
       "lastUsedAt": 1776981204403
     },
     "loop": {
-      "usageCount": 8,
-      "lastUsedAt": 1779269781885
+      "usageCount": 10,
+      "lastUsedAt": 1779502368550
     },
     "pr-audit": {
       "usageCount": 3,
