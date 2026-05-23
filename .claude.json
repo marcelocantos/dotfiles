@@ -1,5 +1,5 @@
 {
-  "numStartups": 2399,
+  "numStartups": 2404,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -8,11 +8,11 @@
   "hasUsedBackgroundTask": true,
   "tipsHistory": {
     "new-user-warmup": 5,
-    "plan-mode-for-complex-tasks": 2386,
+    "plan-mode-for-complex-tasks": 2404,
     "terminal-setup": 2385,
-    "memory-command": 2386,
+    "memory-command": 2401,
     "theme-command": 2389,
-    "status-line": 2376,
+    "status-line": 2401,
     "prompt-queue": 17,
     "enter-to-steer-in-relatime": 2396,
     "todo-list": 2396,
@@ -26,29 +26,28 @@
     "shift-tab": 2399,
     "image-paste": 2398,
     "desktop-app": 2142,
-    "web-app": 2387,
+    "web-app": 2402,
     "mobile-app": 1572,
-    "custom-agents": 2386,
+    "custom-agents": 2402,
     "permissions": 2398,
-    "rename-conversation": 2386,
+    "rename-conversation": 2401,
     "custom-commands": 2144,
     "agent-flag": 2149,
-    "guest-passes": 2388,
+    "guest-passes": 2402,
     "shift-enter-setup": 95,
     "default-permission-mode-config": 2399,
     "overage-promo": 130,
-    "git-worktrees": 2381,
+    "git-worktrees": 2399,
     "frontend-design-plugin": 2388,
-    "feedback-command": 2386,
+    "feedback-command": 2402,
     "color-when-multi-clauding": 2399,
-    "desktop-shortcut": 2386,
-    "remote-control": 2388,
+    "desktop-shortcut": 2402,
+    "remote-control": 2404,
     "console-api-key": 2372,
     "team-onboarding-share": 2399
   },
-  "promptQueueUseCount": 5139,
+  "promptQueueUseCount": 5146,
   "btwUseCount": 9,
-  "showExpandedTodos": true,
   "cachedGrowthBookFeatures": {
     "tengu_cobalt_wren": false,
     "tengu_porch_bell_9f": "",
@@ -1400,11 +1399,12 @@
       },
       "lastFpsAverage": 4.3,
       "lastFpsLow1Pct": 481.99,
-      "lastGracefulShutdown": true,
+      "lastGracefulShutdown": false,
       "lastHintSessionId": "f2ab8656-5d8b-47be-aa1d-57368156b0e8",
       "lastSessionFirstPrompt": "File a couple of UI cleanup targets. 1. Replace the green glow image with an SVG. This should allow us to remove the buttons.png asset from the build. 2. I noticed that the original buttons had a thin",
       "lastSessionModified": 1778501915784,
-      "lastVersionBase": "2.1.145"
+      "lastVersionBase": "2.1.149",
+      "hasUnseenTeamArtifacts": false
     },
     "/Users/marcelo/work/github.com/squz/bricabrac": {
       "allowedTools": [],
@@ -3030,11 +3030,12 @@
         "pre_tool_hook_duration_ms_p99": 277.3599999999997
       },
       "hasCompletedProjectOnboarding": true,
-      "lastGracefulShutdown": true,
-      "lastVersionBase": "2.1.144",
+      "lastGracefulShutdown": false,
+      "lastVersionBase": "2.1.149",
       "lastHintSessionId": "40ec2a1e-8453-4967-b31b-0baa3504e044",
       "lastSessionFirstPrompt": "we're using the vm's sql server for everything now. We can blow away the local containers",
-      "lastSessionModified": 1779087471523
+      "lastSessionModified": 1779087471523,
+      "hasUnseenTeamArtifacts": false
     },
     "/Users/marcelo/work/github.com/Health-Management-Systems/hms.bak": {
       "allowedTools": [],
@@ -3423,10 +3424,10 @@
         "Module.mk",
         "player_core.cpp",
         "WireSession.cpp",
-        "daemon.go",
-        "main.mm"
+        "SessionHost.h",
+        "daemon.go"
       ],
-      "exampleFilesGeneratedAt": 1778064718432,
+      "exampleFilesGeneratedAt": 1779503060650,
       "lastCost": 166.01436635000002,
       "lastAPIDuration": 6647171,
       "lastAPIDurationWithoutRetries": 6642385,
@@ -3484,11 +3485,12 @@
         "pre_tool_hook_duration_ms_p99": 169.0200000000001
       },
       "hasCompletedProjectOnboarding": true,
-      "lastGracefulShutdown": true,
+      "lastGracefulShutdown": false,
       "lastHintSessionId": "bfefbf97-f482-4727-a9ff-9e4a3839a434",
       "lastSessionFirstPrompt": "Recall the conversation that we had regarding automated deployments.",
       "lastSessionModified": 1778579064291,
-      "lastVersionBase": "2.1.139"
+      "lastVersionBase": "2.1.149",
+      "hasUnseenTeamArtifacts": false
     },
     "/Users/marcelo/play/ytc": {
       "allowedTools": [],
@@ -12535,69 +12537,46 @@
         "server.go",
         "main.go"
       ],
-      "lastGracefulShutdown": true,
+      "lastGracefulShutdown": false,
       "hasCompletedProjectOnboarding": true,
-      "lastCost": 259.05484599999966,
-      "lastAPIDuration": 11966672,
-      "lastAPIDurationWithoutRetries": 11956386,
-      "lastToolDuration": 6361828,
-      "lastDuration": 172032601,
-      "lastLinesAdded": 3082,
-      "lastLinesRemoved": 964,
-      "lastTotalInputTokens": 23515,
-      "lastTotalOutputTokens": 540394,
-      "lastTotalCacheCreationInputTokens": 7596854,
-      "lastTotalCacheReadInputTokens": 448448813,
+      "lastCost": 0,
+      "lastAPIDuration": 0,
+      "lastAPIDurationWithoutRetries": 0,
+      "lastToolDuration": 0,
+      "lastDuration": 2197,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": 0,
+      "lastTotalOutputTokens": 0,
+      "lastTotalCacheCreationInputTokens": 0,
+      "lastTotalCacheReadInputTokens": 0,
       "lastTotalWebSearchRequests": 0,
-      "lastFpsAverage": 3.78,
-      "lastFpsLow1Pct": 293.64,
-      "lastModelUsage": {
-        "claude-opus-4-7[1m]": {
-          "inputTokens": 22918,
-          "outputTokens": 525469,
-          "cacheReadInputTokens": 448448813,
-          "cacheCreationInputTokens": 2401567,
-          "webSearchRequests": 0,
-          "costUSD": 252.4855152499998
-        },
-        "claude-haiku-4-5-20251001": {
-          "inputTokens": 597,
-          "outputTokens": 14925,
-          "cacheReadInputTokens": 0,
-          "cacheCreationInputTokens": 5195287,
-          "webSearchRequests": 0,
-          "costUSD": 6.5693307500000016
-        }
-      },
-      "lastSessionId": "b0e13e18-3a0c-4cc5-840f-2c76234039f1",
+      "lastFpsAverage": 9.61,
+      "lastFpsLow1Pct": 426.55,
+      "lastModelUsage": {},
+      "lastSessionId": "5b6da45c-7b37-4be4-a7ff-6e9604591ad5",
       "lastSessionMetrics": {
-        "frame_duration_ms_count": 366363,
-        "frame_duration_ms_min": 0.03454200178384781,
-        "frame_duration_ms_max": 2969.6285830000415,
-        "frame_duration_ms_avg": 1.111878745684055,
-        "frame_duration_ms_p50": 0.8645000047981739,
-        "frame_duration_ms_p95": 2.742606151662765,
-        "frame_duration_ms_p99": 3.4459476593136777,
-        "hook_duration_ms_count": 1850,
-        "hook_duration_ms_min": 28,
-        "hook_duration_ms_max": 12224,
-        "hook_duration_ms_avg": 216.67297297297299,
-        "hook_duration_ms_p50": 39,
-        "hook_duration_ms_p95": 95.84999999999991,
-        "hook_duration_ms_p99": 6186.559999999996,
-        "pre_tool_hook_duration_ms_count": 830,
-        "pre_tool_hook_duration_ms_min": 31,
-        "pre_tool_hook_duration_ms_max": 1568,
-        "pre_tool_hook_duration_ms_avg": 56.74096385542169,
-        "pre_tool_hook_duration_ms_p50": 45,
-        "pre_tool_hook_duration_ms_p95": 75.54999999999995,
-        "pre_tool_hook_duration_ms_p99": 365.9800000000014
+        "frame_duration_ms_count": 11,
+        "frame_duration_ms_min": 0.05629199999998491,
+        "frame_duration_ms_max": 2.3444170000000213,
+        "frame_duration_ms_avg": 0.3924925454545742,
+        "frame_duration_ms_p50": 0.1420419999999467,
+        "frame_duration_ms_p95": 1.4517290000000003,
+        "frame_duration_ms_p99": 2.1658794000000174,
+        "hook_duration_ms_count": 1,
+        "hook_duration_ms_min": 58,
+        "hook_duration_ms_max": 58,
+        "hook_duration_ms_avg": 58,
+        "hook_duration_ms_p50": 58,
+        "hook_duration_ms_p95": 58,
+        "hook_duration_ms_p99": 58
       },
       "exampleFilesGeneratedAt": 1779191888966,
       "lastHintSessionId": "e1eb50eb-2b52-4645-a21e-02686295e63f",
       "lastSessionFirstPrompt": "Why is PMD3 still in the picture?",
       "lastSessionModified": 1778998689375,
-      "lastVersionBase": "2.1.144"
+      "lastVersionBase": "2.1.149",
+      "hasUnseenTeamArtifacts": false
     },
     "/private/var/folders/fn/8ffdcmbd13lfwzsm2h93xrx00000gn/T/TestCrashSurvival2452682639/001": {
       "allowedTools": [],
@@ -32436,8 +32415,8 @@
       "lastUsedAt": 1779272232898
     },
     "release": {
-      "usageCount": 343,
-      "lastUsedAt": 1779501292644
+      "usageCount": 344,
+      "lastUsedAt": 1779502992330
     },
     "gsd:help": {
       "usageCount": 1,
@@ -32524,8 +32503,8 @@
       "lastUsedAt": 1772625771549
     },
     "cv": {
-      "usageCount": 522,
-      "lastUsedAt": 1779364289922
+      "usageCount": 523,
+      "lastUsedAt": 1779503220439
     },
     "target": {
       "usageCount": 39,
@@ -32584,8 +32563,8 @@
       "lastUsedAt": 1776981204403
     },
     "loop": {
-      "usageCount": 10,
-      "lastUsedAt": 1779502368550
+      "usageCount": 11,
+      "lastUsedAt": 1779504060657
     },
     "pr-audit": {
       "usageCount": 3,
