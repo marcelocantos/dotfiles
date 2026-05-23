@@ -46,7 +46,7 @@
     "console-api-key": 2372,
     "team-onboarding-share": 2404
   },
-  "promptQueueUseCount": 5154,
+  "promptQueueUseCount": 5161,
   "btwUseCount": 9,
   "cachedGrowthBookFeatures": {
     "tengu_ccr_bridge": true,
@@ -32415,8 +32415,8 @@
       "lastUsedAt": 1779272232898
     },
     "release": {
-      "usageCount": 345,
-      "lastUsedAt": 1779504951761
+      "usageCount": 346,
+      "lastUsedAt": 1779507836526
     },
     "gsd:help": {
       "usageCount": 1,
@@ -32563,8 +32563,8 @@
       "lastUsedAt": 1776981204403
     },
     "loop": {
-      "usageCount": 13,
-      "lastUsedAt": 1779505920035
+      "usageCount": 14,
+      "lastUsedAt": 1779506100627
     },
     "pr-audit": {
       "usageCount": 3,
@@ -32576,7 +32576,7 @@
     }
   },
   "feedbackSurveyState": {
-    "lastShownTime": 1779361002894
+    "lastShownTime": 1779507417581
   },
   "claudeCodeFirstTokenDate": "2026-01-25T12:12:55.002215Z",
   "hasShownOpus45Notice": {
