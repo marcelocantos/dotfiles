@@ -48,7 +48,6 @@
   },
   "promptQueueUseCount": 5184,
   "btwUseCount": 9,
-  "showExpandedTodos": true,
   "cachedGrowthBookFeatures": {
     "tengu_ccr_bridge": true,
     "tengu_streaming_tool_execution2": true,
@@ -32615,7 +32614,12 @@
   },
   "passesUpsellSeenCount": 4,
   "passesLastSeenCampaign": "claude_code_guest_pass",
-  "clientDataCache": null,
+  "clientDataCache": {
+    "simple_system_prompt": {
+      "claude-opus-4-7": true
+    },
+    "tengu_fennel_kite_model": "claude-opus-4-7"
+  },
   "lspRecommendationIgnoredCount": 5,
   "hasVisitedPasses": false,
   "passesLastSeenRemaining": 3,
