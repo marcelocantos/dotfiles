@@ -46,7 +46,7 @@
     "console-api-key": 2372,
     "team-onboarding-share": 2404
   },
-  "promptQueueUseCount": 5161,
+  "promptQueueUseCount": 5162,
   "btwUseCount": 9,
   "cachedGrowthBookFeatures": {
     "tengu_ccr_bridge": true,
@@ -32563,8 +32563,8 @@
       "lastUsedAt": 1776981204403
     },
     "loop": {
-      "usageCount": 14,
-      "lastUsedAt": 1779506100627
+      "usageCount": 15,
+      "lastUsedAt": 1779507960152
     },
     "pr-audit": {
       "usageCount": 3,
