@@ -46,8 +46,9 @@
     "console-api-key": 2372,
     "team-onboarding-share": 2410
   },
-  "promptQueueUseCount": 5221,
+  "promptQueueUseCount": 5225,
   "btwUseCount": 9,
+  "showExpandedTodos": true,
   "cachedGrowthBookFeatures": {
     "tengu_hawthorn_steeple": false,
     "tengu_grey_step2": {
@@ -32476,8 +32477,8 @@
       "lastUsedAt": 1772167215856
     },
     "push": {
-      "usageCount": 258,
-      "lastUsedAt": 1779368476071
+      "usageCount": 259,
+      "lastUsedAt": 1779613636809
     },
     "stash": {
       "usageCount": 67,
@@ -32615,12 +32616,7 @@
   },
   "passesUpsellSeenCount": 4,
   "passesLastSeenCampaign": "claude_code_guest_pass",
-  "clientDataCache": {
-    "simple_system_prompt": {
-      "claude-opus-4-7": true
-    },
-    "tengu_fennel_kite_model": "claude-opus-4-7"
-  },
+  "clientDataCache": null,
   "lspRecommendationIgnoredCount": 5,
   "hasVisitedPasses": false,
   "passesLastSeenRemaining": 3,
