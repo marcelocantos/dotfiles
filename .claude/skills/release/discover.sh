@@ -29,7 +29,9 @@ detect_licence() {
     [[ -f "$f" ]] || { echo "unknown"; return; }
     local head
     head=$(head -40 "$f" 2>/dev/null) || { echo "unknown"; return; }
-    if echo "$head" | grep -qi "Apache License.*2\.0\|Apache-2\.0"; then
+    # "Apache License" and "Version 2.0" sit on separate lines in the canonical
+    # text, so match either phrase on its own line (grep is line-oriented).
+    if echo "$head" | grep -qi "Apache License\|Apache-2\.0"; then
         echo "Apache-2.0"
     elif echo "$head" | grep -qi "Boost Software License\|BSL-1\.0"; then
         echo "BSL-1.0"
@@ -467,6 +469,42 @@ for f in NOTICES NOTICES.md NOTICE NOTICE.md THIRD_PARTY THIRD_PARTY.md THIRD-PA
 done
 if [[ "$found_notices" == false ]]; then
     echo "missing"
+fi
+
+# ---------------------------------------------------------------------------
+# 13b. Project's own root licence file + declared SPDX (for the own-licence gate)
+# ---------------------------------------------------------------------------
+echo "# root_licence"
+root_lic_file=""
+for f in LICENSE LICENSE.txt LICENSE.md LICENCE LICENCE.txt LICENCE.md COPYING COPYING.txt; do
+    if [[ -f "$f" ]]; then
+        root_lic_file="$f"
+        break
+    fi
+done
+if [[ -n "$root_lic_file" ]]; then
+    echo "file: $root_lic_file"
+    echo "detected_type: $(detect_licence "$root_lic_file")"
+else
+    echo "file: missing"
+fi
+
+# Declared SPDX from common manifests (first hit wins).
+declared_spdx=""
+if [[ -f Cargo.toml ]]; then
+    declared_spdx=$(grep -m1 -E '^[[:space:]]*license[[:space:]]*=' Cargo.toml | sed -E 's/.*=[[:space:]]*"?([^"]*)"?.*/\1/' | tr -d ' ')
+fi
+if [[ -z "$declared_spdx" && -f package.json ]]; then
+    declared_spdx=$(grep -m1 -E '"license"\s*:' package.json | sed -E 's/.*:\s*"([^"]*)".*/\1/')
+fi
+if [[ -z "$declared_spdx" && -f pyproject.toml ]]; then
+    declared_spdx=$(grep -m1 -E '^[[:space:]]*license[[:space:]]*=' pyproject.toml | sed -E 's/.*=[[:space:]]*"?([^"]*)"?.*/\1/' | tr -d ' ')
+fi
+echo "declared_spdx: ${declared_spdx:-none}"
+
+# README link to a licence file that doesn't resolve (dead link tell).
+if [[ -f README.md ]] && grep -qiE '\]\(\.?/?(LICENSE|LICENCE|COPYING)' README.md 2>/dev/null && [[ -z "$root_lic_file" ]]; then
+    echo "readme_licence_link: dead (README links to a licence file that does not exist)"
 fi
 
 # ---------------------------------------------------------------------------
