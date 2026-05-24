@@ -32373,7 +32373,7 @@
       "/Users/marcelo/work/github.com/minicadesmobile/Minicadeskit"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.150",
+  "lastReleaseNotesSeen": "2.1.149",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
@@ -32615,7 +32615,12 @@
   },
   "passesUpsellSeenCount": 4,
   "passesLastSeenCampaign": "claude_code_guest_pass",
-  "clientDataCache": null,
+  "clientDataCache": {
+    "simple_system_prompt": {
+      "claude-opus-4-7": true
+    },
+    "tengu_fennel_kite_model": "claude-opus-4-7"
+  },
   "lspRecommendationIgnoredCount": 5,
   "hasVisitedPasses": false,
   "passesLastSeenRemaining": 3,
