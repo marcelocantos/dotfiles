@@ -1,5 +1,5 @@
 {
-  "numStartups": 2411,
+  "numStartups": 2412,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -46,7 +46,7 @@
     "console-api-key": 2372,
     "team-onboarding-share": 2410
   },
-  "promptQueueUseCount": 5220,
+  "promptQueueUseCount": 5221,
   "btwUseCount": 9,
   "cachedGrowthBookFeatures": {
     "tengu_hawthorn_steeple": false,
@@ -3474,7 +3474,7 @@
       "lastHintSessionId": "bfefbf97-f482-4727-a9ff-9e4a3839a434",
       "lastSessionFirstPrompt": "Recall the conversation that we had regarding automated deployments.",
       "lastSessionModified": 1778579064291,
-      "lastVersionBase": "2.1.149",
+      "lastVersionBase": "2.1.150",
       "hasUnseenTeamArtifacts": false
     },
     "/Users/marcelo/play/ytc": {
@@ -32504,8 +32504,8 @@
       "lastUsedAt": 1772625771549
     },
     "cv": {
-      "usageCount": 527,
-      "lastUsedAt": 1779587706851
+      "usageCount": 528,
+      "lastUsedAt": 1779612809514
     },
     "target": {
       "usageCount": 39,
@@ -32615,7 +32615,12 @@
   },
   "passesUpsellSeenCount": 4,
   "passesLastSeenCampaign": "claude_code_guest_pass",
-  "clientDataCache": null,
+  "clientDataCache": {
+    "simple_system_prompt": {
+      "claude-opus-4-7": true
+    },
+    "tengu_fennel_kite_model": "claude-opus-4-7"
+  },
   "lspRecommendationIgnoredCount": 5,
   "hasVisitedPasses": false,
   "passesLastSeenRemaining": 3,
