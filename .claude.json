@@ -46,7 +46,7 @@
     "console-api-key": 2372,
     "team-onboarding-share": 2410
   },
-  "promptQueueUseCount": 5252,
+  "promptQueueUseCount": 5258,
   "btwUseCount": 9,
   "showExpandedTodos": true,
   "cachedGrowthBookFeatures": {
@@ -32374,7 +32374,7 @@
       "/Users/marcelo/work/github.com/minicadesmobile/Minicadeskit"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.150",
+  "lastReleaseNotesSeen": "2.1.149",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
