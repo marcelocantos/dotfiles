@@ -32615,12 +32615,7 @@
   },
   "passesUpsellSeenCount": 4,
   "passesLastSeenCampaign": "claude_code_guest_pass",
-  "clientDataCache": {
-    "simple_system_prompt": {
-      "claude-opus-4-7": true
-    },
-    "tengu_fennel_kite_model": "claude-opus-4-7"
-  },
+  "clientDataCache": null,
   "lspRecommendationIgnoredCount": 5,
   "hasVisitedPasses": false,
   "passesLastSeenRemaining": 3,
