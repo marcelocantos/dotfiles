@@ -1,5 +1,5 @@
 {
-  "numStartups": 2415,
+  "numStartups": 2416,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -10,12 +10,12 @@
     "new-user-warmup": 5,
     "plan-mode-for-complex-tasks": 2415,
     "terminal-setup": 2385,
-    "memory-command": 2401,
+    "memory-command": 2416,
     "theme-command": 2409,
     "status-line": 2401,
     "prompt-queue": 17,
-    "enter-to-steer-in-relatime": 2396,
-    "todo-list": 2396,
+    "enter-to-steer-in-relatime": 2416,
+    "todo-list": 2416,
     "ide-upsell-external-terminal": 2388,
     "install-github-app": 2409,
     "install-slack-app": 2408,
@@ -30,7 +30,7 @@
     "mobile-app": 1572,
     "custom-agents": 2402,
     "permissions": 2408,
-    "rename-conversation": 2401,
+    "rename-conversation": 2416,
     "custom-commands": 2144,
     "agent-flag": 2149,
     "guest-passes": 2414,
@@ -2176,7 +2176,7 @@
       "disabledMcpServers": [
         "cworkers"
       ],
-      "lastGracefulShutdown": true,
+      "lastGracefulShutdown": false,
       "lastHintSessionId": "40d17f2c-da29-466a-842b-7b51acdd1ad9",
       "lastSessionFirstPrompt": "what's up with git? [Image #1]",
       "lastSessionModified": 1778985818832,
@@ -32516,8 +32516,8 @@
       "lastUsedAt": 1772625771549
     },
     "cv": {
-      "usageCount": 529,
-      "lastUsedAt": 1779620950367
+      "usageCount": 530,
+      "lastUsedAt": 1779702453538
     },
     "target": {
       "usageCount": 39,
@@ -32627,12 +32627,7 @@
   },
   "passesUpsellSeenCount": 4,
   "passesLastSeenCampaign": "claude_code_guest_pass",
-  "clientDataCache": {
-    "simple_system_prompt": {
-      "claude-opus-4-7": true
-    },
-    "tengu_fennel_kite_model": "claude-opus-4-7"
-  },
+  "clientDataCache": null,
   "lspRecommendationIgnoredCount": 5,
   "hasVisitedPasses": false,
   "passesLastSeenRemaining": 3,
