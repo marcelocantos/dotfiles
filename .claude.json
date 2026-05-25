@@ -46,7 +46,7 @@
     "console-api-key": 2372,
     "team-onboarding-share": 2410
   },
-  "promptQueueUseCount": 5263,
+  "promptQueueUseCount": 5265,
   "btwUseCount": 9,
   "cachedGrowthBookFeatures": {
     "tengu_hawthorn_steeple": false,
@@ -32577,7 +32577,7 @@
     }
   },
   "feedbackSurveyState": {
-    "lastShownTime": 1779608476643
+    "lastShownTime": 1779682412871
   },
   "claudeCodeFirstTokenDate": "2026-01-25T12:12:55.002215Z",
   "hasShownOpus45Notice": {
