@@ -1,5 +1,5 @@
 {
-  "numStartups": 2418,
+  "numStartups": 2419,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -18,18 +18,18 @@
     "todo-list": 2416,
     "ide-upsell-external-terminal": 2388,
     "install-github-app": 2409,
-    "install-slack-app": 2408,
-    "drag-and-drop-images": 2408,
-    "paste-images-mac": 2408,
+    "install-slack-app": 2419,
+    "drag-and-drop-images": 2419,
+    "paste-images-mac": 2419,
     "double-esc-code-restore": 2409,
     "continue": 2409,
     "shift-tab": 2409,
-    "image-paste": 2398,
+    "image-paste": 2419,
     "desktop-app": 2142,
     "web-app": 2417,
     "mobile-app": 1572,
     "custom-agents": 2417,
-    "permissions": 2408,
+    "permissions": 2419,
     "rename-conversation": 2416,
     "custom-commands": 2144,
     "agent-flag": 2149,
@@ -42,7 +42,7 @@
     "feedback-command": 2417,
     "color-when-multi-clauding": 2409,
     "desktop-shortcut": 2417,
-    "remote-control": 2404,
+    "remote-control": 2419,
     "console-api-key": 2372,
     "team-onboarding-share": 2415
   },
@@ -32520,8 +32520,8 @@
       "lastUsedAt": 1772625771549
     },
     "cv": {
-      "usageCount": 531,
-      "lastUsedAt": 1779711140374
+      "usageCount": 532,
+      "lastUsedAt": 1779787916834
     },
     "target": {
       "usageCount": 39,
@@ -32631,12 +32631,7 @@
   },
   "passesUpsellSeenCount": 4,
   "passesLastSeenCampaign": "claude_code_guest_pass",
-  "clientDataCache": {
-    "simple_system_prompt": {
-      "claude-opus-4-7": true
-    },
-    "tengu_fennel_kite_model": "claude-opus-4-7"
-  },
+  "clientDataCache": null,
   "lspRecommendationIgnoredCount": 5,
   "hasVisitedPasses": false,
   "passesLastSeenRemaining": 3,
