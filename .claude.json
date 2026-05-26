@@ -1,5 +1,5 @@
 {
-  "numStartups": 2417,
+  "numStartups": 2418,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -5143,10 +5143,10 @@
       "hasClaudeMdExternalIncludesWarningShown": false,
       "exampleFiles": [
         "store.go",
-        "tools.go",
         "main.go",
+        "tools.go",
         "server.go",
-        "watcher.go"
+        "registry.go"
       ],
       "hasCompletedProjectOnboarding": true,
       "lastCost": 8.112123700000001,
@@ -5205,12 +5205,12 @@
         "pre_tool_hook_duration_ms_p95": 60.99999999999997,
         "pre_tool_hook_duration_ms_p99": 81.19999999999993
       },
-      "exampleFilesGeneratedAt": 1778987438291,
-      "lastGracefulShutdown": true,
+      "exampleFilesGeneratedAt": 1779787334884,
+      "lastGracefulShutdown": false,
       "lastHintSessionId": "3cfea15c-e3cb-4673-8206-552b18107c2c",
       "lastSessionFirstPrompt": "review https://github.com/marcelocantos/mnemo/pull/95#issuecomment-4513897735",
       "lastSessionModified": 1779419768409,
-      "lastVersionBase": "2.1.149",
+      "lastVersionBase": "2.1.150",
       "hasUnseenTeamArtifacts": false
     },
     "/": {
