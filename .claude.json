@@ -46,9 +46,8 @@
     "console-api-key": 2372,
     "team-onboarding-share": 2415
   },
-  "promptQueueUseCount": 5283,
+  "promptQueueUseCount": 5285,
   "btwUseCount": 9,
-  "showExpandedTodos": true,
   "cachedGrowthBookFeatures": {
     "tengu_claudeai_mcp_connectors": true,
     "tengu_ember_latch": true,
