@@ -1,5 +1,5 @@
 {
-  "numStartups": 2420,
+  "numStartups": 2422,
   "installMethod": "native",
   "autoUpdates": false,
   "theme": "light",
@@ -37,7 +37,7 @@
     "shift-enter-setup": 95,
     "default-permission-mode-config": 2419,
     "overage-promo": 130,
-    "git-worktrees": 2411,
+    "git-worktrees": 2422,
     "frontend-design-plugin": 2388,
     "feedback-command": 2417,
     "color-when-multi-clauding": 2420,
@@ -46,7 +46,7 @@
     "console-api-key": 2372,
     "team-onboarding-share": 2415
   },
-  "promptQueueUseCount": 5286,
+  "promptQueueUseCount": 5287,
   "btwUseCount": 9,
   "cachedGrowthBookFeatures": {
     "tengu_claudeai_mcp_connectors": true,
@@ -1323,78 +1323,86 @@
       "hasClaudeMdExternalIncludesApproved": false,
       "hasClaudeMdExternalIncludesWarningShown": false,
       "hasCompletedProjectOnboarding": true,
-      "lastCost": 24.82730935,
-      "lastAPIDuration": 2292659,
-      "lastAPIDurationWithoutRetries": 2291383,
-      "lastToolDuration": 595715,
-      "lastDuration": 112543099,
-      "lastLinesAdded": 337,
-      "lastLinesRemoved": 23,
-      "lastTotalInputTokens": 1133,
-      "lastTotalOutputTokens": 152390,
-      "lastTotalCacheCreationInputTokens": 1755913,
-      "lastTotalCacheReadInputTokens": 33759525,
+      "lastCost": 1429.4093629999984,
+      "lastAPIDuration": 62846495,
+      "lastAPIDurationWithoutRetries": 62804322,
+      "lastToolDuration": 14306931,
+      "lastDuration": 2489316530,
+      "lastLinesAdded": 9534,
+      "lastLinesRemoved": 4610,
+      "lastTotalInputTokens": 45107,
+      "lastTotalOutputTokens": 3181071,
+      "lastTotalCacheCreationInputTokens": 39961908,
+      "lastTotalCacheReadInputTokens": 2377441461,
       "lastTotalWebSearchRequests": 0,
       "lastModelUsage": {
-        "claude-haiku-4-5-20251001": {
-          "inputTokens": 813,
-          "outputTokens": 8037,
-          "cacheReadInputTokens": 3519181,
-          "cacheCreationInputTokens": 1054132,
-          "webSearchRequests": 0,
-          "costUSD": 1.7105811
-        },
         "claude-opus-4-7[1m]": {
-          "inputTokens": 146,
-          "outputTokens": 69649,
-          "cacheReadInputTokens": 9388564,
-          "cacheCreationInputTokens": 391887,
+          "inputTokens": 15648,
+          "outputTokens": 2192724,
+          "cacheReadInputTokens": 1641026080,
+          "cacheCreationInputTokens": 15830570,
           "webSearchRequests": 0,
-          "costUSD": 8.88553075
+          "costUSD": 974.3504424999996
+        },
+        "claude-sonnet-4-6": {
+          "inputTokens": 2098,
+          "outputTokens": 255152,
+          "cacheReadInputTokens": 62316412,
+          "cacheCreationInputTokens": 1292193,
+          "webSearchRequests": 0,
+          "costUSD": 27.374221349999992
         },
         "claude-opus-4-7": {
-          "inputTokens": 174,
-          "outputTokens": 74704,
-          "cacheReadInputTokens": 20851780,
-          "cacheCreationInputTokens": 309894,
+          "inputTokens": 26836,
+          "outputTokens": 664799,
+          "cacheReadInputTokens": 671885265,
+          "cacheCreationInputTokens": 9175021,
           "webSearchRequests": 0,
-          "costUSD": 14.2311975
+          "costUSD": 410.0406687499999
+        },
+        "claude-haiku-4-5-20251001": {
+          "inputTokens": 525,
+          "outputTokens": 68396,
+          "cacheReadInputTokens": 2213704,
+          "cacheCreationInputTokens": 13664124,
+          "webSearchRequests": 0,
+          "costUSD": 17.6440304
         }
       },
-      "lastSessionId": "5a3b269b-555f-4927-b95e-9cebdd567842",
+      "lastSessionId": "bd2c6121-a6eb-4be7-87ec-f8866c2ca27e",
       "exampleFiles": [
         "ge",
-        "Application.cpp",
+        "main.cpp",
         "Info.plist",
-        "build.gradle",
-        "sq"
+        "icon.png",
+        "build.gradle"
       ],
-      "exampleFilesGeneratedAt": 1779098745875,
+      "exampleFilesGeneratedAt": 1779790972974,
       "lastSessionMetrics": {
-        "frame_duration_ms_count": 29649,
-        "frame_duration_ms_min": 0.10179199976846576,
-        "frame_duration_ms_max": 251.03083299999707,
-        "frame_duration_ms_avg": 0.606530963812279,
-        "frame_duration_ms_p50": 0.4487915000063367,
-        "frame_duration_ms_p95": 0.96716425003251,
-        "frame_duration_ms_p99": 2.8128392500989112,
-        "hook_duration_ms_count": 182,
-        "hook_duration_ms_min": 31,
-        "hook_duration_ms_max": 10747,
-        "hook_duration_ms_avg": 334.52197802197804,
-        "hook_duration_ms_p50": 35,
-        "hook_duration_ms_p95": 66.79999999999995,
-        "hook_duration_ms_p99": 6713.529999999998,
-        "pre_tool_hook_duration_ms_count": 81,
+        "frame_duration_ms_count": 406556,
+        "frame_duration_ms_min": 0.10916601121425629,
+        "frame_duration_ms_max": 13266.547791999765,
+        "frame_duration_ms_avg": 1.189725294219669,
+        "frame_duration_ms_p50": 0.9817500002682209,
+        "frame_duration_ms_p95": 1.6709563497453925,
+        "frame_duration_ms_p99": 1.8914301797002553,
+        "hook_duration_ms_count": 313,
+        "hook_duration_ms_min": 28,
+        "hook_duration_ms_max": 10565,
+        "hook_duration_ms_avg": 1472.2683706070288,
+        "hook_duration_ms_p50": 46,
+        "hook_duration_ms_p95": 8202.999999999982,
+        "hook_duration_ms_p99": 9933.32,
+        "pre_tool_hook_duration_ms_count": 99,
         "pre_tool_hook_duration_ms_min": 32,
-        "pre_tool_hook_duration_ms_max": 67,
-        "pre_tool_hook_duration_ms_avg": 39.03703703703704,
-        "pre_tool_hook_duration_ms_p50": 36,
-        "pre_tool_hook_duration_ms_p95": 54,
-        "pre_tool_hook_duration_ms_p99": 64.60000000000001
+        "pre_tool_hook_duration_ms_max": 84,
+        "pre_tool_hook_duration_ms_avg": 46.09090909090909,
+        "pre_tool_hook_duration_ms_p50": 46,
+        "pre_tool_hook_duration_ms_p95": 55.099999999999994,
+        "pre_tool_hook_duration_ms_p99": 81.05999999999999
       },
-      "lastFpsAverage": 0.32,
-      "lastFpsLow1Pct": 219.63,
+      "lastFpsAverage": 1.68,
+      "lastFpsLow1Pct": 1374.02,
       "lastGracefulShutdown": false,
       "lastHintSessionId": "f2ab8656-5d8b-47be-aa1d-57368156b0e8",
       "lastSessionFirstPrompt": "File a couple of UI cleanup targets. 1. Replace the green glow image with an SVG. This should allow us to remove the buttons.png asset from the build. 2. I noticed that the original buttons had a thin",
@@ -32432,8 +32440,8 @@
       "lastUsedAt": 1779272232898
     },
     "release": {
-      "usageCount": 351,
-      "lastUsedAt": 1779595049850
+      "usageCount": 352,
+      "lastUsedAt": 1779791494237
     },
     "gsd:help": {
       "usageCount": 1,
@@ -32631,12 +32639,7 @@
   },
   "passesUpsellSeenCount": 4,
   "passesLastSeenCampaign": "claude_code_guest_pass",
-  "clientDataCache": {
-    "simple_system_prompt": {
-      "claude-opus-4-7": true
-    },
-    "tengu_fennel_kite_model": "claude-opus-4-7"
-  },
+  "clientDataCache": null,
   "lspRecommendationIgnoredCount": 5,
   "hasVisitedPasses": false,
   "passesLastSeenRemaining": 3,
