@@ -19,7 +19,7 @@
     "ide-upsell-external-terminal": 2388,
     "install-github-app": 2420,
     "install-slack-app": 2430,
-    "drag-and-drop-images": 2419,
+    "drag-and-drop-images": 2430,
     "paste-images-mac": 2419,
     "double-esc-code-restore": 2420,
     "continue": 2420,
@@ -29,7 +29,7 @@
     "web-app": 2417,
     "mobile-app": 1572,
     "custom-agents": 2417,
-    "permissions": 2419,
+    "permissions": 2430,
     "rename-conversation": 2416,
     "custom-commands": 2144,
     "agent-flag": 2149,
@@ -46,7 +46,7 @@
     "console-api-key": 2372,
     "team-onboarding-share": 2415
   },
-  "promptQueueUseCount": 5302,
+  "promptQueueUseCount": 5304,
   "btwUseCount": 9,
   "cachedGrowthBookFeatures": {
     "tengu_collage_kaleidoscope": true,
@@ -32360,7 +32360,7 @@
       "/Users/marcelo/work/github.com/minicadesmobile/Minicadeskit"
     ]
   },
-  "lastReleaseNotesSeen": "2.1.150",
+  "lastReleaseNotesSeen": "2.1.149",
   "subscriptionNoticeCount": 0,
   "hasAvailableSubscription": false,
   "officialMarketplaceAutoInstallAttempted": true,
