@@ -75,6 +75,33 @@ echo "# repo"
 repo_name
 
 # ---------------------------------------------------------------------------
+# 1a. Release freeze (project-level kill switch)
+# ---------------------------------------------------------------------------
+# A `release_freeze: "<reason>"` directive in CLAUDE.md halts /release
+# in Phase A unconditionally. Mirrors the `homebrew_tap: disabled`
+# pattern but blocks the whole release rather than the tap step. Use
+# for ports/rewrites/migration phases where shipping the existing
+# product is explicitly off the table.
+#
+# Format: a single line in CLAUDE.md matching
+#   release_freeze: "<reason>"     (double-quoted)
+#   release_freeze: '<reason>'     (single-quoted)
+#   release_freeze: <reason>       (bare value, runs to end of line)
+#
+# We emit the bare reason (without quotes) so the skill can quote it
+# in messages without double-quoting artefacts.
+echo "# release_freeze"
+freeze_reason=""
+if [[ -f CLAUDE.md ]]; then
+    freeze_reason=$(sed -n -E 's/^[[:space:]]*release_freeze:[[:space:]]*"(.*)"[[:space:]]*$/\1/p; s/^[[:space:]]*release_freeze:[[:space:]]*'\''(.*)'\''[[:space:]]*$/\1/p; s/^[[:space:]]*release_freeze:[[:space:]]*([^"'\''].*)$/\1/p' CLAUDE.md 2>/dev/null | head -1)
+fi
+if [[ -n "$freeze_reason" ]]; then
+    echo "$freeze_reason"
+else
+    echo "(none)"
+fi
+
+# ---------------------------------------------------------------------------
 # 2. Tags
 # ---------------------------------------------------------------------------
 echo "# tags"

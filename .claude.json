@@ -8,14 +8,14 @@
   "hasUsedBackgroundTask": true,
   "tipsHistory": {
     "new-user-warmup": 5,
-    "plan-mode-for-complex-tasks": 2431,
+    "plan-mode-for-complex-tasks": 2436,
     "terminal-setup": 2385,
     "memory-command": 2431,
     "theme-command": 2430,
     "status-line": 2426,
     "prompt-queue": 17,
     "enter-to-steer-in-relatime": 2436,
-    "todo-list": 2416,
+    "todo-list": 2436,
     "ide-upsell-external-terminal": 2388,
     "install-github-app": 2430,
     "install-slack-app": 2430,
@@ -33,7 +33,7 @@
     "rename-conversation": 2431,
     "custom-commands": 2144,
     "agent-flag": 2149,
-    "guest-passes": 2433,
+    "guest-passes": 2436,
     "shift-enter-setup": 95,
     "default-permission-mode-config": 2430,
     "overage-promo": 130,
@@ -46,7 +46,7 @@
     "console-api-key": 2372,
     "team-onboarding-share": 2415
   },
-  "promptQueueUseCount": 5379,
+  "promptQueueUseCount": 5381,
   "btwUseCount": 10,
   "cachedGrowthBookFeatures": {
     "tengu_vscode_review_upsell": false,
@@ -32416,8 +32416,8 @@
       "lastUsedAt": 1775601360746
     },
     "republish-skills": {
-      "usageCount": 113,
-      "lastUsedAt": 1779272232898
+      "usageCount": 114,
+      "lastUsedAt": 1780139698770
     },
     "release": {
       "usageCount": 359,
@@ -32508,8 +32508,8 @@
       "lastUsedAt": 1772625771549
     },
     "cv": {
-      "usageCount": 539,
-      "lastUsedAt": 1780136533868
+      "usageCount": 540,
+      "lastUsedAt": 1780140063347
     },
     "target": {
       "usageCount": 39,

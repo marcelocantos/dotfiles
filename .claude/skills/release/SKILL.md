@@ -47,7 +47,7 @@ The user runs `/release`. No arguments needed — the skill discovers everything
 
 `/release` runs in **three phases**. The ideal scenario is fully unattended from start to finish — only stop and ask the user when there is a genuine reason to.
 
-1. **Phase A — Up-front clarification.** A very quick analysis to identify any information likely to be needed from the user *given the specific context of the work being released*. If nothing is genuinely uncertain, ask nothing and move straight to Phase B. Do not invent questions; do not ask out of habit. The default is zero questions.
+1. **Phase A — Up-front clarification.** Starts with a **release-freeze kill switch**: if the project's CLAUDE.md declares `release_freeze: "<reason>"`, halt immediately with that reason and do not proceed. Otherwise, a very quick analysis to identify any information likely to be needed from the user *given the specific context of the work being released*. If nothing is genuinely uncertain, ask nothing and move straight to Phase B. Do not invent questions; do not ask out of habit. The default is zero questions.
 
 2. **Phase B — Unattended execution to a mergeable PR.** Run the entire prep workflow without per-phase approval gates: discovery, breaking-change audit, version bump, release notes, CI setup, push, PR open, CI wait, gate check. End by reporting current state, anything messy that happened during the run, and any concerns. Then **only stop for confirmation if a serious concern arose** about whether it's appropriate to complete the release (failing tests rewritten without justification, a breaking change found, an unresolved CI failure, a missing licence attribution, etc.). If everything is clean, proceed to Phase C without asking.
 
@@ -59,7 +59,22 @@ The detailed substeps below are sequenced under these three phases. Where the pr
 
 ### Phase A: Up-front clarification
 
-Before doing any work, do a fast scan of the repo (latest tag, commits since, working-tree state, version era, project type) and decide whether any of the following are genuinely ambiguous:
+#### A.0: Release-freeze check (kill switch)
+
+**Before any other Phase A work**, run `~/.claude/skills/release/discover.sh` and read the `# release_freeze` field. If it is anything other than `(none)`:
+
+- **Halt immediately.** Do not proceed with any further discovery, version bump, release-notes drafting, branch creation, or PR work.
+- Print the freeze reason verbatim to the user, with a one-line summary: *"This repo declares a release freeze in CLAUDE.md. /release is blocked until the directive is lifted."*
+- Tell the user explicitly that lifting the freeze requires editing the project's `CLAUDE.md`: remove the `release_freeze:` directive AND switch any port-freeze gate profile back to `base`.
+- Do not offer to lift the freeze on the user's behalf, do not suggest workarounds, do not propose bypassing the gate profile. The freeze exists because the product is in a state where shipping is wrong; that judgement is the user's to revoke.
+
+The `release_freeze:` directive in CLAUDE.md is a single line of the form `release_freeze: "<reason>"` (mirrors the existing `homebrew_tap: disabled` pattern). Projects in port/rewrite/migration phases use it to make the freeze explicit and machine-checkable.
+
+If `# release_freeze` is `(none)`, proceed to the rest of Phase A below.
+
+#### A.1: Clarification
+
+Do a fast scan of the repo (latest tag, commits since, working-tree state, version era, project type) and decide whether any of the following are genuinely ambiguous:
 
 - The desired version bump differs from the default minor (only ask if there's a concrete signal — e.g., user said "patch release" earlier, or commits clearly indicate breaking changes that warrant a fork rather than a bump).
 - The release scope is unclear (e.g., uncommitted WIP unrelated to the release, or a pile of unpushed commits that may or may not be part of this release).
