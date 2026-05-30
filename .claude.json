@@ -46,9 +46,8 @@
     "console-api-key": 2372,
     "team-onboarding-share": 2415
   },
-  "promptQueueUseCount": 5373,
-  "btwUseCount": 9,
-  "showExpandedTodos": true,
+  "promptQueueUseCount": 5376,
+  "btwUseCount": 10,
   "cachedGrowthBookFeatures": {
     "tengu_bridge_repl_v2_config": {
       "init_retry_max_attempts": 3,
